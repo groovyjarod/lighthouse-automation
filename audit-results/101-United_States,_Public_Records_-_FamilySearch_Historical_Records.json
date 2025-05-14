@@ -1,4 +1,5 @@
 {
+  "accessibilityScore": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -10,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 456,
-          "right": 469,
+          "left": 463,
+          "right": 476,
           "width": 13,
           "height": 13
         }
@@ -29,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1269,
-          "right": 1373,
+          "left": 1277,
+          "right": 1380,
           "width": 103,
           "height": 46
         }
@@ -48,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 448,
-          "right": 580,
+          "left": 456,
+          "right": 588,
           "width": 132,
           "height": 46
         },
@@ -66,8 +67,8 @@
                   "top": 135,
                   "bottom": 4197,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 4062
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -84,8 +85,8 @@
         "boundingRect": {
           "top": 4209,
           "bottom": 4232,
-          "left": 484,
-          "right": 1433,
+          "left": 491,
+          "right": 1441,
           "width": 949,
           "height": 23
         },
@@ -102,8 +103,8 @@
                   "top": 61,
                   "bottom": 4428,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 4367
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -126,8 +127,8 @@
         "boundingRect": {
           "top": 2647,
           "bottom": 2664,
-          "left": 899,
-          "right": 1122,
+          "left": 907,
+          "right": 1130,
           "width": 223,
           "height": 17
         },
@@ -143,8 +144,8 @@
                 "boundingRect": {
                   "top": 2624,
                   "bottom": 2666,
-                  "left": 456,
-                  "right": 1450,
+                  "left": 464,
+                  "right": 1457,
                   "width": 993,
                   "height": 42
                 },
@@ -162,8 +163,8 @@
         "boundingRect": {
           "top": 3308,
           "bottom": 3325,
-          "left": 747,
-          "right": 834,
+          "left": 755,
+          "right": 841,
           "width": 86,
           "height": 17
         },
@@ -179,8 +180,8 @@
                 "boundingRect": {
                   "top": 3285,
                   "bottom": 3327,
-                  "left": 456,
-                  "right": 1450,
+                  "left": 464,
+                  "right": 1457,
                   "width": 993,
                   "height": 42
                 },
@@ -198,8 +199,8 @@
         "boundingRect": {
           "top": 3789,
           "bottom": 3806,
-          "left": 898,
-          "right": 993,
+          "left": 905,
+          "right": 1000,
           "width": 95,
           "height": 17
         },
@@ -215,8 +216,8 @@
                 "boundingRect": {
                   "top": 250,
                   "bottom": 4150,
-                  "left": 456,
-                  "right": 1450,
+                  "left": 464,
+                  "right": 1457,
                   "width": 993,
                   "height": 3900
                 },
@@ -240,8 +241,8 @@
         "boundingRect": {
           "top": 285,
           "bottom": 1518,
-          "left": 456,
-          "right": 655,
+          "left": 464,
+          "right": 663,
           "width": 199,
           "height": 1233
         }

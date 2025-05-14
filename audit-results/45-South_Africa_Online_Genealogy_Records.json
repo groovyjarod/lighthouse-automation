@@ -1,4 +1,5 @@
 {
+  "accessibilityScore": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -10,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 456,
-          "right": 469,
+          "left": 463,
+          "right": 476,
           "width": 13,
           "height": 13
         }
@@ -29,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1269,
-          "right": 1373,
+          "left": 1277,
+          "right": 1380,
           "width": 103,
           "height": 46
         }
@@ -48,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 448,
-          "right": 580,
+          "left": 456,
+          "right": 588,
           "width": 132,
           "height": 46
         },
@@ -66,8 +67,8 @@
                   "top": 135,
                   "bottom": 3320,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 3185
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -84,8 +85,8 @@
         "boundingRect": {
           "top": 294,
           "bottom": 374,
-          "left": 474,
-          "right": 1213,
+          "left": 481,
+          "right": 1221,
           "width": 740,
           "height": 80
         },
@@ -101,8 +102,8 @@
                 "boundingRect": {
                   "top": 281,
                   "bottom": 387,
-                  "left": 459,
-                  "right": 1228,
+                  "left": 467,
+                  "right": 1235,
                   "width": 768,
                   "height": 106
                 },
@@ -120,8 +121,8 @@
         "boundingRect": {
           "top": 3331,
           "bottom": 3355,
-          "left": 484,
-          "right": 1433,
+          "left": 491,
+          "right": 1441,
           "width": 949,
           "height": 23
         },
@@ -138,8 +139,8 @@
                   "top": 61,
                   "bottom": 3550,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 3489
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -162,8 +163,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 456,
-          "right": 543,
+          "left": 464,
+          "right": 550,
           "width": 86,
           "height": 21
         },
@@ -179,8 +180,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 448,
-                  "right": 580,
+                  "left": 456,
+                  "right": 588,
                   "width": 132,
                   "height": 46
                 },
@@ -204,8 +205,8 @@
         "boundingRect": {
           "top": 278,
           "bottom": 3273,
-          "left": 456,
-          "right": 1231,
+          "left": 464,
+          "right": 1238,
           "width": 774,
           "height": 2995
         }

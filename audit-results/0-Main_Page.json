@@ -1,4 +1,5 @@
 {
+  "accessibilityScore": 93,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -10,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 456,
-          "right": 469,
+          "left": 463,
+          "right": 476,
           "width": 13,
           "height": 13
         }
@@ -29,8 +30,8 @@
         "boundingRect": {
           "top": 305,
           "bottom": 326,
-          "left": 456,
-          "right": 1450,
+          "left": 464,
+          "right": 1457,
           "width": 993,
           "height": 21
         },
@@ -47,12 +48,12 @@
                   "top": 135,
                   "bottom": 930,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 795
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
-                "nodeLabel": "FamilySearch Research Wiki\nA Genealogy Resource Guide\n149,843 articles\nFind the…"
+                "nodeLabel": "FamilySearch Research Wiki\nA Genealogy Resource Guide\n149,844 articles\nFind the…"
               }
             }
           ]
@@ -65,8 +66,8 @@
         "boundingRect": {
           "top": 684,
           "bottom": 735,
-          "left": 909,
-          "right": 997,
+          "left": 917,
+          "right": 1005,
           "width": 88,
           "height": 50
         },
@@ -82,8 +83,8 @@
                 "boundingRect": {
                   "top": 678,
                   "bottom": 785,
-                  "left": 903,
-                  "right": 1003,
+                  "left": 911,
+                  "right": 1011,
                   "width": 100,
                   "height": 106
                 },
@@ -101,8 +102,8 @@
         "boundingRect": {
           "top": 945,
           "bottom": 962,
-          "left": 494,
-          "right": 705,
+          "left": 502,
+          "right": 713,
           "width": 211,
           "height": 17
         },
@@ -119,8 +120,8 @@
                   "top": 61,
                   "bottom": 1160,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 1099
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -143,8 +144,8 @@
         "boundingRect": {
           "top": 227,
           "bottom": 244,
-          "left": 896,
-          "right": 955,
+          "left": 904,
+          "right": 962,
           "width": 59,
           "height": 17
         },
@@ -160,13 +161,13 @@
                 "boundingRect": {
                   "top": 225,
                   "bottom": 246,
-                  "left": 456,
-                  "right": 1450,
+                  "left": 464,
+                  "right": 1457,
                   "width": 993,
                   "height": 21
                 },
                 "snippet": "<div id=\"statsline\">",
-                "nodeLabel": "149,843 articles"
+                "nodeLabel": "149,844 articles"
               }
             }
           ]
