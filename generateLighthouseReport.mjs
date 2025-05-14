@@ -8,7 +8,6 @@ import * as chromeLauncher from "chrome-launcher";
 const PAGE = "Denmark_Feast_Day_Calendars"
 const OUTPUT_FORMAT = "json"; // 'html'
 const TESTING_METHOD = "desktop"; // 'mobile'
-
 const isMobile = TESTING_METHOD === "mobile";
 
 export default async function runLighthouse(url) {
@@ -30,23 +29,15 @@ export default async function runLighthouse(url) {
             deviceScaleFactor: 1,
             disabled: false,
         },
-        // throttling: {
-        //     rttMs: 40,
-        //     throughputKbps: 10240,
-        //     cpuSlowdownMultiplier: 1,
-        //     requestLatencyMs: 0,
-        //     downloadThroughputKbps: 0,
-        //     uploadThroughputKbps: 0,
-        // },
         // onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
         onlyCategories: ['accessibility'],
-        // userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
     }
   }
 
   const runnerResult = await lighthouse(url, options, config);
-
   const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+
+  // the following is deprecated until this script uses more than just accessibility for auditing.
   // for (const key in categories) {
   //   console.log(`${categories[key].title}: ${categories[key].score * 100}`);
   // }

@@ -1,9 +1,9 @@
-import createReport from "./createReport.mjs";
+import createReport from "./createFinalizedReport.mjs";
 import fs from 'fs'
 
 
 
-const fullUrl = 'https://www.familysearch.org/en/wiki/Denmark_Feast_Day_Calendars'
+const exampleFullUrl = 'https://www.familysearch.org/en/wiki/Denmark_Feast_Day_Calendars'
 const url = 'https://www.familysearch.org/'
 const language = 'en'
 const pathsRaw = fs.readFileSync('./wikiPaths.txt', 'utf8')
