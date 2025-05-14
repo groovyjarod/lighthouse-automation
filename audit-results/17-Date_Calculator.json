@@ -1,4 +1,5 @@
 {
+  "accessibilityScore": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -10,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 456,
-          "right": 469,
+          "left": 463,
+          "right": 476,
           "width": 13,
           "height": 13
         }
@@ -29,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1269,
-          "right": 1373,
+          "left": 1277,
+          "right": 1380,
           "width": 103,
           "height": 46
         }
@@ -48,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 448,
-          "right": 580,
+          "left": 456,
+          "right": 588,
           "width": 132,
           "height": 46
         },
@@ -66,8 +67,8 @@
                   "top": 135,
                   "bottom": 2734,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 2599
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -84,8 +85,8 @@
         "boundingRect": {
           "top": 2746,
           "bottom": 2769,
-          "left": 484,
-          "right": 1433,
+          "left": 491,
+          "right": 1441,
           "width": 949,
           "height": 23
         },
@@ -102,8 +103,8 @@
                   "top": 61,
                   "bottom": 2965,
                   "left": 0,
-                  "right": 1905,
-                  "width": 1905,
+                  "right": 1920,
+                  "width": 1920,
                   "height": 2904
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -126,8 +127,8 @@
         "boundingRect": {
           "top": 2589,
           "bottom": 2606,
-          "left": 488,
-          "right": 497,
+          "left": 495,
+          "right": 504,
           "width": 9,
           "height": 17
         },
@@ -143,8 +144,8 @@
                 "boundingRect": {
                   "top": 2589,
                   "bottom": 2606,
-                  "left": 502,
-                  "right": 627,
+                  "left": 509,
+                  "right": 635,
                   "width": 125,
                   "height": 17
                 },
@@ -162,8 +163,8 @@
         "boundingRect": {
           "top": 2620,
           "bottom": 2637,
-          "left": 488,
-          "right": 497,
+          "left": 495,
+          "right": 504,
           "width": 9,
           "height": 17
         },
@@ -179,8 +180,8 @@
                 "boundingRect": {
                   "top": 2620,
                   "bottom": 2637,
-                  "left": 502,
-                  "right": 627,
+                  "left": 509,
+                  "right": 635,
                   "width": 125,
                   "height": 17
                 },
@@ -198,8 +199,8 @@
         "boundingRect": {
           "top": 2651,
           "bottom": 2668,
-          "left": 488,
-          "right": 497,
+          "left": 495,
+          "right": 504,
           "width": 9,
           "height": 17
         },
@@ -215,8 +216,8 @@
                 "boundingRect": {
                   "top": 2651,
                   "bottom": 2668,
-                  "left": 502,
-                  "right": 627,
+                  "left": 509,
+                  "right": 635,
                   "width": 125,
                   "height": 17
                 },
@@ -234,8 +235,8 @@
         "boundingRect": {
           "top": 2682,
           "bottom": 2699,
-          "left": 488,
-          "right": 497,
+          "left": 495,
+          "right": 504,
           "width": 9,
           "height": 17
         },
@@ -251,8 +252,8 @@
                 "boundingRect": {
                   "top": 2682,
                   "bottom": 2699,
-                  "left": 502,
-                  "right": 660,
+                  "left": 509,
+                  "right": 667,
                   "width": 158,
                   "height": 17
                 },

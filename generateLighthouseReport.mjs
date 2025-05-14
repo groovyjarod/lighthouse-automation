@@ -46,18 +46,18 @@ export default async function runLighthouse(url) {
 
   const runnerResult = await lighthouse(url, options, config);
 
-  const categories = runnerResult.lhr.categories;
-  for (const key in categories) {
-    console.log(`${categories[key].title}: ${categories[key].score * 100}`);
-  }
+  const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+  // for (const key in categories) {
+  //   console.log(`${categories[key].title}: ${categories[key].score * 100}`);
+  // }
 
-//   fs.writeFileSync(
-//     `${TESTING_METHOD}-${PAGE}.${OUTPUT_FORMAT}`,
-//     runnerResult.report
-//   );
+  // fs.writeFileSync(
+  //   `${TESTING_METHOD}-${PAGE}.${OUTPUT_FORMAT}`,
+  //   runnerResult.report
+  // );
 
   await chrome.kill();
-  return runnerResult.report
+  return [runnerResult.report, accessibilityScore]
 }
 
 // TODO: generate a total number of issues per page
