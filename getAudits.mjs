@@ -4,9 +4,7 @@ import extractRelevantItemData from "./extractItemData.mjs";
 
 export default function getAudits(jsonData) {
   const data = JSON.parse(jsonData)
-  const groupLabels = data.categoryGroups || {}
   const auditLocations = data.categories.accessibility.auditRefs
-  const flaggedAudits = []
   const returnData = []
 
   // take id and group fron each auditRef to find full data
@@ -20,8 +18,6 @@ export default function getAudits(jsonData) {
         description: audit.description,
         items: [...extractRelevantItemData(audit.details.items || [])]
     }
-    // const groupName = groupLabels[group]?.title || "Ungrouped"
-    // if (!flaggedAudits[groupName]) flaggedAudits[groupName] == []
     returnData.push(auditData)
   });
 
