@@ -1,191 +1,58 @@
 {
-  "accessibilityScore": 86,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibilityScore": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
-          "left": 456,
-          "right": 469,
-          "width": 13,
-          "height": 13
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]
   },
-  "aria-valid-attr-value-2": {
-    "title": "`[aria-*]` attributes do not have valid values",
-    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+  "frame-title-2": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=United+States+Social+S…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
-        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=11-6017444-0%20PNNN%20RT%2817473307…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 1269,
-          "right": 1373,
-          "width": 103,
-          "height": 46
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]
   },
-  "color-contrast-3": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
     "items": [
       {
-        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 448,
-          "right": 580,
-          "width": 132,
-          "height": 46
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-3-MAIN",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
-                "boundingRect": {
-                  "top": 135,
-                  "bottom": 5851,
-                  "left": 0,
-                  "right": 1905,
-                  "width": 1905,
-                  "height": 5716
-                },
-                "snippet": "<main id=\"content\" class=\"mw-body\">",
-                "nodeLabel": "United States Social Security Administration Records\nLanguage\nDownload PDF\nWatc…"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
-        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 5863,
-          "bottom": 5886,
-          "left": 484,
-          "right": 1433,
-          "width": 949,
-          "height": 23
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-5-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
-                "boundingRect": {
-                  "top": 61,
-                  "bottom": 6082,
-                  "left": 0,
-                  "right": 1905,
-                  "width": 1905,
-                  "height": 6021
-                },
-                "snippet": "<div id=\"mw-mf-page-center\">",
-                "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Social Security Administration R…"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "definition-list-4": {
-    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
-    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2976,
-          "bottom": 3081,
-          "left": 470,
-          "right": 1450,
-          "width": 979,
-          "height": 105
-        }
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 3778,
-          "bottom": 3861,
-          "left": 470,
-          "right": 1450,
-          "width": 979,
-          "height": 83
-        }
-      }
-    ]
-  },
-  "link-in-text-block-5": {
-    "title": "Links rely on color to be distinguishable.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/National_Archives_and_Records_Administration\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
-        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 4838,
-          "bottom": 4855,
-          "left": 722,
-          "right": 1042,
-          "width": 321,
-          "height": 17
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-9-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,36,P",
-                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
-                "boundingRect": {
-                  "top": 4731,
-                  "bottom": 4878,
-                  "left": 456,
-                  "right": 1450,
-                  "width": 993,
-                  "height": 147
-                },
-                "snippet": "<p>",
-                "nodeLabel": "The Social Security Administration created these records to track the earnings …"
-              }
-            }
-          ]
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]

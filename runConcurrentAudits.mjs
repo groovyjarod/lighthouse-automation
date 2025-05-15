@@ -1,33 +1,34 @@
-import fs from 'fs';
-import { spawn } from 'child_process';
-import pLimit from 'p-limit';
+import fs from "fs";
+import { spawn } from "child_process";
+import pLimit from "p-limit";
 
-const urlBase = 'https://www.familysearch.org/';
-const language = 'en';
-const pathsRaw = fs.readFileSync('./wikiPaths.txt', 'utf8');
-const paths = pathsRaw.split('\n').filter(Boolean);
+const urlBase = "https://www.familysearch.org/";
+const language = "en";
+const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8");
+const paths = pathsRaw.split("\n").filter(Boolean);
 
-const auditSpeedRate = process.argv[2]
+const numberOfConcurrentAudits = parseInt(process.argv[2]);
 
-if (!auditSpeedRate) {
-  console.error("Usage: node runConcurrentAudits.mjs <auditSpeedRate>")
-  process.exit(1)
+if (!numberOfConcurrentAudits) {
+  console.error("Usage: node runConcurrentAudits.mjs <auditSpeedRate>");
+  process.exit(1);
 }
 
-// Concurrency limit
-const limit = pLimit(parseInt(auditSpeedRate)); // or 2 if needed
+const limit = pLimit(numberOfConcurrentAudits);
 
 function runAuditAsChild(fullUrl, outputPath) {
   return new Promise((resolve, reject) => {
-    const child = spawn('node', ['runSingleAudit.mjs', fullUrl, outputPath], {
-      stdio: 'inherit' // Inherit stdio so you see output in terminal
+    const child = spawn("node", ["runSingleAudit.mjs", fullUrl, outputPath], {
+      stdio: "inherit",
     });
 
-    child.on('close', code => {
+    child.on("close", (code) => {
       if (code === 0) {
         resolve();
       } else {
-        reject(new Error(`Child process for ${fullUrl} exited with code ${code}`));
+        reject(
+          new Error(`Child process for ${fullUrl} exited with code ${code}`)
+        );
       }
     });
   });
@@ -41,7 +42,7 @@ async function commenceAllAudits(paths) {
   });
 
   await Promise.all(tasks);
-  console.log('All audits complete!');
+  console.log("All audits complete!");
 }
 
 commenceAllAudits(paths);
