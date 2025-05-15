@@ -2,7 +2,7 @@ Lighthouse Automation Script
 Version 1.1.0
 Created by Jarod Day
 
-Usage: node runConcurrentAudits.mjs <numberOfConcurrentAudits>
+Usage: node runConcurrentAudits.mjs numberOfConcurrentAudits
 
 This script will parse all of the paths contained in wikiPaths.txt to create a array of paths proceeding the extension https://www.familysearch.org/en/wiki/. Using the paths, the script automates each one and creates a json file containing audit results of each page listed in the .txt file
 
