@@ -18,7 +18,7 @@ const limit = pLimit(numberOfConcurrentAudits);
 
 function runAuditAsChild(fullUrl, outputPath) {
   return new Promise((resolve, reject) => {
-    const child = spawn("node", ["runSingleAudit.mjs", fullUrl, outputPath], {
+    const child = spawn("node", ["runAndWriteAudit.mjs", fullUrl, outputPath], {
       stdio: "inherit",
     });
 
