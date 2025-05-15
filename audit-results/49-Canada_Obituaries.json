@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 3041,
+                  "bottom": 3040,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 2906
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 2905
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "Canada Obituaries\nLanguage\nDownload PDF\nWatch\nEdit\nCanada Wiki Topics\n\nCanada B…"
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 3052,
           "bottom": 3075,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 3271,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 3210
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 2558,
           "bottom": 2575,
-          "left": 505,
-          "right": 592,
+          "left": 497,
+          "right": 584,
           "width": 87,
           "height": 17
         },
@@ -144,8 +144,8 @@
                 "boundingRect": {
                   "top": 2556,
                   "bottom": 2619,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 63
                 },
@@ -163,8 +163,8 @@
         "boundingRect": {
           "top": 2558,
           "bottom": 2575,
-          "left": 628,
-          "right": 756,
+          "left": 620,
+          "right": 749,
           "width": 129,
           "height": 17
         },
@@ -180,8 +180,8 @@
                 "boundingRect": {
                   "top": 2556,
                   "bottom": 2619,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 63
                 },
@@ -204,11 +204,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 2881,
-          "bottom": 2991,
-          "left": 467,
-          "right": 1454,
+          "bottom": 2990,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 110
+          "height": 109
         }
       }
     ]

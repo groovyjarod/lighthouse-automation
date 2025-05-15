@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,9 +67,9 @@
                   "top": 135,
                   "bottom": 5620,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 5485
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 5484
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "United States Marriage Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States\nV…"
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 5631,
           "bottom": 5654,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 5850,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 5789
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 852,
           "bottom": 873,
-          "left": 478,
-          "right": 1457,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 21
         }
@@ -146,8 +146,8 @@
         "boundingRect": {
           "top": 1736,
           "bottom": 1753,
-          "left": 966,
-          "right": 1033,
+          "left": 959,
+          "right": 1026,
           "width": 67,
           "height": 17
         },
@@ -163,8 +163,8 @@
                 "boundingRect": {
                   "top": 1734,
                   "bottom": 1755,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 21
                 },
@@ -188,8 +188,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 559,
+          "left": 456,
+          "right": 551,
           "width": 95,
           "height": 21
         },
@@ -205,8 +205,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 2923,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 2788
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 2934,
           "bottom": 2957,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 3153,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 3092
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 435,
           "bottom": 480,
-          "left": 467,
-          "right": 1133,
+          "left": 459,
+          "right": 1125,
           "width": 666,
           "height": 45
         }
@@ -146,8 +146,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 649,
+          "left": 456,
+          "right": 642,
           "width": 186,
           "height": 21
         },
@@ -163,8 +163,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },
@@ -182,9 +182,9 @@
         "boundingRect": {
           "top": 686,
           "bottom": 703,
-          "left": 892,
-          "right": 1122,
-          "width": 230,
+          "left": 884,
+          "right": 1115,
+          "width": 231,
           "height": 17
         },
         "subItems": {
@@ -199,8 +199,8 @@
                 "boundingRect": {
                   "top": 707,
                   "bottom": 724,
-                  "left": 892,
-                  "right": 1134,
+                  "left": 884,
+                  "right": 1126,
                   "width": 242,
                   "height": 17
                 },
@@ -218,8 +218,8 @@
         "boundingRect": {
           "top": 707,
           "bottom": 724,
-          "left": 892,
-          "right": 1134,
+          "left": 884,
+          "right": 1126,
           "width": 242,
           "height": 17
         },
@@ -235,9 +235,9 @@
                 "boundingRect": {
                   "top": 686,
                   "bottom": 703,
-                  "left": 892,
-                  "right": 1122,
-                  "width": 230,
+                  "left": 884,
+                  "right": 1115,
+                  "width": 231,
                   "height": 17
                 },
                 "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/learn/facts\">",
@@ -254,8 +254,8 @@
         "boundingRect": {
           "top": 837,
           "bottom": 854,
-          "left": 610,
-          "right": 783,
+          "left": 603,
+          "right": 776,
           "width": 173,
           "height": 17
         },
@@ -271,8 +271,8 @@
                 "boundingRect": {
                   "top": 858,
                   "bottom": 875,
-                  "left": 610,
-                  "right": 782,
+                  "left": 603,
+                  "right": 775,
                   "width": 172,
                   "height": 17
                 },
@@ -290,8 +290,8 @@
         "boundingRect": {
           "top": 858,
           "bottom": 875,
-          "left": 610,
-          "right": 782,
+          "left": 603,
+          "right": 775,
           "width": 172,
           "height": 17
         },
@@ -307,8 +307,8 @@
                 "boundingRect": {
                   "top": 837,
                   "bottom": 854,
-                  "left": 610,
-                  "right": 783,
+                  "left": 603,
+                  "right": 776,
                   "width": 173,
                   "height": 17
                 },
@@ -326,8 +326,8 @@
         "boundingRect": {
           "top": 1099,
           "bottom": 1116,
-          "left": 610,
-          "right": 777,
+          "left": 603,
+          "right": 770,
           "width": 167,
           "height": 17
         },
@@ -343,8 +343,8 @@
                 "boundingRect": {
                   "top": 1120,
                   "bottom": 1137,
-                  "left": 610,
-                  "right": 759,
+                  "left": 603,
+                  "right": 752,
                   "width": 149,
                   "height": 17
                 },
@@ -362,8 +362,8 @@
         "boundingRect": {
           "top": 1120,
           "bottom": 1137,
-          "left": 610,
-          "right": 759,
+          "left": 603,
+          "right": 752,
           "width": 149,
           "height": 17
         },
@@ -379,8 +379,8 @@
                 "boundingRect": {
                   "top": 1099,
                   "bottom": 1116,
-                  "left": 610,
-                  "right": 777,
+                  "left": 603,
+                  "right": 770,
                   "width": 167,
                   "height": 17
                 },
@@ -397,8 +397,8 @@
                 "boundingRect": {
                   "top": 1141,
                   "bottom": 1158,
-                  "left": 610,
-                  "right": 745,
+                  "left": 603,
+                  "right": 738,
                   "width": 135,
                   "height": 17
                 },
@@ -416,8 +416,8 @@
         "boundingRect": {
           "top": 1141,
           "bottom": 1158,
-          "left": 610,
-          "right": 745,
+          "left": 603,
+          "right": 738,
           "width": 135,
           "height": 17
         },
@@ -433,8 +433,8 @@
                 "boundingRect": {
                   "top": 1120,
                   "bottom": 1137,
-                  "left": 610,
-                  "right": 759,
+                  "left": 603,
+                  "right": 752,
                   "width": 149,
                   "height": 17
                 },
@@ -451,8 +451,8 @@
                 "boundingRect": {
                   "top": 1162,
                   "bottom": 1179,
-                  "left": 610,
-                  "right": 744,
+                  "left": 603,
+                  "right": 736,
                   "width": 134,
                   "height": 17
                 },
@@ -470,8 +470,8 @@
         "boundingRect": {
           "top": 1162,
           "bottom": 1179,
-          "left": 610,
-          "right": 744,
+          "left": 603,
+          "right": 736,
           "width": 134,
           "height": 17
         },
@@ -487,8 +487,8 @@
                 "boundingRect": {
                   "top": 1141,
                   "bottom": 1158,
-                  "left": 610,
-                  "right": 745,
+                  "left": 603,
+                  "right": 738,
                   "width": 135,
                   "height": 17
                 },
@@ -506,8 +506,8 @@
         "boundingRect": {
           "top": 1078,
           "bottom": 1095,
-          "left": 892,
-          "right": 1041,
+          "left": 884,
+          "right": 1034,
           "width": 149,
           "height": 17
         },
@@ -523,8 +523,8 @@
                 "boundingRect": {
                   "top": 1099,
                   "bottom": 1116,
-                  "left": 892,
-                  "right": 1026,
+                  "left": 884,
+                  "right": 1018,
                   "width": 134,
                   "height": 17
                 },
@@ -542,8 +542,8 @@
         "boundingRect": {
           "top": 1099,
           "bottom": 1116,
-          "left": 892,
-          "right": 1026,
+          "left": 884,
+          "right": 1018,
           "width": 134,
           "height": 17
         },
@@ -559,8 +559,8 @@
                 "boundingRect": {
                   "top": 1078,
                   "bottom": 1095,
-                  "left": 892,
-                  "right": 1041,
+                  "left": 884,
+                  "right": 1034,
                   "width": 149,
                   "height": 17
                 },
@@ -578,8 +578,8 @@
         "boundingRect": {
           "top": 1762,
           "bottom": 1779,
-          "left": 610,
-          "right": 810,
+          "left": 603,
+          "right": 803,
           "width": 200,
           "height": 17
         },
@@ -595,8 +595,8 @@
                 "boundingRect": {
                   "top": 1783,
                   "bottom": 1800,
-                  "left": 610,
-                  "right": 801,
+                  "left": 603,
+                  "right": 793,
                   "width": 190,
                   "height": 17
                 },
@@ -614,8 +614,8 @@
         "boundingRect": {
           "top": 1783,
           "bottom": 1800,
-          "left": 610,
-          "right": 801,
+          "left": 603,
+          "right": 793,
           "width": 190,
           "height": 17
         },
@@ -631,8 +631,8 @@
                 "boundingRect": {
                   "top": 1762,
                   "bottom": 1779,
-                  "left": 610,
-                  "right": 810,
+                  "left": 603,
+                  "right": 803,
                   "width": 200,
                   "height": 17
                 },
@@ -650,8 +650,8 @@
         "boundingRect": {
           "top": 2343,
           "bottom": 2360,
-          "left": 610,
-          "right": 745,
+          "left": 603,
+          "right": 738,
           "width": 135,
           "height": 17
         },
@@ -667,8 +667,8 @@
                 "boundingRect": {
                   "top": 2364,
                   "bottom": 2381,
-                  "left": 610,
-                  "right": 744,
+                  "left": 603,
+                  "right": 736,
                   "width": 134,
                   "height": 17
                 },
@@ -686,8 +686,8 @@
         "boundingRect": {
           "top": 2364,
           "bottom": 2381,
-          "left": 610,
-          "right": 744,
+          "left": 603,
+          "right": 736,
           "width": 134,
           "height": 17
         },
@@ -703,8 +703,8 @@
                 "boundingRect": {
                   "top": 2343,
                   "bottom": 2360,
-                  "left": 610,
-                  "right": 745,
+                  "left": 603,
+                  "right": 738,
                   "width": 135,
                   "height": 17
                 },

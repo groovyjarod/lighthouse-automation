@@ -1,5 +1,5 @@
 {
-  "accessibilityScore": 83,
+  "accessibilityScore": 81,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -9,10 +9,10 @@
         "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "top": 5,
+          "bottom": 18,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -28,10 +28,10 @@
         "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
         "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "top": 136,
+          "bottom": 182,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -47,10 +47,10 @@
         "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "top": 136,
+          "bottom": 182,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -61,15 +61,15 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-3-MAIN",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN",
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
-                  "top": 135,
-                  "bottom": 3147,
+                  "top": 73,
+                  "bottom": 3084,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 3012
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 3011
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "How to Find United States Marriage Records\nLanguage\nDownload PDF\nWatch\nEdit\nUni…"
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3158,
-          "bottom": 3181,
-          "left": 491,
-          "right": 1441,
+          "top": 3096,
+          "bottom": 3119,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -97,14 +97,14 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-5-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV",
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
-                  "top": 61,
-                  "bottom": 3377,
+                  "top": -1,
+                  "bottom": 3315,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 3316
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -125,10 +125,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 359,
-          "bottom": 380,
-          "left": 478,
-          "right": 1457,
+          "top": 297,
+          "bottom": 318,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 21
         }
@@ -138,10 +138,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1432,
-          "bottom": 1629,
-          "left": 478,
-          "right": 1457,
+          "top": 1370,
+          "bottom": 1567,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 197
         }
@@ -151,10 +151,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1763,
-          "bottom": 1877,
-          "left": 478,
-          "right": 1457,
+          "top": 1701,
+          "bottom": 1815,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 114
         }
@@ -164,10 +164,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1954,
-          "bottom": 2037,
-          "left": 478,
-          "right": 1457,
+          "top": 1892,
+          "bottom": 1975,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 83
         }
@@ -177,10 +177,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2135,
-          "bottom": 2187,
-          "left": 478,
-          "right": 1457,
+          "top": 2073,
+          "bottom": 2125,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 52
         }
@@ -190,10 +190,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2229,
-          "bottom": 2436,
-          "left": 478,
-          "right": 1457,
+          "top": 2167,
+          "bottom": 2374,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 207
         }
@@ -203,10 +203,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2549,
-          "bottom": 2746,
-          "left": 478,
-          "right": 1457,
+          "top": 2487,
+          "bottom": 2684,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 197
         }
@@ -222,10 +222,10 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 2445,
-          "bottom": 2462,
-          "left": 904,
-          "right": 1096,
+          "top": 2383,
+          "bottom": 2400,
+          "left": 897,
+          "right": 1088,
           "width": 192,
           "height": 17
         },
@@ -236,13 +236,13 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-14-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,21,P",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,21,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 2443,
-                  "bottom": 2464,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 2381,
+                  "bottom": 2402,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 21
                 },
@@ -264,10 +264,10 @@
         "selector": "div.mw-parser-output > div > div > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
         "boundingRect": {
-          "top": 243,
-          "bottom": 264,
-          "left": 464,
-          "right": 559,
+          "top": 181,
+          "bottom": 202,
+          "left": 456,
+          "right": 551,
           "width": 95,
           "height": 21
         },
@@ -278,13 +278,13 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-2-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
                 "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
                 "boundingRect": {
-                  "top": 198,
-                  "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "top": 136,
+                  "bottom": 182,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },
@@ -306,10 +306,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1041,
-          "bottom": 1418,
-          "left": 464,
-          "right": 772,
+          "top": 979,
+          "bottom": 1356,
+          "left": 456,
+          "right": 764,
           "width": 308,
           "height": 377
         }
@@ -319,12 +319,12 @@
         "selector": "tbody > tr > td > table#collapsibleTable0",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2805,
-          "bottom": 3097,
-          "left": 467,
-          "right": 1454,
+          "top": 2743,
+          "bottom": 3034,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 292
+          "height": 291
         }
       }
     ]
@@ -338,10 +338,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1041,
-          "bottom": 1418,
-          "left": 464,
-          "right": 772,
+          "top": 979,
+          "bottom": 1356,
+          "left": 456,
+          "right": 764,
           "width": 308,
           "height": 377
         },
@@ -352,13 +352,13 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-18-TD",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,0,TR,0,TD",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,0,TR,0,TD",
                 "selector": "table > tbody > tr > td",
                 "boundingRect": {
-                  "top": 1043,
-                  "bottom": 1076,
-                  "left": 466,
-                  "right": 770,
+                  "top": 981,
+                  "bottom": 1014,
+                  "left": 458,
+                  "right": 762,
                   "width": 304,
                   "height": 33
                 },
@@ -370,13 +370,13 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-19-TD",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,1,TR,0,TD",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,1,TR,0,TD",
                 "selector": "table > tbody > tr > td",
                 "boundingRect": {
-                  "top": 1077,
-                  "bottom": 1110,
-                  "left": 466,
-                  "right": 688,
+                  "top": 1015,
+                  "bottom": 1048,
+                  "left": 458,
+                  "right": 681,
                   "width": 223,
                   "height": 33
                 },
@@ -388,13 +388,13 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-20-TD",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,1,TR,1,TD",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,7,TABLE,0,TBODY,1,TR,1,TD",
                 "selector": "table > tbody > tr > td",
                 "boundingRect": {
-                  "top": 1077,
-                  "bottom": 1110,
-                  "left": 689,
-                  "right": 728,
+                  "top": 1015,
+                  "bottom": 1048,
+                  "left": 682,
+                  "right": 720,
                   "width": 38,
                   "height": 33
                 },

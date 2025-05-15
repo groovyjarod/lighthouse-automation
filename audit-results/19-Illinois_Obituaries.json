@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 4498,
+                  "bottom": 4497,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 4363
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 4362
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "Illinois Obituaries\nLanguage\nDownload PDF\nWatch\nEdit\nIllinois Wiki Topics\n\nBegi…"
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 4510,
-          "bottom": 4533,
-          "left": 491,
-          "right": 1441,
+          "top": 4509,
+          "bottom": 4532,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 4728,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 4667
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 3870,
           "bottom": 3954,
-          "left": 478,
-          "right": 1457,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 84
         }
@@ -140,8 +140,8 @@
         "boundingRect": {
           "top": 3870,
           "bottom": 3954,
-          "left": 492,
-          "right": 1457,
+          "left": 484,
+          "right": 1450,
           "width": 965,
           "height": 84
         }
@@ -159,8 +159,8 @@
         "boundingRect": {
           "top": 2579,
           "bottom": 2596,
-          "left": 571,
-          "right": 648,
+          "left": 563,
+          "right": 640,
           "width": 77,
           "height": 17
         },
@@ -176,8 +176,8 @@
                 "boundingRect": {
                   "top": 2535,
                   "bottom": 2661,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 126
                 },
@@ -201,8 +201,8 @@
         "boundingRect": {
           "top": 2954,
           "bottom": 2971,
-          "left": 489,
-          "right": 739,
+          "left": 482,
+          "right": 732,
           "width": 250,
           "height": 17
         }
@@ -219,11 +219,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 4048,
-          "bottom": 4448,
-          "left": 467,
-          "right": 1454,
+          "bottom": 4447,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 400
+          "height": 399
         }
       }
     ]

@@ -34,8 +34,16 @@ export default async function runLighthouse(url) {
     }
   }
 
-  const runnerResult = await lighthouse(url, options, config);
-  const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+  try {
+    const runnerResult = await lighthouse(url, options, config);
+    const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+    return [runnerResult.report, accessibilityScore]
+  } catch (err) {
+    console.error(`Lighthouse failed for ${url}:`, err)
+    return null
+  } finally {
+    await chrome.kill()
+  }
 
   // the following is deprecated until this script uses more than just accessibility for auditing.
   // for (const key in categories) {
@@ -47,8 +55,6 @@ export default async function runLighthouse(url) {
   //   runnerResult.report
   // );
 
-  await chrome.kill();
-  return [runnerResult.report, accessibilityScore]
 }
 
 // TODO: generate a total number of issues per page

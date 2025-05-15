@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 4604,
+                  "bottom": 4673,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 4469
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 4538
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "United States Birth Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States\nVita…"
@@ -81,12 +81,12 @@
       {
         "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #ffffff, background color: #00af89, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 4615,
-          "bottom": 4638,
-          "left": 491,
-          "right": 1441,
+          "top": 4684,
+          "bottom": 4707,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -96,19 +96,91 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-5-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "lhId": "1-5-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,FOOTER,0,A",
+                "selector": "div#mw-mf-viewport > div#mw-mf-page-center > footer.mw-footer > a.last-modified-bar",
                 "boundingRect": {
-                  "top": 61,
-                  "bottom": 4834,
+                  "top": 4674,
+                  "bottom": 4719,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 4773
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 45
                 },
-                "snippet": "<div id=\"mw-mf-page-center\">",
-                "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Birth Records\nLanguage\nDownload …"
+                "snippet": "<a class=\"last-modified-bar active\" href=\"/en/wiki/Special:History/United_States_Birth_Records\">",
+                "nodeLabel": "Last edited 23 hours ago by AdkinsWH"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<strong class=\"last-modified-text-accent\">",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > strong.last-modified-text-accent",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #ffffff, background color: #00af89, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 4687,
+          "bottom": 4704,
+          "left": 494,
+          "right": 689,
+          "width": 195,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,FOOTER,0,A",
+                "selector": "div#mw-mf-viewport > div#mw-mf-page-center > footer.mw-footer > a.last-modified-bar",
+                "boundingRect": {
+                  "top": 4674,
+                  "bottom": 4719,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 45
+                },
+                "snippet": "<a class=\"last-modified-bar active\" href=\"/en/wiki/Special:History/United_States_Birth_Records\">",
+                "nodeLabel": "Last edited 23 hours ago by AdkinsWH"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-text-accent\">",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span.last-modified-text-accent",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #ffffff, background color: #00af89, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 4687,
+          "bottom": 4704,
+          "left": 716,
+          "right": 787,
+          "width": 71,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,FOOTER,0,A",
+                "selector": "div#mw-mf-viewport > div#mw-mf-page-center > footer.mw-footer > a.last-modified-bar",
+                "boundingRect": {
+                  "top": 4674,
+                  "bottom": 4719,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 45
+                },
+                "snippet": "<a class=\"last-modified-bar active\" href=\"/en/wiki/Special:History/United_States_Birth_Records\">",
+                "nodeLabel": "Last edited 23 hours ago by AdkinsWH"
               }
             }
           ]
@@ -127,8 +199,8 @@
         "boundingRect": {
           "top": 814,
           "bottom": 835,
-          "left": 478,
-          "right": 1457,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 21
         }
@@ -146,8 +218,8 @@
         "boundingRect": {
           "top": 1544,
           "bottom": 1561,
-          "left": 1166,
-          "right": 1263,
+          "left": 1159,
+          "right": 1255,
           "width": 97,
           "height": 17
         },
@@ -157,14 +229,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-8-P",
+                "lhId": "1-10-P",
                 "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,11,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
                   "top": 1542,
                   "bottom": 1584,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -182,8 +254,8 @@
         "boundingRect": {
           "top": 1544,
           "bottom": 1561,
-          "left": 1331,
-          "right": 1452,
+          "left": 1324,
+          "right": 1444,
           "width": 120,
           "height": 17
         },
@@ -193,14 +265,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-8-P",
+                "lhId": "1-10-P",
                 "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,11,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
                   "top": 1542,
                   "bottom": 1584,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -216,10 +288,10 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > p > a.mw-redirect",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 2212,
-          "bottom": 2229,
-          "left": 495,
-          "right": 744,
+          "top": 2281,
+          "bottom": 2298,
+          "left": 487,
+          "right": 736,
           "width": 249,
           "height": 17
         },
@@ -229,14 +301,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-11-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,20,P",
+                "lhId": "1-13-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,21,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 2210,
-                  "bottom": 2252,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 2279,
+                  "bottom": 2321,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -260,8 +332,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 559,
+          "left": 456,
+          "right": 551,
           "width": 95,
           "height": 21
         },
@@ -277,8 +349,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

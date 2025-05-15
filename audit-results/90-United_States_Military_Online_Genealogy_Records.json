@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 5131,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 4996
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 294,
           "bottom": 311,
-          "left": 725,
-          "right": 1031,
+          "left": 717,
+          "right": 1023,
           "width": 306,
           "height": 17
         },
@@ -102,8 +102,8 @@
                 "boundingRect": {
                   "top": 281,
                   "bottom": 408,
-                  "left": 467,
-                  "right": 1289,
+                  "left": 459,
+                  "right": 1281,
                   "width": 822,
                   "height": 127
                 },
@@ -121,8 +121,8 @@
         "boundingRect": {
           "top": 322,
           "bottom": 381,
-          "left": 505,
-          "right": 1250,
+          "left": 498,
+          "right": 1243,
           "width": 745,
           "height": 59
         },
@@ -138,8 +138,8 @@
                 "boundingRect": {
                   "top": 281,
                   "bottom": 408,
-                  "left": 467,
-                  "right": 1289,
+                  "left": 459,
+                  "right": 1281,
                   "width": 822,
                   "height": 127
                 },
@@ -157,8 +157,8 @@
         "boundingRect": {
           "top": 5142,
           "bottom": 5166,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -173,11 +173,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 5361,
+                  "bottom": 5362,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 5300
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 5301
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Military Online Genealogy Record…"
@@ -199,8 +199,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 615,
+          "left": 456,
+          "right": 608,
           "width": 152,
           "height": 21
         },
@@ -216,8 +216,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

@@ -1,8 +1,6 @@
 import createReport from "./createFinalizedReport.mjs";
 import fs from 'fs'
 
-
-
 const exampleFullUrl = 'https://www.familysearch.org/en/wiki/Denmark_Feast_Day_Calendars'
 const url = 'https://www.familysearch.org/'
 const language = 'en'

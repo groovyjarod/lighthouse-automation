@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 4113,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 3978
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 4125,
+          "top": 4124,
           "bottom": 4148,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -101,11 +101,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 4343,
+                  "bottom": 4344,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 4282
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 4283
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Death Records\nLanguage\nDownload …"
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 801,
           "bottom": 822,
-          "left": 478,
-          "right": 1457,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 21
         }
@@ -146,8 +146,8 @@
         "boundingRect": {
           "top": 2063,
           "bottom": 2080,
-          "left": 1215,
-          "right": 1322,
+          "left": 1208,
+          "right": 1315,
           "width": 107,
           "height": 17
         },
@@ -163,8 +163,8 @@
                 "boundingRect": {
                   "top": 2061,
                   "bottom": 2145,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -182,9 +182,9 @@
         "boundingRect": {
           "top": 2063,
           "bottom": 2101,
-          "left": 464,
-          "right": 1404,
-          "width": 940,
+          "left": 456,
+          "right": 1397,
+          "width": 941,
           "height": 38
         },
         "subItems": {
@@ -199,8 +199,8 @@
                 "boundingRect": {
                   "top": 2061,
                   "bottom": 2145,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -218,8 +218,8 @@
         "boundingRect": {
           "top": 2105,
           "bottom": 2122,
-          "left": 1065,
-          "right": 1383,
+          "left": 1057,
+          "right": 1375,
           "width": 318,
           "height": 17
         },
@@ -235,8 +235,8 @@
                 "boundingRect": {
                   "top": 2061,
                   "bottom": 2145,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -254,8 +254,8 @@
         "boundingRect": {
           "top": 2221,
           "bottom": 2238,
-          "left": 1158,
-          "right": 1226,
+          "left": 1150,
+          "right": 1219,
           "width": 69,
           "height": 17
         },
@@ -271,8 +271,8 @@
                 "boundingRect": {
                   "top": 2219,
                   "bottom": 2303,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -290,8 +290,8 @@
         "boundingRect": {
           "top": 2319,
           "bottom": 2336,
-          "left": 922,
-          "right": 1114,
+          "left": 915,
+          "right": 1106,
           "width": 192,
           "height": 17
         },
@@ -307,8 +307,8 @@
                 "boundingRect": {
                   "top": 2317,
                   "bottom": 2359,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -326,8 +326,8 @@
         "boundingRect": {
           "top": 2375,
           "bottom": 2392,
-          "left": 768,
-          "right": 847,
+          "left": 760,
+          "right": 839,
           "width": 79,
           "height": 17
         },
@@ -343,8 +343,8 @@
                 "boundingRect": {
                   "top": 2373,
                   "bottom": 2415,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -362,8 +362,8 @@
         "boundingRect": {
           "top": 2396,
           "bottom": 2413,
-          "left": 816,
-          "right": 1070,
+          "left": 809,
+          "right": 1062,
           "width": 254,
           "height": 17
         },
@@ -379,8 +379,8 @@
                 "boundingRect": {
                   "top": 2373,
                   "bottom": 2415,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -398,8 +398,8 @@
         "boundingRect": {
           "top": 3481,
           "bottom": 3498,
-          "left": 1096,
-          "right": 1389,
+          "left": 1089,
+          "right": 1381,
           "width": 293,
           "height": 17
         },
@@ -415,8 +415,8 @@
                 "boundingRect": {
                   "top": 3458,
                   "bottom": 3500,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -434,8 +434,8 @@
         "boundingRect": {
           "top": 4040,
           "bottom": 4057,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -451,8 +451,8 @@
                 "boundingRect": {
                   "top": 4038,
                   "bottom": 4080,
-                  "left": 495,
-                  "right": 1457,
+                  "left": 488,
+                  "right": 1450,
                   "width": 962,
                   "height": 42
                 },
@@ -476,8 +476,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 559,
+          "left": 456,
+          "right": 551,
           "width": 95,
           "height": 21
         },
@@ -493,8 +493,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

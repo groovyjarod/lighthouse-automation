@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 2734,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 2599
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 2746,
           "bottom": 2769,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 2965,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 2904
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 2589,
           "bottom": 2606,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -144,8 +144,8 @@
                 "boundingRect": {
                   "top": 2589,
                   "bottom": 2606,
-                  "left": 509,
-                  "right": 635,
+                  "left": 502,
+                  "right": 627,
                   "width": 125,
                   "height": 17
                 },
@@ -163,8 +163,8 @@
         "boundingRect": {
           "top": 2620,
           "bottom": 2637,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -180,8 +180,8 @@
                 "boundingRect": {
                   "top": 2620,
                   "bottom": 2637,
-                  "left": 509,
-                  "right": 635,
+                  "left": 502,
+                  "right": 627,
                   "width": 125,
                   "height": 17
                 },
@@ -199,8 +199,8 @@
         "boundingRect": {
           "top": 2651,
           "bottom": 2668,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -216,8 +216,8 @@
                 "boundingRect": {
                   "top": 2651,
                   "bottom": 2668,
-                  "left": 509,
-                  "right": 635,
+                  "left": 502,
+                  "right": 627,
                   "width": 125,
                   "height": 17
                 },
@@ -235,8 +235,8 @@
         "boundingRect": {
           "top": 2682,
           "bottom": 2699,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -252,8 +252,8 @@
                 "boundingRect": {
                   "top": 2682,
                   "bottom": 2699,
-                  "left": 509,
-                  "right": 667,
+                  "left": 502,
+                  "right": 660,
                   "width": 158,
                   "height": 17
                 },
