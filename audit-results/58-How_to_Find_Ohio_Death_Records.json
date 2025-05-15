@@ -1,58 +1,1559 @@
 {
-  "accessibilityScore": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibilityScore": 81,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 67,
+          "bottom": 80,
+          "left": 456,
+          "right": 469,
+          "width": 13,
+          "height": 13
         }
       }
     ]
   },
-  "frame-title-2": {
-    "title": "`<frame>` or `<iframe>` elements do not have a title",
-    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=4-1171716-0%20PNNN%20RT%28174724078…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=How+to+Find+Ohio+Death…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 198,
+          "bottom": 244,
+          "left": 1269,
+          "right": 1373,
+          "width": 103,
+          "height": 46
         }
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 198,
+          "bottom": 244,
+          "left": 448,
+          "right": 580,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 5920,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 5785
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "How to Find Ohio Death Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States\nU…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Ohio_Death_Records#Deaths_before_1867\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 376,
+          "bottom": 397,
+          "left": 801,
+          "right": 988,
+          "width": 186,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 330,
+                  "bottom": 528,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 198
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Ohio_Death_Records#Deaths_from_1867_thru_1908\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 408,
+          "bottom": 429,
+          "left": 801,
+          "right": 1070,
+          "width": 269,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 330,
+                  "bottom": 528,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 198
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Ohio_Death_Records#Deaths_from_1908_thru_1953\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 440,
+          "bottom": 461,
+          "left": 801,
+          "right": 1070,
+          "width": 269,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 330,
+                  "bottom": 528,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 198
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Ohio_Death_Records#Deaths_from_1954_to_the_present\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 472,
+          "bottom": 493,
+          "left": 801,
+          "right": 1110,
+          "width": 309,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 330,
+                  "bottom": 528,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 198
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Estimate_United_States_Death_Information\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 504,
+          "bottom": 525,
+          "left": 801,
+          "right": 1164,
+          "width": 362,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 330,
+                  "bottom": 528,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 198
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 5932,
+          "bottom": 5955,
+          "left": 484,
+          "right": 1433,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-11-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 6151,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 6090
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nHow to Find Ohio Death Records\nLanguage\nDownlo…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "definition-list-4": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 332,
+          "bottom": 376,
+          "left": 787,
+          "right": 1345,
+          "width": 558,
+          "height": 44
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 376,
+          "bottom": 526,
+          "left": 787,
+          "right": 1345,
+          "width": 558,
+          "height": 150
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1072,
+          "bottom": 1156,
+          "left": 478,
+          "right": 798,
+          "width": 320,
+          "height": 84
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1083,
+          "bottom": 1146,
+          "left": 818,
+          "right": 1138,
+          "width": 320,
+          "height": 63
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1776,
+          "bottom": 1860,
+          "left": 478,
+          "right": 798,
+          "width": 320,
+          "height": 84
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1786,
+          "bottom": 1849,
+          "left": 818,
+          "right": 1138,
+          "width": 320,
+          "height": 63
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 5199,
+          "bottom": 5437,
+          "left": 473,
+          "right": 1437,
+          "width": 963,
+          "height": 238
+        }
+      }
+    ]
+  },
+  "heading-order-5": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "items": [
+      {
+        "snippet": "<h4 class=\"in-block\">",
+        "selector": "tbody > tr > td > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 2074,
+          "bottom": 2116,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 42
+        }
+      },
+      {
+        "snippet": "<h4 class=\"in-block\">",
+        "selector": "tbody > tr > td > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 3757,
+          "bottom": 3799,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 42
+        }
+      }
+    ]
+  },
+  "link-in-text-block-6": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Substitute_Records_For_United_States_Death_Information\">",
+        "selector": "tr > td > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 986,
+          "bottom": 1003,
+          "left": 981,
+          "right": 1107,
+          "width": 127,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-22-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,6,P",
+                "selector": "tbody > tr > td > p",
+                "boundingRect": {
+                  "top": 984,
+                  "bottom": 1026,
+                  "left": 459,
+                  "right": 1437,
+                  "width": 977,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "If your ancestor's death was not found in this database, you must search substi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Substitute_Records_For_United_States_Death_Information\">",
+        "selector": "tr > td > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1690,
+          "bottom": 1707,
+          "left": 981,
+          "right": 1107,
+          "width": 127,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-24-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,15,P",
+                "selector": "tbody > tr > td > p",
+                "boundingRect": {
+                  "top": 1667,
+                  "bottom": 1730,
+                  "left": 459,
+                  "right": 1437,
+                  "width": 977,
+                  "height": 63
+                },
+                "snippet": "<p>",
+                "nodeLabel": "\nIf your ancestor's death was not found in this database, you must search subst…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Substitute_Records_For_United_States_Death_Information\">",
+        "selector": "tbody > tr > td > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2798,
+          "bottom": 2815,
+          "left": 902,
+          "right": 996,
+          "width": 94,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-26-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,24,TABLE,0,TBODY,13,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2790,
+                  "bottom": 2823,
+                  "left": 797,
+                  "right": 1410,
+                  "width": 613,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try searching other records for death information."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Substitute_Records_For_United_States_Death_Information\">",
+        "selector": "tbody > tr > td > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 4384,
+          "bottom": 4401,
+          "left": 976,
+          "right": 1070,
+          "width": 94,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-28-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,38,TABLE,0,TBODY,12,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 4376,
+                  "bottom": 4409,
+                  "left": 871,
+                  "right": 1410,
+                  "width": 539,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try searching other records for death information."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Allen_County_Public_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5705,
+          "bottom": 5719,
+          "left": 548,
+          "right": 709,
+          "width": 160,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Dayton_Metro_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5721,
+          "bottom": 5735,
+          "left": 790,
+          "right": 917,
+          "width": 127,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/National_Archives_at_Chicago\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5736,
+          "bottom": 5750,
+          "left": 548,
+          "right": 720,
+          "width": 171,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/National_Underground_Railroad_Freedom_Center,_John_Parker_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5736,
+          "bottom": 5750,
+          "left": 814,
+          "right": 1221,
+          "width": 407,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Newberry_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5736,
+          "bottom": 5750,
+          "left": 1234,
+          "right": 1337,
+          "width": 103,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ohio_Genealogical_Society\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5752,
+          "bottom": 5766,
+          "left": 723,
+          "right": 878,
+          "width": 155,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ohio_History_Connection\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5752,
+          "bottom": 5766,
+          "left": 890,
+          "right": 1035,
+          "width": 145,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ohio_University_Alden_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5752,
+          "bottom": 5766,
+          "left": 1048,
+          "right": 1222,
+          "width": 175,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Public_Library_of_Cincinnati_and_Hamilton_County\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5767,
+          "bottom": 5781,
+          "left": 774,
+          "right": 1064,
+          "width": 290,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Public_Library_of_Youngstown_and_Mahoning_County\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5767,
+          "bottom": 5781,
+          "left": 1076,
+          "right": 1383,
+          "width": 306,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Rutherford_B._Hayes_Presidential_Center\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5783,
+          "bottom": 5797,
+          "left": 548,
+          "right": 787,
+          "width": 238,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/State_Library_of_Ohio\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5783,
+          "bottom": 5797,
+          "left": 799,
+          "right": 924,
+          "width": 125,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Toledo%E2%80%91Lucas_County_Public_Library\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5783,
+          "bottom": 5797,
+          "left": 936,
+          "right": 1145,
+          "width": 208,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Western_Reserve_Historical_Society\">",
+        "selector": "td.navbox-list > div > div > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5798,
+          "bottom": 5812,
+          "left": 548,
+          "right": 756,
+          "width": 208,
+          "height": 14
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,8,TR,1,TD,0,DIV,0,DIV",
+                "selector": "tr > td.navbox-list > div > div",
+                "boundingRect": {
+                  "top": 5705,
+                  "bottom": 5814,
+                  "left": 548,
+                  "right": 1444,
+                  "width": 895,
+                  "height": 108
+                },
+                "snippet": "<div>",
+                "nodeLabel": "Allen County Public Library (Ft. Wayne, IN) · American Jewish Archives · Archdi…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "target-size-7": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Genealogy\">",
+        "selector": "div.mw-parser-output > div > div > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+        "boundingRect": {
+          "top": 243,
+          "bottom": 264,
+          "left": 456,
+          "right": 551,
+          "width": 95,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-2-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
+                "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+                "boundingRect": {
+                  "top": 198,
+                  "bottom": 244,
+                  "left": 448,
+                  "right": 580,
+                  "width": 132,
+                  "height": 46
+                },
+                "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+                "nodeLabel": "Language"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "table-fake-caption-8": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 1040,
+          "bottom": 1161,
+          "left": 459,
+          "right": 1143,
+          "width": 684,
+          "height": 121
+        }
+      },
+      {
+        "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 1744,
+          "bottom": 1865,
+          "left": 459,
+          "right": 1143,
+          "width": 684,
+          "height": 121
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 3212,
+          "bottom": 3401,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 189
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 4735,
+          "bottom": 4924,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 189
+        }
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 5471,
+          "bottom": 5870,
+          "left": 459,
+          "right": 1447,
+          "width": 987,
+          "height": 399
+        }
+      }
+    ]
+  },
+  "td-has-header-9": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 722,
+          "bottom": 935,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 213
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-51-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,4,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 723,
+                  "bottom": 756,
+                  "left": 460,
+                  "right": 1410,
+                  "width": 949,
+                  "height": 33
+                },
+                "snippet": "<td align=\"left\" colspan=\"3\">",
+                "nodeLabel": "Ohio Deaths and Burials Database"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-52-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,4,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 757,
+                  "bottom": 790,
+                  "left": 460,
+                  "right": 533,
+                  "width": 73,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try 1st:"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-53-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,4,TABLE,0,TBODY,2,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 791,
+                  "bottom": 845,
+                  "left": 534,
+                  "right": 777,
+                  "width": 243,
+                  "height": 54
+                },
+                "snippet": "<td width=\"25%\">",
+                "nodeLabel": "1854-1997 - At FamilySearch.org"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 2158,
+          "bottom": 3114,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 956
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-55-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,24,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2159,
+                  "bottom": 2192,
+                  "left": 460,
+                  "right": 1410,
+                  "width": 949,
+                  "height": 33
+                },
+                "snippet": "<td align=\"left\" colspan=\"3\">",
+                "nodeLabel": "Ohio Deaths Databases - Includes Index and Digital Images"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-56-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,24,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2193,
+                  "bottom": 2226,
+                  "left": 460,
+                  "right": 556,
+                  "width": 95,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try 1st:"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-57-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,24,TABLE,0,TBODY,2,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2227,
+                  "bottom": 2281,
+                  "left": 557,
+                  "right": 796,
+                  "width": 239,
+                  "height": 54
+                },
+                "snippet": "<td width=\"25%\">",
+                "nodeLabel": "1908 - 1953 - At FamilySearch.org"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 3212,
+          "bottom": 3401,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 189
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-58-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,27,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3214,
+                  "bottom": 3249,
+                  "left": 461,
+                  "right": 1435,
+                  "width": 973,
+                  "height": 35
+                },
+                "snippet": "<td align=\"center\" colspan=\"4\">",
+                "nodeLabel": "To Order Death Certificates"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-59-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,27,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3250,
+                  "bottom": 3285,
+                  "left": 461,
+                  "right": 948,
+                  "width": 486,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "From County of Death"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-60-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,27,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3250,
+                  "bottom": 3285,
+                  "left": 949,
+                  "right": 1435,
+                  "width": 486,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "From OH Dept. of Health State office"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 3841,
+          "bottom": 4637,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 796
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-62-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,38,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3842,
+                  "bottom": 3875,
+                  "left": 460,
+                  "right": 1410,
+                  "width": 949,
+                  "height": 33
+                },
+                "snippet": "<td align=\"left\" colspan=\"3\">",
+                "nodeLabel": "Ohio Deaths Databases - Includes Index Only"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-63-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,38,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3876,
+                  "bottom": 3909,
+                  "left": 460,
+                  "right": 557,
+                  "width": 97,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try 1st:"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-64-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,38,TABLE,0,TBODY,2,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3910,
+                  "bottom": 3985,
+                  "left": 558,
+                  "right": 870,
+                  "width": 311,
+                  "height": 75
+                },
+                "snippet": "<td>",
+                "nodeLabel": "1908-1932, 1938-1944, and 1958-2007 - At FamilySearch.org"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "tbody > tr > td > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 4735,
+          "bottom": 4924,
+          "left": 459,
+          "right": 1437,
+          "width": 977,
+          "height": 189
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-65-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,41,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 4737,
+                  "bottom": 4772,
+                  "left": 461,
+                  "right": 1435,
+                  "width": 973,
+                  "height": 35
+                },
+                "snippet": "<td align=\"center\" colspan=\"4\">",
+                "nodeLabel": "To Order Death Certificates"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-66-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,41,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 4773,
+                  "bottom": 4808,
+                  "left": 461,
+                  "right": 948,
+                  "width": 486,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "From County of Death"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-67-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,TABLE,0,TBODY,0,TR,0,TD,41,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 4773,
+                  "bottom": 4808,
+                  "left": 949,
+                  "right": 1435,
+                  "width": 486,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "From OH Dept. of Health State office"
+              }
+            }
+          ]
         }
       }
     ]

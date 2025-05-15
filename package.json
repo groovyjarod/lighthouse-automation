@@ -3,5 +3,9 @@
   "devDependencies": {
     "chrome-launcher": "^1.1.2",
     "lighthouse": "^12.6.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "p-limit": "^6.2.0"
   }
 }

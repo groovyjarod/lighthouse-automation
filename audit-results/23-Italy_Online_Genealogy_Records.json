@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 3000,
+                  "bottom": 3002,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 2865
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 2867
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "Italy Online Genealogy Records\nLanguage\nDownload PDF\nWatch\nEdit\nItaly Wiki Topi…"
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 1819,
           "bottom": 1899,
-          "left": 482,
-          "right": 1274,
+          "left": 474,
+          "right": 1266,
           "width": 792,
           "height": 80
         },
@@ -102,8 +102,8 @@
                 "boundingRect": {
                   "top": 1806,
                   "bottom": 1926,
-                  "left": 467,
-                  "right": 1289,
+                  "left": 459,
+                  "right": 1281,
                   "width": 822,
                   "height": 120
                 },
@@ -119,10 +119,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3011,
-          "bottom": 3034,
-          "left": 491,
-          "right": 1441,
+          "top": 3013,
+          "bottom": 3036,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -137,11 +137,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 3230,
+                  "bottom": 3233,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 3169
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 3172
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nItaly Online Genealogy Records\nLanguage\nDownlo…"
@@ -162,11 +162,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 1803,
-          "bottom": 2953,
-          "left": 464,
-          "right": 1292,
+          "bottom": 2955,
+          "left": 456,
+          "right": 1284,
           "width": 828,
-          "height": 1150
+          "height": 1152
         }
       }
     ]

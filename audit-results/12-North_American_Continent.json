@@ -1,5 +1,5 @@
 {
-  "accessibilityScore": 85,
+  "accessibilityScore": 83,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -9,10 +9,10 @@
         "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "top": 5,
+          "bottom": 18,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -28,10 +28,10 @@
         "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
         "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "top": 136,
+          "bottom": 182,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -47,10 +47,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1114,
-          "bottom": 1138,
-          "left": 491,
-          "right": 1441,
+          "top": 1053,
+          "bottom": 1076,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -61,51 +61,15 @@
               "relatedNode": {
                 "type": "node",
                 "lhId": "1-3-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV",
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
-                  "top": 61,
-                  "bottom": 1333,
+                  "top": -1,
+                  "bottom": 1272,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 1272
-                },
-                "snippet": "<div id=\"mw-mf-page-center\">",
-                "nodeLabel": "Open main menu\nFamilySearch Wiki\nNorth American Continent\nLanguage\nDownload PDF…"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "snippet": "<a role=\"link\" id=\"icon-id008110546620757353\" tabindex=\"0\" lang=\"en\" aria-haspopup=\"dialog\" aria-label=\"Cookie Preferences, opens a dedicated popup modal window\" class=\"truste_cursor_pointer\">",
-        "selector": "ul > li > span#teconsent > a#icon-id008110546620757353",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #177c9c, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 1198,
-          "bottom": 1234,
-          "left": 158,
-          "right": 352,
-          "width": 194,
-          "height": 36
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-3-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
-                "boundingRect": {
-                  "top": 61,
-                  "bottom": 1333,
-                  "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 1272
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 1273
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nNorth American Continent\nLanguage\nDownload PDF…"
@@ -125,10 +89,10 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 273,
-          "bottom": 290,
-          "left": 781,
-          "right": 882,
+          "top": 211,
+          "bottom": 228,
+          "left": 774,
+          "right": 875,
           "width": 101,
           "height": 17
         },
@@ -138,14 +102,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-6-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
+                "lhId": "1-5-P",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 271,
-                  "bottom": 334,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 209,
+                  "bottom": 272,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 63
                 },
@@ -161,10 +125,10 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 273,
-          "bottom": 290,
-          "left": 892,
-          "right": 1005,
+          "top": 211,
+          "bottom": 228,
+          "left": 885,
+          "right": 997,
           "width": 112,
           "height": 17
         },
@@ -174,14 +138,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-6-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
+                "lhId": "1-5-P",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 271,
-                  "bottom": 334,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 209,
+                  "bottom": 272,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 63
                 },
@@ -197,10 +161,10 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 273,
-          "bottom": 290,
-          "left": 1073,
-          "right": 1144,
+          "top": 211,
+          "bottom": 228,
+          "left": 1066,
+          "right": 1137,
           "width": 71,
           "height": 17
         },
@@ -210,14 +174,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-6-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
+                "lhId": "1-5-P",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,1,P",
                 "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 271,
-                  "bottom": 334,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 209,
+                  "bottom": 272,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 63
                 },
@@ -239,10 +203,10 @@
         "selector": "div.mw-parser-output > div > div > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (198.3px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
         "boundingRect": {
-          "top": 243,
-          "bottom": 264,
-          "left": 464,
-          "right": 662,
+          "top": 181,
+          "bottom": 202,
+          "left": 456,
+          "right": 655,
           "width": 198,
           "height": 21
         },
@@ -252,14 +216,14 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-10-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
+                "lhId": "1-9-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
                 "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
                 "boundingRect": {
-                  "top": 198,
-                  "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "top": 136,
+                  "bottom": 182,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

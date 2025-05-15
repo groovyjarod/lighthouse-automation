@@ -1,58 +1,947 @@
 {
-  "accessibilityScore": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibilityScore": 81,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 67,
+          "bottom": 80,
+          "left": 456,
+          "right": 469,
+          "width": 13,
+          "height": 13
         }
       }
     ]
   },
-  "frame-title-2": {
-    "title": "`<frame>` or `<iframe>` elements do not have a title",
-    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=12-4693195-0%20PNNN%20RT%2817472406…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=How+to+Find+California…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 198,
+          "bottom": 244,
+          "left": 1269,
+          "right": 1373,
+          "width": 103,
+          "height": 46
         }
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 198,
+          "bottom": 244,
+          "left": 448,
+          "right": 580,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 5121,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 4986
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "How to Find California Marriage Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_California_Marriage_Records#Marriages_before_1905\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 400,
+          "bottom": 421,
+          "left": 801,
+          "right": 917,
+          "width": 116,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 354,
+                  "bottom": 520,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 166
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's marriage record:\n\nBefore 190…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_California_Marriage_Records#Marriages_between_1905_an…\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 432,
+          "bottom": 453,
+          "left": 801,
+          "right": 948,
+          "width": 147,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 354,
+                  "bottom": 520,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 166
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's marriage record:\n\nBefore 190…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_California_Marriage_Records#Marriages_after_1952\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 464,
+          "bottom": 485,
+          "left": 801,
+          "right": 902,
+          "width": 101,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 354,
+                  "bottom": 520,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 166
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's marriage record:\n\nBefore 190…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Estimate_United_States_Marriage_Information\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 496,
+          "bottom": 517,
+          "left": 801,
+          "right": 1025,
+          "width": 224,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 354,
+                  "bottom": 520,
+                  "left": 771,
+                  "right": 1347,
+                  "width": 576,
+                  "height": 166
+                },
+                "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+                "nodeLabel": "Choose a time period to search for your ancestor's marriage record:\n\nBefore 190…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 5132,
+          "bottom": 5155,
+          "left": 484,
+          "right": 1433,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-10-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 5351,
+                  "left": 0,
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 5291
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nHow to Find California Marriage Records\nLangua…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "definition-list-4": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 356,
+          "bottom": 400,
+          "left": 787,
+          "right": 1345,
+          "width": 558,
+          "height": 44
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 400,
+          "bottom": 518,
+          "left": 787,
+          "right": 1345,
+          "width": 558,
+          "height": 118
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1402,
+          "bottom": 1486,
+          "left": 475,
+          "right": 801,
+          "width": 326,
+          "height": 84
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1402,
+          "bottom": 1486,
+          "left": 821,
+          "right": 1147,
+          "width": 326,
+          "height": 84
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3811,
+          "bottom": 3987,
+          "left": 470,
+          "right": 1450,
+          "width": 979,
+          "height": 176
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 4266,
+          "bottom": 4504,
+          "left": 470,
+          "right": 1450,
+          "width": 979,
+          "height": 238
+        }
+      }
+    ]
+  },
+  "heading-order-5": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "items": [
+      {
+        "snippet": "<h4 class=\"in-block section-heading\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 1540,
+          "bottom": 1583,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 43
+        }
+      },
+      {
+        "snippet": "<h4 class=\"in-block section-heading\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 2004,
+          "bottom": 2046,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 43
+        }
+      },
+      {
+        "snippet": "<h4 class=\"in-block section-heading\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 2824,
+          "bottom": 2867,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 43
+        }
+      }
+    ]
+  },
+  "link-in-text-block-6": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Substitute_Records_for_United_States_Marriage_Information\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1316,
+          "bottom": 1333,
+          "left": 1308,
+          "right": 1435,
+          "width": 127,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-21-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,9,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1314,
+                  "bottom": 1356,
+                  "left": 456,
+                  "right": 1450,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "If your ancestor does not appear in the index, you may need to contact the town…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "target-size-7": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/California_Census\">",
+        "selector": "td > dl > dd > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (110.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1404,
+          "bottom": 1421,
+          "left": 821,
+          "right": 932,
+          "width": 111,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-28-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,TABLE,0,TBODY,1,TR,1,TD,0,DL,1,DD,0,A",
+                "selector": "td > dl > dd > a",
+                "boundingRect": {
+                  "top": 1425,
+                  "bottom": 1442,
+                  "left": 821,
+                  "right": 950,
+                  "width": 129,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/California_Cemeteries\">",
+                "nodeLabel": "Cemetery Records"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/California_Cemeteries\">",
+        "selector": "td > dl > dd > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (128.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1425,
+          "bottom": 1442,
+          "left": 821,
+          "right": 950,
+          "width": 129,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-27-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,TABLE,0,TBODY,1,TR,1,TD,0,DL,0,DD,0,A",
+                "selector": "td > dl > dd > a",
+                "boundingRect": {
+                  "top": 1404,
+                  "bottom": 1421,
+                  "left": 821,
+                  "right": 932,
+                  "width": 111,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/California_Census\">",
+                "nodeLabel": "Census Records"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/California_Vital_Records\">",
+        "selector": "td > dl > dd > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (102.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1446,
+          "bottom": 1463,
+          "left": 821,
+          "right": 923,
+          "width": 102,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-30-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,TABLE,0,TBODY,1,TR,1,TD,0,DL,3,DD,0,A",
+                "selector": "td > dl > dd > a",
+                "boundingRect": {
+                  "top": 1467,
+                  "bottom": 1484,
+                  "left": 821,
+                  "right": 916,
+                  "width": 95,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/California_Bible_Records\">",
+                "nodeLabel": "Bible Records"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/California_Bible_Records\">",
+        "selector": "td > dl > dd > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1467,
+          "bottom": 1484,
+          "left": 821,
+          "right": 916,
+          "width": 95,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-29-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,TABLE,0,TBODY,1,TR,1,TD,0,DL,2,DD,0,A",
+                "selector": "td > dl > dd > a",
+                "boundingRect": {
+                  "top": 1446,
+                  "bottom": 1463,
+                  "left": 821,
+                  "right": 923,
+                  "width": 102,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/California_Vital_Records\">",
+                "nodeLabel": "Death Records"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "table-fake-caption-8": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 735,
+          "bottom": 1265,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 530
+        }
+      },
+      {
+        "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 1370,
+          "bottom": 1491,
+          "left": 456,
+          "right": 1152,
+          "width": 695,
+          "height": 121
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 2911,
+          "bottom": 3446,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 535
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 3517,
+          "bottom": 3706,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 189
+        }
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 4563,
+          "bottom": 4947,
+          "left": 459,
+          "right": 1447,
+          "width": 987,
+          "height": 384
+        }
+      }
+    ]
+  },
+  "td-has-header-9": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 735,
+          "bottom": 1265,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 530
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-31-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,7,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 736,
+                  "bottom": 769,
+                  "left": 457,
+                  "right": 1449,
+                  "width": 991,
+                  "height": 33
+                },
+                "snippet": "<td align=\"left\" colspan=\"3\">",
+                "nodeLabel": "California Marriage Database - Includes Index and Images"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-32-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 770,
+                  "bottom": 824,
+                  "left": 515,
+                  "right": 707,
+                  "width": 192,
+                  "height": 54
+                },
+                "snippet": "<td>",
+                "nodeLabel": "1667-2007 At Findmypast.com"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-33-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,2,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 770,
+                  "bottom": 824,
+                  "left": 708,
+                  "right": 1449,
+                  "width": 741,
+                  "height": 54
+                },
+                "snippet": "<td>",
+                "nodeLabel": "($)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 2060,
+          "bottom": 2357,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 297
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-35-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,23,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2061,
+                  "bottom": 2115,
+                  "left": 457,
+                  "right": 515,
+                  "width": 57,
+                  "height": 54
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try 1st:"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-36-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,23,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2116,
+                  "bottom": 2191,
+                  "left": 516,
+                  "right": 713,
+                  "width": 197,
+                  "height": 75
+                },
+                "snippet": "<td>",
+                "nodeLabel": "1850 - 1952 - At FamilySearch.org"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-37-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,23,TABLE,0,TBODY,1,TR,2,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2116,
+                  "bottom": 2191,
+                  "left": 714,
+                  "right": 1449,
+                  "width": 735,
+                  "height": 75
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Free; index of marriage records from individual counties. Includes marriage lic…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 2911,
+          "bottom": 3446,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 535
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-38-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,35,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2912,
+                  "bottom": 2945,
+                  "left": 457,
+                  "right": 1449,
+                  "width": 991,
+                  "height": 33
+                },
+                "snippet": "<td align=\"left\" colspan=\"3\">",
+                "nodeLabel": "California Marriage Databases - Includes Indexes Only"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-39-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,35,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2946,
+                  "bottom": 2979,
+                  "left": 457,
+                  "right": 556,
+                  "width": 99,
+                  "height": 33
+                },
+                "snippet": "<td>",
+                "nodeLabel": "Try 1st:"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-40-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,35,TABLE,0,TBODY,2,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 2980,
+                  "bottom": 3034,
+                  "left": 557,
+                  "right": 805,
+                  "width": 247,
+                  "height": 54
+                },
+                "snippet": "<td>",
+                "nodeLabel": "1949-1959 at VitalSearch-ca.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 3517,
+          "bottom": 3706,
+          "left": 456,
+          "right": 1450,
+          "width": 993,
+          "height": 189
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-41-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,37,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3519,
+                  "bottom": 3554,
+                  "left": 458,
+                  "right": 1448,
+                  "width": 989,
+                  "height": 35
+                },
+                "snippet": "<td align=\"center\" colspan=\"4\">",
+                "nodeLabel": "To Order Marriage Certificates"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-42-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,37,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3555,
+                  "bottom": 3590,
+                  "left": 458,
+                  "right": 952,
+                  "width": 494,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "County Registrar and Recorder offices"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-43-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,37,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 3555,
+                  "bottom": 3590,
+                  "left": 953,
+                  "right": 1448,
+                  "width": 494,
+                  "height": 35
+                },
+                "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
+                "nodeLabel": "Vital Records office of the California Dept of Public Health"
+              }
+            }
+          ]
         }
       }
     ]

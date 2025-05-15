@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 1247,
           "bottom": 1271,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 1466,
+                  "bottom": 1467,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 1405
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 1406
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nSouth America\nLanguage\nDownload PDF\nWatch\nEdit…"
@@ -91,8 +91,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 662,
+          "left": 456,
+          "right": 655,
           "width": 198,
           "height": 21
         },
@@ -108,8 +108,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },

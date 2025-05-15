@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 8905,
+                  "bottom": 8904,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 8770
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 8769
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "United States Korean War 1950 to 1953\nLanguage\nDownload PDF\nWatch\nEdit\nUnited S…"
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8916,
-          "bottom": 8939,
-          "left": 491,
-          "right": 1441,
+          "top": 8915,
+          "bottom": 8938,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 9135,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 9074
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 3181,
           "bottom": 3198,
-          "left": 564,
-          "right": 704,
+          "left": 556,
+          "right": 697,
           "width": 140,
           "height": 17
         },
@@ -144,8 +144,8 @@
                 "boundingRect": {
                   "top": 3179,
                   "bottom": 3263,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -161,10 +161,10 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 5811,
-          "bottom": 5828,
-          "left": 802,
-          "right": 899,
+          "top": 5810,
+          "bottom": 5827,
+          "left": 795,
+          "right": 891,
           "width": 97,
           "height": 17
         },
@@ -178,10 +178,10 @@
                 "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,49,P",
                 "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 5809,
-                  "bottom": 5893,
-                  "left": 464,
-                  "right": 1457,
+                  "top": 5808,
+                  "bottom": 5892,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -205,8 +205,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 559,
+          "left": 456,
+          "right": 551,
           "width": 95,
           "height": 21
         },
@@ -222,8 +222,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },
@@ -246,11 +246,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 8645,
-          "bottom": 8855,
-          "left": 467,
-          "right": 1454,
+          "bottom": 8854,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 210
+          "height": 209
         }
       }
     ]

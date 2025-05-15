@@ -8,7 +8,7 @@ export default function getAudits(jsonData) {
   const returnData = []
 
   // take id and group fron each auditRef to find full data
-  auditLocations.forEach(({ id, group }) => {
+  auditLocations.forEach(({ id }) => {
     const audit = data.audits[id];
     if (!audit || audit.score !== 0) return
     if (!audit.details.items) return

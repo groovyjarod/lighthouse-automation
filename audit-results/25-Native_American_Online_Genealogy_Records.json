@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 6190,
+                  "bottom": 6200,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 6055
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 6065
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "Native American Online Genealogy Records\nLanguage\nDownload PDF\nWatch\nEdit\nNativ…"
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 294,
           "bottom": 395,
-          "left": 483,
-          "right": 1148,
+          "left": 476,
+          "right": 1141,
           "width": 665,
           "height": 101
         },
@@ -102,8 +102,8 @@
                 "boundingRect": {
                   "top": 281,
                   "bottom": 408,
-                  "left": 467,
-                  "right": 1165,
+                  "left": 459,
+                  "right": 1157,
                   "width": 698,
                   "height": 127
                 },
@@ -119,10 +119,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 6202,
-          "bottom": 6225,
-          "left": 491,
-          "right": 1441,
+          "top": 6211,
+          "bottom": 6235,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -137,11 +137,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 6421,
+                  "bottom": 6431,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 6360
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 6370
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nNative American Online Genealogy Records\nLangu…"
@@ -163,8 +163,8 @@
         "boundingRect": {
           "top": 243,
           "bottom": 264,
-          "left": 464,
-          "right": 580,
+          "left": 456,
+          "right": 572,
           "width": 116,
           "height": 21
         },
@@ -180,8 +180,8 @@
                 "boundingRect": {
                   "top": 198,
                   "bottom": 244,
-                  "left": 456,
-                  "right": 588,
+                  "left": 448,
+                  "right": 580,
                   "width": 132,
                   "height": 46
                 },
@@ -204,11 +204,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 278,
-          "bottom": 6143,
-          "left": 464,
-          "right": 1168,
+          "bottom": 6153,
+          "left": 456,
+          "right": 1160,
           "width": 704,
-          "height": 5866
+          "height": 5875
         }
       },
       {
@@ -218,8 +218,8 @@
         "boundingRect": {
           "top": 278,
           "bottom": 1811,
-          "left": 1168,
-          "right": 1457,
+          "left": 1160,
+          "right": 1450,
           "width": 289,
           "height": 1533
         }

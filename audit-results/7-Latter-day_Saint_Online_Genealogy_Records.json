@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 3076,
+                  "bottom": 3079,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 2941
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 2944
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "Latter-day Saint Online Genealogy Records\nLanguage\nDownload PDF\nWatch\nEdit\nThe …"
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 448,
           "bottom": 549,
-          "left": 486,
-          "right": 1209,
+          "left": 479,
+          "right": 1201,
           "width": 722,
           "height": 101
         },
@@ -102,8 +102,8 @@
                 "boundingRect": {
                   "top": 435,
                   "bottom": 562,
-                  "left": 467,
-                  "right": 1228,
+                  "left": 459,
+                  "right": 1220,
                   "width": 761,
                   "height": 127
                 },
@@ -119,10 +119,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3087,
-          "bottom": 3110,
-          "left": 491,
-          "right": 1441,
+          "top": 3091,
+          "bottom": 3114,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -137,11 +137,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 3306,
+                  "bottom": 3310,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 3245
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 3249
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
                 "nodeLabel": "Open main menu\nFamilySearch Wiki\nLatter-day Saint Online Genealogy Records\nLang…"
@@ -162,11 +162,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 432,
-          "bottom": 3029,
-          "left": 464,
-          "right": 1231,
+          "bottom": 3032,
+          "left": 456,
+          "right": 1223,
           "width": 767,
-          "height": 2597
+          "height": 2600
         }
       },
       {
@@ -176,8 +176,8 @@
         "boundingRect": {
           "top": 432,
           "bottom": 1956,
-          "left": 1231,
-          "right": 1457,
+          "left": 1223,
+          "right": 1450,
           "width": 226,
           "height": 1524
         }

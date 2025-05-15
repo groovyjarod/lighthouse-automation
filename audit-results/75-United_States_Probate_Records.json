@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 5454,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 5319
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 5466,
-          "bottom": 5489,
-          "left": 491,
-          "right": 1441,
+          "top": 5465,
+          "bottom": 5488,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -101,10 +101,10 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
                   "top": 61,
-                  "bottom": 5685,
+                  "bottom": 5684,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 5624
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 3945,
           "bottom": 3962,
-          "left": 1148,
-          "right": 1221,
+          "left": 1140,
+          "right": 1213,
           "width": 73,
           "height": 17
         },
@@ -144,8 +144,8 @@
                 "boundingRect": {
                   "top": 3943,
                   "bottom": 3964,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 21
                 },
@@ -163,8 +163,8 @@
         "boundingRect": {
           "top": 4540,
           "bottom": 4557,
-          "left": 565,
-          "right": 811,
+          "left": 558,
+          "right": 803,
           "width": 246,
           "height": 17
         },
@@ -180,8 +180,8 @@
                 "boundingRect": {
                   "top": 4517,
                   "bottom": 4559,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -205,10 +205,10 @@
         "boundingRect": {
           "top": 5113,
           "bottom": 5404,
-          "left": 467,
-          "right": 1454,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 292
+          "height": 291
         }
       }
     ]

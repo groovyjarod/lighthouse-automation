@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -65,11 +65,11 @@
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
                   "top": 135,
-                  "bottom": 7569,
+                  "bottom": 7568,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
-                  "height": 7434
+                  "right": 1905,
+                  "width": 1905,
+                  "height": 7433
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
                 "nodeLabel": "United States Vital Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States Wiki…"
@@ -83,10 +83,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 7581,
-          "bottom": 7604,
-          "left": 491,
-          "right": 1441,
+          "top": 7580,
+          "bottom": 7603,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 7799,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 7738
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -125,10 +125,10 @@
         "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6751,
-          "bottom": 6834,
-          "left": 478,
-          "right": 1457,
+          "top": 6750,
+          "bottom": 6833,
+          "left": 470,
+          "right": 1450,
           "width": 979,
           "height": 83
         }
@@ -146,8 +146,8 @@
         "boundingRect": {
           "top": 4835,
           "bottom": 4852,
-          "left": 823,
-          "right": 1013,
+          "left": 816,
+          "right": 1006,
           "width": 190,
           "height": 17
         },
@@ -163,8 +163,8 @@
                 "boundingRect": {
                   "top": 4770,
                   "bottom": 4854,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 84
                 },
@@ -188,8 +188,8 @@
         "boundingRect": {
           "top": 4211,
           "bottom": 4263,
-          "left": 464,
-          "right": 1064,
+          "left": 456,
+          "right": 1056,
           "width": 600,
           "height": 52
         },
@@ -205,8 +205,8 @@
                 "boundingRect": {
                   "top": 4242,
                   "bottom": 4242,
-                  "left": 889,
-                  "right": 1059,
+                  "left": 881,
+                  "right": 1051,
                   "width": 170,
                   "height": 0
                 },
@@ -224,8 +224,8 @@
         "boundingRect": {
           "top": 4347,
           "bottom": 4430,
-          "left": 464,
-          "right": 1064,
+          "left": 456,
+          "right": 1056,
           "width": 600,
           "height": 83
         },
@@ -241,8 +241,8 @@
                 "boundingRect": {
                   "top": 4378,
                   "bottom": 4378,
-                  "left": 889,
-                  "right": 1059,
+                  "left": 881,
+                  "right": 1051,
                   "width": 170,
                   "height": 0
                 },
@@ -266,8 +266,8 @@
         "boundingRect": {
           "top": 3318,
           "bottom": 3335,
-          "left": 464,
-          "right": 659,
+          "left": 456,
+          "right": 651,
           "width": 195,
           "height": 17
         },
@@ -283,8 +283,8 @@
                 "boundingRect": {
                   "top": 3339,
                   "bottom": 3356,
-                  "left": 464,
-                  "right": 646,
+                  "left": 456,
+                  "right": 638,
                   "width": 182,
                   "height": 17
                 },
@@ -302,8 +302,8 @@
         "boundingRect": {
           "top": 3339,
           "bottom": 3356,
-          "left": 464,
-          "right": 646,
+          "left": 456,
+          "right": 638,
           "width": 182,
           "height": 17
         },
@@ -319,8 +319,8 @@
                 "boundingRect": {
                   "top": 3318,
                   "bottom": 3335,
-                  "left": 464,
-                  "right": 659,
+                  "left": 456,
+                  "right": 651,
                   "width": 195,
                   "height": 17
                 },
@@ -343,11 +343,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 7227,
-          "bottom": 7519,
-          "left": 467,
-          "right": 1454,
+          "bottom": 7518,
+          "left": 459,
+          "right": 1447,
           "width": 987,
-          "height": 292
+          "height": 291
         }
       }
     ]
