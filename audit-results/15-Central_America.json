@@ -1,328 +1,58 @@
 {
-  "accessibilityScore": 84,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibilityScore": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
-          "left": 456,
-          "right": 469,
-          "width": 13,
-          "height": 13
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]
   },
-  "aria-valid-attr-value-2": {
-    "title": "`[aria-*]` attributes do not have valid values",
-    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+  "frame-title-2": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Central+America\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
-        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=14-14069028-0%20PNNN%20RT%281747330…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 1269,
-          "right": 1373,
-          "width": 103,
-          "height": 46
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]
   },
-  "color-contrast-3": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
     "items": [
       {
-        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 448,
-          "right": 580,
-          "width": 132,
-          "height": 46
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-3-MAIN",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
-                "boundingRect": {
-                  "top": 135,
-                  "bottom": 1338,
-                  "left": 0,
-                  "right": 1905,
-                  "width": 1905,
-                  "height": 1203
-                },
-                "snippet": "<main id=\"content\" class=\"mw-body\">",
-                "nodeLabel": "Central America\nLanguage\nDownload PDF\nWatch\nEdit\nFamilySearch Research Wiki\nCen…"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
-        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 1349,
-          "bottom": 1372,
-          "left": 484,
-          "right": 1433,
-          "width": 949,
-          "height": 23
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-5-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
-                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
-                "boundingRect": {
-                  "top": 61,
-                  "bottom": 1569,
-                  "left": 0,
-                  "right": 1905,
-                  "width": 1905,
-                  "height": 1508
-                },
-                "snippet": "<div id=\"mw-mf-page-center\">",
-                "nodeLabel": "Open main menu\nFamilySearch Wiki\nCentral America\nLanguage\nDownload PDF\nWatch\nEd…"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "heading-order-4": {
-    "title": "Heading elements are not in a sequentially-descending order",
-    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
-    "items": [
-      {
-        "snippet": "<h3 class=\"section-heading\">",
-        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > h3.section-heading",
-        "explanation": "Fix any of the following:\n  Heading order invalid",
-        "boundingRect": {
-          "top": 1025,
-          "bottom": 1071,
-          "left": 456,
-          "right": 1450,
-          "width": 993,
-          "height": 46
-        }
-      }
-    ]
-  },
-  "list-5": {
-    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
-    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
-    "items": [
-      {
-        "snippet": "<ul class=\"column-spacing-halfscreen\" style=\"padding-right=\">",
-        "selector": "tbody > tr > td > ul.column-spacing-halfscreen",
-        "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: b, ul",
-        "boundingRect": {
-          "top": 326,
-          "bottom": 991,
-          "left": 1066,
-          "right": 1545,
-          "width": 479,
-          "height": 665
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-8-B",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,0,B",
-                "selector": "tr > td > ul.column-spacing-halfscreen > b",
-                "boundingRect": {
-                  "top": 328,
-                  "bottom": 345,
-                  "left": 1080,
-                  "right": 1212,
-                  "width": 132,
-                  "height": 17
-                },
-                "snippet": "<b>",
-                "nodeLabel": "Central America:"
-              }
-            },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-9-UL",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,1,UL",
-                "selector": "tr > td > ul.column-spacing-halfscreen > ul",
-                "boundingRect": {
-                  "top": 347,
-                  "bottom": 554,
-                  "left": 1094,
-                  "right": 1226,
-                  "width": 132,
-                  "height": 207
-                },
-                "snippet": "<ul>",
-                "nodeLabel": "Belize\nCosta Rica\nEl Salvador\nGuatemala\nHonduras\nNicaragua\nPanama"
-              }
-            },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-10-B",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,2,B",
-                "selector": "tr > td > ul.column-spacing-halfscreen > b",
-                "boundingRect": {
-                  "top": 556,
-                  "bottom": 573,
-                  "left": 1080,
-                  "right": 1165,
-                  "width": 85,
-                  "height": 17
-                },
-                "snippet": "<b>",
-                "nodeLabel": "Caribbean:"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "snippet": "<ul>",
-        "selector": "tr > td > ul.column-spacing-halfscreen > ul",
-        "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: #text, a, ul",
-        "boundingRect": {
-          "top": 326,
-          "bottom": 991,
-          "left": 1094,
-          "right": 1545,
-          "width": 451,
-          "height": 665
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-12-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,3,UL,4,A",
-                "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
-                "boundingRect": {
-                  "top": 712,
-                  "bottom": 750,
-                  "left": 1108,
-                  "right": 1193,
-                  "width": 85,
-                  "height": 38
-                },
-                "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
-                "nodeLabel": "Netherlands Antilles"
-              }
-            },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-13-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,3,UL,10,A",
-                "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
-                "boundingRect": {
-                  "top": 868,
-                  "bottom": 906,
-                  "left": 1108,
-                  "right": 1193,
-                  "width": 85,
-                  "height": 38
-                },
-                "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
-                "nodeLabel": "Netherlands Antilles"
-              }
-            },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-14-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,UL,3,UL,17,A",
-                "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
-                "boundingRect": {
-                  "top": 411,
-                  "bottom": 449,
-                  "left": 1268,
-                  "right": 1353,
-                  "width": 85,
-                  "height": 38
-                },
-                "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
-                "nodeLabel": "Netherlands Antilles"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "target-size-6": {
-    "title": "Touch targets do not have sufficient size or spacing.",
-    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Main_Page\">",
-        "selector": "div.mw-parser-output > div > div > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (198.3px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
-        "boundingRect": {
-          "top": 243,
-          "bottom": 264,
-          "left": 456,
-          "right": 655,
-          "width": 198,
-          "height": 21
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-2-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
-                "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-                "boundingRect": {
-                  "top": 198,
-                  "bottom": 244,
-                  "left": 448,
-                  "right": 580,
-                  "width": 132,
-                  "height": 46
-                },
-                "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-                "nodeLabel": "Language"
-              }
-            }
-          ]
+          "top": 0,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920,
+          "width": 1920,
+          "height": 1080
         }
       }
     ]
