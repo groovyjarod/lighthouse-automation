@@ -1,0 +1,331 @@
+{
+  "accessibility-score": 82,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Germany+Church+Records\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 14670,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 14534
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "Germany Church Records\nLanguage\nDownload PDF\nWatch\nEdit\nGermany Wiki Topics\n\nGe…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 14681,
+          "bottom": 14704,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 14900,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 14839
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nGermany Church Records\nLanguage\nDownload PDF\nW…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "link-in-text-block-4": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Obituaries\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 4957,
+          "bottom": 4974,
+          "left": 919,
+          "right": 1060,
+          "width": 141,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,39,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 4934,
+                  "bottom": 4976,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Funeral sermons: If the burial record mentions a sermon, you may be able to fin…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Town_Genealogies_and_Parish_Register_Inventories_on_the_I…\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 6074,
+          "bottom": 6091,
+          "left": 464,
+          "right": 996,
+          "width": 532,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-9-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,55,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 6051,
+                  "bottom": 6093,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Pastors or genealogists sometimes compiled a village lineage book (Ortssippenbu…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany,_Lutheran_Baptisms,_Marriages,_and_Burials_-_FamilySearch…\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 7728,
+          "bottom": 7745,
+          "left": 941,
+          "right": 1007,
+          "width": 66,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-11-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,67,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 7705,
+                  "bottom": 7747,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "100% coverage cannot be guaranteed. Expect to encounter restrictions on access …"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "link-name-5": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Map_of_Eparchies_of_Serbian_Orthodox_Church_…\" class=\"image\">",
+        "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 12218,
+          "bottom": 12235,
+          "left": 1155,
+          "right": 1455,
+          "width": 300,
+          "height": 17
+        }
+      }
+    ]
+  },
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Brandenburg,_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (90.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 9332,
+          "bottom": 9349,
+          "left": 753,
+          "right": 843,
+          "width": 91,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-14-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,74,TABLE,0,TBODY,0,TR,1,TD,1,UL,0,LI,1,UL,0,LI,0,A",
+                "selector": "li > ul > li > a",
+                "boundingRect": {
+                  "top": 9353,
+                  "bottom": 9370,
+                  "left": 781,
+                  "right": 821,
+                  "width": 40,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/Berlin,_Brandenburg,_German_Empire_Church_Records\">",
+                "nodeLabel": "Berlin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Berlin,_Brandenburg,_German_Empire_Church_Records\">",
+        "selector": "li > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (40.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 9353,
+          "bottom": 9370,
+          "left": 781,
+          "right": 821,
+          "width": 40,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-13-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,74,TABLE,0,TBODY,0,TR,1,TD,1,UL,0,LI,0,A",
+                "selector": "td > ul > li > a",
+                "boundingRect": {
+                  "top": 9332,
+                  "bottom": 9349,
+                  "left": 753,
+                  "right": 843,
+                  "width": 91,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/Brandenburg,_German_Empire_Church_Records\">",
+                "nodeLabel": "Brandenburg"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "number-of-Items": 6
+}

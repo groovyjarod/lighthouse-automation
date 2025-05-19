@@ -1,0 +1,232 @@
+{
+  "accessibility-score": 83,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Illinois+Obituaries\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 4498,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 4363
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "Illinois Obituaries\nLanguage\nDownload PDF\nWatch\nEdit\nIllinois Wiki Topics\n\nBegi…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 4510,
+          "bottom": 4533,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 4728,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 4667
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nIllinois Obituaries\nLanguage\nDownload PDF\nWatc…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "definition-list-4": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3870,
+          "bottom": 3954,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 84
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3870,
+          "bottom": 3954,
+          "left": 492,
+          "right": 1457,
+          "width": 965,
+          "height": 84
+        }
+      }
+    ]
+  },
+  "link-in-text-block-5": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Illinois_Cemeteries\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2579,
+          "bottom": 2596,
+          "left": 571,
+          "right": 648,
+          "width": 77,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-9-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,11,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 2535,
+                  "bottom": 2661,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 126
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Generally, the first step to obtaining an obituary is to find the death date of…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "link-name-6": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Obituaries.jpg&amp;filetimestamp=20110607190415&amp;\" class=\"image\">",
+        "selector": "td > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 2954,
+          "bottom": 2971,
+          "left": 489,
+          "right": 739,
+          "width": 250,
+          "height": 17
+        }
+      }
+    ]
+  },
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 4048,
+          "bottom": 4448,
+          "left": 467,
+          "right": 1454,
+          "width": 987,
+          "height": 400
+        }
+      }
+    ]
+  },
+  "number-of-Items": 7
+}

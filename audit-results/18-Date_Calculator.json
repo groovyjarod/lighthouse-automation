@@ -1,0 +1,270 @@
+{
+  "accessibility-score": 89,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Date+Calculator\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 2734,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 2599
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "Date Calculator\nLanguage\nDownload PDF\nWatch\nEdit\n\n\n\n\nContents\nCalculating Birth…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2746,
+          "bottom": 2769,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 2965,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 2904
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nDate Calculator\nLanguage\nDownload PDF\nWatch\nEd…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"#cite_ref-1\">",
+        "selector": "ol.references > li#cite_note-1 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2589,
+          "bottom": 2606,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,37,DIV,0,OL,0,LI,1,SPAN,0,A",
+                "selector": "ol.references > li#cite_note-1 > span.reference-text > a.external",
+                "boundingRect": {
+                  "top": 2589,
+                  "bottom": 2606,
+                  "left": 509,
+                  "right": 635,
+                  "width": 125,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.searchforancestors.com/utility/birthday.html\">",
+                "nodeLabel": "Ancestor search"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"#cite_ref-2\">",
+        "selector": "ol.references > li#cite_note-2 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2620,
+          "bottom": 2637,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-9-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,37,DIV,0,OL,1,LI,1,SPAN,0,A",
+                "selector": "ol.references > li#cite_note-2 > span.reference-text > a.external",
+                "boundingRect": {
+                  "top": 2620,
+                  "bottom": 2637,
+                  "left": 509,
+                  "right": 635,
+                  "width": 125,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.searchforancestors.com/utility/birthday.html\">",
+                "nodeLabel": "Ancestor search"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"#cite_ref-3\">",
+        "selector": "ol.references > li#cite_note-3 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2651,
+          "bottom": 2668,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-11-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,37,DIV,0,OL,2,LI,1,SPAN,0,A",
+                "selector": "ol.references > li#cite_note-3 > span.reference-text > a.external",
+                "boundingRect": {
+                  "top": 2651,
+                  "bottom": 2668,
+                  "left": 509,
+                  "right": 635,
+                  "width": 125,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.searchforancestors.com/utility/birthday.html\">",
+                "nodeLabel": "Ancestor search"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"#cite_ref-4\">",
+        "selector": "ol.references > li#cite_note-4 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2682,
+          "bottom": 2699,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-13-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,37,DIV,0,OL,3,LI,1,SPAN,0,A",
+                "selector": "ol.references > li#cite_note-4 > span.reference-text > a.external",
+                "boundingRect": {
+                  "top": 2682,
+                  "bottom": 2699,
+                  "left": 509,
+                  "right": 667,
+                  "width": 158,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.searchforancestors.com/utility/birthday.html\">",
+                "nodeLabel": "Search for ancestors"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "number-of-Items": 4
+}

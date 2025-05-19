@@ -37,7 +37,7 @@ function runAuditAsChild(fullUrl, outputPath) {
 async function commenceAllAudits(paths) {
   const tasks = paths.map((path, index) => {
     const fullUrl = `${urlBase}${language}/wiki/${path}`;
-    const outputFile = `./audit-results/${index}-${path}.json`;
+    const outputFile = `./audit-results/${index+1}-${path}.json`;
     return limit(() => runAuditAsChild(fullUrl, outputFile));
   });
 
