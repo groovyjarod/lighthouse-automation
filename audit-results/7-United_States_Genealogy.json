@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 67,
           "bottom": 80,
-          "left": 463,
-          "right": 476,
+          "left": 456,
+          "right": 469,
           "width": 13,
           "height": 13
         }
@@ -30,8 +30,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 1277,
-          "right": 1380,
+          "left": 1269,
+          "right": 1373,
           "width": 103,
           "height": 46
         }
@@ -49,8 +49,8 @@
         "boundingRect": {
           "top": 198,
           "bottom": 244,
-          "left": 456,
-          "right": 588,
+          "left": 448,
+          "right": 580,
           "width": 132,
           "height": 46
         },
@@ -67,8 +67,8 @@
                   "top": 135,
                   "bottom": 3842,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 3707
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
@@ -85,8 +85,8 @@
         "boundingRect": {
           "top": 3853,
           "bottom": 3877,
-          "left": 491,
-          "right": 1441,
+          "left": 484,
+          "right": 1433,
           "width": 949,
           "height": 23
         },
@@ -103,8 +103,8 @@
                   "top": 61,
                   "bottom": 4072,
                   "left": 0,
-                  "right": 1920,
-                  "width": 1920,
+                  "right": 1905,
+                  "width": 1905,
                   "height": 4011
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
@@ -127,8 +127,8 @@
         "boundingRect": {
           "top": 2061,
           "bottom": 2078,
-          "left": 976,
-          "right": 1029,
+          "left": 969,
+          "right": 1022,
           "width": 53,
           "height": 17
         },
@@ -144,8 +144,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -163,8 +163,8 @@
         "boundingRect": {
           "top": 2061,
           "bottom": 2078,
-          "left": 1065,
-          "right": 1113,
+          "left": 1057,
+          "right": 1105,
           "width": 48,
           "height": 17
         },
@@ -180,8 +180,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -199,8 +199,8 @@
         "boundingRect": {
           "top": 2082,
           "bottom": 2099,
-          "left": 544,
-          "right": 634,
+          "left": 536,
+          "right": 626,
           "width": 90,
           "height": 17
         },
@@ -216,8 +216,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -235,8 +235,8 @@
         "boundingRect": {
           "top": 2082,
           "bottom": 2099,
-          "left": 644,
-          "right": 690,
+          "left": 636,
+          "right": 683,
           "width": 47,
           "height": 17
         },
@@ -252,8 +252,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -271,8 +271,8 @@
         "boundingRect": {
           "top": 2082,
           "bottom": 2099,
-          "left": 700,
-          "right": 785,
+          "left": 693,
+          "right": 777,
           "width": 85,
           "height": 17
         },
@@ -288,8 +288,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -307,8 +307,8 @@
         "boundingRect": {
           "top": 2082,
           "bottom": 2099,
-          "left": 795,
-          "right": 834,
+          "left": 788,
+          "right": 827,
           "width": 39,
           "height": 17
         },
@@ -324,8 +324,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -343,8 +343,8 @@
         "boundingRect": {
           "top": 2082,
           "bottom": 2099,
-          "left": 875,
-          "right": 921,
+          "left": 868,
+          "right": 913,
           "width": 45,
           "height": 17
         },
@@ -360,8 +360,8 @@
                 "boundingRect": {
                   "top": 2059,
                   "bottom": 2101,
-                  "left": 464,
-                  "right": 1457,
+                  "left": 456,
+                  "right": 1450,
                   "width": 993,
                   "height": 42
                 },
@@ -379,8 +379,8 @@
         "boundingRect": {
           "top": 3769,
           "bottom": 3786,
-          "left": 495,
-          "right": 504,
+          "left": 488,
+          "right": 497,
           "width": 9,
           "height": 17
         },
@@ -396,8 +396,8 @@
                 "boundingRect": {
                   "top": 3767,
                   "bottom": 3809,
-                  "left": 495,
-                  "right": 1457,
+                  "left": 488,
+                  "right": 1450,
                   "width": 962,
                   "height": 42
                 },
