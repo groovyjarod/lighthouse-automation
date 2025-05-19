@@ -16,6 +16,19 @@ if (!numberOfConcurrentAudits) {
 
 const limit = pLimit(numberOfConcurrentAudits);
 
+async function retryAudit(fn, retries=2) {
+  let errMessage
+  for (let i = 0; i < retries; i++) {
+    try {
+      return await fn()
+    } catch (err) {
+      errMessage = err
+      console.warn(`Retry ${i+1} failed. Trying agin...`)
+    }
+  }
+  throw errMessage
+}
+
 function runAuditAsChild(fullUrl, outputPath) {
   return new Promise((resolve, reject) => {
     const child = spawn("node", ["runAndWriteAudit.mjs", fullUrl, outputPath], {
@@ -31,6 +44,11 @@ function runAuditAsChild(fullUrl, outputPath) {
         );
       }
     });
+
+    child.on("error", (err) => {
+      console.error(`Spawn error for ${fullUrl}: ${err}`)
+      reject(err)
+    })
   });
 }
 
@@ -38,7 +56,7 @@ async function commenceAllAudits(paths) {
   const tasks = paths.map((path, index) => {
     const fullUrl = `${urlBase}${language}/wiki/${path}`;
     const outputFile = `./audit-results/${index+1}-${path}.json`;
-    return limit(() => runAuditAsChild(fullUrl, outputFile));
+    return limit(() => retryAudit(() => runAuditAsChild(fullUrl, outputFile), 2));
   });
 
   await Promise.all(tasks);
