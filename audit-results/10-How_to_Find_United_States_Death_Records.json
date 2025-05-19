@@ -1,0 +1,398 @@
+{
+  "accessibility-score": 83,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=How+to+Find+United+Sta…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 2888,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 2753
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "How to Find United States Death Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2899,
+          "bottom": 2922,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 3118,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 3057
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nHow to Find United States Death Records\nLangua…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "definition-list-4": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 359,
+          "bottom": 380,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 21
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1041,
+          "bottom": 1197,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 156
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1652,
+          "bottom": 1766,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 114
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1808,
+          "bottom": 1922,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 114
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2041,
+          "bottom": 2186,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 145
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2249,
+          "bottom": 2487,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 238
+        }
+      }
+    ]
+  },
+  "link-in-text-block-5": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2496,
+          "bottom": 2513,
+          "left": 885,
+          "right": 1076,
+          "width": 192,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-13-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,19,P",
+                "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 2494,
+                  "bottom": 2515,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 21
+                },
+                "snippet": "<p>",
+                "nodeLabel": "More information about US Death Records can be found on United States Vital Rec…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Genealogy\">",
+        "selector": "div.mw-parser-output > div > div > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+        "boundingRect": {
+          "top": 243,
+          "bottom": 264,
+          "left": 464,
+          "right": 559,
+          "width": 95,
+          "height": 21
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-2-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
+                "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+                "boundingRect": {
+                  "top": 198,
+                  "bottom": 244,
+                  "left": 456,
+                  "right": 588,
+                  "width": 132,
+                  "height": 46
+                },
+                "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+                "nodeLabel": "Language"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table width=\"31%\" cellspacing=\"1\" cellpadding=\"5\" border=\"1\" style=\"float: right;\">",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 1260,
+          "bottom": 1603,
+          "left": 464,
+          "right": 772,
+          "width": 308,
+          "height": 343
+        }
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 2546,
+          "bottom": 2838,
+          "left": 467,
+          "right": 1454,
+          "width": 987,
+          "height": 292
+        }
+      }
+    ]
+  },
+  "td-has-header-8": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table width=\"31%\" cellspacing=\"1\" cellpadding=\"5\" border=\"1\" style=\"float: right;\">",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 1260,
+          "bottom": 1603,
+          "left": 464,
+          "right": 772,
+          "width": 308,
+          "height": 343
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-17-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,9,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 1262,
+                  "bottom": 1295,
+                  "left": 466,
+                  "right": 770,
+                  "width": 304,
+                  "height": 33
+                },
+                "snippet": "<td width=\"31%\" bgcolor=\"#B2B2FF\" colspan=\"3\">",
+                "nodeLabel": "Death Records reveal"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-18-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,9,TABLE,0,TBODY,1,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 1296,
+                  "bottom": 1329,
+                  "left": 466,
+                  "right": 688,
+                  "width": 223,
+                  "height": 33
+                },
+                "snippet": "<td width=\"25%\">",
+                "nodeLabel": "Yes or Maybe ⇒"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-19-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,9,TABLE,0,TBODY,1,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 1296,
+                  "bottom": 1329,
+                  "left": 689,
+                  "right": 728,
+                  "width": 38,
+                  "height": 33
+                },
+                "snippet": "<td width=\"3%\">",
+                "nodeLabel": "Y"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "number-of-Items": 8
+}

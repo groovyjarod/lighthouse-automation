@@ -2,10 +2,6 @@ import lighthouse from "lighthouse";
 import * as chromeLauncher from "chrome-launcher";
 // import fs from "fs";
 
-// const BASE_URL = "https://www.familysearch.org/en/wiki/";
-// const PAGE = "Guild_of_One-Name_Studies";
-// const PAGE = "United_States,_Social_Security_Death_Index_-_FamilySearch_Historical_Records"
-const PAGE = "Denmark_Feast_Day_Calendars"
 const OUTPUT_FORMAT = "json"; // 'html'
 const TESTING_METHOD = "desktop"; // 'mobile'
 const isMobile = TESTING_METHOD === "mobile";
@@ -56,8 +52,4 @@ export default async function runLighthouse(url) {
   // );
 
 }
-
-// TODO: generate a total number of issues per page
-// put accessibility score in json output
-// issue count (total number of items to edit)
 // starting score beforehand -> ending score

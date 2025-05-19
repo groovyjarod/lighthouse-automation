@@ -1,0 +1,849 @@
+{
+  "accessibility-score": 79,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Germany+Civil+Registra…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 9007,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 8872
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "Germany Civil Registration\nLanguage\nDownload PDF\nWatch\nEdit\nGermany Wiki Topics…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 491,
+          "right": 545,
+          "width": 55,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 467,
+                  "right": 569,
+                  "width": 102,
+                  "height": 64
+                },
+                "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Record Type"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 597,
+          "right": 647,
+          "width": 50,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 571,
+                  "right": 673,
+                  "width": 102,
+                  "height": 64
+                },
+                "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Birth Stamp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 713,
+          "right": 783,
+          "width": 70,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-9-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,2,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 675,
+                  "right": 821,
+                  "width": 146,
+                  "height": 64
+                },
+                "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Marriage Stamp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 854,
+          "right": 914,
+          "width": 60,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-11-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,3,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 823,
+                  "right": 945,
+                  "width": 122,
+                  "height": 64
+                },
+                "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Divorce Note"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 983,
+          "right": 1033,
+          "width": 50,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-13-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,4,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 947,
+                  "right": 1069,
+                  "width": 122,
+                  "height": 64
+                },
+                "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Death Stamp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 1095,
+          "right": 1168,
+          "width": 73,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-15-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,5,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 1071,
+                  "right": 1192,
+                  "width": 122,
+                  "height": 64
+                },
+                "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Paternity Note"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 1213,
+          "right": 1322,
+          "width": 109,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-17-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,6,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 1194,
+                  "right": 1340,
+                  "width": 146,
+                  "height": 64
+                },
+                "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Name Change Note"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > td > span > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 6109,
+          "bottom": 6147,
+          "left": 1357,
+          "right": 1439,
+          "width": 82,
+          "height": 38
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-19-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,7,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 1342,
+                  "right": 1454,
+                  "width": 112,
+                  "height": 64
+                },
+                "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Correction Note"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 9019,
+          "bottom": 9042,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-21-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 9237,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 9176
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nGermany Civil Registration\nLanguage\nDownload P…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "definition-list-4": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3806,
+          "bottom": 4057,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 251
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 6952,
+          "bottom": 6973,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 21
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 7886,
+          "bottom": 8022,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 136
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 7907,
+          "bottom": 8022,
+          "left": 492,
+          "right": 1457,
+          "width": 965,
+          "height": 115
+        }
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 8473,
+          "bottom": 8515,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 42
+        }
+      }
+    ]
+  },
+  "heading-order-5": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "items": [
+      {
+        "snippet": "<h4 class=\"in-block section-heading\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 6736,
+          "bottom": 6779,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 43
+        }
+      }
+    ]
+  },
+  "link-in-text-block-6": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_%22How_to%22_Guides\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 6433,
+          "bottom": 6450,
+          "left": 464,
+          "right": 648,
+          "width": 184,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-29-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,47,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 6410,
+                  "bottom": 6452,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "For more information about stamps and notes, see the \"Reading German Civil Birt…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Archives_and_Libraries\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 8384,
+          "bottom": 8401,
+          "left": 977,
+          "right": 1201,
+          "width": 224,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-31-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,72,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 8361,
+                  "bottom": 8403,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Duplicate registers from some towns are kept in state archives. For more recent…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Archives_and_Libraries\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 8440,
+          "bottom": 8457,
+          "left": 464,
+          "right": 688,
+          "width": 224,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-33-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,73,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 8417,
+                  "bottom": 8459,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "You may also find archive inventories that describe the record-keeping systems …"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/German_Letter_Writing_Guide\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 8622,
+          "bottom": 8639,
+          "left": 754,
+          "right": 957,
+          "width": 203,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-35-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,76,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 8557,
+                  "bottom": 8641,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 84
+                },
+                "snippet": "<p>",
+                "nodeLabel": "After determining who has jurisdiction over the records for the time period you…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "link-name-7": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Civil_reg_1808-1815.jpg&amp;filetimestamp=202201…\" class=\"image\">",
+        "selector": "td > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 2293,
+          "bottom": 2310,
+          "left": 486,
+          "right": 786,
+          "width": 300,
+          "height": 17
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Civil_reg_1875.jpg&amp;filetimestamp=20230319190…\" class=\"image\">",
+        "selector": "td > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 3091,
+          "bottom": 3108,
+          "left": 486,
+          "right": 786,
+          "width": 300,
+          "height": 17
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Herne_Stadtarchiv_Standesamt_Baukau.jpg&amp;file…\" class=\"image\">",
+        "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 3577,
+          "bottom": 3594,
+          "left": 1205,
+          "right": 1455,
+          "width": 250,
+          "height": 17
+        }
+      }
+    ]
+  },
+  "target-size-8": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Brandenburg,_German_Empire_Civil_Registration\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (90.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7313,
+          "bottom": 7330,
+          "left": 753,
+          "right": 843,
+          "width": 91,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-40-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,63,TABLE,0,TBODY,0,TR,1,TD,1,UL,0,LI,1,UL,0,LI,0,A",
+                "selector": "li > ul > li > a",
+                "boundingRect": {
+                  "top": 7334,
+                  "bottom": 7351,
+                  "left": 781,
+                  "right": 821,
+                  "width": 40,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/Berlin,_Brandenburg,_German_Empire_Civil_Registration\">",
+                "nodeLabel": "Berlin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Berlin,_Brandenburg,_German_Empire_Civil_Registration\">",
+        "selector": "li > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (40.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7334,
+          "bottom": 7351,
+          "left": 781,
+          "right": 821,
+          "width": 40,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-39-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,63,TABLE,0,TBODY,0,TR,1,TD,1,UL,0,LI,0,A",
+                "selector": "td > ul > li > a",
+                "boundingRect": {
+                  "top": 7313,
+                  "bottom": 7330,
+                  "left": 753,
+                  "right": 843,
+                  "width": 91,
+                  "height": 17
+                },
+                "snippet": "<a href=\"/en/wiki/Brandenburg,_German_Empire_Civil_Registration\">",
+                "nodeLabel": "Brandenburg"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "td-has-header-9": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table width=\"100%\" border=\"1\" cellpadding=\"10\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 6093,
+          "bottom": 6319,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 226
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,0,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 467,
+                  "right": 569,
+                  "width": 102,
+                  "height": 64
+                },
+                "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Record Type"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,1,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 571,
+                  "right": 673,
+                  "width": 102,
+                  "height": 64
+                },
+                "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Birth Stamp"
+              }
+            },
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-9-TD",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,45,TABLE,0,TBODY,0,TR,2,TD",
+                "selector": "table > tbody > tr > td",
+                "boundingRect": {
+                  "top": 6096,
+                  "bottom": 6160,
+                  "left": 675,
+                  "right": 821,
+                  "width": 146,
+                  "height": 64
+                },
+                "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
+                "nodeLabel": "Marriage Stamp"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "number-of-Items": 9
+}

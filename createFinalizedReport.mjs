@@ -17,11 +17,15 @@ async function getAuditAccessibilityData (urlPath) {
 async function organizeData(urlPath) {
     const [rawResultsData, accessibilityScore] = await getAuditAccessibilityData(urlPath)
     const initialJsonReport = {}
-    initialJsonReport['accessibilityScore'] = accessibilityScore
+    let itemCount = 0
+    initialJsonReport['accessibility-score'] = accessibilityScore
     rawResultsData.forEach((item, index) => {
         const {id, title, description, items} = item
+        itemCount++
         initialJsonReport[`${id}-${index+1}`] = {title, description, items}
     })
+    initialJsonReport['number-of-Items'] = itemCount
+    console.log(itemCount)
     const finalizedJsonReport = JSON.stringify(initialJsonReport, null, 2)
     return finalizedJsonReport
 }

@@ -1,0 +1,492 @@
+{
+  "accessibility-score": 85,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        }
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Italy+Genealogy\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        }
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-3-MAIN",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+                "boundingRect": {
+                  "top": 135,
+                  "bottom": 4606,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 4471
+                },
+                "snippet": "<main id=\"content\" class=\"mw-body\">",
+                "nodeLabel": "Italy Genealogy\nLanguage\nDownload PDF\nWatch\nEdit\nItaly Wiki Topics\n\nItaly Begin…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 4618,
+          "bottom": 4641,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-5-DIV",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+                "boundingRect": {
+                  "top": 61,
+                  "bottom": 4837,
+                  "left": 0,
+                  "right": 1920,
+                  "width": 1920,
+                  "height": 4776
+                },
+                "snippet": "<div id=\"mw-mf-page-center\">",
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nItaly Genealogy\nLanguage\nDownload PDF\nWatch\nEd…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "link-in-text-block-4": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/France_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 852,
+          "right": 899,
+          "width": 47,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 909,
+          "right": 991,
+          "width": 82,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Austria_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 1001,
+          "right": 1050,
+          "width": 49,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Slovenia_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 1060,
+          "right": 1119,
+          "width": 59,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/San_Marino_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 1129,
+          "right": 1208,
+          "width": 79,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Vatican_City_Genealogy\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1914,
+          "bottom": 1931,
+          "left": 1249,
+          "right": 1332,
+          "width": 83,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P",
+                "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+                "boundingRect": {
+                  "top": 1912,
+                  "bottom": 1954,
+                  "left": 464,
+                  "right": 1457,
+                  "width": 993,
+                  "height": 42
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Italy is a country in Southwestern Europe bordered by France, Switzerland, Aust…"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Prato,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (102.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3793,
+          "bottom": 3810,
+          "left": 1080,
+          "right": 1182,
+          "width": 103,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-14-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,18,TABLE,0,TBODY,0,TR,0,TD,0,UL,92,LI,0,A",
+                "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+                "boundingRect": {
+                  "top": 3689,
+                  "bottom": 4433,
+                  "left": 1080,
+                  "right": 1330,
+                  "width": 250,
+                  "height": 744
+                },
+                "snippet": "<a href=\"/en/wiki/South_Tyrol,_Trentino-Alto_Adige/S%C3%BCdtirol,_Italy_Genealogy\" class=\"mw-redirect\">",
+                "nodeLabel": "South Tyrol (Bolzano – Alto Adige), Trentino-Alto Adige/Südtirol"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ragusa,_Sicily,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (97.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3824,
+          "bottom": 3841,
+          "left": 1080,
+          "right": 1178,
+          "width": 98,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-14-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,18,TABLE,0,TBODY,0,TR,0,TD,0,UL,92,LI,0,A",
+                "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+                "boundingRect": {
+                  "top": 3689,
+                  "bottom": 4433,
+                  "left": 1080,
+                  "right": 1330,
+                  "width": 250,
+                  "height": 744
+                },
+                "snippet": "<a href=\"/en/wiki/South_Tyrol,_Trentino-Alto_Adige/S%C3%BCdtirol,_Italy_Genealogy\" class=\"mw-redirect\">",
+                "nodeLabel": "South Tyrol (Bolzano – Alto Adige), Trentino-Alto Adige/Südtirol"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Taranto,_Apulia,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3793,
+          "bottom": 3810,
+          "left": 1230,
+          "right": 1335,
+          "width": 105,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-14-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,18,TABLE,0,TBODY,0,TR,0,TD,0,UL,92,LI,0,A",
+                "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+                "boundingRect": {
+                  "top": 3689,
+                  "bottom": 4433,
+                  "left": 1080,
+                  "right": 1330,
+                  "width": 250,
+                  "height": 744
+                },
+                "snippet": "<a href=\"/en/wiki/South_Tyrol,_Trentino-Alto_Adige/S%C3%BCdtirol,_Italy_Genealogy\" class=\"mw-redirect\">",
+                "nodeLabel": "South Tyrol (Bolzano – Alto Adige), Trentino-Alto Adige/Südtirol"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Teramo,_Abruzzo,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (117.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3824,
+          "bottom": 3841,
+          "left": 1230,
+          "right": 1347,
+          "width": 118,
+          "height": 17
+        },
+        "subItems": {
+          "type": "subitems",
+          "items": [
+            {
+              "relatedNode": {
+                "type": "node",
+                "lhId": "1-14-A",
+                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,18,TABLE,0,TBODY,0,TR,0,TD,0,UL,92,LI,0,A",
+                "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+                "boundingRect": {
+                  "top": 3689,
+                  "bottom": 4433,
+                  "left": 1080,
+                  "right": 1330,
+                  "width": 250,
+                  "height": 744
+                },
+                "snippet": "<a href=\"/en/wiki/South_Tyrol,_Trentino-Alto_Adige/S%C3%BCdtirol,_Italy_Genealogy\" class=\"mw-redirect\">",
+                "nodeLabel": "South Tyrol (Bolzano – Alto Adige), Trentino-Alto Adige/Südtirol"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "number-of-Items": 5
+}
