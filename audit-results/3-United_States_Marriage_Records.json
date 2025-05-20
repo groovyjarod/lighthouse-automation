@@ -9,8 +9,8 @@
         "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
+          "top": 5,
+          "bottom": 18,
           "left": 456,
           "right": 469,
           "width": 13,
@@ -19,26 +19,7 @@
       }
     ]
   },
-  "aria-valid-attr-value-2": {
-    "title": "`[aria-*]` attributes do not have valid values",
-    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
-    "items": [
-      {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=United+States+Marriage…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
-        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
-        "boundingRect": {
-          "top": 198,
-          "bottom": 244,
-          "left": 1269,
-          "right": 1373,
-          "width": 103,
-          "height": 46
-        }
-      }
-    ]
-  },
-  "color-contrast-3": {
+  "color-contrast-2": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
@@ -47,8 +28,8 @@
         "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 198,
-          "bottom": 244,
+          "top": 136,
+          "bottom": 182,
           "left": 448,
           "right": 580,
           "width": 132,
@@ -60,35 +41,35 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-3-MAIN",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN",
+                "lhId": "1-2-MAIN",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN",
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
                 "boundingRect": {
-                  "top": 135,
-                  "bottom": 5620,
+                  "top": 73,
+                  "bottom": 5496,
                   "left": 0,
                   "right": 1905,
                   "width": 1905,
-                  "height": 5485
+                  "height": 5423
                 },
                 "snippet": "<main id=\"content\" class=\"mw-body\">",
-                "nodeLabel": "United States Marriage Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States\nV…"
+                "nodeLabel": "United States Marriage Records\nLanguage\nWatch\nEdit\nUnited States\nVital Records\n…"
               }
             }
           ]
         }
       },
       {
-        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
-        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "snippet": "<span>",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 5631,
-          "bottom": 5654,
-          "left": 484,
-          "right": 1433,
-          "width": 949,
-          "height": 23
+          "top": 5510,
+          "bottom": 5527,
+          "left": 494,
+          "right": 779,
+          "width": 285,
+          "height": 17
         },
         "subItems": {
           "type": "subitems",
@@ -96,19 +77,19 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-5-DIV",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                "lhId": "1-4-DIV",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV",
                 "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
                 "boundingRect": {
-                  "top": 61,
-                  "bottom": 5850,
+                  "top": -1,
+                  "bottom": 5726,
                   "left": 0,
                   "right": 1905,
                   "width": 1905,
-                  "height": 5789
+                  "height": 5727
                 },
                 "snippet": "<div id=\"mw-mf-page-center\">",
-                "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Marriage Records\nLanguage\nDownlo…"
+                "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Marriage Records\nLanguage\nWatch\n…"
               }
             }
           ]
@@ -116,7 +97,7 @@
       }
     ]
   },
-  "definition-list-4": {
+  "definition-list-3": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -125,8 +106,8 @@
         "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 852,
-          "bottom": 873,
+          "top": 786,
+          "bottom": 807,
           "left": 470,
           "right": 1450,
           "width": 979,
@@ -135,7 +116,7 @@
       }
     ]
   },
-  "link-in-text-block-5": {
+  "link-in-text-block-4": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
     "items": [
@@ -144,8 +125,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 1736,
-          "bottom": 1753,
+          "top": 1643,
+          "bottom": 1660,
           "left": 959,
           "right": 1026,
           "width": 67,
@@ -157,12 +138,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-8-P",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,12,P",
+                "lhId": "1-7-P",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,12,P",
                 "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
                 "boundingRect": {
-                  "top": 1734,
-                  "bottom": 1755,
+                  "top": 1641,
+                  "bottom": 1662,
                   "left": 456,
                   "right": 1450,
                   "width": 993,
@@ -177,6 +158,25 @@
       }
     ]
   },
+  "link-name-5": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a class=\"mw-mf-page-center__mask\" href=\"#\">",
+        "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > a.mw-mf-page-center__mask",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": -1,
+          "bottom": -1,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ]
+  },
   "target-size-6": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
@@ -186,8 +186,8 @@
         "selector": "div.mw-parser-output > div > div > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
         "boundingRect": {
-          "top": 243,
-          "bottom": 264,
+          "top": 181,
+          "bottom": 202,
           "left": 456,
           "right": 551,
           "width": 95,
@@ -199,12 +199,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-2-A",
-                "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,1,DIV,1,NAV,0,UL,0,LI,0,A",
                 "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
                 "boundingRect": {
-                  "top": 198,
-                  "bottom": 244,
+                  "top": 136,
+                  "bottom": 182,
                   "left": 448,
                   "right": 580,
                   "width": 132,
