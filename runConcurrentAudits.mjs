@@ -1,18 +1,21 @@
 import fs from "fs";
 import { spawn } from "child_process";
 import pLimit from "p-limit";
+import estimateConcurrency from "./estimateConcurrency.mjs";
 
 const urlBase = "https://www.familysearch.org/";
 const language = "en";
 const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8");
 const paths = pathsRaw.split("\n").filter(Boolean);
 
-const numberOfConcurrentAudits = parseInt(process.argv[2]);
+const numberOfConcurrentAudits = estimateConcurrency()
 
-if (!numberOfConcurrentAudits) {
-  console.error("Usage: node runConcurrentAudits.mjs <auditSpeedRate>");
-  process.exit(1);
-}
+// const numberOfConcurrentAudits = parseInt(process.argv[2]);
+
+// if (!numberOfConcurrentAudits) {
+//   console.error("Usage: node runConcurrentAudits.mjs <auditSpeedRate>");
+//   process.exit(1);
+// }
 
 const limit = pLimit(numberOfConcurrentAudits);
 

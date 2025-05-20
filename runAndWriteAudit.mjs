@@ -4,7 +4,7 @@ import createReport from './createFinalizedReport.mjs'
 const [,, url, outputFile] = process.argv
 
 if (!url || !outputFile) {
-    console.error("usage: node runSingleAudit.mjs <url> <outputFile>")
+    console.error("usage: node runAndWriteAudit.mjs <url> <outputFile>")
     process.exit(1)
 }
 
