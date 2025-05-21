@@ -1,3 +1,18 @@
+// IMPORTANT!!!!!!!! PLEASE READ BEFORE EXECUTING SCRIPT!!!!
+/*
+This script requires the insertion of a secret user-agent, which will be provided to anyone authorized to run
+automated lighthouse audits for FamilySearch. Please refer to the code - create a .mjs file, if one doesn't
+already exist, named secretUserAgent.mjs, and paste the following code, plugging in the secret user-agent
+as the return variable:
+
+export default function secretUserAgent () {
+  return ______;
+}
+
+*/
+
+import secretUserAgent from "./secretUserAgent.mjs";
+
 import lighthouse from "lighthouse";
 import * as chromeLauncher from "chrome-launcher";
 // import fs from "fs";
@@ -5,9 +20,10 @@ import * as chromeLauncher from "chrome-launcher";
 const OUTPUT_FORMAT = "json"; // 'html'
 const TESTING_METHOD = "desktop"; // 'mobile'
 const isMobile = TESTING_METHOD === "mobile";
+const USER_AGENT = secretUserAgent
 
 export default async function runLighthouse(url) {
-  const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless"] });
+  const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless", `--user-agent=${USER_AGENT}`] });
   const options = {
     port: chrome.port,
     output: OUTPUT_FORMAT,
@@ -27,6 +43,7 @@ export default async function runLighthouse(url) {
         },
         // onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
         onlyCategories: ['accessibility'],
+        emulatedUserAgent: USER_AGENT,
     }
   }
 
