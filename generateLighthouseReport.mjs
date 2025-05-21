@@ -20,7 +20,13 @@ import * as chromeLauncher from "chrome-launcher";
 const OUTPUT_FORMAT = "json"; // 'html'
 const TESTING_METHOD = "desktop"; // 'mobile'
 const isMobile = TESTING_METHOD === "mobile";
-const USER_AGENT = secretUserAgent
+const USER_AGENT = secretUserAgent()
+
+console.log(USER_AGENT)
+if (USER_AGENT === "replace this return value with the provided secret user agent") {
+  console.error("Please go to secretUserAgent.mjs and replace the return value with the secret user-agent key provided.")
+  process.exit(1)
+}
 
 export default async function runLighthouse(url) {
   const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless", `--user-agent=${USER_AGENT}`] });
