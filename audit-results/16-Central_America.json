@@ -377,8 +377,8 @@
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#google_translate_element > a",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 669,
-          "bottom": 669,
+          "top": 670,
+          "bottom": 670,
           "left": 20,
           "right": 20,
           "width": 0,
@@ -580,7 +580,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Main_Page\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
         "boundingRect": {
           "top": 164,
           "bottom": 177,
@@ -616,7 +616,7 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.7px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
         "boundingRect": {
           "top": 181,
           "bottom": 194,
@@ -658,7 +658,7 @@
                   "left": 24,
                   "right": 117,
                   "width": 93,
-                  "height": 25
+                  "height": 24
                 },
                 "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
                 "nodeLabel": "Online Genealogy Records"
@@ -670,7 +670,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (88.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (88.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
         "boundingRect": {
           "top": 227,
           "bottom": 240,
@@ -694,7 +694,7 @@
                   "left": 24,
                   "right": 117,
                   "width": 93,
-                  "height": 25
+                  "height": 24
                 },
                 "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
                 "nodeLabel": "Online Genealogy Records"
@@ -724,7 +724,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Research_Resources\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
         "boundingRect": {
           "top": 244,
           "bottom": 257,
@@ -778,7 +778,7 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
         "boundingRect": {
           "top": 261,
           "bottom": 274,
@@ -814,7 +814,7 @@
       {
         "snippet": "<a href=\"https://www.familysearch.org/en/affiliates/about\" rel=\"nofollow\" target=\"_blank\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FS-Affiliate-Libraries > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
         "boundingRect": {
           "top": 378,
           "bottom": 391,
@@ -838,7 +838,7 @@
                   "left": 24,
                   "right": 94,
                   "width": 70,
-                  "height": 25
+                  "height": 24
                 },
                 "snippet": "<a href=\"https://www.familysearch.org/fhcenters/locations/\" rel=\"nofollow\" target=\"_blank\">",
                 "nodeLabel": "FamilySearch Centers"
@@ -850,9 +850,9 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Report-a-Problem > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (91.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (91.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 465,
+          "top": 466,
           "bottom": 478,
           "left": 24,
           "right": 115,
@@ -874,7 +874,7 @@
                   "left": 24,
                   "right": 87,
                   "width": 64,
-                  "height": 25
+                  "height": 24
                 },
                 "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
                 "nodeLabel": "Submit Wiki Content"
@@ -886,7 +886,7 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (96.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (96.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
         "boundingRect": {
           "top": 525,
           "bottom": 538,
@@ -922,7 +922,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
         "boundingRect": {
           "top": 542,
           "bottom": 555,
@@ -976,7 +976,7 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.7px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px.",
         "boundingRect": {
           "top": 559,
           "bottom": 572,
@@ -1030,7 +1030,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.2px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.2px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.8px instead of at least 24px.",
         "boundingRect": {
           "top": 576,
           "bottom": 589,
@@ -1084,7 +1084,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (78.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (78.8px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
         "boundingRect": {
           "top": 593,
           "bottom": 606,
@@ -1124,7 +1124,7 @@
                   "top": 610,
                   "bottom": 623,
                   "left": 24,
-                  "right": 106,
+                  "right": 105,
                   "width": 82,
                   "height": 13
                 },
@@ -1138,12 +1138,12 @@
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
         "boundingRect": {
           "top": 610,
           "bottom": 623,
           "left": 24,
-          "right": 106,
+          "right": 105,
           "width": 82,
           "height": 13
         },
@@ -1172,48 +1172,12 @@
         }
       },
       {
-        "snippet": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\">",
-        "selector": "li#google_translate_element > div.skiptranslate > div#:0.targetLanguage > select.goog-te-combo",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (140.1px by 18.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 673,
-          "bottom": 691,
-          "left": 3,
-          "right": 143,
-          "width": 140,
-          "height": 18
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-42-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,6,NAV,1,DIV,0,UL,0,LI,1,DIV,2,SPAN,0,A",
-                "selector": "li#google_translate_element > div.skiptranslate > span > a.VIpgJd-ZVi9od-l4eHX-hSRGPd",
-                "boundingRect": {
-                  "top": 694,
-                  "bottom": 705,
-                  "left": 55,
-                  "right": 131,
-                  "width": 76,
-                  "height": 11
-                },
-                "snippet": "<a class=\"VIpgJd-ZVi9od-l4eHX-hSRGPd\" href=\"https://translate.google.com\" target=\"_blank\">",
-                "nodeLabel": "Translate"
-              }
-            }
-          ]
-        }
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/Central_America\" accesskey=\"j\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (82.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (82.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 751,
-          "bottom": 764,
+          "top": 753,
+          "bottom": 765,
           "left": 24,
           "right": 106,
           "width": 83,
@@ -1225,12 +1189,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-44-A",
+                "lhId": "1-42-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,1,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
                 "boundingRect": {
-                  "top": 768,
-                  "bottom": 781,
+                  "top": 770,
+                  "bottom": 782,
                   "left": 24,
                   "right": 110,
                   "width": 86,
@@ -1246,10 +1210,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/Central_America\" rel=\"nofollow\" accesskey=\"k\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (86.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (86.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 768,
-          "bottom": 781,
+          "top": 770,
+          "bottom": 782,
           "left": 24,
           "right": 110,
           "width": 86,
@@ -1261,12 +1225,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-43-A",
+                "lhId": "1-41-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,0,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
                 "boundingRect": {
-                  "top": 751,
-                  "bottom": 764,
+                  "top": 753,
+                  "bottom": 765,
                   "left": 24,
                   "right": 106,
                   "width": 83,
@@ -1279,12 +1243,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-45-A",
+                "lhId": "1-43-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,2,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
                 "boundingRect": {
-                  "top": 785,
-                  "bottom": 798,
+                  "top": 787,
+                  "bottom": 799,
                   "left": 24,
                   "right": 96,
                   "width": 72,
@@ -1300,10 +1264,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (72.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (72.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13px instead of at least 24px.",
         "boundingRect": {
-          "top": 785,
-          "bottom": 798,
+          "top": 787,
+          "bottom": 799,
           "left": 24,
           "right": 96,
           "width": 72,
@@ -1315,12 +1279,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-44-A",
+                "lhId": "1-42-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,1,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
                 "boundingRect": {
-                  "top": 768,
-                  "bottom": 781,
+                  "top": 770,
+                  "bottom": 782,
                   "left": 24,
                   "right": 110,
                   "width": 86,
@@ -1333,12 +1297,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-46-A",
+                "lhId": "1-44-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,3,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
                 "boundingRect": {
-                  "top": 802,
-                  "bottom": 815,
+                  "top": 804,
+                  "bottom": 816,
                   "left": 24,
                   "right": 112,
                   "width": 88,
@@ -1354,10 +1318,10 @@
       {
         "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (88.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (88.4px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 802,
-          "bottom": 815,
+          "top": 804,
+          "bottom": 816,
           "left": 24,
           "right": 112,
           "width": 88,
@@ -1369,12 +1333,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-45-A",
+                "lhId": "1-43-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,2,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
                 "boundingRect": {
-                  "top": 785,
-                  "bottom": 798,
+                  "top": 787,
+                  "bottom": 799,
                   "left": 24,
                   "right": 96,
                   "width": 72,
@@ -1387,12 +1351,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-47-A",
+                "lhId": "1-45-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,4,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
                 "boundingRect": {
-                  "top": 819,
-                  "bottom": 832,
+                  "top": 821,
+                  "bottom": 833,
                   "left": 24,
                   "right": 103,
                   "width": 79,
@@ -1408,10 +1372,10 @@
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=Central_America&amp;oldid=5611608\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (79.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (79.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 819,
-          "bottom": 832,
+          "top": 821,
+          "bottom": 833,
           "left": 24,
           "right": 103,
           "width": 79,
@@ -1423,12 +1387,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-46-A",
+                "lhId": "1-44-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,3,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
                 "boundingRect": {
-                  "top": 802,
-                  "bottom": 815,
+                  "top": 804,
+                  "bottom": 816,
                   "left": 24,
                   "right": 112,
                   "width": 88,
@@ -1441,11 +1405,11 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-48-A",
+                "lhId": "1-46-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,5,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
                 "boundingRect": {
-                  "top": 837,
+                  "top": 838,
                   "bottom": 850,
                   "left": 24,
                   "right": 113,
@@ -1462,9 +1426,9 @@
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=Central_America&amp;action=info\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 837,
+          "top": 838,
           "bottom": 850,
           "left": 24,
           "right": 113,
@@ -1477,12 +1441,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-47-A",
+                "lhId": "1-45-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,4,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
                 "boundingRect": {
-                  "top": 819,
-                  "bottom": 832,
+                  "top": 821,
+                  "bottom": 833,
                   "left": 24,
                   "right": 103,
                   "width": 79,
@@ -1495,11 +1459,11 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-49-A",
+                "lhId": "1-47-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,6,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
                 "boundingRect": {
-                  "top": 854,
+                  "top": 855,
                   "bottom": 867,
                   "left": 24,
                   "right": 86,
@@ -1516,9 +1480,9 @@
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=Central_America&amp;action=pagevalues\" rel=\"cargo-pagevalues\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (62.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (62.4px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 854,
+          "top": 855,
           "bottom": 867,
           "left": 24,
           "right": 86,
@@ -1531,11 +1495,11 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-48-A",
+                "lhId": "1-46-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,5,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
                 "boundingRect": {
-                  "top": 837,
+                  "top": 838,
                   "bottom": 850,
                   "left": 24,
                   "right": 113,
@@ -1549,12 +1513,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-50-A",
+                "lhId": "1-48-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,7,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
                 "boundingRect": {
-                  "top": 871,
-                  "bottom": 884,
+                  "top": 872,
+                  "bottom": 885,
                   "left": 24,
                   "right": 119,
                   "width": 95,
@@ -1570,10 +1534,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Special:Browse/:Central-5FAmerica\" rel=\"search\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (95.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
         "boundingRect": {
-          "top": 871,
-          "bottom": 884,
+          "top": 872,
+          "bottom": 885,
           "left": 24,
           "right": 119,
           "width": 95,
@@ -1585,11 +1549,11 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-49-A",
+                "lhId": "1-47-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,6,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
                 "boundingRect": {
-                  "top": 854,
+                  "top": 855,
                   "bottom": 867,
                   "left": 24,
                   "right": 86,
@@ -1603,12 +1567,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-51-A",
+                "lhId": "1-49-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,8,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
                 "boundingRect": {
-                  "top": 888,
-                  "bottom": 901,
+                  "top": 889,
+                  "bottom": 902,
                   "left": 24,
                   "right": 97,
                   "width": 73,
@@ -1624,10 +1588,10 @@
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=Central_America&amp;id=5611…\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (72.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (72.8px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
         "boundingRect": {
-          "top": 888,
-          "bottom": 901,
+          "top": 889,
+          "bottom": 902,
           "left": 24,
           "right": 97,
           "width": 73,
@@ -1639,12 +1603,12 @@
             {
               "relatedNode": {
                 "type": "node",
-                "lhId": "1-50-A",
+                "lhId": "1-48-A",
                 "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,7,LI,0,A",
                 "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
                 "boundingRect": {
-                  "top": 871,
-                  "bottom": 884,
+                  "top": 872,
+                  "bottom": 885,
                   "left": 24,
                   "right": 119,
                   "width": 95,
