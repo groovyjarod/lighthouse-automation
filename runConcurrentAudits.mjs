@@ -2,6 +2,9 @@ import fs from "fs";
 import { spawn } from "child_process";
 import pLimit from "p-limit";
 import estimateConcurrency from "./estimateConcurrency.mjs";
+import readline from 'readline/promises'
+import { stdin as input, stdout as output } from 'node:process'
+const rl = readline.createInterface({ input, output })
 
 const urlBase = "https://www.familysearch.org/";
 const language = "en";
@@ -9,6 +12,8 @@ const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8");
 const paths = pathsRaw.split("\n").filter(Boolean);
 
 const numberOfConcurrentAudits = estimateConcurrency()
+// TODO: Create a new version that gives the recommended number of concurrent audits
+// and asks to confirm whether you'd want to, or if not, how many you'd want.
 
 // const numberOfConcurrentAudits = parseInt(process.argv[2]);
 
@@ -17,7 +22,10 @@ const numberOfConcurrentAudits = estimateConcurrency()
 //   process.exit(1);
 // }
 
-const limit = pLimit(numberOfConcurrentAudits);
+const answer = await rl.question(`\nThe number of recommended audits for this is ${numberOfConcurrentAudits}.\nHow many concurrent tests would you like to commence?\n`)
+rl.close()
+
+const limit = pLimit(parseInt(answer));
 
 async function retryAudit(fn, retries=2) {
   let errMessage
