@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "audit": "node runConcurrentAudits.mjs"
+  },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",
     "lighthouse": "^12.6.0"

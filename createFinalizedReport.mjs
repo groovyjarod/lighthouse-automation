@@ -20,7 +20,7 @@ async function organizeData(urlPath) {
     let itemCount = 0
     initialJsonReport['accessibility-score'] = accessibilityScore
     rawResultsData.forEach((item, index) => {
-        const {id, title, description, items} = item
+        const {id, title, description, boundingRect, items} = item
         const newItems = []
         for (let itemData of items) {
             const newItem = {
@@ -40,7 +40,7 @@ async function organizeData(urlPath) {
             newItems.push(newItem)
         }
         itemCount++
-        initialJsonReport[`${id}-${index+1}`] = {title, description, newItems}
+        initialJsonReport[`${id}-${index+1}`] = {title, description, boundingRect, newItems}
     })
     initialJsonReport['number-of-Items'] = itemCount
     console.log(itemCount)
