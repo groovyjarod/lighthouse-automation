@@ -2,5 +2,5 @@
 // restrictions on using many network requests to the wiki.
 
 export default function secretUserAgent () {
-    return "fs-jarod-day-pythonscript-wiki"
+    return "replace this return value with the provided secret user agent"
 }
