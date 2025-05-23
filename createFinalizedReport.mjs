@@ -21,8 +21,26 @@ async function organizeData(urlPath) {
     initialJsonReport['accessibility-score'] = accessibilityScore
     rawResultsData.forEach((item, index) => {
         const {id, title, description, items} = item
+        const newItems = []
+        for (let itemData of items) {
+            const newItem = {
+                snippet: itemData.snippet,
+                selector: itemData.selector,
+                explanation: itemData.explanation
+            }
+            if (itemData.subItems && itemData.subItems.items) {
+                const newSubItems = itemData.subItems.items.map(subItem => ({
+                    snippet: subItem.relatedNode?.snippet,
+                    selector: subItem.relatedNode?.selector,
+                    boundingRect: subItem.relatedNode?.boundingRect,
+                    nodeLabel: subItem.relatedNode?.nodeLabel
+                }))
+                newItem.subItems = newSubItems
+            }
+            newItems.push(newItem)
+        }
         itemCount++
-        initialJsonReport[`${id}-${index+1}`] = {title, description, items}
+        initialJsonReport[`${id}-${index+1}`] = {title, description, newItems}
     })
     initialJsonReport['number-of-Items'] = itemCount
     console.log(itemCount)

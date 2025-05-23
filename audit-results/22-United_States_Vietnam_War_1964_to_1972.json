@@ -3,1451 +3,861 @@
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > div#toc > input#toctogglecheckbox",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 305,
-          "bottom": 318,
-          "left": 590,
-          "right": 603,
-          "width": 13,
-          "height": 13
-        }
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element"
       }
     ]
   },
   "color-contrast-2": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<caption>",
         "selector": "div.mw-parser-output > div.mw-parser-output > table.wikitable > caption",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.44 (foreground color: #6c757d, background color: #f8f9fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 2609,
-          "bottom": 2651,
-          "left": 176,
-          "right": 837,
-          "width": 661,
-          "height": 42
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-2-TABLE",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,34,TABLE",
-                "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
-                "boundingRect": {
-                  "top": 2609,
-                  "bottom": 2756,
-                  "left": 176,
-                  "right": 837,
-                  "width": 661,
-                  "height": 147
-                },
-                "snippet": "<table class=\"wikitable\">",
-                "nodeLabel": "NPRC, 1973 Fire:\nBranch\tPersonnel and Period Affected\tEstimated Loss\nArmy\tPerso…"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<table class=\"wikitable\">",
+            "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
+            "boundingRect": {
+              "top": 2609,
+              "bottom": 2756,
+              "left": 176,
+              "right": 837,
+              "width": 661,
+              "height": 147
+            },
+            "nodeLabel": "NPRC, 1973 Fire:\nBranch\tPersonnel and Period Affected\tEstimated Loss\nArmy\tPerso…"
+          }
+        ]
       }
     ]
   },
   "definition-list-3": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<dl>",
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 5314,
-          "bottom": 5461,
-          "left": 176,
-          "right": 1884,
-          "width": 1708,
-          "height": 147
-        }
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
       }
     ]
   },
   "frame-title-4": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
         "selector": "body.mediawiki > div.skiptranslate > iframe#:1.container",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-        "boundingRect": {
-          "top": 0,
-          "bottom": 39,
-          "left": 0,
-          "right": 1905,
-          "width": 1905,
-          "height": 39
-        }
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
       }
     ]
   },
   "label-5": {
     "title": "Form elements do not have associated labels",
     "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more about form element labels](https://dequeuniversity.com/rules/axe/4.10/label).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > div#toc > input#toctogglecheckbox",
         "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-        "boundingRect": {
-          "top": 305,
-          "bottom": 318,
-          "left": 590,
-          "right": 603,
-          "width": 13,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-5-LABEL",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,DIV,1,SPAN,0,LABEL",
-                "selector": "div#toc > div.toctitle > span.toctogglespan > label.toctogglelabel",
-                "boundingRect": {
-                  "top": 313,
-                  "bottom": 330,
-                  "left": 770,
-                  "right": 793,
-                  "width": 23,
-                  "height": 16
-                },
-                "snippet": "<label class=\"toctogglelabel\" for=\"toctogglecheckbox\">",
-                "nodeLabel": "div#toc > div.toctitle > span.toctogglespan > label.toctogglelabel"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<label class=\"toctogglelabel\" for=\"toctogglecheckbox\">",
+            "selector": "div#toc > div.toctitle > span.toctogglespan > label.toctogglelabel",
+            "boundingRect": {
+              "top": 313,
+              "bottom": 330,
+              "left": 770,
+              "right": 793,
+              "width": 23,
+              "height": 16
+            },
+            "nodeLabel": "div#toc > div.toctitle > span.toctogglespan > label.toctogglelabel"
+          }
+        ]
       }
     ]
   },
   "link-in-text-block-6": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<a href=\"/en/wiki/World_War_II_United_States_Military_Records,_1941_to_1945#Draft_R…\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.48:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 2939,
-          "bottom": 2956,
-          "left": 276,
-          "right": 416,
-          "width": 140,
-          "height": 17
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-7-P",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,38,P",
-                "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > p",
-                "boundingRect": {
-                  "top": 2937,
-                  "bottom": 2958,
-                  "left": 176,
-                  "right": 1884,
-                  "width": 1708,
-                  "height": 21
-                },
-                "snippet": "<p>",
-                "nodeLabel": "In addition to WWII Draft Records, the National Personnel Records Center (NPRC)…"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > p",
+            "boundingRect": {
+              "top": 2937,
+              "bottom": 2958,
+              "left": 176,
+              "right": 1884,
+              "width": 1708,
+              "height": 21
+            },
+            "nodeLabel": "In addition to WWII Draft Records, the National Personnel Records Center (NPRC)…"
+          }
+        ]
       },
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.sss.gov/default.htm\">",
         "selector": "tbody > tr > td.mbox-text > a.external",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366bb, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 3160,
-          "bottom": 3177,
-          "left": 884,
-          "right": 1061,
-          "width": 177,
-          "height": 17
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-9-TD",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,44,TABLE,0,TBODY,0,TR,1,TD",
-                "selector": "table.metadata > tbody > tr > td.mbox-text",
-                "boundingRect": {
-                  "top": 3152,
-                  "bottom": 3184,
-                  "left": 235,
-                  "right": 1067,
-                  "width": 832,
-                  "height": 32
-                },
-                "snippet": "<td class=\"mbox-text\" style=\"; vertical-align:middle;\">",
-                "nodeLabel": "Note: Selective Service Records for men born after January 1, 1960 are maintain…"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<td class=\"mbox-text\" style=\"; vertical-align:middle;\">",
+            "selector": "table.metadata > tbody > tr > td.mbox-text",
+            "boundingRect": {
+              "top": 3152,
+              "bottom": 3184,
+              "left": 235,
+              "right": 1067,
+              "width": 832,
+              "height": 32
+            },
+            "nodeLabel": "Note: Selective Service Records for men born after January 1, 1960 are maintain…"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Military_Index\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.48:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 4754,
-          "bottom": 4771,
-          "left": 514,
-          "right": 611,
-          "width": 97,
-          "height": 17
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-11-P",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,71,P",
-                "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > p",
-                "boundingRect": {
-                  "top": 4752,
-                  "bottom": 4794,
-                  "left": 176,
-                  "right": 1884,
-                  "width": 1708,
-                  "height": 42
-                },
-                "snippet": "<p>",
-                "nodeLabel": "Most of these casualties are documented in the Military Index, a FamilySearch f…"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > p",
+            "boundingRect": {
+              "top": 4752,
+              "bottom": 4794,
+              "left": 176,
+              "right": 1884,
+              "width": 1708,
+              "height": 42
+            },
+            "nodeLabel": "Most of these casualties are documented in the Military Index, a FamilySearch f…"
+          }
+        ]
       }
     ]
   },
   "link-name-7": {
     "title": "Links do not have a discernible name",
     "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<a href=\"#\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#google_translate_element > a",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 669,
-          "bottom": 669,
-          "left": 20,
-          "right": 20,
-          "width": 0,
-          "height": 0
-        }
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
       }
     ]
   },
   "target-size-8": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
         "selector": "div.mw-parser-output > div > div > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (86.4px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23px instead of at least 24px.",
-        "boundingRect": {
-          "top": 241,
-          "bottom": 262,
-          "left": 304,
-          "right": 390,
-          "width": 86,
-          "height": 21
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-15-A",
-                "path": "1,HTML,1,BODY,4,DIV,4,DIV,6,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,0,B,0,A",
-                "selector": "tr > td > b > a",
-                "boundingRect": {
-                  "top": 263,
-                  "bottom": 286,
-                  "left": 272,
-                  "right": 476,
-                  "width": 205,
-                  "height": 23
-                },
-                "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
-                "nodeLabel": "US Military Records"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "tr > td > b > a",
+            "boundingRect": {
+              "top": 263,
+              "bottom": 286,
+              "left": 272,
+              "right": 476,
+              "width": 205,
+              "height": 23
+            },
+            "nodeLabel": "US Military Records"
+          }
+        ]
       },
       {
         "snippet": "<input id=\"searchButton\" class=\"searchButton\" type=\"submit\" name=\"go\" value=\"Go\">",
         "selector": "div > form#searchform > div#simpleSearch > input#searchButton",
         "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 142,
-          "bottom": 162,
-          "left": 1862,
-          "right": 1890,
-          "width": 28,
-          "height": 20
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-17-INPUT",
-                "path": "1,HTML,1,BODY,7,DIV,1,DIV,2,DIV,2,DIV,0,DIV,1,FORM,0,DIV,0,INPUT",
-                "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-                "boundingRect": {
-                  "top": 142,
-                  "bottom": 166,
-                  "left": 1611,
-                  "right": 1891,
-                  "width": 280,
-                  "height": 25
-                },
-                "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-                "nodeLabel": "Search by place or topic"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
+            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
+            "boundingRect": {
+              "top": 142,
+              "bottom": 166,
+              "left": 1611,
+              "right": 1891,
+              "width": 280,
+              "height": 25
+            },
+            "nodeLabel": "Search by place or topic"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Main_Page\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
-        "boundingRect": {
-          "top": 164,
-          "bottom": 177,
-          "left": 24,
-          "right": 81,
-          "width": 57,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-19-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
-                "boundingRect": {
-                  "top": 181,
-                  "bottom": 194,
-                  "left": 24,
-                  "right": 101,
-                  "width": 78,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
-                "nodeLabel": "About the Wiki"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
+            "boundingRect": {
+              "top": 181,
+              "bottom": 194,
+              "left": 24,
+              "right": 101,
+              "width": 78,
+              "height": 13
+            },
+            "nodeLabel": "About the Wiki"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
-        "boundingRect": {
-          "top": 181,
-          "bottom": 194,
-          "left": 24,
-          "right": 101,
-          "width": 78,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-18-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,0,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
-                "boundingRect": {
-                  "top": 164,
-                  "bottom": 177,
-                  "left": 24,
-                  "right": 81,
-                  "width": 57,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Main_Page\">",
-                "nodeLabel": "Wiki Home"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Main_Page\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
+            "boundingRect": {
+              "top": 164,
+              "bottom": 177,
+              "left": 24,
+              "right": 81,
+              "width": 57,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-20-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Online-Genealogy-Records > a",
-                "boundingRect": {
-                  "top": 198,
-                  "bottom": 223,
-                  "left": 24,
-                  "right": 117,
-                  "width": 93,
-                  "height": 25
-                },
-                "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
-                "nodeLabel": "Online Genealogy Records"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Wiki Home"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Online-Genealogy-Records > a",
+            "boundingRect": {
+              "top": 198,
+              "bottom": 223,
+              "left": 24,
+              "right": 117,
+              "width": 93,
+              "height": 25
+            },
+            "nodeLabel": "Online Genealogy Records"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 227,
-          "bottom": 240,
-          "left": 24,
-          "right": 112,
-          "width": 89,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-20-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Online-Genealogy-Records > a",
-                "boundingRect": {
-                  "top": 198,
-                  "bottom": 223,
-                  "left": 24,
-                  "right": 117,
-                  "width": 93,
-                  "height": 25
-                },
-                "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
-                "nodeLabel": "Online Genealogy Records"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Online-Genealogy-Records > a",
+            "boundingRect": {
+              "top": 198,
+              "bottom": 223,
+              "left": 24,
+              "right": 117,
+              "width": 93,
+              "height": 25
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-22-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
-                "boundingRect": {
-                  "top": 244,
-                  "bottom": 257,
-                  "left": 24,
-                  "right": 129,
-                  "width": 105,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Research_Resources\">",
-                "nodeLabel": "Research Resources"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Online Genealogy Records"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Research_Resources\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
+            "boundingRect": {
+              "top": 244,
+              "bottom": 257,
+              "left": 24,
+              "right": 129,
+              "width": 105,
+              "height": 13
+            },
+            "nodeLabel": "Research Resources"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Research_Resources\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 244,
-          "bottom": 257,
-          "left": 24,
-          "right": 129,
-          "width": 105,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-21-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,3,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
-                "boundingRect": {
-                  "top": 227,
-                  "bottom": 240,
-                  "left": 24,
-                  "right": 112,
-                  "width": 89,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
-                "nodeLabel": "Guided Research"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
+            "boundingRect": {
+              "top": 227,
+              "bottom": 240,
+              "left": 24,
+              "right": 112,
+              "width": 89,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-23-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,5,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
-                "boundingRect": {
-                  "top": 261,
-                  "bottom": 274,
-                  "left": 24,
-                  "right": 88,
-                  "width": 64,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
-                "nodeLabel": "Wiki Policies"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Guided Research"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
+            "boundingRect": {
+              "top": 261,
+              "bottom": 274,
+              "left": 24,
+              "right": 88,
+              "width": 64,
+              "height": 13
+            },
+            "nodeLabel": "Wiki Policies"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 261,
-          "bottom": 274,
-          "left": 24,
-          "right": 88,
-          "width": 64,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-22-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,2,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
-                "boundingRect": {
-                  "top": 244,
-                  "bottom": 257,
-                  "left": 24,
-                  "right": 129,
-                  "width": 105,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Research_Resources\">",
-                "nodeLabel": "Research Resources"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Research_Resources\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
+            "boundingRect": {
+              "top": 244,
+              "bottom": 257,
+              "left": 24,
+              "right": 129,
+              "width": 105,
+              "height": 13
+            },
+            "nodeLabel": "Research Resources"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"https://www.familysearch.org/en/affiliates/about\" rel=\"nofollow\" target=\"_blank\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FS-Affiliate-Libraries > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 378,
-          "bottom": 391,
-          "left": 24,
-          "right": 129,
-          "width": 105,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-25-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,3,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FamilySearch-Centers > a",
-                "boundingRect": {
-                  "top": 349,
-                  "bottom": 373,
-                  "left": 24,
-                  "right": 94,
-                  "width": 70,
-                  "height": 25
-                },
-                "snippet": "<a href=\"https://www.familysearch.org/fhcenters/locations/\" rel=\"nofollow\" target=\"_blank\">",
-                "nodeLabel": "FamilySearch Centers"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"https://www.familysearch.org/fhcenters/locations/\" rel=\"nofollow\" target=\"_blank\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FamilySearch-Centers > a",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 373,
+              "left": 24,
+              "right": 94,
+              "width": 70,
+              "height": 25
+            },
+            "nodeLabel": "FamilySearch Centers"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Report-a-Problem > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (91.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 465,
-          "bottom": 478,
-          "left": 24,
-          "right": 115,
-          "width": 92,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-27-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,4,NAV,1,DIV,0,UL,0,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Submit-Wiki-Content > a",
-                "boundingRect": {
-                  "top": 437,
-                  "bottom": 461,
-                  "left": 24,
-                  "right": 87,
-                  "width": 64,
-                  "height": 25
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
-                "nodeLabel": "Submit Wiki Content"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Submit-Wiki-Content > a",
+            "boundingRect": {
+              "top": 437,
+              "bottom": 461,
+              "left": 24,
+              "right": 87,
+              "width": 64,
+              "height": 25
+            },
+            "nodeLabel": "Submit Wiki Content"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (96.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 525,
-          "bottom": 538,
-          "left": 24,
-          "right": 120,
-          "width": 97,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-29-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
-                "boundingRect": {
-                  "top": 542,
-                  "bottom": 555,
-                  "left": 24,
-                  "right": 118,
-                  "width": 94,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
-                "nodeLabel": "Personal Sandbox"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
+            "boundingRect": {
+              "top": 542,
+              "bottom": 555,
+              "left": 24,
+              "right": 118,
+              "width": 94,
+              "height": 13
+            },
+            "nodeLabel": "Personal Sandbox"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 542,
-          "bottom": 555,
-          "left": 24,
-          "right": 118,
-          "width": 94,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-28-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,0,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
-                "boundingRect": {
-                  "top": 525,
-                  "bottom": 538,
-                  "left": 24,
-                  "right": 120,
-                  "width": 97,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
-                "nodeLabel": "Upload File/Image"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
+            "boundingRect": {
+              "top": 525,
+              "bottom": 538,
+              "left": 24,
+              "right": 120,
+              "width": 97,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-30-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
-                "boundingRect": {
-                  "top": 559,
-                  "bottom": 572,
-                  "left": 24,
-                  "right": 130,
-                  "width": 107,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
-                "nodeLabel": "Contributor Updates"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Upload File/Image"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
+            "boundingRect": {
+              "top": 559,
+              "bottom": 572,
+              "left": 24,
+              "right": 130,
+              "width": 107,
+              "height": 13
+            },
+            "nodeLabel": "Contributor Updates"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 559,
-          "bottom": 572,
-          "left": 24,
-          "right": 130,
-          "width": 107,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-29-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
-                "boundingRect": {
-                  "top": 542,
-                  "bottom": 555,
-                  "left": 24,
-                  "right": 118,
-                  "width": 94,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
-                "nodeLabel": "Personal Sandbox"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
+            "boundingRect": {
+              "top": 542,
+              "bottom": 555,
+              "left": 24,
+              "right": 118,
+              "width": 94,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-31-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,3,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
-                "boundingRect": {
-                  "top": 576,
-                  "bottom": 589,
-                  "left": 24,
-                  "right": 92,
-                  "width": 68,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
-                "nodeLabel": "Wiki Projects"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Personal Sandbox"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
+            "boundingRect": {
+              "top": 576,
+              "bottom": 589,
+              "left": 24,
+              "right": 92,
+              "width": 68,
+              "height": 13
+            },
+            "nodeLabel": "Wiki Projects"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (68.2px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 576,
-          "bottom": 589,
-          "left": 24,
-          "right": 92,
-          "width": 68,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-30-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
-                "boundingRect": {
-                  "top": 559,
-                  "bottom": 572,
-                  "left": 24,
-                  "right": 130,
-                  "width": 107,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
-                "nodeLabel": "Contributor Updates"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
+            "boundingRect": {
+              "top": 559,
+              "bottom": 572,
+              "left": 24,
+              "right": 130,
+              "width": 107,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-32-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
-                "boundingRect": {
-                  "top": 593,
-                  "bottom": 606,
-                  "left": 24,
-                  "right": 103,
-                  "width": 79,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
-                "nodeLabel": "Wiki University"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Contributor Updates"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
+            "boundingRect": {
+              "top": 593,
+              "bottom": 606,
+              "left": 24,
+              "right": 103,
+              "width": 79,
+              "height": 13
+            },
+            "nodeLabel": "Wiki University"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (78.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 593,
-          "bottom": 606,
-          "left": 24,
-          "right": 103,
-          "width": 79,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-31-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,3,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
-                "boundingRect": {
-                  "top": 576,
-                  "bottom": 589,
-                  "left": 24,
-                  "right": 92,
-                  "width": 68,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
-                "nodeLabel": "Wiki Projects"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
+            "boundingRect": {
+              "top": 576,
+              "bottom": 589,
+              "left": 24,
+              "right": 92,
+              "width": 68,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-33-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,5,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
-                "boundingRect": {
-                  "top": 610,
-                  "bottom": 623,
-                  "left": 24,
-                  "right": 106,
-                  "width": 82,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
-                "nodeLabel": "Manual of Style"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Wiki Projects"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
+            "boundingRect": {
+              "top": 610,
+              "bottom": 623,
+              "left": 24,
+              "right": 106,
+              "width": 82,
+              "height": 13
+            },
+            "nodeLabel": "Manual of Style"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 610,
-          "bottom": 623,
-          "left": 24,
-          "right": 106,
-          "width": 82,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-32-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,5,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
-                "boundingRect": {
-                  "top": 593,
-                  "bottom": 606,
-                  "left": 24,
-                  "right": 103,
-                  "width": 79,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
-                "nodeLabel": "Wiki University"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
+            "boundingRect": {
+              "top": 593,
+              "bottom": 606,
+              "left": 24,
+              "right": 103,
+              "width": 79,
+              "height": 13
+            },
+            "nodeLabel": "Wiki University"
+          }
+        ]
       },
       {
         "snippet": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\">",
         "selector": "li#google_translate_element > div.skiptranslate > div#:0.targetLanguage > select.goog-te-combo",
         "explanation": "Fix any of the following:\n  Target has insufficient size (140.1px by 18.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.2px instead of at least 24px.",
-        "boundingRect": {
-          "top": 673,
-          "bottom": 691,
-          "left": 3,
-          "right": 143,
-          "width": 140,
-          "height": 18
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-35-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,6,NAV,1,DIV,0,UL,0,LI,1,DIV,2,SPAN,0,A",
-                "selector": "li#google_translate_element > div.skiptranslate > span > a.VIpgJd-ZVi9od-l4eHX-hSRGPd",
-                "boundingRect": {
-                  "top": 694,
-                  "bottom": 705,
-                  "left": 55,
-                  "right": 131,
-                  "width": 76,
-                  "height": 11
-                },
-                "snippet": "<a class=\"VIpgJd-ZVi9od-l4eHX-hSRGPd\" href=\"https://translate.google.com\" target=\"_blank\">",
-                "nodeLabel": "Translate"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a class=\"VIpgJd-ZVi9od-l4eHX-hSRGPd\" href=\"https://translate.google.com\" target=\"_blank\">",
+            "selector": "li#google_translate_element > div.skiptranslate > span > a.VIpgJd-ZVi9od-l4eHX-hSRGPd",
+            "boundingRect": {
+              "top": 694,
+              "bottom": 705,
+              "left": 55,
+              "right": 131,
+              "width": 76,
+              "height": 11
+            },
+            "nodeLabel": "Translate"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/United_States_Vietnam_War_1964_to_1972\" accesskey=\"j\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 751,
-          "bottom": 764,
-          "left": 24,
-          "right": 106,
-          "width": 83,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-37-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
-                "boundingRect": {
-                  "top": 768,
-                  "bottom": 781,
-                  "left": 24,
-                  "right": 110,
-                  "width": 86,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Vietnam_War_1964_to_1972\" rel=\"nofollow\" accesskey=\"k\">",
-                "nodeLabel": "Related changes"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Vietnam_War_1964_to_1972\" rel=\"nofollow\" accesskey=\"k\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 781,
+              "left": 24,
+              "right": 110,
+              "width": 86,
+              "height": 13
+            },
+            "nodeLabel": "Related changes"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Vietnam_War_1964_to_1972\" rel=\"nofollow\" accesskey=\"k\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (86.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 768,
-          "bottom": 781,
-          "left": 24,
-          "right": 110,
-          "width": 86,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-36-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,0,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
-                "boundingRect": {
-                  "top": 751,
-                  "bottom": 764,
-                  "left": 24,
-                  "right": 106,
-                  "width": 83,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/United_States_Vietnam_War_1964_to_1972\" accesskey=\"j\">",
-                "nodeLabel": "What links here"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/United_States_Vietnam_War_1964_to_1972\" accesskey=\"j\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
+            "boundingRect": {
+              "top": 751,
+              "bottom": 764,
+              "left": 24,
+              "right": 106,
+              "width": 83,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-38-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
-                "boundingRect": {
-                  "top": 785,
-                  "bottom": 798,
-                  "left": 24,
-                  "right": 96,
-                  "width": 72,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
-                "nodeLabel": "Special pages"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "What links here"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
+            "boundingRect": {
+              "top": 785,
+              "bottom": 798,
+              "left": 24,
+              "right": 96,
+              "width": 72,
+              "height": 13
+            },
+            "nodeLabel": "Special pages"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13px instead of at least 24px.",
-        "boundingRect": {
-          "top": 785,
-          "bottom": 798,
-          "left": 24,
-          "right": 96,
-          "width": 72,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-37-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,1,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
-                "boundingRect": {
-                  "top": 768,
-                  "bottom": 781,
-                  "left": 24,
-                  "right": 110,
-                  "width": 86,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Vietnam_War_1964_to_1972\" rel=\"nofollow\" accesskey=\"k\">",
-                "nodeLabel": "Related changes"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Vietnam_War_1964_to_1972\" rel=\"nofollow\" accesskey=\"k\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 781,
+              "left": 24,
+              "right": 110,
+              "width": 86,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-39-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,3,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
-                "boundingRect": {
-                  "top": 802,
-                  "bottom": 815,
-                  "left": 24,
-                  "right": 112,
-                  "width": 88,
-                  "height": 13
-                },
-                "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
-                "nodeLabel": "Printable version"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Related changes"
+          },
+          {
+            "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
+            "boundingRect": {
+              "top": 802,
+              "bottom": 815,
+              "left": 24,
+              "right": 112,
+              "width": 88,
+              "height": 13
+            },
+            "nodeLabel": "Printable version"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 802,
-          "bottom": 815,
-          "left": 24,
-          "right": 112,
-          "width": 88,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-38-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,2,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
-                "boundingRect": {
-                  "top": 785,
-                  "bottom": 798,
-                  "left": 24,
-                  "right": 96,
-                  "width": 72,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
-                "nodeLabel": "Special pages"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
+            "boundingRect": {
+              "top": 785,
+              "bottom": 798,
+              "left": 24,
+              "right": 96,
+              "width": 72,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-40-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
-                "boundingRect": {
-                  "top": 819,
-                  "bottom": 832,
-                  "left": 24,
-                  "right": 103,
-                  "width": 79,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;oldid=6251…\">",
-                "nodeLabel": "Permanent link"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Special pages"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;oldid=6251…\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
+            "boundingRect": {
+              "top": 819,
+              "bottom": 832,
+              "left": 24,
+              "right": 103,
+              "width": 79,
+              "height": 13
+            },
+            "nodeLabel": "Permanent link"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;oldid=6251…\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (79.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
-        "boundingRect": {
-          "top": 819,
-          "bottom": 832,
-          "left": 24,
-          "right": 103,
-          "width": 79,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-39-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,3,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
-                "boundingRect": {
-                  "top": 802,
-                  "bottom": 815,
-                  "left": 24,
-                  "right": 112,
-                  "width": 88,
-                  "height": 13
-                },
-                "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
-                "nodeLabel": "Printable version"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
+            "boundingRect": {
+              "top": 802,
+              "bottom": 815,
+              "left": 24,
+              "right": 112,
+              "width": 88,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-41-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,5,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
-                "boundingRect": {
-                  "top": 837,
-                  "bottom": 850,
-                  "left": 24,
-                  "right": 113,
-                  "width": 90,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=info\">",
-                "nodeLabel": "Page information"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Printable version"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=info\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
+            "boundingRect": {
+              "top": 837,
+              "bottom": 850,
+              "left": 24,
+              "right": 113,
+              "width": 90,
+              "height": 13
+            },
+            "nodeLabel": "Page information"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=info\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 837,
-          "bottom": 850,
-          "left": 24,
-          "right": 113,
-          "width": 90,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-40-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,4,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
-                "boundingRect": {
-                  "top": 819,
-                  "bottom": 832,
-                  "left": 24,
-                  "right": 103,
-                  "width": 79,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;oldid=6251…\">",
-                "nodeLabel": "Permanent link"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;oldid=6251…\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
+            "boundingRect": {
+              "top": 819,
+              "bottom": 832,
+              "left": 24,
+              "right": 103,
+              "width": 79,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-42-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,6,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
-                "boundingRect": {
-                  "top": 854,
-                  "bottom": 867,
-                  "left": 24,
-                  "right": 86,
-                  "width": 62,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=pag…\" rel=\"cargo-pagevalues\">",
-                "nodeLabel": "Page values"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Permanent link"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=pag…\" rel=\"cargo-pagevalues\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
+            "boundingRect": {
+              "top": 854,
+              "bottom": 867,
+              "left": 24,
+              "right": 86,
+              "width": 62,
+              "height": 13
+            },
+            "nodeLabel": "Page values"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=pag…\" rel=\"cargo-pagevalues\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (62.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 854,
-          "bottom": 867,
-          "left": 24,
-          "right": 86,
-          "width": 62,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-41-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,5,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
-                "boundingRect": {
-                  "top": 837,
-                  "bottom": 850,
-                  "left": 24,
-                  "right": 113,
-                  "width": 90,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=info\">",
-                "nodeLabel": "Page information"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=info\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
+            "boundingRect": {
+              "top": 837,
+              "bottom": 850,
+              "left": 24,
+              "right": 113,
+              "width": 90,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-43-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,7,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
-                "boundingRect": {
-                  "top": 871,
-                  "bottom": 884,
-                  "left": 24,
-                  "right": 119,
-                  "width": 95,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FVietnam-5FWar-5F1964-5Fto-5F1972\" rel=\"search\">",
-                "nodeLabel": "Browse properties"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Page information"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FVietnam-5FWar-5F1964-5Fto-5F1972\" rel=\"search\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
+            "boundingRect": {
+              "top": 871,
+              "bottom": 884,
+              "left": 24,
+              "right": 119,
+              "width": 95,
+              "height": 13
+            },
+            "nodeLabel": "Browse properties"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FVietnam-5FWar-5F1964-5Fto-5F1972\" rel=\"search\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
-        "boundingRect": {
-          "top": 871,
-          "bottom": 884,
-          "left": 24,
-          "right": 119,
-          "width": 95,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-42-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,6,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
-                "boundingRect": {
-                  "top": 854,
-                  "bottom": 867,
-                  "left": 24,
-                  "right": 86,
-                  "width": 62,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=pag…\" rel=\"cargo-pagevalues\">",
-                "nodeLabel": "Page values"
-              }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Vietnam_War_1964_to_1972&amp;action=pag…\" rel=\"cargo-pagevalues\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
+            "boundingRect": {
+              "top": 854,
+              "bottom": 867,
+              "left": 24,
+              "right": 86,
+              "width": 62,
+              "height": 13
             },
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-44-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,8,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
-                "boundingRect": {
-                  "top": 888,
-                  "bottom": 901,
-                  "left": 24,
-                  "right": 97,
-                  "width": 73,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=United_States_Vietnam_W…\">",
-                "nodeLabel": "Cite this page"
-              }
-            }
-          ]
-        }
+            "nodeLabel": "Page values"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=United_States_Vietnam_W…\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
+            "boundingRect": {
+              "top": 888,
+              "bottom": 901,
+              "left": 24,
+              "right": 97,
+              "width": 73,
+              "height": 13
+            },
+            "nodeLabel": "Cite this page"
+          }
+        ]
       },
       {
         "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=United_States_Vietnam_W…\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
-        "boundingRect": {
-          "top": 888,
-          "bottom": 901,
-          "left": 24,
-          "right": 97,
-          "width": 73,
-          "height": 13
-        },
-        "subItems": {
-          "type": "subitems",
-          "items": [
-            {
-              "relatedNode": {
-                "type": "node",
-                "lhId": "1-43-A",
-                "path": "1,HTML,1,BODY,7,DIV,2,DIV,7,NAV,1,DIV,0,UL,7,LI,0,A",
-                "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
-                "boundingRect": {
-                  "top": 871,
-                  "bottom": 884,
-                  "left": 24,
-                  "right": 119,
-                  "width": 95,
-                  "height": 13
-                },
-                "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FVietnam-5FWar-5F1964-5Fto-5F1972\" rel=\"search\">",
-                "nodeLabel": "Browse properties"
-              }
-            }
-          ]
-        }
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FVietnam-5FWar-5F1964-5Fto-5F1972\" rel=\"search\">",
+            "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
+            "boundingRect": {
+              "top": 871,
+              "bottom": 884,
+              "left": 24,
+              "right": 119,
+              "width": 95,
+              "height": 13
+            },
+            "nodeLabel": "Browse properties"
+          }
+        ]
       }
     ]
   },
   "table-fake-caption-9": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
-    "items": [
+    "newItems": [
       {
         "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
         "selector": "tbody > tr > td > table#collapsibleTable0",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 6143,
-          "bottom": 6331,
-          "left": 179,
-          "right": 1881,
-          "width": 1702,
-          "height": 188
-        }
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell"
       }
     ]
   },
