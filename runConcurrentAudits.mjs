@@ -70,3 +70,5 @@ async function commenceAllAudits(paths) {
 }
 
 commenceAllAudits(paths);
+
+// TODO: Get it to update to be compliant, acceptable, and non-compliant

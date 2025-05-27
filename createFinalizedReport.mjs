@@ -31,7 +31,8 @@ async function organizeData(urlPath) {
                 boundingRect: itemData.boundingRect,
                 category: classifyIssue(itemData.selector, itemData.path || '')
             }
-            if (itemData.subItems?.items) {
+            console.log(`NEW ITEM: ${newItem}`)
+            if (itemData.subItems && itemData.subItems.items) {
                 const newSubItems = itemData.subItems.items.map(subItem => ({
                     snippet: subItem.relatedNode?.snippet,
                     selector: subItem.relatedNode?.selector,
@@ -39,6 +40,7 @@ async function organizeData(urlPath) {
                     nodeLabel: subItem.relatedNode?.nodeLabel,
                     category: classifyIssue(subItem.relatedNode?.selector, subItem.relatedNode?.path || '')
                 }))
+                console.log(`NEW SUB ITEM: ${newSubItems}`)
                 newItem.subItems = newSubItems
             }
             newItems.push(newItem)
