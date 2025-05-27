@@ -3,44 +3,76 @@
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > div#toc > input#toctogglecheckbox",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element"
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 305,
+          "bottom": 318,
+          "left": 184,
+          "right": 197,
+          "width": 13,
+          "height": 13
+        }
       }
     ]
   },
   "definition-list-2": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<dl>",
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 655,
+          "bottom": 676,
+          "left": 176,
+          "right": 1884,
+          "width": 1708,
+          "height": 21
+        }
       }
     ]
   },
   "frame-title-3": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
         "selector": "body.mediawiki > div.skiptranslate > iframe#:1.container",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1905,
+          "width": 1905,
+          "height": 39
+        }
       }
     ]
   },
   "label-4": {
     "title": "Form elements do not have associated labels",
     "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more about form element labels](https://dequeuniversity.com/rules/axe/4.10/label).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > div#toc > input#toctogglecheckbox",
         "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 305,
+          "bottom": 318,
+          "left": 184,
+          "right": 197,
+          "width": 13,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<label class=\"toctogglelabel\" for=\"toctogglecheckbox\">",
@@ -62,11 +94,19 @@
   "link-in-text-block-5": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<a href=\"/en/wiki/United_States_Death_Records\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.48:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1359,
+          "bottom": 1376,
+          "left": 878,
+          "right": 975,
+          "width": 97,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<p>",
@@ -87,6 +127,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Marriage_Records\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.48:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1359,
+          "bottom": 1376,
+          "left": 1043,
+          "right": 1164,
+          "width": 120,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<p>",
@@ -107,6 +155,14 @@
         "snippet": "<a href=\"/en/wiki/Social_Security_Death_Index_(SSDI)\" class=\"mw-redirect\">",
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a.mw-redirect",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.48:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1826,
+          "bottom": 1843,
+          "left": 207,
+          "right": 456,
+          "width": 249,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<p>",
@@ -127,6 +183,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Genealogy\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2568,
+          "bottom": 2585,
+          "left": 200,
+          "right": 302,
+          "width": 102,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -147,6 +211,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Bible_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2568,
+          "bottom": 2585,
+          "left": 375,
+          "right": 466,
+          "width": 92,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -167,6 +239,14 @@
         "snippet": "<a href=\"/en/wiki/Locating_United_States_Vital_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2592,
+          "bottom": 2609,
+          "left": 200,
+          "right": 290,
+          "width": 91,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -187,6 +267,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Death_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2617,
+          "bottom": 2634,
+          "left": 200,
+          "right": 298,
+          "width": 99,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -207,6 +295,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Census\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2666,
+          "bottom": 2683,
+          "left": 200,
+          "right": 307,
+          "width": 107,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -227,6 +323,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2691,
+          "bottom": 2708,
+          "left": 200,
+          "right": 306,
+          "width": 107,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -247,6 +351,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Obituaries\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2715,
+          "bottom": 2732,
+          "left": 200,
+          "right": 271,
+          "width": 72,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -267,6 +379,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Cemeteries\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2740,
+          "bottom": 2757,
+          "left": 200,
+          "right": 325,
+          "width": 125,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -287,6 +407,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Newspapers\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2838,
+          "bottom": 2855,
+          "left": 200,
+          "right": 285,
+          "width": 85,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -307,6 +435,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Death_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2965,
+          "bottom": 2982,
+          "left": 413,
+          "right": 512,
+          "width": 99,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -327,6 +463,14 @@
         "snippet": "<a href=\"/en/wiki/United_States_Death_Records\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 3015,
+          "bottom": 3032,
+          "left": 200,
+          "right": 298,
+          "width": 99,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<li>",
@@ -348,22 +492,38 @@
   "link-name-6": {
     "title": "Links do not have a discernible name",
     "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<a href=\"#\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#google_translate_element > a",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 669,
+          "bottom": 669,
+          "left": 20,
+          "right": 20,
+          "width": 0,
+          "height": 0
+        }
       }
     ]
   },
   "target-size-7": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<input id=\"searchButton\" class=\"searchButton\" type=\"submit\" name=\"go\" value=\"Go\">",
         "selector": "div > form#searchform > div#simpleSearch > input#searchButton",
         "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 142,
+          "bottom": 162,
+          "left": 1862,
+          "right": 1890,
+          "width": 28,
+          "height": 20
+        },
         "subItems": [
           {
             "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
@@ -384,6 +544,14 @@
         "snippet": "<a href=\"/en/wiki/Main_Page\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 164,
+          "bottom": 177,
+          "left": 24,
+          "right": 81,
+          "width": 57,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
@@ -404,6 +572,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 181,
+          "bottom": 194,
+          "left": 24,
+          "right": 101,
+          "width": 78,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Main_Page\">",
@@ -437,6 +613,14 @@
         "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 227,
+          "bottom": 240,
+          "left": 24,
+          "right": 112,
+          "width": 89,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
@@ -470,6 +654,14 @@
         "snippet": "<a href=\"/en/wiki/Research_Resources\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 244,
+          "bottom": 257,
+          "left": 24,
+          "right": 129,
+          "width": 105,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
@@ -503,6 +695,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 261,
+          "bottom": 274,
+          "left": 24,
+          "right": 88,
+          "width": 64,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Research_Resources\">",
@@ -523,6 +723,14 @@
         "snippet": "<a href=\"https://www.familysearch.org/en/affiliates/about\" rel=\"nofollow\" target=\"_blank\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FS-Affiliate-Libraries > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 378,
+          "bottom": 391,
+          "left": 24,
+          "right": 129,
+          "width": 105,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"https://www.familysearch.org/fhcenters/locations/\" rel=\"nofollow\" target=\"_blank\">",
@@ -543,6 +751,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Report-a-Problem > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (91.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 465,
+          "bottom": 478,
+          "left": 24,
+          "right": 115,
+          "width": 92,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
@@ -563,6 +779,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (96.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 525,
+          "bottom": 538,
+          "left": 24,
+          "right": 120,
+          "width": 97,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
@@ -583,6 +807,14 @@
         "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 542,
+          "bottom": 555,
+          "left": 24,
+          "right": 118,
+          "width": 94,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
@@ -616,6 +848,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 559,
+          "bottom": 572,
+          "left": 24,
+          "right": 130,
+          "width": 107,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
@@ -649,6 +889,14 @@
         "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (68.2px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 576,
+          "bottom": 589,
+          "left": 24,
+          "right": 92,
+          "width": 68,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
@@ -682,6 +930,14 @@
         "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (78.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 593,
+          "bottom": 606,
+          "left": 24,
+          "right": 103,
+          "width": 79,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
@@ -715,6 +971,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 610,
+          "bottom": 623,
+          "left": 24,
+          "right": 106,
+          "width": 82,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
@@ -735,6 +999,14 @@
         "snippet": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\">",
         "selector": "li#google_translate_element > div.skiptranslate > div#:0.targetLanguage > select.goog-te-combo",
         "explanation": "Fix any of the following:\n  Target has insufficient size (140.1px by 18.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 673,
+          "bottom": 691,
+          "left": 3,
+          "right": 143,
+          "width": 140,
+          "height": 18
+        },
         "subItems": [
           {
             "snippet": "<a class=\"VIpgJd-ZVi9od-l4eHX-hSRGPd\" href=\"https://translate.google.com\" target=\"_blank\">",
@@ -755,6 +1027,14 @@
         "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/United_States_Birth_Records\" accesskey=\"j\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 751,
+          "bottom": 764,
+          "left": 24,
+          "right": 106,
+          "width": 83,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Birth_Records\" rel=\"nofollow\" accesskey=\"k\">",
@@ -775,6 +1055,14 @@
         "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Birth_Records\" rel=\"nofollow\" accesskey=\"k\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (86.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 768,
+          "bottom": 781,
+          "left": 24,
+          "right": 110,
+          "width": 86,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/United_States_Birth_Records\" accesskey=\"j\">",
@@ -808,6 +1096,14 @@
         "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13px instead of at least 24px.",
+        "boundingRect": {
+          "top": 785,
+          "bottom": 798,
+          "left": 24,
+          "right": 96,
+          "width": 72,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/United_States_Birth_Records\" rel=\"nofollow\" accesskey=\"k\">",
@@ -841,6 +1137,14 @@
         "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 802,
+          "bottom": 815,
+          "left": 24,
+          "right": 112,
+          "width": 88,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
@@ -874,6 +1178,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;oldid=6301232\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (79.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 819,
+          "bottom": 832,
+          "left": 24,
+          "right": 103,
+          "width": 79,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
@@ -907,6 +1219,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;action=info\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 837,
+          "bottom": 850,
+          "left": 24,
+          "right": 113,
+          "width": 90,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;oldid=6301232\">",
@@ -940,6 +1260,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;action=pagevalues\" rel=\"cargo-pagevalues\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (62.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 854,
+          "bottom": 867,
+          "left": 24,
+          "right": 86,
+          "width": 62,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;action=info\">",
@@ -973,6 +1301,14 @@
         "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FBirth-5FRecords\" rel=\"search\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 871,
+          "bottom": 884,
+          "left": 24,
+          "right": 119,
+          "width": 95,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=United_States_Birth_Records&amp;action=pagevalues\" rel=\"cargo-pagevalues\">",
@@ -1006,6 +1342,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=United_States_Birth_Rec…\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 888,
+          "bottom": 901,
+          "left": 24,
+          "right": 97,
+          "width": 73,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:Browse/:United-5FStates-5FBirth-5FRecords\" rel=\"search\">",

@@ -3,11 +3,19 @@
   "color-contrast-1": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<div style=\"color:orange; font-size:1.3rem; font-family:museo;\">",
         "selector": "div#GRContainerTest2 > div > div > div",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffa500, background color: #ffffff, font size: 13.6pt (18.2px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 272,
+          "bottom": 314,
+          "left": 391,
+          "right": 539,
+          "width": 148,
+          "height": 42
+        },
         "subItems": [
           {
             "snippet": "<div style=\"width: 160px; height: 74px; text-align: center; font-size: 1rem;\">",
@@ -29,22 +37,38 @@
   "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
         "selector": "body.mediawiki > div.skiptranslate > iframe#:1.container",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1905,
+          "width": 1905,
+          "height": 39
+        }
       }
     ]
   },
   "link-in-text-block-3": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<a class=\"external\" rel=\"nofollow\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">",
         "selector": "footer#footer > ul#footer-info > li#footer-info-copyright > a.external",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.46:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0645ad, surrounding text: #000000)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1084,
+          "bottom": 1097,
+          "left": 313,
+          "right": 536,
+          "width": 223,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<li id=\"footer-info-copyright\">",
@@ -66,22 +90,38 @@
   "link-name-4": {
     "title": "Links do not have a discernible name",
     "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<a href=\"#\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#google_translate_element > a",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 669,
+          "bottom": 669,
+          "left": 20,
+          "right": 20,
+          "width": 0,
+          "height": 0
+        }
       }
     ]
   },
   "target-size-5": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "newItems": [
+    "items": [
       {
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Australia\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (61.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px.",
+        "boundingRect": {
+          "top": 422,
+          "bottom": 439,
+          "left": 968,
+          "right": 1029,
+          "width": 61,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Canada\">",
@@ -102,6 +142,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Canada\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px.",
+        "boundingRect": {
+          "top": 443,
+          "bottom": 460,
+          "left": 968,
+          "right": 1020,
+          "width": 53,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Australia\">",
@@ -135,6 +183,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Costa_Rica\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 464,
+          "bottom": 481,
+          "left": 968,
+          "right": 1041,
+          "width": 74,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Canada\">",
@@ -168,6 +224,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Czech_Republic\" class=\"mw-redirect\">",
         "selector": "tr > td > p > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (53.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 485,
+          "bottom": 502,
+          "left": 968,
+          "right": 1022,
+          "width": 54,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Costa_Rica\">",
@@ -201,6 +265,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Denmark\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 506,
+          "bottom": 523,
+          "left": 968,
+          "right": 1032,
+          "width": 64,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Czech_Republic\" class=\"mw-redirect\">",
@@ -234,6 +306,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:England\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 527,
+          "bottom": 544,
+          "left": 968,
+          "right": 1024,
+          "width": 56,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Denmark\">",
@@ -254,6 +334,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Finland\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 569,
+          "bottom": 586,
+          "left": 968,
+          "right": 1018,
+          "width": 51,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Ireland\">",
@@ -274,6 +362,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Ireland\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (50px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 590,
+          "bottom": 607,
+          "left": 968,
+          "right": 1018,
+          "width": 50,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Finland\">",
@@ -294,6 +390,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Jamaica\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 653,
+          "bottom": 670,
+          "left": 968,
+          "right": 1024,
+          "width": 56,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Jersey\">",
@@ -314,6 +418,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Jersey\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (44.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 674,
+          "bottom": 691,
+          "left": 968,
+          "right": 1012,
+          "width": 45,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Jamaica\">",
@@ -347,6 +459,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Mexico\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (48.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 695,
+          "bottom": 712,
+          "left": 968,
+          "right": 1016,
+          "width": 48,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Jersey\">",
@@ -367,6 +487,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Puerto_Rico\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (79.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 758,
+          "bottom": 775,
+          "left": 968,
+          "right": 1048,
+          "width": 80,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Scotland\">",
@@ -387,6 +515,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Scotland\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (60.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 779,
+          "bottom": 796,
+          "left": 968,
+          "right": 1028,
+          "width": 61,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Puerto_Rico\">",
@@ -420,6 +556,14 @@
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Sweden\">",
         "selector": "tr > td > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (55.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 800,
+          "bottom": 817,
+          "left": 968,
+          "right": 1023,
+          "width": 55,
+          "height": 17
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/GuidedResearch:Scotland\">",
@@ -440,6 +584,14 @@
         "snippet": "<input id=\"searchButton\" class=\"searchButton\" type=\"submit\" name=\"go\" value=\"Go\">",
         "selector": "div > form#searchform > div#simpleSearch > input#searchButton",
         "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 142,
+          "bottom": 162,
+          "left": 1862,
+          "right": 1890,
+          "width": 28,
+          "height": 20
+        },
         "subItems": [
           {
             "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
@@ -460,6 +612,14 @@
         "snippet": "<a href=\"/en/wiki/Main_Page\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Home > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 164,
+          "bottom": 177,
+          "left": 24,
+          "right": 81,
+          "width": 57,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
@@ -480,6 +640,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-About-the-Wiki > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 181,
+          "bottom": 194,
+          "left": 24,
+          "right": 101,
+          "width": 78,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Main_Page\">",
@@ -513,6 +681,14 @@
         "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Guided-Research > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 227,
+          "bottom": 240,
+          "left": 24,
+          "right": 112,
+          "width": 89,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
@@ -546,6 +722,14 @@
         "snippet": "<a href=\"/en/wiki/Research_Resources\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Research-Resources > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 244,
+          "bottom": 257,
+          "left": 24,
+          "right": 129,
+          "width": 105,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Guided_Research_for_Online_Records\">",
@@ -579,6 +763,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Purpose,_Policies,_and_Procedures\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Policies > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 261,
+          "bottom": 274,
+          "left": 24,
+          "right": 88,
+          "width": 64,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Research_Resources\">",
@@ -599,6 +791,14 @@
         "snippet": "<a href=\"https://www.familysearch.org/en/affiliates/about\" rel=\"nofollow\" target=\"_blank\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-FS-Affiliate-Libraries > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 378,
+          "bottom": 391,
+          "left": 24,
+          "right": 129,
+          "width": 105,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"https://www.familysearch.org/fhcenters/locations/\" rel=\"nofollow\" target=\"_blank\">",
@@ -619,6 +819,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Report-a-Problem > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (91.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 465,
+          "bottom": 478,
+          "left": 24,
+          "right": 115,
+          "width": 92,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Submit_Content_or_Report_a_Problem\">",
@@ -639,6 +847,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Upload-File/Image > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (96.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 525,
+          "bottom": 538,
+          "left": 24,
+          "right": 120,
+          "width": 97,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
@@ -659,6 +875,14 @@
         "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Personal-Sandbox > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 542,
+          "bottom": 555,
+          "left": 24,
+          "right": 118,
+          "width": 94,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Upload_File/Image\">",
@@ -692,6 +916,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Contributor-Updates > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 559,
+          "bottom": 572,
+          "left": 24,
+          "right": 130,
+          "width": 107,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:MyPage/Sandbox\">",
@@ -725,6 +957,14 @@
         "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-Projects > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (68.2px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 576,
+          "bottom": 589,
+          "left": 24,
+          "right": 92,
+          "width": 68,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Wiki_Contributor_Updates\">",
@@ -758,6 +998,14 @@
         "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Wiki-University > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (78.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 593,
+          "bottom": 606,
+          "left": 24,
+          "right": 103,
+          "width": 79,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Get_Involved_in_Wiki_Projects\">",
@@ -791,6 +1039,14 @@
         "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Manual_of_Style\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#n-Manual-of-Style > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 610,
+          "bottom": 623,
+          "left": 24,
+          "right": 106,
+          "width": 82,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Help:Wiki_University_Tutorial\">",
@@ -811,6 +1067,14 @@
         "snippet": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\">",
         "selector": "li#google_translate_element > div.skiptranslate > div#:0.targetLanguage > select.goog-te-combo",
         "explanation": "Fix any of the following:\n  Target has insufficient size (140.1px by 18.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 673,
+          "bottom": 691,
+          "left": 3,
+          "right": 143,
+          "width": 140,
+          "height": 18
+        },
         "subItems": [
           {
             "snippet": "<a class=\"VIpgJd-ZVi9od-l4eHX-hSRGPd\" href=\"https://translate.google.com\" target=\"_blank\">",
@@ -831,6 +1095,14 @@
         "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/Guided_Research_for_Online_Records\" accesskey=\"j\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-whatlinkshere > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.6px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 751,
+          "bottom": 764,
+          "left": 24,
+          "right": 106,
+          "width": 83,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/Guided_Research_for_Online_Records\" rel=\"nofollow\" accesskey=\"k\">",
@@ -851,6 +1123,14 @@
         "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/Guided_Research_for_Online_Records\" rel=\"nofollow\" accesskey=\"k\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-recentchangeslinked > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (86.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 10.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 768,
+          "bottom": 781,
+          "left": 24,
+          "right": 110,
+          "width": 86,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:WhatLinksHere/Guided_Research_for_Online_Records\" accesskey=\"j\">",
@@ -884,6 +1164,14 @@
         "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-specialpages > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13px instead of at least 24px.",
+        "boundingRect": {
+          "top": 785,
+          "bottom": 798,
+          "left": 24,
+          "right": 96,
+          "width": 72,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:RecentChangesLinked/Guided_Research_for_Online_Records\" rel=\"nofollow\" accesskey=\"k\">",
@@ -917,6 +1205,14 @@
         "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-print > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 802,
+          "bottom": 815,
+          "left": 24,
+          "right": 112,
+          "width": 88,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:SpecialPages\" accesskey=\"q\">",
@@ -950,6 +1246,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;oldid=5684109\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-permalink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (79.3px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.4px instead of at least 24px.",
+        "boundingRect": {
+          "top": 819,
+          "bottom": 832,
+          "left": 24,
+          "right": 103,
+          "width": 79,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"javascript:print();\" rel=\"alternate\" accesskey=\"p\">",
@@ -983,6 +1287,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;action=info\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-info > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 837,
+          "bottom": 850,
+          "left": 24,
+          "right": 113,
+          "width": 90,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;oldid=5684109\">",
@@ -1016,6 +1328,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;action=pageval…\" rel=\"cargo-pagevalues\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cargopagevalueslink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (62.4px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 854,
+          "bottom": 867,
+          "left": 24,
+          "right": 86,
+          "width": 62,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;action=info\">",
@@ -1049,6 +1369,14 @@
         "snippet": "<a href=\"/en/wiki/Special:Browse/:Guided-5FResearch-5Ffor-5FOnline-5FRecords\" rel=\"search\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-smwbrowselink > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.5px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 871,
+          "bottom": 884,
+          "left": 24,
+          "right": 119,
+          "width": 95,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/index.php?title=Guided_Research_for_Online_Records&amp;action=pageval…\" rel=\"cargo-pagevalues\">",
@@ -1082,6 +1410,14 @@
         "snippet": "<a href=\"/en/wiki/index.php?title=Special:CiteThisPage&amp;page=Guided_Research_for_Onl…\">",
         "selector": "div.vector-menu-content > ul.vector-menu-content-list > li#t-cite > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.8px by 13px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px.",
+        "boundingRect": {
+          "top": 888,
+          "bottom": 901,
+          "left": 24,
+          "right": 97,
+          "width": 73,
+          "height": 13
+        },
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Special:Browse/:Guided-5FResearch-5Ffor-5FOnline-5FRecords\" rel=\"search\">",
