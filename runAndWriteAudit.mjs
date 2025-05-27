@@ -10,6 +10,7 @@ if (!url || !outputFile) {
 
 async function getReportData(url) {
     const returnData = await createReport(url)
+    console.log('finished.\n')
     return returnData
 }
 

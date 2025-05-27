@@ -29,7 +29,14 @@ if (USER_AGENT === "replace this return value with the provided secret user agen
 }
 
 export default async function runLighthouse(url) {
-  const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless", `--user-agent=${USER_AGENT}`] });
+  const chrome = await chromeLauncher.launch({ chromeFlags: [
+    // "--headless=new",
+    '--disable-blink-features=AutomationControlled',
+    '--disable-gpu',
+    '--no-sandbox',
+    `--user-agent=${USER_AGENT}`
+  ]
+});
   const options = {
     port: chrome.port,
     output: OUTPUT_FORMAT,
@@ -47,7 +54,6 @@ export default async function runLighthouse(url) {
             deviceScaleFactor: 1,
             disabled: false,
         },
-        // onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
         onlyCategories: ['accessibility'],
         emulatedUserAgent: USER_AGENT,
     }
@@ -55,8 +61,10 @@ export default async function runLighthouse(url) {
 
   try {
     const runnerResult = await lighthouse(url, options, config);
-    const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
-    return [runnerResult.report, accessibilityScore]
+    setTimeout(() => {
+      const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+      return [runnerResult.report, accessibilityScore]
+    }, 10000);
   } catch (err) {
     console.error(`Lighthouse failed for ${url}:`, err)
     return null
