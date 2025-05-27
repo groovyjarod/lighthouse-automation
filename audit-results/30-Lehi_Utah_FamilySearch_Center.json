@@ -165,8 +165,8 @@
         ]
       },
       {
-        "snippet": "<a role=\"link\" id=\"icon-id02963896368155682\" tabindex=\"0\" lang=\"en\" aria-haspopup=\"dialog\" aria-label=\"Cookie Preferences, opens a dedicated popup modal window\" class=\"truste_cursor_pointer\">",
-        "selector": "ul > li > span#teconsent > a#icon-id02963896368155682",
+        "snippet": "<a role=\"link\" id=\"icon-id07195203143145408\" tabindex=\"0\" lang=\"en\" aria-haspopup=\"dialog\" aria-label=\"Cookie Preferences, opens a dedicated popup modal window\" class=\"truste_cursor_pointer\">",
+        "selector": "ul > li > span#teconsent > a#icon-id07195203143145408",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #177c9c, background color: #f6f6f6, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "subItems": [
           {

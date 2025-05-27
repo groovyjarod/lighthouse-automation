@@ -1,5 +1,6 @@
 import runLighthouse from './generateLighthouseReport.mjs'
 import getAudits from './getAudits.mjs'
+import classifyIssue from './classifyIssue.mjs'
 
 // run lighthouse and return data as json object
 async function getRawAuditData (urlPath) {
@@ -20,27 +21,30 @@ async function organizeData(urlPath) {
     let itemCount = 0
     initialJsonReport['accessibility-score'] = accessibilityScore
     rawResultsData.forEach((item, index) => {
-        const {id, title, description, boundingRect, items} = item
+        const {id, title, description, items} = item
         const newItems = []
         for (let itemData of items) {
             const newItem = {
                 snippet: itemData.snippet,
                 selector: itemData.selector,
-                explanation: itemData.explanation
+                explanation: itemData.explanation,
+                boundingRect: itemData.boundingRect,
+                category: classifyIssue(itemData.selector, itemData.path || '')
             }
-            if (itemData.subItems && itemData.subItems.items) {
+            if (itemData.subItems?.items) {
                 const newSubItems = itemData.subItems.items.map(subItem => ({
                     snippet: subItem.relatedNode?.snippet,
                     selector: subItem.relatedNode?.selector,
                     boundingRect: subItem.relatedNode?.boundingRect,
-                    nodeLabel: subItem.relatedNode?.nodeLabel
+                    nodeLabel: subItem.relatedNode?.nodeLabel,
+                    category: classifyIssue(subItem.relatedNode?.selector, subItem.relatedNode?.path || '')
                 }))
                 newItem.subItems = newSubItems
             }
             newItems.push(newItem)
         }
         itemCount++
-        initialJsonReport[`${id}-${index+1}`] = {title, description, boundingRect, newItems}
+        initialJsonReport[`${id}-${index+1}`] = {title, description, items: newItems}
     })
     initialJsonReport['number-of-Items'] = itemCount
     console.log(itemCount)
