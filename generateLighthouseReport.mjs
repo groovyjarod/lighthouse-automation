@@ -1,13 +1,8 @@
 // IMPORTANT!!!!!!!! PLEASE READ BEFORE EXECUTING SCRIPT!!!!
 /*
 This script requires the insertion of a secret user-agent, which will be provided to anyone authorized to run
-automated lighthouse audits for FamilySearch. Please refer to the code - create a .mjs file, if one doesn't
-already exist, named secretUserAgent.mjs, and paste the following code, plugging in the secret user-agent
-as the return variable:
-
-export default function secretUserAgent () {
-  return ______;
-}
+automated lighthouse audits for FamilySearch. Please refer to secretUserAgent.mjs for further
+instructions.
 
 */
 
@@ -34,7 +29,9 @@ export default async function runLighthouse(url) {
     '--disable-blink-features=AutomationControlled',
     '--disable-gpu',
     '--no-sandbox',
-    // `--user-agent=${USER_AGENT}`
+    // IMPORTANT: comment out all logic pertaining to user agent if your ip address
+    // hasn't yet been configured to use the user agent; otherwise you won't have access.
+    `--user-agent=${USER_AGENT}`
   ]
 });
   const options = {
@@ -55,7 +52,7 @@ export default async function runLighthouse(url) {
             disabled: false,
         },
         onlyCategories: ['accessibility'],
-        // emulatedUserAgent: USER_AGENT,
+        emulatedUserAgent: USER_AGENT,
     }
   }
 
