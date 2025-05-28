@@ -1,6 +1,5 @@
-United_States_Census
-United_States_Death_Records
 Main_Page
+United_States_Death_Records
 United_States_Marriage_Records
 United_States_Obituaries
 South_America
@@ -21,6 +20,7 @@ United_States,_Social_Security_Death_Index_-_FamilySearch_Historical_Records
 Illinois_Obituaries
 Genealogy_Research_Forms
 United_States_Vietnam_War_1964_to_1972
+United_States_Census
 Italy_Online_Genealogy_Records
 Surname_Distribution_Maps
 Native_American_Online_Genealogy_Records

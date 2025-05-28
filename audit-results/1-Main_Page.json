@@ -1,4 +1,156 @@
 {
-  "accessibility-score": 0,
-  "number-of-Items": 0
+  "accessibility-score": 93,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<div style=\"text-align:center;\">",
+        "selector": "div.mw-parser-output > div > div#map > div",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.88 (foreground color: #aac777, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 305,
+          "bottom": 326,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<main id=\"content\" class=\"mw-body\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "boundingRect": {
+              "top": 135,
+              "bottom": 930,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 795
+            },
+            "nodeLabel": "FamilySearch Research Wiki\nA Genealogy Resource Guide\n150,140 articles\nFind the…",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<div class=\"calloutHeading\">",
+        "selector": "div.mw-parser-output > div > div.callout > div.calloutHeading",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffa500, background color: #ffffff, font size: 12.6pt (16.8px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 684,
+          "bottom": 735,
+          "left": 917,
+          "right": 1005,
+          "width": 88,
+          "height": 50
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<div class=\"callout\">",
+            "selector": "section#mf-section-0 > div.mw-parser-output > div > div.callout",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 785,
+              "left": 911,
+              "right": 1011,
+              "width": 100,
+              "height": 106
+            },
+            "nodeLabel": "Jump-start your\nresearch\n\nGuided Research",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<span>",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 945,
+          "bottom": 962,
+          "left": 502,
+          "right": 713,
+          "width": 211,
+          "height": 17
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<div id=\"mw-mf-page-center\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "boundingRect": {
+              "top": 61,
+              "bottom": 1160,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 1099
+            },
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nFamilySearch Research Wiki\nA Genealogy Resourc…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "link-in-text-block-3": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Special:Statistics\">",
+        "selector": "div.mw-parser-output > div > div#statsline > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 227,
+          "bottom": 244,
+          "left": 904,
+          "right": 962,
+          "width": 59,
+          "height": 17
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<div id=\"statsline\">",
+            "selector": "section#mf-section-0 > div.mw-parser-output > div > div#statsline",
+            "boundingRect": {
+              "top": 225,
+              "bottom": 246,
+              "left": 464,
+              "right": 1457,
+              "width": 993,
+              "height": 21
+            },
+            "nodeLabel": "150,140 articles",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

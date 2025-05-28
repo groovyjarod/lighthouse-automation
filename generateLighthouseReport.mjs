@@ -22,19 +22,19 @@ const TESTING_METHOD = "desktop"; // 'mobile'
 const isMobile = TESTING_METHOD === "mobile";
 const USER_AGENT = secretUserAgent()
 
-console.log(USER_AGENT)
-if (USER_AGENT === "replace this return value with the provided secret user agent") {
-  console.error("Please go to secretUserAgent.mjs and replace the return value with the secret user-agent key provided.")
-  process.exit(1)
-}
+// console.log(USER_AGENT)
+// if (USER_AGENT === "replace this return value with the provided secret user agent") {
+//   console.error("Please go to secretUserAgent.mjs and replace the return value with the secret user-agent key provided.")
+//   process.exit(1)
+// }
 
 export default async function runLighthouse(url) {
   const chrome = await chromeLauncher.launch({ chromeFlags: [
-    // "--headless=new",
+    "--headless=new",
     '--disable-blink-features=AutomationControlled',
     '--disable-gpu',
     '--no-sandbox',
-    `--user-agent=${USER_AGENT}`
+    // `--user-agent=${USER_AGENT}`
   ]
 });
   const options = {
@@ -55,16 +55,14 @@ export default async function runLighthouse(url) {
             disabled: false,
         },
         onlyCategories: ['accessibility'],
-        emulatedUserAgent: USER_AGENT,
+        // emulatedUserAgent: USER_AGENT,
     }
   }
 
   try {
     const runnerResult = await lighthouse(url, options, config);
-    setTimeout(() => {
-      const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
-      return [runnerResult.report, accessibilityScore]
-    }, 10000);
+    const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+    return [runnerResult.report, accessibilityScore]
   } catch (err) {
     console.error(`Lighthouse failed for ${url}:`, err)
     return null
