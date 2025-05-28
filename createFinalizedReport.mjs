@@ -29,18 +29,18 @@ async function organizeData(urlPath) {
                 selector: itemData.selector,
                 explanation: itemData.explanation,
                 boundingRect: itemData.boundingRect,
-                category: classifyIssue(itemData.selector, itemData.path || '')
+                itemCategory: classifyIssue(itemData.selector, itemData.path || '')
             }
-            console.log(`NEW ITEM: ${newItem}`)
+            // console.log(`NEW ITEM: ${newItem}`)
             if (itemData.subItems && itemData.subItems.items) {
                 const newSubItems = itemData.subItems.items.map(subItem => ({
                     snippet: subItem.relatedNode?.snippet,
                     selector: subItem.relatedNode?.selector,
                     boundingRect: subItem.relatedNode?.boundingRect,
                     nodeLabel: subItem.relatedNode?.nodeLabel,
-                    category: classifyIssue(subItem.relatedNode?.selector, subItem.relatedNode?.path || '')
+                    subItemCategory: classifyIssue(subItem.relatedNode?.selector, subItem.relatedNode?.path || '')
                 }))
-                console.log(`NEW SUB ITEM: ${newSubItems}`)
+                // console.log(`NEW SUB ITEM: ${newSubItems}`)
                 newItem.subItems = newSubItems
             }
             newItems.push(newItem)

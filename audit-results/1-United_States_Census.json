@@ -1,4 +1,2112 @@
 {
-  "accessibility-score": 0,
-  "number-of-Items": 0
+  "accessibility-score": 81,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 67,
+          "bottom": 80,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        },
+        "category": "skin"
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=United+States+Census\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 1277,
+          "right": 1380,
+          "width": 103,
+          "height": 46
+        },
+        "category": "unknown"
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 198,
+          "bottom": 244,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<main id=\"content\" class=\"mw-body\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "boundingRect": {
+              "top": 135,
+              "bottom": 5833,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 5698
+            },
+            "nodeLabel": "United States Census\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States Wiki Topics…",
+            "category": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 504,
+          "right": 544,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 467,
+              "right": 582,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1790",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 621,
+          "right": 661,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 584,
+              "right": 699,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1800",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 738,
+          "right": 778,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 701,
+              "right": 816,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1810",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 855,
+          "right": 895,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 818,
+              "right": 933,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1820",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 972,
+          "right": 1012,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 935,
+              "right": 1050,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1830",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2895,
+          "bottom": 2912,
+          "left": 1089,
+          "right": 1129,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2889,
+              "bottom": 2918,
+              "left": 1052,
+              "right": 1166,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1840",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 504,
+          "right": 544,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 467,
+              "right": 582,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1850",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 621,
+          "right": 661,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 584,
+              "right": 699,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1860",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 738,
+          "right": 778,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 701,
+              "right": 816,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1870",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 855,
+          "right": 895,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 818,
+              "right": 933,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1880",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 972,
+          "right": 1012,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 935,
+              "right": 1050,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1890",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 2977,
+          "bottom": 2994,
+          "left": 1089,
+          "right": 1129,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 2972,
+              "bottom": 3000,
+              "left": 1052,
+              "right": 1166,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1900",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 504,
+          "right": 544,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 467,
+              "right": 582,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1910",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 621,
+          "right": 661,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 584,
+              "right": 699,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1920",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 738,
+          "right": 778,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 701,
+              "right": 816,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1930",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 855,
+          "right": 895,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 818,
+              "right": 933,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1940",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 972,
+          "right": 1012,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 935,
+              "right": 1050,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1950",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<b>",
+        "selector": "tr > th > a > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #3366cc, background color: #cccccc, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 3060,
+          "bottom": 3077,
+          "left": 1089,
+          "right": 1129,
+          "width": 40,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<th style=\"background:#cccccc; scope:col; width:5.5%\">",
+            "selector": "table.wikitable > tbody > tr > th",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3082,
+              "left": 1052,
+              "right": 1166,
+              "width": 115,
+              "height": 29
+            },
+            "nodeLabel": "1960",
+            "category": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 5845,
+          "bottom": 5868,
+          "left": 491,
+          "right": 1441,
+          "width": 949,
+          "height": 23
+        },
+        "category": "skin",
+        "subItems": [
+          {
+            "snippet": "<div id=\"mw-mf-page-center\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "boundingRect": {
+              "top": 61,
+              "bottom": 6064,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 6003
+            },
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Census\nLanguage\nDownload PDF\nWat…",
+            "category": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "heading-order-4": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "items": [
+      {
+        "snippet": "<h4 class=\"in-block\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > li > h4.in-block",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 4245,
+          "bottom": 4287,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 42
+        },
+        "category": "page"
+      }
+    ]
+  },
+  "link-in-text-block-5": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/U._S._Census_Records_Class_Handout\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 2519,
+          "bottom": 2536,
+          "left": 812,
+          "right": 1068,
+          "width": 256,
+          "height": 17
+        },
+        "category": "page",
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+            "boundingRect": {
+              "top": 2517,
+              "bottom": 2538,
+              "left": 464,
+              "right": 1457,
+              "width": 993,
+              "height": 21
+            },
+            "nodeLabel": "For a more complete beginning introduction, see U. S. Census Records Class Hand…",
+            "category": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"#cite_ref-1\">",
+        "selector": "ol.references > li#cite_note-1 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5317,
+          "bottom": 5334,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li id=\"cite_note-1\">",
+            "selector": "li > div.mw-references-wrap > ol.references > li#cite_note-1",
+            "boundingRect": {
+              "top": 5315,
+              "bottom": 5357,
+              "left": 495,
+              "right": 1457,
+              "width": 962,
+              "height": 42
+            },
+            "nodeLabel": "↑ William Thorndale and William Dollarhide. Baltimore: Genealogical Publ., 1987…",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"#cite_ref-3\">",
+        "selector": "ol.references > li#cite_note-3 > span.mw-cite-backlink > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 5421,
+          "bottom": 5438,
+          "left": 495,
+          "right": 504,
+          "width": 9,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li id=\"cite_note-3\">",
+            "selector": "li > div.mw-references-wrap > ol.references > li#cite_note-3",
+            "boundingRect": {
+              "top": 5419,
+              "bottom": 5461,
+              "left": 495,
+              "right": 1457,
+              "width": 962,
+              "height": 42
+            },
+            "nodeLabel": "↑ G. David Dilts, \"Censuses and Tax Lists\" in Kory L. Meyerink, ed., Printed So…",
+            "category": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "listitem-6": {
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "items": [
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2362,
+          "bottom": 2383,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2393,
+          "bottom": 2414,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2424,
+          "bottom": 2445,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2455,
+          "bottom": 2476,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2486,
+          "bottom": 2507,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2689,
+          "bottom": 2710,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2720,
+          "bottom": 2741,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2751,
+          "bottom": 2772,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2782,
+          "bottom": 2803,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3284,
+          "bottom": 3305,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3315,
+          "bottom": 3336,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3346,
+          "bottom": 3367,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3377,
+          "bottom": 3398,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3408,
+          "bottom": 3429,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3439,
+          "bottom": 3460,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3470,
+          "bottom": 3554,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 84
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3564,
+          "bottom": 3585,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3595,
+          "bottom": 3616,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3626,
+          "bottom": 3647,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 21
+        },
+        "category": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 3657,
+          "bottom": 5786,
+          "left": 464,
+          "right": 1457,
+          "width": 993,
+          "height": 2130
+        },
+        "category": "page"
+      }
+    ]
+  },
+  "target-size-7": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803959\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 471,
+          "right": 577,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/5058/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 471,
+              "right": 578,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/5058/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 471,
+          "right": 578,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803959\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 471,
+              "right": 577,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1804228\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 588,
+          "right": 694,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7590/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 588,
+              "right": 695,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7590/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 588,
+          "right": 695,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1804228\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 588,
+              "right": 694,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803765\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 705,
+          "right": 811,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7613/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 705,
+              "right": 812,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7613/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 705,
+          "right": 812,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803765\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 705,
+              "right": 811,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803955\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 821,
+          "right": 928,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7734/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 821,
+              "right": 929,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7734/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 821,
+          "right": 929,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803955\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 821,
+              "right": 928,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803958\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 938,
+          "right": 1045,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8058/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 938,
+              "right": 1046,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8058/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 938,
+          "right": 1046,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1803958\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 938,
+              "right": 1045,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1786457\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2926,
+          "bottom": 2943,
+          "left": 1055,
+          "right": 1162,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8057/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2947,
+              "bottom": 2964,
+              "left": 1055,
+              "right": 1163,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8057/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2947,
+          "bottom": 2964,
+          "left": 1055,
+          "right": 1163,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1786457\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 2943,
+              "left": 1055,
+              "right": 1162,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1401638\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 471,
+          "right": 577,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8054/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 471,
+              "right": 578,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8054/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 471,
+          "right": 578,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1401638\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 471,
+              "right": 577,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1473181\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 588,
+          "right": 694,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7667/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 588,
+              "right": 695,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7667/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 588,
+          "right": 695,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1473181\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 588,
+              "right": 694,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1438024\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 705,
+          "right": 811,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7163/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 705,
+              "right": 812,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7163/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 705,
+          "right": 812,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1438024\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 705,
+              "right": 811,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1417683\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 821,
+          "right": 928,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6742/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 821,
+              "right": 929,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6742/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 821,
+          "right": 929,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1417683\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 821,
+              "right": 928,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1610551\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 938,
+          "right": 1045,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/5445/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 938,
+              "right": 1046,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/5445/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 938,
+          "right": 1046,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1610551\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 938,
+              "right": 1045,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1325221\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3008,
+          "bottom": 3025,
+          "left": 1055,
+          "right": 1162,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7602/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3046,
+              "left": 1055,
+              "right": 1163,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7602/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3029,
+          "bottom": 3046,
+          "left": 1055,
+          "right": 1163,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1325221\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3008,
+              "bottom": 3025,
+              "left": 1055,
+              "right": 1162,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1727033\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3101,
+          "bottom": 3118,
+          "left": 471,
+          "right": 577,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7884/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3122,
+              "bottom": 3139,
+              "left": 471,
+              "right": 578,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7884/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3122,
+          "bottom": 3139,
+          "left": 471,
+          "right": 578,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1727033\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3118,
+              "left": 471,
+              "right": 577,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1488411\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3101,
+          "bottom": 3118,
+          "left": 588,
+          "right": 694,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6061/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3122,
+              "bottom": 3139,
+              "left": 588,
+              "right": 695,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6061/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3122,
+          "bottom": 3139,
+          "left": 588,
+          "right": 695,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1488411\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3118,
+              "left": 588,
+              "right": 694,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1810731\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3101,
+          "bottom": 3118,
+          "left": 705,
+          "right": 811,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6224/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3122,
+              "bottom": 3139,
+              "left": 705,
+              "right": 812,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6224/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3122,
+          "bottom": 3139,
+          "left": 705,
+          "right": 812,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1810731\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3118,
+              "left": 705,
+              "right": 811,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2000219\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3101,
+          "bottom": 3118,
+          "left": 821,
+          "right": 928,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/2442/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3122,
+              "bottom": 3139,
+              "left": 821,
+              "right": 929,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/2442/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3122,
+          "bottom": 3139,
+          "left": 821,
+          "right": 929,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2000219\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3118,
+              "left": 821,
+              "right": 928,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/4464515\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3090,
+          "bottom": 3107,
+          "left": 938,
+          "right": 1045,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/62308/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3111,
+              "bottom": 3128,
+              "left": 938,
+              "right": 1046,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "Ancestry.com",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/62308/\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3111,
+          "bottom": 3128,
+          "left": 938,
+          "right": 1046,
+          "width": 107,
+          "height": 17
+        },
+        "category": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/4464515\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3090,
+              "bottom": 3107,
+              "left": 938,
+              "right": 1045,
+              "width": 107,
+              "height": 17
+            },
+            "nodeLabel": "FamilySearch",
+            "category": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-8": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table class=\"wikitable sortable jquery-tablesorter\" width=\"30%\" style=\"float: right;\">",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table.wikitable",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 2109,
+          "bottom": 2348,
+          "left": 464,
+          "right": 762,
+          "width": 298,
+          "height": 239
+        },
+        "category": "template"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 5492,
+          "bottom": 5783,
+          "left": 467,
+          "right": 1454,
+          "width": 987,
+          "height": 292
+        },
+        "category": "unknown"
+      }
+    ]
+  },
+  "number-of-Items": 8
 }
