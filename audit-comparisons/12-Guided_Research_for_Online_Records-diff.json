@@ -1,0 +1,11 @@
+{
+  "file": "12-Guided_Research_for_Online_Records.json",
+  "addedKeys": [
+    "color-contrast-2",
+    "frame-title-3"
+  ],
+  "removedKeys": [
+    "aria-valid-attr-value-2",
+    "color-contrast-3"
+  ]
+}

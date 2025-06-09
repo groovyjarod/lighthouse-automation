@@ -1,0 +1,15 @@
+{
+  "file": "51-Substitute_Records_For_United_States_Death_Information.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "table-fake-caption-5"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

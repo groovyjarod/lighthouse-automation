@@ -1,0 +1,19 @@
+{
+  "file": "10-How_to_Find_United_States_Death_Records.json",
+  "addedKeys": [
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "table-fake-caption-5",
+    "td-has-header-6"
+  ],
+  "removedKeys": [
+    "aria-valid-attr-value-2",
+    "color-contrast-3",
+    "definition-list-4",
+    "link-in-text-block-5",
+    "target-size-6",
+    "table-fake-caption-7",
+    "td-has-header-8"
+  ]
+}

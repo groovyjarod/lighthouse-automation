@@ -1,0 +1,18 @@
+{
+  "file": "96-Hamburg_Passenger_Lists.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "link-name-5",
+    "target-size-6",
+    "table-fake-caption-7",
+    "td-has-header-8"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

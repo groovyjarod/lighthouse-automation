@@ -24,15 +24,17 @@ const USER_AGENT = secretUserAgent()
 // }
 
 export default async function runLighthouse(url) {
-  const chrome = await chromeLauncher.launch({ chromeFlags: [
-    "--headless=new",
-    '--disable-blink-features=AutomationControlled',
-    '--disable-gpu',
-    '--no-sandbox',
-    // IMPORTANT: comment out all logic pertaining to user agent if your ip address
-    // hasn't yet been configured to use the user agent; otherwise you won't have access.
-    `--user-agent=${USER_AGENT}`
-  ]
+  const chrome = await chromeLauncher.launch({
+    chromeFlags: [
+      "--headless=new",
+      '--disable-blink-features=AutomationControlled',
+      '--disable-gpu',
+      '--no-sandbox',
+      // IMPORTANT: comment out all logic pertaining to user agent if your ip address
+      // hasn't yet been configured to use the user agent; otherwise you won't have access.
+      `--user-agent=${USER_AGENT}`
+    ],
+    // timeout: 60000,
 });
   const options = {
     port: chrome.port,

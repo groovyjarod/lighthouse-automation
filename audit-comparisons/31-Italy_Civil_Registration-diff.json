@@ -1,0 +1,14 @@
+{
+  "file": "31-Italy_Civil_Registration.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

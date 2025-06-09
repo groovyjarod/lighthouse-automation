@@ -1,0 +1,14 @@
+{
+  "file": "77-GuidedResearch:Texas.json",
+  "addedKeys": [
+    "aria-allowed-attr-1",
+    "aria-allowed-role-2",
+    "color-contrast-3",
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

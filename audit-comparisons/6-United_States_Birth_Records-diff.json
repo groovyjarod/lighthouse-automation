@@ -1,0 +1,11 @@
+{
+  "file": "6-United_States_Birth_Records.json",
+  "addedKeys": [
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "link-in-text-block-4",
+    "link-name-5",
+    "target-size-6"
+  ]
+}

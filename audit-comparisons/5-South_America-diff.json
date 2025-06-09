@@ -1,0 +1,10 @@
+{
+  "file": "5-South_America.json",
+  "addedKeys": [
+    "frame-title-3"
+  ],
+  "removedKeys": [
+    "link-name-3",
+    "target-size-4"
+  ]
+}

@@ -1,5 +1,5 @@
 import runLighthouse from './generateLighthouseReport.mjs'
-import getAudits from './getAudits.mjs'
+import trimAuditData from './trimAuditData.mjs'
 import classifyIssue from './classifyIssue.mjs'
 
 // run lighthouse and return data as json object
@@ -11,7 +11,7 @@ async function getRawAuditData (urlPath) {
 // retrieve json object and return object with relevant data
 async function getAuditAccessibilityData (urlPath) {
     const [auditResults, accessibilityScore] = await getRawAuditData(urlPath)
-    return [getAudits(auditResults), accessibilityScore]
+    return [trimAuditData(auditResults), accessibilityScore]
 }
 
 // extract relevant data

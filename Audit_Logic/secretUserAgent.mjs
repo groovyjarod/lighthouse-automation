@@ -5,5 +5,5 @@
 // "replace this return value with the provided secret user agent"
 
 export default function secretUserAgent () {
-    return "replace this return value with the provided secret user agent"
+    return "fs-jarod-day-pythonscript-wiki"
 }

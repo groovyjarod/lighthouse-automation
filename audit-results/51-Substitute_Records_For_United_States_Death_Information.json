@@ -1,64 +1,290 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 91,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Category:United_States_Vital_Records\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 1352,
+          "bottom": 1368,
+          "left": 137,
+          "right": 308,
+          "width": 171,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 1347,
+              "bottom": 1374,
+              "left": 129,
+              "right": 316,
+              "width": 187,
+              "height": 28
+            },
+            "nodeLabel": "United States Vital Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Substitute_Records\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 1352,
+          "bottom": 1368,
+          "left": 325,
+          "right": 444,
+          "width": 118,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 1347,
+              "bottom": 1374,
+              "left": 316,
+              "right": 452,
+              "width": 135,
+              "height": 28
+            },
+            "nodeLabel": "Substitute Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "definition-list-3": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 309,
+          "bottom": 386,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 400,
+          "bottom": 476,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 491,
+          "bottom": 567,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 581,
+          "bottom": 658,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 672,
+          "bottom": 749,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 763,
+          "bottom": 862,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 99
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 876,
+          "bottom": 953,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 967,
+          "bottom": 1044,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1058,
+          "bottom": 1134,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 77
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1149,
+          "bottom": 1251,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 103
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1265,
+          "bottom": 1316,
+          "left": 502,
+          "right": 1855,
+          "width": 1353,
+          "height": 51
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "frame-title-2": {
+  "frame-title-4": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=12-32214811-0%20PNNN%20RT%281748445…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 1080,
+          "bottom": 39,
           "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "right": 1905,
+          "width": 1905,
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "table-fake-caption-5": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"1\" border=\"1\">",
+        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 277,
+          "bottom": 1325,
+          "left": 48,
+          "right": 1857,
+          "width": 1809,
+          "height": 1048
         },
-        "itemCategory": "unknown"
+        "itemCategory": "page"
       }
     ]
   },
-  "number-of-Items": 3
+  "number-of-Items": 5
 }

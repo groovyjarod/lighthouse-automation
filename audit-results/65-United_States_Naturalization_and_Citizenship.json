@@ -1,64 +1,304 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 87,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "frame-title-2": {
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Category:United_States\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 11208,
+          "bottom": 11224,
+          "left": 433,
+          "right": 518,
+          "width": 84,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 11203,
+              "bottom": 11231,
+              "left": 425,
+              "right": 526,
+              "width": 100,
+              "height": 28
+            },
+            "nodeLabel": "United States",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:United_States_Naturalization_and_Citizenship\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 11208,
+          "bottom": 11224,
+          "left": 535,
+          "right": 808,
+          "width": 273,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 11203,
+              "bottom": 11231,
+              "left": 526,
+              "right": 816,
+              "width": 290,
+              "height": 28
+            },
+            "nodeLabel": "United States Naturalization and Citizenship",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:United_States_Court_Records\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 11208,
+          "bottom": 11224,
+          "left": 825,
+          "right": 1003,
+          "width": 178,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 11203,
+              "bottom": 11231,
+              "left": 816,
+              "right": 1011,
+              "width": 195,
+              "height": 28
+            },
+            "nodeLabel": "United States Court Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "definition-list-3": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3050,
+          "bottom": 3232,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 182
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3972,
+          "bottom": 3994,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 22
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 4001,
+          "bottom": 4676,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 675
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 6604,
+          "bottom": 6673,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 69
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 6884,
+          "bottom": 6954,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 70
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "b > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 6884,
+          "bottom": 6954,
+          "left": 366,
+          "right": 1857,
+          "width": 1491,
+          "height": 70
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 7999,
+          "bottom": 8093,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 94
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "frame-title-4": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=6-12157881-0%20PNNN%20RT%2817484455…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 1080,
+          "bottom": 39,
           "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "right": 1905,
+          "width": 1905,
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "heading-order-5": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<h4>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > b > h4",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 6140,
+          "bottom": 6184,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 44
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "link-name-6": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Naturalization.jpg&amp;filetimestamp=20080811164…\" class=\"image\">",
+        "selector": "td > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 2579,
+          "bottom": 2594,
+          "left": 1408,
+          "right": 1608,
+          "width": 200,
+          "height": 15
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 3
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 10862,
+          "bottom": 11165,
+          "left": 347,
+          "right": 1854,
+          "width": 1507,
+          "height": 303
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "number-of-Items": 7
 }

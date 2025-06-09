@@ -1,0 +1,14 @@
+{
+  "file": "1-Main_Page.json",
+  "addedKeys": [
+    "accesskeys-1",
+    "aria-allowed-role-2",
+    "color-contrast-3",
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "link-in-text-block-3"
+  ]
+}

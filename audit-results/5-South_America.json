@@ -1,20 +1,20 @@
 {
-  "accessibility-score": 89,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 5,
-          "bottom": 18,
-          "left": 463,
-          "right": 476,
-          "width": 13,
-          "height": 13
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
         "itemCategory": "skin"
       }
@@ -25,92 +25,56 @@
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<span>",
-        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<a href=\"/en/wiki/Category:South_America\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1185,
-          "bottom": 1202,
-          "left": 502,
-          "right": 803,
-          "width": 301,
-          "height": 17
+          "top": 1196,
+          "bottom": 1212,
+          "left": 127,
+          "right": 218,
+          "width": 91,
+          "height": 16
         },
-        "itemCategory": "page",
+        "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<div id=\"mw-mf-page-center\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
             "boundingRect": {
-              "top": -1,
-              "bottom": 1400,
-              "left": 0,
-              "right": 1920,
-              "width": 1920,
-              "height": 1401
+              "top": 1191,
+              "bottom": 1218,
+              "left": 119,
+              "right": 226,
+              "width": 107,
+              "height": 28
             },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nSouth America\nLanguage\nWatch\nEdit\nFamilySearch…",
+            "nodeLabel": "South America",
             "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "link-name-3": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+  "frame-title-3": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<a class=\"mw-mf-page-center__mask\" href=\"#\">",
-        "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > a.mw-mf-page-center__mask",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
-          "top": -1,
-          "bottom": -1,
+          "top": 0,
+          "bottom": 39,
           "left": 0,
-          "right": 0,
-          "width": 0,
-          "height": 0
+          "right": 1905,
+          "width": 1905,
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "target-size-4": {
-    "title": "Touch targets do not have sufficient size or spacing.",
-    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Main_Page\">",
-        "selector": "div.mw-parser-output > div > div > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (198.3px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
-        "boundingRect": {
-          "top": 181,
-          "bottom": 202,
-          "left": 464,
-          "right": 662,
-          "width": 198,
-          "height": 21
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a id=\"\" href=\"/en/wiki/Special:MobileLanguages/South_America\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-            "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-            "boundingRect": {
-              "top": 136,
-              "bottom": 182,
-              "left": 456,
-              "right": 588,
-              "width": 132,
-              "height": 46
-            },
-            "nodeLabel": "Language",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }

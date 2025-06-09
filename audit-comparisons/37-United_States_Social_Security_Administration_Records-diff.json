@@ -1,0 +1,14 @@
+{
+  "file": "37-United_States_Social_Security_Administration_Records.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

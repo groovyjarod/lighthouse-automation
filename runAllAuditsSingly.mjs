@@ -1,4 +1,4 @@
-import createReport from "./createFinalizedReport.mjs";
+import createReport from "./Audit_Logic/createFinalizedReport.mjs";
 import fs from "fs";
 
 const url = "https://www.familysearch.org/";
@@ -17,7 +17,7 @@ async function commenceAllAudits(paths) {
     console.log(`Starting on ${fullUrl}...`);
     const jsonData = await getReportData(fullUrl);
     console.log("Writing to file...");
-    fs.writeFileSync(`./audit-results/${i}-${paths[i]}.json`, jsonData, "utf8");
+    fs.writeFileSync(`./new-audit-results/${i}-${paths[i]}.json`, jsonData, "utf8");
     console.log("File completed.");
   }
 }

@@ -1,0 +1,15 @@
+{
+  "file": "22-United_States_Vietnam_War_1964_to_1972.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "table-fake-caption-5"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

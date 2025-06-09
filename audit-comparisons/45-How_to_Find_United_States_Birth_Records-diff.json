@@ -1,0 +1,16 @@
+{
+  "file": "45-How_to_Find_United_States_Birth_Records.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "table-fake-caption-5",
+    "td-has-header-6"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

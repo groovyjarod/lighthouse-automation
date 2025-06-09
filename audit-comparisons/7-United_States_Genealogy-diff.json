@@ -1,0 +1,10 @@
+{
+  "file": "7-United_States_Genealogy.json",
+  "addedKeys": [
+    "frame-title-3"
+  ],
+  "removedKeys": [
+    "link-in-text-block-3",
+    "link-name-4"
+  ]
+}

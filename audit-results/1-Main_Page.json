@@ -1,156 +1,146 @@
 {
-  "accessibility-score": 93,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibility-score": 90,
+  "accesskeys-1": {
+    "title": "`[accesskey]` values are not unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more about access keys](https://dequeuniversity.com/rules/axe/4.10/accesskeys).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\" autocomplete=\"off\">",
+        "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
+        "explanation": "Fix all of the following:\n  Document has multiple elements with the same accesskey",
         "boundingRect": {
-          "top": 67,
-          "bottom": 80,
-          "left": 463,
-          "right": 476,
-          "width": 13,
-          "height": 13
+          "top": 116,
+          "bottom": 148,
+          "left": 115,
+          "right": 615,
+          "width": 500,
+          "height": 32
         },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "color-contrast-2": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
-      {
-        "snippet": "<div style=\"text-align:center;\">",
-        "selector": "div.mw-parser-output > div > div#map > div",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.88 (foreground color: #aac777, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 305,
-          "bottom": 326,
-          "left": 464,
-          "right": 1457,
-          "width": 993,
-          "height": 21
-        },
-        "itemCategory": "page",
+        "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<main id=\"content\" class=\"mw-body\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
+            "selector": "div.searchboxContainer > form#searchform > div#simpleSearch > input#searchInput",
             "boundingRect": {
-              "top": 135,
-              "bottom": 930,
-              "left": 0,
-              "right": 1920,
-              "width": 1920,
-              "height": 795
+              "top": 358,
+              "bottom": 386,
+              "left": 795,
+              "right": 975,
+              "width": 180,
+              "height": 28
             },
-            "nodeLabel": "FamilySearch Research Wiki\nA Genealogy Resource Guide\n150,140 articles\nFind the…",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<div class=\"calloutHeading\">",
-        "selector": "div.mw-parser-output > div > div.callout > div.calloutHeading",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffa500, background color: #ffffff, font size: 12.6pt (16.8px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 684,
-          "bottom": 735,
-          "left": 917,
-          "right": 1005,
-          "width": 88,
-          "height": 50
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<div class=\"callout\">",
-            "selector": "section#mf-section-0 > div.mw-parser-output > div > div.callout",
-            "boundingRect": {
-              "top": 678,
-              "bottom": 785,
-              "left": 911,
-              "right": 1011,
-              "width": 100,
-              "height": 106
-            },
-            "nodeLabel": "Jump-start your\nresearch\n\nGuided Research",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<span>",
-        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 945,
-          "bottom": 962,
-          "left": 502,
-          "right": 713,
-          "width": 211,
-          "height": 17
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<div id=\"mw-mf-page-center\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
-            "boundingRect": {
-              "top": 61,
-              "bottom": 1160,
-              "left": 0,
-              "right": 1920,
-              "width": 1920,
-              "height": 1099
-            },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nFamilySearch Research Wiki\nA Genealogy Resourc…",
+            "nodeLabel": "Search by place or topic",
             "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "link-in-text-block-3": {
-    "title": "Links rely on color to be distinguishable.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+  "aria-allowed-role-2": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/Special:Statistics\">",
-        "selector": "div.mw-parser-output > div > div#statsline > a",
-        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 227,
-          "bottom": 244,
-          "left": 904,
-          "right": 962,
-          "width": 59,
-          "height": 17
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<div class=\"calloutHeading\">",
+        "selector": "div.mw-parser-output > div > div.callout > div.calloutHeading",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffa500, background color: #ffffff, font size: 15.6pt (20.8px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 426,
+          "bottom": 526,
+          "left": 1501,
+          "right": 1649,
+          "width": 148,
+          "height": 100
         },
         "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<div id=\"statsline\">",
-            "selector": "section#mf-section-0 > div.mw-parser-output > div > div#statsline",
+            "snippet": "<div class=\"callout\">",
+            "selector": "div.mw-parser-output > div.mw-parser-output > div > div.callout",
             "boundingRect": {
-              "top": 225,
-              "bottom": 246,
-              "left": 464,
-              "right": 1457,
-              "width": 993,
-              "height": 21
+              "top": 420,
+              "bottom": 704,
+              "left": 1495,
+              "right": 1655,
+              "width": 160,
+              "height": 283
             },
-            "nodeLabel": "150,140 articles",
+            "nodeLabel": "Jump-start your\nresearch\n\nGuided Research will help you find the best databases…",
             "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Language_link_templates\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 1366,
+          "bottom": 1382,
+          "left": 127,
+          "right": 278,
+          "width": 152,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 1361,
+              "bottom": 1389,
+              "left": 119,
+              "right": 286,
+              "width": 168,
+              "height": 28
+            },
+            "nodeLabel": "Language link templates",
+            "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "number-of-Items": 3
+  "frame-title-4": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+    "items": [
+      {
+        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1905,
+          "width": 1905,
+          "height": 39
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "number-of-Items": 4
 }

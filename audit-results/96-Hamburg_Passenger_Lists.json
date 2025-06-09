@@ -1,64 +1,432 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 86,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "frame-title-2": {
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<b>",
+        "selector": "div > div > a.new > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 7936,
+          "bottom": 7950,
+          "left": 352,
+          "right": 441,
+          "width": 89,
+          "height": 14
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
+            "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
+            "boundingRect": {
+              "top": 7934,
+              "bottom": 7972,
+              "left": 347,
+              "right": 1854,
+              "width": 1507,
+              "height": 38
+            },
+            "nodeLabel": "Research Steps · Archives and Libraries · Cemeteries · Church History · Church …",
+            "subItemCategory": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=Hamburg_Dwellings&amp;action=edit&amp;redlink=1\" class=\"new\">",
+        "selector": "td.navbox-list > div > div > a.new",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 7936,
+          "bottom": 7950,
+          "left": 1019,
+          "right": 1070,
+          "width": 51,
+          "height": 14
+        },
+        "itemCategory": "template",
+        "subItems": [
+          {
+            "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
+            "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
+            "boundingRect": {
+              "top": 7934,
+              "bottom": 7972,
+              "left": 347,
+              "right": 1854,
+              "width": 1507,
+              "height": 38
+            },
+            "nodeLabel": "Research Steps · Archives and Libraries · Cemeteries · Church History · Church …",
+            "subItemCategory": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=Hamburg_Occupations&amp;action=edit&amp;redlink=1\" class=\"new\">",
+        "selector": "td.navbox-list > div > div > a.new",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 7955,
+          "bottom": 7969,
+          "left": 888,
+          "right": 954,
+          "width": 66,
+          "height": 14
+        },
+        "itemCategory": "template",
+        "subItems": [
+          {
+            "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
+            "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
+            "boundingRect": {
+              "top": 7934,
+              "bottom": 7972,
+              "left": 347,
+              "right": 1854,
+              "width": 1507,
+              "height": 38
+            },
+            "nodeLabel": "Research Steps · Archives and Libraries · Cemeteries · Church History · Church …",
+            "subItemCategory": "template"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Pages_with_broken_file_links\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 8068,
+          "bottom": 8084,
+          "left": 433,
+          "right": 602,
+          "width": 169,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 8063,
+              "bottom": 8090,
+              "left": 425,
+              "right": 610,
+              "width": 185,
+              "height": 28
+            },
+            "nodeLabel": "Pages with broken file links",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Hamburg,_German_Empire\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 8068,
+          "bottom": 8084,
+          "left": 619,
+          "right": 784,
+          "width": 164,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 8063,
+              "bottom": 8090,
+              "left": 610,
+              "right": 792,
+              "width": 181,
+              "height": 28
+            },
+            "nodeLabel": "Hamburg, German Empire",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Emigration_and_Immigration\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 8068,
+          "bottom": 8084,
+          "left": 801,
+          "right": 972,
+          "width": 171,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<li>",
+            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
+            "boundingRect": {
+              "top": 8063,
+              "bottom": 8090,
+              "left": 792,
+              "right": 980,
+              "width": 188,
+              "height": 28
+            },
+            "nodeLabel": "Emigration and Immigration",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "definition-list-3": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 1127,
+          "bottom": 1172,
+          "left": 344,
+          "right": 1857,
+          "width": 1513,
+          "height": 45
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "frame-title-4": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=13-43412707-0%20PNNN%20RT%281748445…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 1080,
+          "bottom": 39,
           "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "right": 1905,
+          "width": 1905,
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "link-name-5": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Hamburg_bei_Sankt-Pauli_um_1900.jpg&amp;filetime…\" class=\"image\">",
+        "selector": "td > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 0,
-          "bottom": 1080,
-          "left": 0,
-          "right": 1920,
-          "width": 1920,
-          "height": 1080
+          "top": 446,
+          "bottom": 461,
+          "left": 1045,
+          "right": 1345,
+          "width": 300,
+          "height": 15
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:HAMBURGFIG5.jpg&amp;filetimestamp=20080416134558&amp;\" class=\"image\">",
+        "selector": "div.center > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 6059,
+          "bottom": 6074,
+          "left": 954,
+          "right": 1254,
+          "width": 300,
+          "height": 15
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Hamburg-Sankt-Pauli-peers.JPG&amp;filetimestamp=…\" class=\"image\">",
+        "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 7532,
+          "bottom": 7547,
+          "left": 1559,
+          "right": 1859,
+          "width": 300,
+          "height": 15
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Template_talk:Hamburg,_Germany\">",
+        "selector": "th.navbox-title > div > div.noprint > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7917,
+          "bottom": 7931,
+          "left": 387,
+          "right": 392,
+          "width": 5,
+          "height": 14
+        },
+        "itemCategory": "template",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/index.php?title=Hamburg_Research_Steps&amp;action=edit&amp;redlink=1\" class=\"new\">",
+            "selector": "td.navbox-list > div > div > a.new",
+            "boundingRect": {
+              "top": 7936,
+              "bottom": 7950,
+              "left": 352,
+              "right": 441,
+              "width": 89,
+              "height": 14
+            },
+            "nodeLabel": "Research Steps",
+            "subItemCategory": "template"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table style=\"float: right; width: 20%; margin-left: 10px; border-spacing: 0px;\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 248,
+          "bottom": 2056,
+          "left": 1554,
+          "right": 1857,
+          "width": 303,
+          "height": 1808
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 7836,
+          "bottom": 7972,
+          "left": 347,
+          "right": 1854,
+          "width": 1507,
+          "height": 136
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 3
+  "td-has-header-8": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table align=\"center\" class=\"plain FCK__ShowTableBorders\" style=\"width: 669px; height: 400px;\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > center > table.plain",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 2132,
+          "bottom": 2532,
+          "left": 766,
+          "right": 1435,
+          "width": 669,
+          "height": 400
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<td align=\"right\">",
+            "selector": "table.plain > tbody > tr > td",
+            "boundingRect": {
+              "top": 2132,
+              "bottom": 2177,
+              "left": 766,
+              "right": 887,
+              "width": 121,
+              "height": 44
+            },
+            "nodeLabel": "Emigration Year\n",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<td align=\"left\">",
+            "selector": "table.plain > tbody > tr > td",
+            "boundingRect": {
+              "top": 2132,
+              "bottom": 2177,
+              "left": 889,
+              "right": 1435,
+              "width": 546,
+              "height": 44
+            },
+            "nodeLabel": "Search These Recommended Indexes for Those Years\n",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<td align=\"right\">",
+            "selector": "table.plain > tbody > tr > td",
+            "boundingRect": {
+              "top": 2177,
+              "bottom": 2221,
+              "left": 766,
+              "right": 887,
+              "width": 121,
+              "height": 44
+            },
+            "nodeLabel": "1850-1854\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 8
 }

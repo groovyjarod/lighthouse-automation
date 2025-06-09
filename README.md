@@ -4,7 +4,15 @@ Created by Jarod Day
 
 Usage: npm run audit
 
-This script will parse all of the paths contained in wikiPaths.txt to create a array of paths proceeding the extension https://www.familysearch.org/en/wiki/. Using the paths, the script automates each one and creates a json file containing audit results of each page listed in the .txt file
+Dev Dependencies:
+    - chrome-launcher
+    - lighthouse
+
+Dependencies:
+    - p-limit
+    - child_process
+
+This script parses all of the paths contained in wikiPaths.txt to create a array of paths proceeding the extension https://www.familysearch.org/en/wiki/. The script automates each page using the paths to create a full URL to access the page, and creates a custom-made json file containing audit results of each page listed in the .txt file.
 
 What's being done:
 

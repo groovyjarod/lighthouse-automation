@@ -1,0 +1,17 @@
+{
+  "file": "23-United_States_Census.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "frame-title-3",
+    "heading-order-4",
+    "listitem-5",
+    "target-size-6",
+    "table-fake-caption-7"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}
