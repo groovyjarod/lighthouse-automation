@@ -1,0 +1,16 @@
+{
+  "file": "48-US_Immigration_Passenger_Arrival_Records.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "heading-order-5",
+    "table-fake-caption-6"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

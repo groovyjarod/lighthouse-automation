@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "audit": "node runConcurrentAudits.mjs"
+    "audit-single": "node runSingleAudit.mjs",
+    "audit-all": "node runConcurrentAudits.mjs",
+    "compare": "node compareAuditResults.mjs"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",

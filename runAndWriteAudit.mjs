@@ -1,5 +1,5 @@
 import fs from 'fs'
-import createReport from './createFinalizedReport.mjs'
+import createReport from './Audit_Logic/createFinalizedReport.mjs'
 
 const [,, url, outputFile] = process.argv
 

@@ -1,0 +1,17 @@
+{
+  "file": "54-Beginning_Research_of_United_States_Indigenous_Peoples.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "heading-order-5",
+    "target-size-6",
+    "table-fake-caption-7"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

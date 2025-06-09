@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import extractRelevantItemData from "./extractItemData.mjs";
 
-export default function getAudits(jsonData) {
+export default function trimAuditData(jsonData) {
   const data = JSON.parse(jsonData)
   const auditLocations = data.categories.accessibility.auditRefs
   const returnData = []

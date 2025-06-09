@@ -1,14 +1,14 @@
 import fs from "fs";
 import { spawn } from "child_process";
 import pLimit from "p-limit";
-import estimateConcurrency from "./estimateConcurrency.mjs";
+import estimateConcurrency from "./Audit_Logic/estimateConcurrency.mjs";
 import readline from "readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 const rl = readline.createInterface({ input, output });
 
 const urlBase = "https://www.familysearch.org/";
 const language = "en";
-const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8");
+const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8")
 const paths = pathsRaw.split("\n").filter(Boolean);
 
 const numberOfConcurrentAudits = estimateConcurrency();

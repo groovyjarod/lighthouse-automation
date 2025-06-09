@@ -1,0 +1,15 @@
+{
+  "file": "2-United_States_Death_Records.json",
+  "addedKeys": [
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4"
+  ],
+  "removedKeys": [
+    "aria-valid-attr-value-2",
+    "color-contrast-3",
+    "definition-list-4",
+    "link-in-text-block-5",
+    "target-size-6"
+  ]
+}

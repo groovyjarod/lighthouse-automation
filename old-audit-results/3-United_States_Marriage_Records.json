@@ -1,0 +1,202 @@
+{
+  "accessibility-score": 83,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+    "items": [
+      {
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "boundingRect": {
+          "top": 5,
+          "bottom": 18,
+          "left": 463,
+          "right": 476,
+          "width": 13,
+          "height": 13
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 136,
+          "bottom": 182,
+          "left": 456,
+          "right": 588,
+          "width": 132,
+          "height": 46
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<main id=\"content\" class=\"mw-body\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "boundingRect": {
+              "top": 73,
+              "bottom": 5496,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 5423
+            },
+            "nodeLabel": "United States Marriage Records\nLanguage\nWatch\nEdit\nUnited States\nVital Records\n…",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<span>",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 5510,
+          "bottom": 5527,
+          "left": 502,
+          "right": 787,
+          "width": 285,
+          "height": 17
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<div id=\"mw-mf-page-center\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "boundingRect": {
+              "top": -1,
+              "bottom": 5726,
+              "left": 0,
+              "right": 1920,
+              "width": 1920,
+              "height": 5727
+            },
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nUnited States Marriage Records\nLanguage\nWatch\n…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "definition-list-3": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 786,
+          "bottom": 807,
+          "left": 478,
+          "right": 1457,
+          "width": 979,
+          "height": 21
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "link-in-text-block-4": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States,_How_to_Use_Marriage_Records\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.35:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #333333)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 1643,
+          "bottom": 1660,
+          "left": 966,
+          "right": 1033,
+          "width": 67,
+          "height": 17
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > p",
+            "boundingRect": {
+              "top": 1641,
+              "bottom": 1662,
+              "left": 464,
+              "right": 1457,
+              "width": 993,
+              "height": 21
+            },
+            "nodeLabel": "For more information about using marriage records effectively, click here.",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "link-name-5": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a class=\"mw-mf-page-center__mask\" href=\"#\">",
+        "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > a.mw-mf-page-center__mask",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": -1,
+          "bottom": -1,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States\" class=\"mw-redirect\">",
+        "selector": "div.mw-parser-output > div > div > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+        "boundingRect": {
+          "top": 181,
+          "bottom": 202,
+          "left": 464,
+          "right": 559,
+          "width": 95,
+          "height": 21
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+            "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+            "boundingRect": {
+              "top": 136,
+              "bottom": 182,
+              "left": 456,
+              "right": 588,
+              "width": 132,
+              "height": 46
+            },
+            "nodeLabel": "Language",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 6
+}

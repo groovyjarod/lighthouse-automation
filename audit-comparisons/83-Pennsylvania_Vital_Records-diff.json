@@ -1,0 +1,17 @@
+{
+  "file": "83-Pennsylvania_Vital_Records.json",
+  "addedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
+    "frame-title-4",
+    "target-size-5",
+    "table-fake-caption-6",
+    "td-has-header-7"
+  ],
+  "removedKeys": [
+    "document-title-1",
+    "frame-title-2",
+    "html-has-lang-3"
+  ]
+}

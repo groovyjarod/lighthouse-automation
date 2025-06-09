@@ -1,0 +1,13 @@
+{
+  "file": "13-North_American_Continent.json",
+  "addedKeys": [
+    "color-contrast-2",
+    "frame-title-3"
+  ],
+  "removedKeys": [
+    "aria-valid-attr-value-2",
+    "color-contrast-3",
+    "link-in-text-block-4",
+    "target-size-5"
+  ]
+}
