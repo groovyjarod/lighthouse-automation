@@ -24,8 +24,10 @@ const USER_AGENT = secretUserAgent()
 // }
 
 export default async function runLighthouse(url) {
+  const viewport = isMobile ? { width: 500, height: 700 } : { width: 1400, height: 800 }
   const chrome = await chromeLauncher.launch({
     chromeFlags: [
+      `--window-size=${viewport.width},${viewport.height}`,
       "--headless=new",
       '--disable-blink-features=AutomationControlled',
       '--disable-gpu',
@@ -34,7 +36,7 @@ export default async function runLighthouse(url) {
       // hasn't yet been configured to use the user agent; otherwise you won't have access.
       `--user-agent=${USER_AGENT}`
     ],
-    // timeout: 60000,
+    timeout: 120000,
 });
   const options = {
     port: chrome.port,
@@ -48,8 +50,8 @@ export default async function runLighthouse(url) {
         formFactor: TESTING_METHOD,
         screenEmulation: {
             mobile: isMobile,
-            width: isMobile ? 500 : 1920,
-            height: 1080,
+            width: viewport.width,
+            height: viewport.height,
             deviceScaleFactor: 1,
             disabled: false,
         },
@@ -61,6 +63,7 @@ export default async function runLighthouse(url) {
   try {
     const runnerResult = await lighthouse(url, options, config);
     const accessibilityScore = runnerResult.lhr.categories.accessibility.score * 100;
+    console.log("Viewport used:", runnerResult.lhr.configSettings.screenEmulation);
     return [runnerResult.report, accessibilityScore]
   } catch (err) {
     console.error(`Lighthouse failed for ${url}:`, err)
@@ -68,16 +71,4 @@ export default async function runLighthouse(url) {
   } finally {
     await chrome.kill()
   }
-
-  // the following is deprecated until this script uses more than just accessibility for auditing.
-  // for (const key in categories) {
-  //   console.log(`${categories[key].title}: ${categories[key].score * 100}`);
-  // }
-
-  // fs.writeFileSync(
-  //   `${TESTING_METHOD}-${PAGE}.${OUTPUT_FORMAT}`,
-  //   runnerResult.report
-  // );
-
 }
-// starting score beforehand -> ending score
