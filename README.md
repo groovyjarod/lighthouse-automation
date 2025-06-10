@@ -2,9 +2,10 @@ Lighthouse Automation Script
 Version 1.2.0
 Created by Jarod Day
 
-Usage:    npm run audit-all
-          npm run audit-single
-          npm run compare
+Usage:
+npm run audit-all
+npm run audit-single
+npm run compare
 
 Dev Dependencies:
     - chrome-launcher
