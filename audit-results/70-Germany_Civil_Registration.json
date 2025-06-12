@@ -1,558 +1,64 @@
 {
-  "accessibility-score": 87,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibility-score": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "skin"
+        "itemCategory": "unknown"
       }
     ]
   },
-  "color-contrast-2": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 382,
-          "right": 466,
-          "width": 84,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 345,
-              "right": 503,
-              "width": 159,
-              "height": 43
-            },
-            "nodeLabel": "Record Type",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 543,
-          "right": 622,
-          "width": 79,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 503,
-              "right": 662,
-              "width": 159,
-              "height": 43
-            },
-            "nodeLabel": "Birth Stamp",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 723,
-          "right": 828,
-          "width": 105,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 662,
-              "right": 889,
-              "width": 227,
-              "height": 43
-            },
-            "nodeLabel": "Marriage Stamp",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 940,
-          "right": 1026,
-          "width": 86,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 889,
-              "right": 1078,
-              "width": 189,
-              "height": 43
-            },
-            "nodeLabel": "Divorce Note",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 1130,
-          "right": 1215,
-          "width": 86,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 1078,
-              "right": 1267,
-              "width": 189,
-              "height": 43
-            },
-            "nodeLabel": "Death Stamp",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 1314,
-          "right": 1409,
-          "width": 95,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 1267,
-              "right": 1456,
-              "width": 189,
-              "height": 43
-            },
-            "nodeLabel": "Paternity Note",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 1505,
-          "right": 1633,
-          "width": 128,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 1456,
-              "right": 1683,
-              "width": 227,
-              "height": 43
-            },
-            "nodeLabel": "Name Change Note",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > span > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3447,
-          "bottom": 3463,
-          "left": 1717,
-          "right": 1822,
-          "width": 106,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 1683,
-              "right": 1857,
-              "width": 174,
-              "height": 43
-            },
-            "nodeLabel": "Correction Note",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:Germany\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 5792,
-          "bottom": 5808,
-          "left": 433,
-          "right": 491,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 5787,
-              "bottom": 5814,
-              "left": 425,
-              "right": 499,
-              "width": 74,
-              "height": 28
-            },
-            "nodeLabel": "Germany",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:Germany_Civil_Registration\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 5792,
-          "bottom": 5808,
-          "left": 508,
-          "right": 675,
-          "width": 167,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 5787,
-              "bottom": 5814,
-              "left": 499,
-              "right": 683,
-              "width": 184,
-              "height": 28
-            },
-            "nodeLabel": "Germany Civil Registration",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "definition-list-3": {
-    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
-    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 1578,
-          "bottom": 1766,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 189
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4067,
-          "bottom": 4089,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 22
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4857,
-          "bottom": 4977,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 120
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4886,
-          "bottom": 4977,
-          "left": 366,
-          "right": 1857,
-          "width": 1491,
-          "height": 91
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 5328,
-          "bottom": 5373,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 45
-        },
-        "itemCategory": "page"
-      }
-    ]
-  },
-  "frame-title-4": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
-        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=11-810333-0%20PNNN%20RT%28174974008…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 39,
+          "bottom": 800,
           "left": 0,
-          "right": 1905,
-          "width": 1905,
-          "height": 39
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "heading-order-5": {
-    "title": "Heading elements are not in a sequentially-descending order",
-    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
-    "items": [
-      {
-        "snippet": "<h4>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
-        "explanation": "Fix any of the following:\n  Heading order invalid",
-        "boundingRect": {
-          "top": 3907,
-          "bottom": 3951,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 44
-        },
-        "itemCategory": "page"
-      }
-    ]
-  },
-  "link-name-6": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:Civil_reg_1808-1815.jpg&amp;filetimestamp=202201…\" class=\"image\">",
-        "selector": "td > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 701,
-          "bottom": 716,
-          "left": 1246,
-          "right": 1546,
-          "width": 300,
-          "height": 15
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
         "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:Civil_reg_1875.jpg&amp;filetimestamp=20230319190…\" class=\"image\">",
-        "selector": "td > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 1187,
-          "bottom": 1202,
-          "left": 1246,
-          "right": 1546,
-          "width": 300,
-          "height": 15
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:Herne_Stadtarchiv_Standesamt_Baukau.jpg&amp;file…\" class=\"image\">",
-        "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 1665,
-          "bottom": 1680,
-          "left": 1609,
-          "right": 1859,
-          "width": 250,
-          "height": 15
-        },
-        "itemCategory": "page"
       }
     ]
   },
-  "td-has-header-7": {
-    "title": "`<td>` elements in a large `<table>` do not have table headers.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
     "items": [
       {
-        "snippet": "<table width=\"100%\" border=\"1\" cellpadding=\"10\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
         "boundingRect": {
-          "top": 3433,
-          "bottom": 3607,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 175
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 345,
-              "right": 503,
-              "width": 159,
-              "height": 43
-            },
-            "nodeLabel": "Record Type",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 503,
-              "right": 662,
-              "width": 159,
-              "height": 43
-            },
-            "nodeLabel": "Birth Stamp",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 3433,
-              "bottom": 3477,
-              "left": 662,
-              "right": 889,
-              "width": 227,
-              "height": 43
-            },
-            "nodeLabel": "Marriage Stamp",
-            "subItemCategory": "unknown"
-          }
-        ]
+        "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 7
+  "number-of-Items": 3
 }
