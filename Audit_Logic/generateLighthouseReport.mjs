@@ -10,18 +10,16 @@ import secretUserAgent from "./secretUserAgent.mjs";
 
 import lighthouse from "lighthouse";
 import * as chromeLauncher from "chrome-launcher";
-// import fs from "fs";
 
 const OUTPUT_FORMAT = "json"; // 'html'
 const TESTING_METHOD = "desktop"; // 'mobile'
 const isMobile = TESTING_METHOD === "mobile";
 const USER_AGENT = secretUserAgent()
 
-// console.log(USER_AGENT)
-// if (USER_AGENT === "replace this return value with the provided secret user agent") {
-//   console.error("Please go to secretUserAgent.mjs and replace the return value with the secret user-agent key provided.")
-//   process.exit(1)
-// }
+if (USER_AGENT === "replace this return value with the provided secret user agent") {
+  console.error("Please go to secretUserAgent.mjs and replace the return value with the secret user-agent key provided.")
+  process.exit(1)
+}
 
 export default async function runLighthouse(url) {
   const viewport = isMobile ? { width: 500, height: 700 } : { width: 1400, height: 800 }
@@ -34,7 +32,7 @@ export default async function runLighthouse(url) {
       '--no-sandbox',
       // IMPORTANT: comment out all logic pertaining to user agent if your ip address
       // hasn't yet been configured to use the user agent; otherwise you won't have access.
-      `--user-agent=${USER_AGENT}`
+      // `--user-agent=${USER_AGENT}`
     ],
     timeout: 120000,
 });
@@ -56,7 +54,7 @@ export default async function runLighthouse(url) {
             disabled: false,
         },
         onlyCategories: ['accessibility'],
-        emulatedUserAgent: USER_AGENT,
+        // emulatedUserAgent: USER_AGENT,
     }
   }
 

@@ -1,190 +1,64 @@
 {
-  "accessibility-score": 94,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibility-score": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "skin"
+        "itemCategory": "unknown"
       }
     ]
   },
-  "color-contrast-2": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
-      {
-        "snippet": "<b>",
-        "selector": "tr > td > font > b",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 285,
-          "bottom": 301,
-          "left": 685,
-          "right": 918,
-          "width": 233,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 271,
-              "bottom": 375,
-              "left": 49,
-              "right": 1555,
-              "width": 1506,
-              "height": 103
-            },
-            "nodeLabel": "Canada Online Genealogy Records\n\n\nThis table shows links to countrywide collect…",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<font color=\"#4f4f4f\">",
-        "selector": "tr > td > p > font",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 314,
-          "bottom": 353,
-          "left": 113,
-          "right": 1491,
-          "width": 1378,
-          "height": 39
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 271,
-              "bottom": 375,
-              "left": 49,
-              "right": 1555,
-              "width": 1506,
-              "height": 103
-            },
-            "nodeLabel": "Canada Online Genealogy Records\n\n\nThis table shows links to countrywide collect…",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:Canada\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3383,
-          "bottom": 3399,
-          "left": 137,
-          "right": 187,
-          "width": 49,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 3378,
-              "bottom": 3405,
-              "left": 129,
-              "right": 195,
-              "width": 65,
-              "height": 28
-            },
-            "nodeLabel": "Canada",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:Canada_Online_Collections\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 3383,
-          "bottom": 3399,
-          "left": 204,
-          "right": 369,
-          "width": 166,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 3378,
-              "bottom": 3405,
-              "left": 195,
-              "right": 377,
-              "width": 183,
-              "height": 28
-            },
-            "nodeLabel": "Canada Online Collections",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
-        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=13-1393752-0%20PNNN%20RT%2817497401…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 39,
+          "bottom": 800,
           "left": 0,
-          "right": 1905,
-          "width": 1905,
-          "height": 39
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "skin"
+        "itemCategory": "unknown"
       }
     ]
   },
-  "table-fake-caption-4": {
-    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
     "items": [
       {
-        "snippet": "<table cellspacing=\"0\" cellpadding=\"1\" border=\"2\">",
-        "selector": "div.mw-parser-output > div > div > table",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
         "boundingRect": {
-          "top": 270,
-          "bottom": 3356,
-          "left": 48,
-          "right": 1556,
-          "width": 1508,
-          "height": 3086
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "page"
+        "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }

@@ -1,532 +1,64 @@
 {
-  "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibility-score": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "skin"
+        "itemCategory": "unknown"
       }
     ]
   },
-  "color-contrast-2": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_California_Death_Records#Deaths_before_1905\">",
-        "selector": "li > span > b > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 364,
-          "bottom": 384,
-          "left": 665,
-          "right": 819,
-          "width": 154,
-          "height": 20
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 321,
-              "bottom": 458,
-              "left": 618,
-              "right": 1676,
-              "width": 1058,
-              "height": 137
-            },
-            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_California_Death_Records#Deaths_after_1905\">",
-        "selector": "li > span > b > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 394,
-          "bottom": 414,
-          "left": 665,
-          "right": 804,
-          "width": 139,
-          "height": 20
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 321,
-              "bottom": 458,
-              "left": 618,
-              "right": 1676,
-              "width": 1058,
-              "height": 137
-            },
-            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Estimate_United_States_Death_Information\">",
-        "selector": "li > span > b > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 425,
-          "bottom": 445,
-          "left": 665,
-          "right": 830,
-          "width": 164,
-          "height": 20
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 321,
-              "bottom": 458,
-              "left": 618,
-              "right": 1676,
-              "width": 1058,
-              "height": 137
-            },
-            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:California_Vital_Records\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 2838,
-          "bottom": 2854,
-          "left": 137,
-          "right": 284,
-          "width": 146,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 2833,
-              "bottom": 2861,
-              "left": 129,
-              "right": 292,
-              "width": 162,
-              "height": 28
-            },
-            "nodeLabel": "California Vital Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:How-To_Articles\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 2838,
-          "bottom": 2854,
-          "left": 301,
-          "right": 397,
-          "width": 96,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 2833,
-              "bottom": 2861,
-              "left": 292,
-              "right": 405,
-              "width": 113,
-              "height": 28
-            },
-            "nodeLabel": "How-To Articles",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "definition-list-3": {
-    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
-    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
-      {
-        "snippet": "<dl>",
-        "selector": "tbody > tr > td > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 326,
-          "bottom": 352,
-          "left": 619,
-          "right": 1674,
-          "width": 1055,
-          "height": 27
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "tbody > tr > td > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 359,
-          "bottom": 449,
-          "left": 619,
-          "right": 1674,
-          "width": 1055,
-          "height": 90
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "tbody > tr > td > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 856,
-          "bottom": 950,
-          "left": 321,
-          "right": 951,
-          "width": 630,
-          "height": 94
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "tbody > tr > td > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 868,
-          "bottom": 938,
-          "left": 954,
-          "right": 1584,
-          "width": 630,
-          "height": 70
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 1925,
-          "bottom": 2028,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 103
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2239,
-          "bottom": 2445,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 207
-        },
-        "itemCategory": "page"
-      }
-    ]
-  },
-  "frame-title-4": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
-        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=10-550660-0%20PNNN%20RT%28174974001…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 39,
+          "bottom": 800,
           "left": 0,
-          "right": 1905,
-          "width": 1905,
-          "height": 39
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "table-fake-caption-5": {
-    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
-    "items": [
-      {
-        "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 826,
-          "bottom": 959,
-          "left": 319,
-          "right": 1586,
-          "width": 1266,
-          "height": 133
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 1180,
-          "bottom": 1641,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 460
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 1694,
-          "bottom": 1837,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 143
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
-        "selector": "tbody > tr > td > table.nowraplinks",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 2492,
-          "bottom": 2794,
-          "left": 51,
-          "right": 1854,
-          "width": 1803,
-          "height": 303
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "td-has-header-6": {
-    "title": "`<td>` elements in a large `<table>` do not have table headers.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
     "items": [
       {
-        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
         "boundingRect": {
-          "top": 605,
-          "bottom": 812,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 206
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<td>",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 605,
-              "bottom": 640,
-              "left": 48,
-              "right": 373,
-              "width": 325,
-              "height": 34
-            },
-            "nodeLabel": "Try 1st:",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td>",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 640,
-              "bottom": 674,
-              "left": 373,
-              "right": 969,
-              "width": 596,
-              "height": 34
-            },
-            "nodeLabel": "California, County Births and Deaths Records, 1800-1994 at FamilySearch.org",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td>",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 640,
-              "bottom": 674,
-              "left": 969,
-              "right": 1857,
-              "width": 888,
-              "height": 34
-            },
-            "nodeLabel": "Free; index & images of county death records from county courthouses.",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
-        "boundingRect": {
-          "top": 1180,
-          "bottom": 1641,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 460
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<td align=\"left\" colspan=\"3\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1180,
-              "bottom": 1215,
-              "left": 48,
-              "right": 1857,
-              "width": 1809,
-              "height": 34
-            },
-            "nodeLabel": "California Death Databases - Includes Indexes and Images",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td>",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1215,
-              "bottom": 1249,
-              "left": 48,
-              "right": 116,
-              "width": 68,
-              "height": 34
-            },
-            "nodeLabel": "Try 1st:",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td>",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1249,
-              "bottom": 1283,
-              "left": 116,
-              "right": 722,
-              "width": 606,
-              "height": 34
-            },
-            "nodeLabel": "1800 - 1994 - At FamilySearch.org",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
-        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
-        "boundingRect": {
-          "top": 1694,
-          "bottom": 1837,
-          "left": 48,
-          "right": 1857,
-          "width": 1809,
-          "height": 143
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<td align=\"center\" colspan=\"4\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1695,
-              "bottom": 1730,
-              "left": 49,
-              "right": 1857,
-              "width": 1808,
-              "height": 35
-            },
-            "nodeLabel": "To Order Death Certificates",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1730,
-              "bottom": 1766,
-              "left": 49,
-              "right": 953,
-              "width": 904,
-              "height": 35
-            },
-            "nodeLabel": "County Registrar and Recorder offices",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
-            "selector": "table > tbody > tr > td",
-            "boundingRect": {
-              "top": 1730,
-              "bottom": 1766,
-              "left": 953,
-              "right": 1857,
-              "width": 904,
-              "height": 35
-            },
-            "nodeLabel": "Vital Records office of the California Dept of Public Health",
-            "subItemCategory": "unknown"
-          }
-        ]
+        "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 6
+  "number-of-Items": 3
 }

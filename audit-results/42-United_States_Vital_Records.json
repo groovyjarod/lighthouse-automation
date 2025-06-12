@@ -1,282 +1,64 @@
 {
-  "accessibility-score": 86,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+  "accessibility-score": 49,
+  "document-title-1": {
+    "title": "Document doesn't have a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
     "items": [
       {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "color-contrast-2": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Category:United_States\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 4266,
-          "bottom": 4282,
-          "left": 433,
-          "right": 518,
-          "width": 84,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 4261,
-              "bottom": 4288,
-              "left": 425,
-              "right": 526,
-              "width": 100,
-              "height": 28
-            },
-            "nodeLabel": "United States",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Category:United_States_Vital_Records\">",
-        "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #3366cc, background color: #e1ebc5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "boundingRect": {
-          "top": 4266,
-          "bottom": 4282,
-          "left": 535,
-          "right": 706,
-          "width": 171,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<li>",
-            "selector": "div#catlinks > div#mw-normal-catlinks > ul > li",
-            "boundingRect": {
-              "top": 4261,
-              "bottom": 4288,
-              "left": 526,
-              "right": 714,
-              "width": 188,
-              "height": 28
-            },
-            "nodeLabel": "United States Vital Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "definition-list-3": {
-    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
-    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
-      {
-        "snippet": "<dl>",
-        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 3519,
-          "bottom": 3589,
-          "left": 344,
-          "right": 1857,
-          "width": 1513,
-          "height": 70
-        },
-        "itemCategory": "page"
-      }
-    ]
-  },
-  "frame-title-4": {
-    "title": "`<frame>` or `<iframe>` elements do not have a title",
-    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
-    "items": [
-      {
-        "snippet": "<iframe id=\":1.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
-        "selector": "body.skin-vector > div.skiptranslate > iframe#:1.container",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
         "boundingRect": {
           "top": 0,
-          "bottom": 39,
+          "bottom": 800,
           "left": 0,
-          "right": 1905,
-          "width": 1905,
-          "height": 39
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "list-5": {
-    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
-    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
-    "items": [
-      {
-        "snippet": "<ul class=\"column-spacing-halfscreen\" style=\"padding-right:5px; width: 600px;\">",
-        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen",
-        "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
-        "boundingRect": {
-          "top": 1467,
-          "bottom": 1518,
-          "left": 366,
-          "right": 966,
-          "width": 600,
-          "height": 51
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<ul>",
-            "selector": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
-            "boundingRect": {
-              "top": 1496,
-              "bottom": 1496,
-              "left": 795,
-              "right": 961,
-              "width": 167,
-              "height": 0
-            },
-            "nodeLabel": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<ul class=\"column-spacing-halfscreen\" style=\"padding-right:5px; width: 600px;\">",
-        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen",
-        "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
-        "boundingRect": {
-          "top": 1575,
-          "bottom": 1652,
-          "left": 366,
-          "right": 966,
-          "width": 600,
-          "height": 77
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<ul>",
-            "selector": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
-            "boundingRect": {
-              "top": 1604,
-              "bottom": 1604,
-              "left": 795,
-              "right": 961,
-              "width": 167,
-              "height": 0
-            },
-            "nodeLabel": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
-            "subItemCategory": "page"
-          }
-        ]
-      }
-    ]
-  },
-  "target-size-6": {
-    "title": "Touch targets do not have sufficient size or spacing.",
-    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#What_can_I_find…\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (195px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 439,
-          "bottom": 456,
-          "left": 601,
-          "right": 796,
-          "width": 195,
-          "height": 17
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#How_do_I_access…\">",
-            "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
-            "boundingRect": {
-              "top": 462,
-              "bottom": 479,
-              "left": 601,
-              "right": 783,
-              "width": 182,
-              "height": 17
-            },
-            "nodeLabel": "How do I access them?",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#How_do_I_access…\">",
-        "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (182.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 462,
-          "bottom": 479,
-          "left": 601,
-          "right": 783,
-          "width": 182,
-          "height": 17
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#What_can_I_find…\">",
-            "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
-            "boundingRect": {
-              "top": 439,
-              "bottom": 456,
-              "left": 601,
-              "right": 796,
-              "width": 195,
-              "height": 17
-            },
-            "nodeLabel": "What can I find in them?",
-            "subItemCategory": "page"
-          }
-        ]
-      }
-    ]
-  },
-  "table-fake-caption-7": {
-    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
-    "items": [
-      {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
-        "selector": "tbody > tr > td > table.nowraplinks",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 3919,
-          "bottom": 4222,
-          "left": 347,
-          "right": 1854,
-          "width": 1507,
-          "height": 303
+          "right": 1400,
+          "width": 1400,
+          "height": 800
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 7
+  "frame-title-2": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+    "items": [
+      {
+        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=7-532283-0%20PNNN%20RT%281749740039…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
+        "selector": "body > iframe#main-iframe",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "html-has-lang-3": {
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+    "items": [
+      {
+        "snippet": "<html style=\"height:100%\">",
+        "selector": "html",
+        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 800,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 800
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "number-of-Items": 3
 }
