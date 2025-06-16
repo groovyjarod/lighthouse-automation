@@ -1,64 +1,194 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 89,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
+        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 70,
+          "bottom": 83,
+          "left": 203,
+          "right": 216,
+          "width": 13,
+          "height": 13
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=The+Church+of+Jesus+Ch…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 187,
+          "bottom": 233,
+          "left": 1021,
+          "right": 1122,
+          "width": 101,
+          "height": 46
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "frame-title-2": {
-    "title": "`<frame>` or `<iframe>` elements do not have a title",
-    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+  "color-contrast-3": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=9-411468-0%20PNNN%20RT%281749740118…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 187,
+          "bottom": 233,
+          "left": 195,
+          "right": 322,
+          "width": 127,
+          "height": 46
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<main id=\"content\" class=\"mw-body\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "boundingRect": {
+              "top": 117,
+              "bottom": 4176,
+              "left": 0,
+              "right": 1400,
+              "width": 1400,
+              "height": 4059
+            },
+            "nodeLabel": "The Church of Jesus Christ of Latter-day Saints\nLanguage\nDownload PDF\nWatch\nEdi…",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 4189,
+          "bottom": 4215,
+          "left": 231,
+          "right": 1181,
+          "width": 949,
+          "height": 26
+        },
+        "itemCategory": "skin",
+        "subItems": [
+          {
+            "snippet": "<div id=\"mw-mf-page-center\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "boundingRect": {
+              "top": 63,
+              "bottom": 4418,
+              "left": 0,
+              "right": 1400,
+              "width": 1400,
+              "height": 4355
+            },
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nThe Church of Jesus Christ of Latter-day Saint…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "link-in-text-block-4": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
+      {
+        "snippet": "<a href=\"https://www.comeuntochrist.org/\" data-component=\"AdobeLinkTracker\" data-test=\"footer-service-by-link\" data-config=\"{&quot;type&quot;: &quot;e&quot;, &quot;name&quot;: &quot;ftr_srvcby&quot;}\">",
+        "selector": "section.footer-left > div.copyright_notice > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+        "boundingRect": {
+          "top": 4591,
+          "bottom": 4608,
+          "left": 572,
+          "right": 899,
+          "width": 327,
+          "height": 17
+        },
+        "itemCategory": "skin",
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
+            "boundingRect": {
+              "top": 4588,
+              "bottom": 4611,
+              "left": 24,
+              "right": 899,
+              "width": 875,
+              "height": 23
+            },
+            "nodeLabel": "© 2025 by Intellectual Reserve, Inc. All rights reserved. A service provided by…",
+            "subItemCategory": "skin"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-5": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table style=\"float: right; width: 20%; margin-left: 10px; border-spacing: 0px;\">",
+        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 251,
+          "bottom": 2110,
+          "left": 203,
+          "right": 441,
+          "width": 238,
+          "height": 1859
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
+        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 3814,
+          "bottom": 3911,
+          "left": 206,
+          "right": 699,
+          "width": 493,
+          "height": 97
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable1\">",
+        "selector": "tbody > tr > td > table#collapsibleTable1",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 3949,
+          "bottom": 4046,
+          "left": 206,
+          "right": 743,
+          "width": 537,
+          "height": 97
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
-    "items": [
-      {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
-        "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "number-of-Items": 3
+  "number-of-Items": 5
 }
