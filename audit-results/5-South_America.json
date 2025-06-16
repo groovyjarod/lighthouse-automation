@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 92,
+  "accessibility-score": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -9,8 +9,8 @@
         "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 6,
-          "bottom": 19,
+          "top": 70,
+          "bottom": 83,
           "left": 203,
           "right": 216,
           "width": 13,
@@ -20,61 +20,97 @@
       }
     ]
   },
-  "color-contrast-2": {
+  "aria-valid-attr-value-2": {
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+    "items": [
+      {
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=South+America\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
+        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "boundingRect": {
+          "top": 187,
+          "bottom": 233,
+          "left": 1021,
+          "right": 1122,
+          "width": 101,
+          "height": 46
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "color-contrast-3": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<span>",
-        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
+        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
+        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1212,
-          "bottom": 1231,
-          "left": 243,
-          "right": 538,
-          "width": 294,
-          "height": 19
+          "top": 1276,
+          "bottom": 1303,
+          "left": 231,
+          "right": 1181,
+          "width": 949,
+          "height": 26
         },
-        "itemCategory": "page",
+        "itemCategory": "skin",
         "subItems": [
           {
             "snippet": "<div id=\"mw-mf-page-center\">",
             "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
             "boundingRect": {
-              "top": -1,
-              "bottom": 1437,
+              "top": 63,
+              "bottom": 1505,
               "left": 0,
               "right": 1400,
               "width": 1400,
-              "height": 1438
+              "height": 1442
             },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nSouth America\nLanguage\nWatch\nEdit\nFamilySearch…",
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nSouth America\nLanguage\nDownload PDF\nWatch\nEdit…",
             "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "link-name-3": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+  "link-in-text-block-4": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
     "items": [
       {
-        "snippet": "<a class=\"mw-mf-page-center__mask\" href=\"#\">",
-        "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > a.mw-mf-page-center__mask",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "snippet": "<a href=\"https://www.comeuntochrist.org/\" data-component=\"AdobeLinkTracker\" data-test=\"footer-service-by-link\" data-config=\"{&quot;type&quot;: &quot;e&quot;, &quot;name&quot;: &quot;ftr_srvcby&quot;}\">",
+        "selector": "section.footer-left > div.copyright_notice > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": -1,
-          "bottom": -1,
-          "left": 0,
-          "right": 0,
-          "width": 0,
-          "height": 0
+          "top": 1678,
+          "bottom": 1695,
+          "left": 572,
+          "right": 899,
+          "width": 327,
+          "height": 17
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin",
+        "subItems": [
+          {
+            "snippet": "<p>",
+            "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
+            "boundingRect": {
+              "top": 1676,
+              "bottom": 1699,
+              "left": 24,
+              "right": 899,
+              "width": 875,
+              "height": 23
+            },
+            "nodeLabel": "© 2025 by Intellectual Reserve, Inc. All rights reserved. A service provided by…",
+            "subItemCategory": "skin"
+          }
+        ]
       }
     ]
   },
-  "number-of-Items": 3
+  "number-of-Items": 4
 }

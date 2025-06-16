@@ -3,7 +3,8 @@
   "scripts": {
     "audit-single": "node runSingleAudit.mjs",
     "audit-all": "node runConcurrentAudits.mjs",
-    "compare": "node compareAuditResults.mjs"
+    "compare": "node compareAuditResults.mjs",
+    "report": "node produceJsonReport.mjs"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",

@@ -1,56 +1,6 @@
 {
-  "accessibility-score": 89,
-  "accesskeys-1": {
-    "title": "`[accesskey]` values are not unique",
-    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more about access keys](https://dequeuniversity.com/rules/axe/4.10/accesskeys).",
-    "items": [
-      {
-        "snippet": "<input class=\"search mw-ui-background-icon-search skin-minerva-search-trigger\" type=\"search\" name=\"search\" id=\"searchInput\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" \"=\"\">",
-        "selector": "div.minerva-header > form.minerva-search-form > div.search-box > input#searchInput",
-        "explanation": "Fix all of the following:\n  Document has multiple elements with the same accesskey",
-        "boundingRect": {
-          "top": 185,
-          "bottom": 206,
-          "left": 8,
-          "right": 155,
-          "width": 147,
-          "height": 22
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div.searchboxContainer > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 379,
-              "bottom": 400,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 419,
-              "bottom": 440,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "aria-allowed-role-2": {
+  "accessibility-score": 93,
+  "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
@@ -59,10 +9,10 @@
         "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 11,
-          "bottom": 24,
-          "left": 12,
-          "right": 25,
+          "top": 70,
+          "bottom": 83,
+          "left": 203,
+          "right": 216,
           "width": 13,
           "height": 13
         },
@@ -70,389 +20,137 @@
       }
     ]
   },
-  "link-name-3": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<a class=\"mw-mf-page-center__mask\" href=\"#\">",
-        "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > a.mw-mf-page-center__mask",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "snippet": "<div style=\"text-align:center;\">",
+        "selector": "div.mw-parser-output > div > div#map > div",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.88 (foreground color: #aac777, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8,
-          "bottom": 8,
-          "left": 8,
-          "right": 8,
-          "width": 0,
-          "height": 0
+          "top": 350,
+          "bottom": 383,
+          "left": 203,
+          "right": 1197,
+          "width": 993,
+          "height": 33
         },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "target-size-4": {
-    "title": "Touch targets do not have sufficient size or spacing.",
-    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Main_Page\" class=\"menu__item--home\" data-mw=\"interface\" data-event-name=\"\">",
-        "selector": "div#mw-mf-page-left > ul#p-navigation > li > a.menu__item--home",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (39.1px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
-        "boundingRect": {
-          "top": 44,
-          "bottom": 63,
-          "left": 48,
-          "right": 87,
-          "width": 39,
-          "height": 19
-        },
-        "itemCategory": "unknown",
+        "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Special:Random\" class=\"menu__item--random\" data-mw=\"interface\" data-event-name=\"\">",
-            "selector": "div#mw-mf-page-left > ul#p-navigation > li > a.menu__item--random",
+            "snippet": "<main id=\"content\" class=\"mw-body\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
             "boundingRect": {
-              "top": 63,
-              "bottom": 81,
-              "left": 48,
-              "right": 102,
-              "width": 54,
-              "height": 19
+              "top": 117,
+              "bottom": 1231,
+              "left": 0,
+              "right": 1400,
+              "width": 1400,
+              "height": 1114
             },
-            "nodeLabel": "Random",
-            "subItemCategory": "skin"
+            "nodeLabel": "FamilySearch Research Wiki\nA Genealogy Resource Guide\n150,336 articles\nFind the…",
+            "subItemCategory": "page"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Special:Random\" class=\"menu__item--random\" data-mw=\"interface\" data-event-name=\"\">",
-        "selector": "div#mw-mf-page-left > ul#p-navigation > li > a.menu__item--random",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (54.2px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "snippet": "<div class=\"calloutHeading\">",
+        "selector": "div.mw-parser-output > div > div.callout > div.calloutHeading",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffa500, background color: #ffffff, font size: 14.4pt (19.2px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 63,
-          "bottom": 81,
-          "left": 48,
-          "right": 102,
-          "width": 54,
-          "height": 19
+          "top": 875,
+          "bottom": 952,
+          "left": 656,
+          "right": 744,
+          "width": 88,
+          "height": 77
         },
-        "itemCategory": "unknown",
+        "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Main_Page\" class=\"menu__item--home\" data-mw=\"interface\" data-event-name=\"\">",
-            "selector": "div#mw-mf-page-left > ul#p-navigation > li > a.menu__item--home",
+            "snippet": "<div class=\"callout\">",
+            "selector": "section#mf-section-0 > div.mw-parser-output > div > div.callout",
             "boundingRect": {
-              "top": 44,
-              "bottom": 63,
-              "left": 48,
-              "right": 87,
-              "width": 39,
-              "height": 19
+              "top": 869,
+              "bottom": 1008,
+              "left": 650,
+              "right": 750,
+              "width": 100,
+              "height": 139
             },
-            "nodeLabel": "Home",
-            "subItemCategory": "skin"
+            "nodeLabel": "Jump-start your\nresearch\n\nGuided Research",
+            "subItemCategory": "page"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Main_Page\">",
-        "selector": "header.header-container > div.minerva-header > div.branding-box > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (123.9px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+        "snippet": "<span>",
+        "selector": "a.last-modified-bar > div.post-content > span.last-modified-bar__text > span",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 166,
-          "bottom": 185,
-          "left": 8,
-          "right": 132,
-          "width": 124,
-          "height": 19
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<input class=\"search mw-ui-background-icon-search skin-minerva-search-trigger\" type=\"search\" name=\"search\" id=\"searchInput\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" \"=\"\">",
-            "selector": "div.minerva-header > form.minerva-search-form > div.search-box > input#searchInput",
-            "boundingRect": {
-              "top": 185,
-              "bottom": 206,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "skin"
-          }
-        ]
-      },
-      {
-        "snippet": "<input class=\"search mw-ui-background-icon-search skin-minerva-search-trigger\" type=\"search\" name=\"search\" id=\"searchInput\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" \"=\"\">",
-        "selector": "div.minerva-header > form.minerva-search-form > div.search-box > input#searchInput",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (147px by 21.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 185,
-          "bottom": 206,
-          "left": 8,
-          "right": 155,
-          "width": 147,
-          "height": 22
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Main_Page\">",
-            "selector": "header.header-container > div.minerva-header > div.branding-box > a",
-            "boundingRect": {
-              "top": 166,
-              "bottom": 185,
-              "left": 8,
-              "right": 132,
-              "width": 124,
-              "height": 19
-            },
-            "nodeLabel": "FamilySearch Wiki",
-            "subItemCategory": "skin"
-          }
-        ]
-      },
-      {
-        "snippet": "<button id=\"searchIcon\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search-base20 skin-mine…\">",
-        "selector": "header.header-container > div.minerva-header > form.minerva-search-form > button#searchIcon",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 21.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 206,
-          "bottom": 228,
-          "left": 8,
-          "right": 66,
-          "width": 58,
-          "height": 22
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<input class=\"search mw-ui-background-icon-search skin-minerva-search-trigger\" type=\"search\" name=\"search\" id=\"searchInput\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" \"=\"\">",
-            "selector": "div.minerva-header > form.minerva-search-form > div.search-box > input#searchInput",
-            "boundingRect": {
-              "top": 185,
-              "bottom": 206,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "skin"
-          }
-        ]
-      },
-      {
-        "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-        "selector": "div.searchboxContainer > form#searchform > div#simpleSearch > input#searchInput",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (147px by 21.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 379,
-          "bottom": 400,
-          "left": 8,
-          "right": 155,
-          "width": 147,
-          "height": 22
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Help:Search_the_Wiki\">",
-            "selector": "div > div.searchboxContainer > span.tips > a",
-            "boundingRect": {
-              "top": 400,
-              "bottom": 419,
-              "left": 23,
-              "right": 131,
-              "width": 108,
-              "height": 19
-            },
-            "nodeLabel": "Find Search Tips",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Help:Search_the_Wiki\">",
-        "selector": "div > div.searchboxContainer > span.tips > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (108.5px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 400,
-          "bottom": 419,
-          "left": 23,
-          "right": 131,
-          "width": 108,
-          "height": 19
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div.searchboxContainer > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 379,
-              "bottom": 400,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 419,
-              "bottom": 440,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-        "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (147px by 21.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 419,
-          "bottom": 440,
-          "left": 8,
-          "right": 155,
-          "width": 147,
-          "height": 22
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Help:Search_the_Wiki\">",
-            "selector": "div > div.searchboxContainer > span.tips > a",
-            "boundingRect": {
-              "top": 400,
-              "bottom": 419,
-              "left": 23,
-              "right": 131,
-              "width": 108,
-              "height": 19
-            },
-            "nodeLabel": "Find Search Tips",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/Help:Search_Tips\" class=\"mw-redirect\">",
-            "selector": "div > div.searchboxContainer > div.tips > a.mw-redirect",
-            "boundingRect": {
-              "top": 440,
-              "bottom": 459,
-              "left": 8,
-              "right": 116,
-              "width": 108,
-              "height": 19
-            },
-            "nodeLabel": "Find Search Tips",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Help:Search_Tips\" class=\"mw-redirect\">",
-        "selector": "div > div.searchboxContainer > div.tips > a.mw-redirect",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (108.5px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 440,
-          "bottom": 459,
-          "left": 8,
-          "right": 116,
-          "width": 108,
-          "height": 19
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 419,
-              "bottom": 440,
-              "left": 8,
-              "right": 155,
-              "width": 147,
-              "height": 22
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Special:MobileLanguages/Main_Page\" data-title=\"\" class=\"language-selector mw-ui-button button\">",
-        "selector": "div#mw-mf-page-center > main#content > div#page-secondary-actions > a.language-selector",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.1px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1197,
-          "bottom": 1216,
-          "left": 8,
-          "right": 71,
-          "width": 63,
+          "top": 1248,
+          "bottom": 1267,
+          "left": 243,
+          "right": 458,
+          "width": 215,
           "height": 19
         },
         "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<a class=\"last-modified-bar\" href=\"/en/wiki/Special:History/Main_Page\">",
-            "selector": "div#mw-mf-viewport > div#mw-mf-page-center > footer.mw-footer > a.last-modified-bar",
+            "snippet": "<div id=\"mw-mf-page-center\">",
+            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
             "boundingRect": {
-              "top": 1216,
-              "bottom": 1234,
-              "left": 8,
-              "right": 1392,
-              "width": 1384,
-              "height": 19
+              "top": 63,
+              "bottom": 1473,
+              "left": 0,
+              "right": 1400,
+              "width": 1400,
+              "height": 1410
             },
-            "nodeLabel": "View edit history of this page.",
-            "subItemCategory": "skin"
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nFamilySearch Research Wiki\nA Genealogy Resourc…",
+            "subItemCategory": "unknown"
           }
         ]
-      },
+      }
+    ]
+  },
+  "link-in-text-block-3": {
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "items": [
       {
-        "snippet": "<a id=\"mw-mf-display-toggle\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Main_Page&amp;mobileactio…\" data-event-name=\"switch_to_desktop\">",
-        "selector": "div.post-content > ul#footer-places > li#footer-places-desktop-toggle > a#mw-mf-display-toggle",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (53.3px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.6px instead of at least 24px.",
+        "snippet": "<a href=\"https://www.comeuntochrist.org/\" data-component=\"AdobeLinkTracker\" data-test=\"footer-service-by-link\" data-config=\"{&quot;type&quot;: &quot;e&quot;, &quot;name&quot;: &quot;ftr_srvcby&quot;}\">",
+        "selector": "section.footer-left > div.copyright_notice > p > a",
+        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 1359,
-          "bottom": 1377,
-          "left": 48,
-          "right": 101,
-          "width": 53,
-          "height": 19
+          "top": 1646,
+          "bottom": 1663,
+          "left": 572,
+          "right": 899,
+          "width": 327,
+          "height": 17
         },
         "itemCategory": "skin",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:FamilySearch_Research_Wiki\">",
-            "selector": "div.post-content > ul#footer-places > li#footer-places-about > a",
+            "snippet": "<p>",
+            "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
             "boundingRect": {
-              "top": 1340,
-              "bottom": 1359,
-              "left": 48,
-              "right": 216,
-              "width": 168,
-              "height": 19
+              "top": 1643,
+              "bottom": 1666,
+              "left": 24,
+              "right": 899,
+              "width": 875,
+              "height": 23
             },
-            "nodeLabel": "About FamilySearch Wiki",
+            "nodeLabel": "© 2025 by Intellectual Reserve, Inc. All rights reserved. A service provided by…",
             "subItemCategory": "skin"
           }
         ]
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }
