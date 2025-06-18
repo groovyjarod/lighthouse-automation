@@ -1,112 +1,152 @@
 {
-  "accessibility-score": 84,
+  "accessibility-score": 90,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 70,
-          "bottom": 83,
-          "left": 203,
-          "right": 216,
-          "width": 13,
-          "height": 13
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
         "itemCategory": "skin"
       }
     ]
   },
-  "aria-valid-attr-value-2": {
-    "title": "`[aria-*]` attributes do not have valid values",
-    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
-    "items": [
-      {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=How+to+Find+Texas+Deat…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
-        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
-        "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 1021,
-          "right": 1122,
-          "width": 101,
-          "height": 46
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "color-contrast-3": {
+  "color-contrast-2": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Texas_Death_Records#Deaths_before_1890\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 195,
-          "right": 322,
-          "width": 127,
-          "height": 46
+          "top": 416,
+          "bottom": 435,
+          "left": 506,
+          "right": 602,
+          "width": 95,
+          "height": 20
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<main id=\"content\" class=\"mw-body\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 117,
-              "bottom": 5763,
-              "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 5646
+              "top": 345,
+              "bottom": 540,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 196
             },
-            "nodeLabel": "How to Find Texas Death Records\nLanguage\nDownload PDF\nWatch\nEdit\nUnited States\n…",
-            "subItemCategory": "page"
+            "nodeLabel": "Death Records\nChoose a time period:\n\nBefore 1890\n1890 thru 1986\nAfter 1986 to t…",
+            "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
-        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Texas_Death_Records#Deaths_from_1890_thru_1986\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 5776,
-          "bottom": 5802,
-          "left": 231,
-          "right": 1181,
-          "width": 949,
-          "height": 26
+          "top": 446,
+          "bottom": 466,
+          "left": 506,
+          "right": 623,
+          "width": 117,
+          "height": 20
         },
-        "itemCategory": "skin",
+        "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<div id=\"mw-mf-page-center\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 63,
-              "bottom": 6005,
-              "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 5942
+              "top": 345,
+              "bottom": 540,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 196
             },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nHow to Find Texas Death Records\nLanguage\nDownl…",
+            "nodeLabel": "Death Records\nChoose a time period:\n\nBefore 1890\n1890 thru 1986\nAfter 1986 to t…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Texas_Death_Records#Deaths_after_1986\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 477,
+          "bottom": 496,
+          "left": 506,
+          "right": 703,
+          "width": 197,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 345,
+              "bottom": 540,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 196
+            },
+            "nodeLabel": "Death Records\nChoose a time period:\n\nBefore 1890\n1890 thru 1986\nAfter 1986 to t…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Estimate_United_States_Death_Information\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 507,
+          "bottom": 527,
+          "left": 506,
+          "right": 671,
+          "width": 164,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 345,
+              "bottom": 540,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 196
+            },
+            "nodeLabel": "Death Records\nChoose a time period:\n\nBefore 1890\n1890 thru 1986\nAfter 1986 to t…",
             "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "definition-list-4": {
+  "definition-list-3": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -115,12 +155,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 396,
-          "bottom": 460,
-          "left": 536,
-          "right": 1092,
-          "width": 556,
-          "height": 63
+          "top": 349,
+          "bottom": 404,
+          "left": 460,
+          "right": 1220,
+          "width": 759,
+          "height": 55
         },
         "itemCategory": "unknown"
       },
@@ -129,12 +169,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 460,
-          "bottom": 616,
-          "left": 536,
-          "right": 1092,
-          "width": 556,
-          "height": 157
+          "top": 411,
+          "bottom": 532,
+          "left": 460,
+          "right": 1220,
+          "width": 759,
+          "height": 121
         },
         "itemCategory": "unknown"
       },
@@ -143,12 +183,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1002,
-          "bottom": 1108,
-          "left": 224,
-          "right": 548,
-          "width": 324,
-          "height": 106
+          "top": 777,
+          "bottom": 871,
+          "left": 246,
+          "right": 699,
+          "width": 453,
+          "height": 94
         },
         "itemCategory": "unknown"
       },
@@ -157,40 +197,40 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1015,
-          "bottom": 1094,
-          "left": 570,
-          "right": 894,
-          "width": 324,
-          "height": 79
+          "top": 789,
+          "bottom": 859,
+          "left": 702,
+          "right": 1154,
+          "width": 453,
+          "height": 70
         },
         "itemCategory": "unknown"
       },
       {
         "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4277,
-          "bottom": 4449,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 172
+          "top": 3109,
+          "bottom": 3238,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 129
         },
         "itemCategory": "page"
       },
       {
         "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4449,
-          "bottom": 4476,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
+          "top": 3245,
+          "bottom": 3268,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 22
         },
         "itemCategory": "page"
       },
@@ -199,28 +239,48 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4449,
-          "bottom": 4476,
-          "left": 235,
-          "right": 1197,
-          "width": 961,
-          "height": 26
+          "top": 3245,
+          "bottom": 3268,
+          "left": 70,
+          "right": 1352,
+          "width": 1282,
+          "height": 22
         },
         "itemCategory": "page"
       },
       {
         "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4638,
-          "bottom": 4992,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 354
+          "top": 3393,
+          "bottom": 3652,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 259
         },
         "itemCategory": "page"
+      }
+    ]
+  },
+  "frame-title-4": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+    "items": [
+      {
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 39
+        },
+        "itemCategory": "skin"
       }
     ]
   },
@@ -229,134 +289,98 @@
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
       {
-        "snippet": "<h4 class=\"in-block section-heading\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > h4.in-block",
+        "snippet": "<h4>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 1365,
-          "bottom": 1414,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 49
+          "top": 1047,
+          "bottom": 1091,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 44
         },
         "itemCategory": "page"
       }
     ]
   },
-  "link-in-text-block-6": {
-    "title": "Links rely on color to be distinguishable.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "items": [
-      {
-        "snippet": "<a href=\"https://www.comeuntochrist.org/\" data-component=\"AdobeLinkTracker\" data-test=\"footer-service-by-link\" data-config=\"{&quot;type&quot;: &quot;e&quot;, &quot;name&quot;: &quot;ftr_srvcby&quot;}\">",
-        "selector": "section.footer-left > div.copyright_notice > p > a",
-        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 6178,
-          "bottom": 6195,
-          "left": 572,
-          "right": 899,
-          "width": 327,
-          "height": 17
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<p>",
-            "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
-            "boundingRect": {
-              "top": 6175,
-              "bottom": 6198,
-              "left": 24,
-              "right": 899,
-              "width": 875,
-              "height": 23
-            },
-            "nodeLabel": "© 2025 by Intellectual Reserve, Inc. All rights reserved. A service provided by…",
-            "subItemCategory": "skin"
-          }
-        ]
-      }
-    ]
-  },
-  "table-fake-caption-7": {
+  "table-fake-caption-6": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
       {
         "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 965,
-          "bottom": 1113,
-          "left": 203,
-          "right": 899,
-          "width": 695,
-          "height": 148
+          "top": 747,
+          "bottom": 880,
+          "left": 244,
+          "right": 1156,
+          "width": 913,
+          "height": 133
         },
         "itemCategory": "page"
       },
       {
         "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2632,
-          "bottom": 2853,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 221
+          "top": 1924,
+          "bottom": 2089,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 165
         },
         "itemCategory": "page"
       },
       {
         "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3455,
-          "bottom": 3676,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 221
+          "top": 2500,
+          "bottom": 2665,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 165
         },
         "itemCategory": "page"
       },
       {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse;\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
-        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse;\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 5027,
-          "bottom": 5712,
-          "left": 206,
-          "right": 1194,
-          "width": 987,
-          "height": 685
+          "top": 3669,
+          "bottom": 4127,
+          "left": 51,
+          "right": 1349,
+          "width": 1298,
+          "height": 457
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "td-has-header-8": {
+  "td-has-header-7": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
       {
         "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1493,
-          "bottom": 2445,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 952
+          "top": 1127,
+          "bottom": 1808,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 681
         },
         "itemCategory": "page",
         "subItems": [
@@ -364,12 +388,12 @@
             "snippet": "<td width=\"10%\" align=\"left\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1494,
-              "bottom": 1532,
-              "left": 204,
-              "right": 1170,
-              "width": 965,
-              "height": 38
+              "top": 1127,
+              "bottom": 1162,
+              "left": 48,
+              "right": 1328,
+              "width": 1280,
+              "height": 34
             },
             "nodeLabel": "Texas Deaths Databases - Includes Index and Digital Images (FamilySearch)",
             "subItemCategory": "unknown"
@@ -378,12 +402,12 @@
             "snippet": "<td width=\"10%\" align=\"left\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1533,
-              "bottom": 1572,
-              "left": 204,
-              "right": 527,
-              "width": 323,
-              "height": 38
+              "top": 1162,
+              "bottom": 1196,
+              "left": 48,
+              "right": 480,
+              "width": 432,
+              "height": 34
             },
             "nodeLabel": "Try 1st:",
             "subItemCategory": "unknown"
@@ -392,12 +416,12 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1573,
-              "bottom": 1637,
-              "left": 280,
-              "right": 527,
-              "width": 247,
-              "height": 65
+              "top": 1196,
+              "bottom": 1253,
+              "left": 154,
+              "right": 480,
+              "width": 326,
+              "height": 57
             },
             "nodeLabel": "1890-1976, FamilySearch.org",
             "subItemCategory": "unknown"
@@ -406,15 +430,15 @@
       },
       {
         "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 2632,
-          "bottom": 2853,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 221
+          "top": 1924,
+          "bottom": 2089,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 165
         },
         "itemCategory": "page",
         "subItems": [
@@ -422,12 +446,12 @@
             "snippet": "<td align=\"center\" colspan=\"4\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2634,
-              "bottom": 2674,
-              "left": 205,
-              "right": 1195,
-              "width": 989,
-              "height": 40
+              "top": 1924,
+              "bottom": 1960,
+              "left": 49,
+              "right": 1352,
+              "width": 1303,
+              "height": 35
             },
             "nodeLabel": "To Order Death Certificates",
             "subItemCategory": "unknown"
@@ -436,12 +460,12 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2675,
-              "bottom": 2715,
-              "left": 205,
-              "right": 699,
-              "width": 494,
-              "height": 40
+              "top": 1960,
+              "bottom": 1995,
+              "left": 49,
+              "right": 700,
+              "width": 652,
+              "height": 35
             },
             "nodeLabel": "From County of Death",
             "subItemCategory": "unknown"
@@ -450,12 +474,12 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2675,
-              "bottom": 2715,
+              "top": 1960,
+              "bottom": 1995,
               "left": 700,
-              "right": 1195,
-              "width": 494,
-              "height": 40
+              "right": 1352,
+              "width": 652,
+              "height": 35
             },
             "nodeLabel": "From Texas Department of State Health Services",
             "subItemCategory": "unknown"
@@ -464,15 +488,15 @@
       },
       {
         "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"1\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 3455,
-          "bottom": 3676,
-          "left": 203,
-          "right": 1197,
-          "width": 993,
-          "height": 221
+          "top": 2500,
+          "bottom": 2665,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 165
         },
         "itemCategory": "page",
         "subItems": [
@@ -480,12 +504,12 @@
             "snippet": "<td align=\"center\" colspan=\"4\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3457,
-              "bottom": 3497,
-              "left": 205,
-              "right": 1195,
-              "width": 989,
-              "height": 40
+              "top": 2500,
+              "bottom": 2536,
+              "left": 49,
+              "right": 1352,
+              "width": 1303,
+              "height": 35
             },
             "nodeLabel": "To Order Death Certificates",
             "subItemCategory": "unknown"
@@ -494,12 +518,12 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3498,
-              "bottom": 3539,
-              "left": 205,
-              "right": 699,
-              "width": 494,
-              "height": 40
+              "top": 2536,
+              "bottom": 2571,
+              "left": 49,
+              "right": 700,
+              "width": 652,
+              "height": 35
             },
             "nodeLabel": "From County of Death",
             "subItemCategory": "unknown"
@@ -508,12 +532,12 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3498,
-              "bottom": 3539,
+              "top": 2536,
+              "bottom": 2571,
               "left": 700,
-              "right": 1195,
-              "width": 494,
-              "height": 40
+              "right": 1352,
+              "width": 652,
+              "height": 35
             },
             "nodeLabel": "From Texas Department of State Health Services",
             "subItemCategory": "unknown"
@@ -522,5 +546,5 @@
       }
     ]
   },
-  "number-of-Items": 8
+  "number-of-Items": 7
 }

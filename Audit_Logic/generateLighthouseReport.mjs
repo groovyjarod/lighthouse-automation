@@ -32,9 +32,8 @@ export default async function runLighthouse(url) {
       '--no-sandbox',
       // IMPORTANT: comment out all logic pertaining to user agent if your ip address
       // hasn't yet been configured to use the user agent; otherwise you won't have access.
-      // `--user-agent=${USER_AGENT}`
+      `--user-agent=${USER_AGENT}`
     ],
-    timeout: 120000,
 });
   const options = {
     port: chrome.port,
@@ -54,7 +53,9 @@ export default async function runLighthouse(url) {
             disabled: false,
         },
         onlyCategories: ['accessibility'],
-        // emulatedUserAgent: USER_AGENT,
+        pauseAfterFcpMs: 3000,
+        maxWaitForLoad: 45000,
+        emulatedUserAgent: USER_AGENT,
     }
   }
 

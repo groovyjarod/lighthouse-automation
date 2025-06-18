@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 83,
+  "accessibility-score": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -11,8 +11,8 @@
         "boundingRect": {
           "top": 70,
           "bottom": 83,
-          "left": 203,
-          "right": 216,
+          "left": 196,
+          "right": 209,
           "width": 13,
           "height": 13
         },
@@ -25,14 +25,14 @@
     "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
     "items": [
       {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=Finding+Your+United+St…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
+        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=New+York+Online+Geneal…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
         "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
         "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
         "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 1021,
-          "right": 1122,
+          "top": 213,
+          "bottom": 259,
+          "left": 1013,
+          "right": 1114,
           "width": 101,
           "height": 46
         },
@@ -45,32 +45,92 @@
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
       {
-        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<b>",
+        "selector": "tr > td > font > b",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 195,
-          "right": 322,
-          "width": 127,
-          "height": 46
+          "top": 321,
+          "bottom": 340,
+          "left": 393,
+          "right": 756,
+          "width": 363,
+          "height": 19
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<main id=\"content\" class=\"mw-body\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
+            "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 117,
-              "bottom": 6791,
-              "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 6674
+              "top": 306,
+              "bottom": 458,
+              "left": 199,
+              "right": 949,
+              "width": 750,
+              "height": 152
             },
-            "nodeLabel": "Finding Your United States Indigenous Ancestor\nLanguage\nDownload PDF\nWatch\nEdit…",
-            "subItemCategory": "page"
+            "nodeLabel": "New York Statewide Online Genealogy Records\n\n\nThis table shows links to statewi…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<font color=\"#4f4f4f\">",
+        "selector": "tr > td > p > font",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 355,
+          "bottom": 427,
+          "left": 222,
+          "right": 926,
+          "width": 704,
+          "height": 72
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 306,
+              "bottom": 458,
+              "left": 199,
+              "right": 949,
+              "width": 750,
+              "height": 152
+            },
+            "nodeLabel": "New York Statewide Online Genealogy Records\n\n\nThis table shows links to statewi…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_York,_United_States_Genealogy#Counties\">",
+        "selector": "p > font > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.89 (foreground color: #3366cc, background color: #89c4fa, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 381,
+          "bottom": 401,
+          "left": 351,
+          "right": 522,
+          "width": 171,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 306,
+              "bottom": 458,
+              "left": 199,
+              "right": 949,
+              "width": 750,
+              "height": 152
+            },
+            "nodeLabel": "New York Statewide Online Genealogy Records\n\n\nThis table shows links to statewi…",
+            "subItemCategory": "unknown"
           }
         ]
       },
@@ -79,10 +139,10 @@
         "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 6804,
-          "bottom": 6830,
-          "left": 231,
-          "right": 1181,
+          "top": 11420,
+          "bottom": 11447,
+          "left": 224,
+          "right": 1173,
           "width": 949,
           "height": 26
         },
@@ -93,236 +153,20 @@
             "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
             "boundingRect": {
               "top": 63,
-              "bottom": 7033,
+              "bottom": 11607,
               "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 6970
+              "right": 1385,
+              "width": 1385,
+              "height": 11544
             },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nFinding Your United States Indigenous Ancestor…",
+            "nodeLabel": "Open main menu\nFamilySearch Wiki\nNew York Online Genealogy Records\nSelect Langu…",
             "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "definition-list-4": {
-    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
-    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
-    "items": [
-      {
-        "snippet": "<dl>",
-        "selector": "tbody > tr > td > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2434,
-          "bottom": 2570,
-          "left": 222,
-          "right": 1194,
-          "width": 971,
-          "height": 136
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2859,
-          "bottom": 2885,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2962,
-          "bottom": 2988,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2988,
-          "bottom": 3150,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 162
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2988,
-          "bottom": 3150,
-          "left": 289,
-          "right": 1197,
-          "width": 908,
-          "height": 162
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "dd > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 2988,
-          "bottom": 3150,
-          "left": 305,
-          "right": 1197,
-          "width": 892,
-          "height": 162
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4305,
-          "bottom": 4332,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4332,
-          "bottom": 4358,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 4358,
-          "bottom": 4384,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6007,
-          "bottom": 6033,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6007,
-          "bottom": 6033,
-          "left": 289,
-          "right": 1197,
-          "width": 908,
-          "height": 26
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "dd > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6007,
-          "bottom": 6033,
-          "left": 305,
-          "right": 1197,
-          "width": 892,
-          "height": 26
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6033,
-          "bottom": 6133,
-          "left": 219,
-          "right": 1197,
-          "width": 977,
-          "height": 99
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "div.mw-parser-output > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6033,
-          "bottom": 6133,
-          "left": 289,
-          "right": 1197,
-          "width": 908,
-          "height": 99
-        },
-        "itemCategory": "page"
-      },
-      {
-        "snippet": "<dl>",
-        "selector": "dd > dl > dd > dl",
-        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
-        "boundingRect": {
-          "top": 6033,
-          "bottom": 6133,
-          "left": 305,
-          "right": 1197,
-          "width": 892,
-          "height": 99
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "link-in-text-block-5": {
+  "link-in-text-block-4": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
     "items": [
@@ -331,8 +175,8 @@
         "selector": "section.footer-left > div.copyright_notice > p > a",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 7206,
-          "bottom": 7223,
+          "top": 11780,
+          "bottom": 11797,
           "left": 572,
           "right": 899,
           "width": 327,
@@ -344,8 +188,8 @@
             "snippet": "<p>",
             "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
             "boundingRect": {
-              "top": 7203,
-              "bottom": 7226,
+              "top": 11778,
+              "bottom": 11801,
               "left": 24,
               "right": 899,
               "width": 875,
@@ -358,55 +202,21 @@
       }
     ]
   },
-  "link-name-6": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:North_Dakota_Native_Races.jpg&amp;filetimestamp=…\" class=\"image\">",
-        "selector": "div.center > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 4655,
-          "bottom": 4674,
-          "left": 375,
-          "right": 1025,
-          "width": 650,
-          "height": 19
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:Agency_records_screen_print.jpg&amp;filetimestam…\" class=\"image\">",
-        "selector": "div.center > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 5371,
-          "bottom": 5390,
-          "left": 348,
-          "right": 1052,
-          "width": 704,
-          "height": 19
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "table-fake-caption-7": {
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
       {
-        "snippet": "<table style=\"float: right; width: 20%; margin-left: 10px; border-spacing: 0px;\">",
-        "selector": "section#mf-section-0 > div.mw-parser-output > div.mw-parser-output > table",
+        "snippet": "<table cellspacing=\"1\" cellpadding=\"1\" border=\"2\">",
+        "selector": "div.mw-parser-output > div > div > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 251,
-          "bottom": 2068,
-          "left": 203,
-          "right": 506,
-          "width": 303,
-          "height": 1816
+          "top": 303,
+          "bottom": 10675,
+          "left": 196,
+          "right": 952,
+          "width": 756,
+          "height": 10371
         },
         "itemCategory": "page"
       },
@@ -415,16 +225,16 @@
         "selector": "tbody > tr > td > table#collapsibleTable0",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 6220,
-          "bottom": 6671,
-          "left": 206,
-          "right": 1194,
+          "top": 10760,
+          "bottom": 11356,
+          "left": 199,
+          "right": 1186,
           "width": 987,
-          "height": 451
+          "height": 596
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 7
+  "number-of-Items": 5
 }

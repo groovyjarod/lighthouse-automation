@@ -8,6 +8,7 @@ export default function produceJsonReport () {
     const largeAudits = []
     let itemCount = 0
     let subItemCount = 0
+    let accessibilityScore
     const dirInfo = fs.readdirSync(FOLDER_PATH)
     for (let i = 1; i < dirInfo.length; i++) {
         const rawAudit = fs.readFileSync(`${FOLDER_PATH}/${dirInfo[i]}`, 'utf-8')
@@ -25,6 +26,8 @@ export default function produceJsonReport () {
                 }
                 // console.log(value['items'])
                 // console.log()
+            } else if (key === 'accessibility-score') {
+                accessibilityScore = value
             }
         }
         const auditLength = rawAudit.split('\n').length
@@ -33,6 +36,7 @@ export default function produceJsonReport () {
             console.log(`Item count: ${itemCount}`)
             console.log(`subItem count: ${subItemCount}`)
             console.log(`Number of lines: ${auditLength}`)
+            console.log(accessibilityScore)
             console.log()
         }
         itemCount = 0
