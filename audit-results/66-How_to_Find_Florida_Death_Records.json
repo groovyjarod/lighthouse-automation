@@ -1,64 +1,328 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 91,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "frame-title-2": {
+  "color-contrast-2": {
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Florida_Death_Records#Deaths_before_1877\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 365,
+          "bottom": 385,
+          "left": 506,
+          "right": 660,
+          "width": 154,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 322,
+              "bottom": 459,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 137
+            },
+            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Florida_Death_Records#Deaths_between_1877_and_1939\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 396,
+          "bottom": 415,
+          "left": 506,
+          "right": 753,
+          "width": 246,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 322,
+              "bottom": 459,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 137
+            },
+            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Florida_Death_Records#Deaths_after_1939\">",
+        "selector": "li > span > b > a",
+        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+        "boundingRect": {
+          "top": 426,
+          "bottom": 446,
+          "left": 506,
+          "right": 645,
+          "width": 139,
+          "height": 20
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 322,
+              "bottom": 459,
+              "left": 459,
+              "right": 1221,
+              "width": 762,
+              "height": 137
+            },
+            "nodeLabel": "Choose a time period to search for your ancestor's death record:\n\nDeaths before…",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "definition-list-3": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 327,
+          "bottom": 354,
+          "left": 460,
+          "right": 1220,
+          "width": 759,
+          "height": 27
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 361,
+          "bottom": 451,
+          "left": 460,
+          "right": 1220,
+          "width": 759,
+          "height": 90
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 644,
+          "bottom": 738,
+          "left": 246,
+          "right": 699,
+          "width": 453,
+          "height": 94
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 656,
+          "bottom": 726,
+          "left": 702,
+          "right": 1154,
+          "width": 453,
+          "height": 70
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2392,
+          "bottom": 2443,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 51
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2632,
+          "bottom": 2839,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 207
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "frame-title-4": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=2-2861057-0%20PNNN%20RT%28175010823…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 800,
+          "bottom": 39,
           "left": 0,
           "right": 1400,
           "width": 1400,
-          "height": 800
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "table-fake-caption-5": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<table width=\"70%\" border=\"1\" style=\"margin: 1em auto;\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 614,
+          "bottom": 747,
+          "left": 244,
+          "right": 1156,
+          "width": 913,
+          "height": 133
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 2856,
+          "bottom": 3205,
+          "left": 51,
+          "right": 1349,
+          "width": 1298,
+          "height": 349
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 3
+  "td-has-header-6": {
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "items": [
+      {
+        "snippet": "<table width=\"100%\" cellspacing=\"1\" cellpadding=\"6\" border=\"0\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
+        "boundingRect": {
+          "top": 1020,
+          "bottom": 1548,
+          "left": 48,
+          "right": 1352,
+          "width": 1304,
+          "height": 528
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<td align=\"left\" colspan=\"3\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1020,
+              "bottom": 1054,
+              "left": 48,
+              "right": 1328,
+              "width": 1280,
+              "height": 34
+            },
+            "nodeLabel": "Florida Death Databases - Includes Indexes Only",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<td>",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1054,
+              "bottom": 1089,
+              "left": 48,
+              "right": 154,
+              "width": 106,
+              "height": 34
+            },
+            "nodeLabel": "Try 1st:",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<td width=\"25%\">",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1089,
+              "bottom": 1146,
+              "left": 154,
+              "right": 480,
+              "width": 326,
+              "height": 57
+            },
+            "nodeLabel": "1877-1939 - At FamilySearch.org",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 6
 }

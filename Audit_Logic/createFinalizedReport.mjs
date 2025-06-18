@@ -1,10 +1,12 @@
 import runLighthouse from './generateLighthouseReport.mjs'
+import generatePuppeteerAudit from './generatePuppeteerAudit.mjs'
 import trimAuditData from './trimAuditData.mjs'
 import classifyIssue from './classifyIssue.mjs'
 
 // run lighthouse and return data as json object
 async function getRawAuditData (urlPath) {
-    const [rawResults, accessibilityScore] = await runLighthouse(urlPath)
+    // const [rawResults, accessibilityScore] = await runLighthouse(urlPath)
+    const [rawResults, accessibilityScore] = await generatePuppeteerAudit(urlPath)
     return [rawResults, accessibilityScore]
 }
 

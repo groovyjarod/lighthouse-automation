@@ -1,194 +1,158 @@
 {
-  "accessibility-score": 89,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<input type=\"checkbox\" id=\"main-menu-input\" class=\"toggle-list__checkbox\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-labelledby=\"mw-mf-main-menu-button\">",
-        "selector": "header.header-container > div.minerva-header > nav.navigation-drawer > input#main-menu-input",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 70,
-          "bottom": 83,
-          "left": 203,
-          "right": 216,
-          "width": 13,
-          "height": 13
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
         "itemCategory": "skin"
       }
     ]
   },
-  "aria-valid-attr-value-2": {
-    "title": "`[aria-*]` attributes do not have valid values",
-    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+  "frame-title-2": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<a id=\"ca-watch\" href=\"/en/wiki/index.php?title=Special:UserLogin&amp;returnto=The+Church+of+Jesus+Ch…\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-…\" data-mw=\"interface\" data-event-name=\"menu.watch\" role=\"button\" aria-controls=\"mw-watchlink-notification\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#page-actions-watch > a#ca-watch",
-        "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"mw-watchlink-notification\"",
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 1021,
-          "right": 1122,
-          "width": 101,
-          "height": 46
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "color-contrast-3": {
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a id=\"\" href=\"\" class=\"mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-b…\" data-mw=\"interface\" data-event-name=\"menu.languages\" role=\"button\">",
-        "selector": "nav.page-actions-menu > ul#page-actions > li#language-selector > a.mw-ui-icon",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.45 (foreground color: #d4d6d7, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:Place&amp;action…\">",
+        "selector": "th.navbox-title > div > div.noprint > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 187,
-          "bottom": 233,
-          "left": 195,
-          "right": 322,
-          "width": 127,
-          "height": 46
+          "top": 1742,
+          "bottom": 1757,
+          "left": 131,
+          "right": 136,
+          "width": 5,
+          "height": 14
         },
-        "itemCategory": "unknown",
+        "itemCategory": "template",
         "subItems": [
           {
-            "snippet": "<main id=\"content\" class=\"mw-body\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center > main#content",
+            "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Record_Finder\">",
+            "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 117,
-              "bottom": 4176,
-              "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 4059
+              "top": 1763,
+              "bottom": 1776,
+              "left": 94,
+              "right": 175,
+              "width": 81,
+              "height": 13
             },
-            "nodeLabel": "The Church of Jesus Christ of Latter-day Saints\nLanguage\nDownload PDF\nWatch\nEdi…",
-            "subItemCategory": "page"
+            "nodeLabel": "Record Finder",
+            "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<span class=\"last-modified-bar__text modified-enhancement\">",
-        "selector": "footer.mw-footer > a.last-modified-bar > div.post-content > span.last-modified-bar__text",
-        "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #72777d, background color: #eaecf0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:USChurch&amp;act…\">",
+        "selector": "th.navbox-title > div > div.noprint > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 4189,
-          "bottom": 4215,
-          "left": 231,
-          "right": 1181,
-          "width": 949,
-          "height": 26
+          "top": 1880,
+          "bottom": 1894,
+          "left": 131,
+          "right": 136,
+          "width": 5,
+          "height": 14
         },
-        "itemCategory": "skin",
+        "itemCategory": "template",
         "subItems": [
           {
-            "snippet": "<div id=\"mw-mf-page-center\">",
-            "selector": "body.mediawiki > div#mw-mf-viewport > div#mw-mf-page-center",
+            "snippet": "<a href=\"/en/wiki/Adventist_Churches_in_the_United_States\">",
+            "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 63,
-              "bottom": 4418,
-              "left": 0,
-              "right": 1400,
-              "width": 1400,
-              "height": 4355
+              "top": 1901,
+              "bottom": 1914,
+              "left": 103,
+              "right": 152,
+              "width": 49,
+              "height": 13
             },
-            "nodeLabel": "Open main menu\nFamilySearch Wiki\nThe Church of Jesus Christ of Latter-day Saint…",
-            "subItemCategory": "unknown"
+            "nodeLabel": "Adventist",
+            "subItemCategory": "template"
           }
         ]
       }
     ]
   },
-  "link-in-text-block-4": {
-    "title": "Links rely on color to be distinguishable.",
-    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
-    "items": [
-      {
-        "snippet": "<a href=\"https://www.comeuntochrist.org/\" data-component=\"AdobeLinkTracker\" data-test=\"footer-service-by-link\" data-config=\"{&quot;type&quot;: &quot;e&quot;, &quot;name&quot;: &quot;ftr_srvcby&quot;}\">",
-        "selector": "section.footer-left > div.copyright_notice > p > a",
-        "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.65:1 with the surrounding text. (Minimum contrast is 3:1, link text: #177c9c, surrounding text: #333331)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
-        "boundingRect": {
-          "top": 4591,
-          "bottom": 4608,
-          "left": 572,
-          "right": 899,
-          "width": 327,
-          "height": 17
-        },
-        "itemCategory": "skin",
-        "subItems": [
-          {
-            "snippet": "<p>",
-            "selector": "footer#global-footer > section.footer-left > div.copyright_notice > p",
-            "boundingRect": {
-              "top": 4588,
-              "bottom": 4611,
-              "left": 24,
-              "right": 899,
-              "width": 875,
-              "height": 23
-            },
-            "nodeLabel": "© 2025 by Intellectual Reserve, Inc. All rights reserved. A service provided by…",
-            "subItemCategory": "skin"
-          }
-        ]
-      }
-    ]
-  },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
       {
         "snippet": "<table style=\"float: right; width: 20%; margin-left: 10px; border-spacing: 0px;\">",
-        "selector": "div.mw-parser-output > section#mf-section-0 > div.mw-parser-output > table",
+        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 251,
-          "bottom": 2110,
-          "left": 203,
-          "right": 441,
-          "width": 238,
-          "height": 1859
+          "top": 249,
+          "bottom": 1658,
+          "left": 1072,
+          "right": 1352,
+          "width": 280,
+          "height": 1409
         },
         "itemCategory": "page"
       },
       {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable0\">",
-        "selector": "tbody > tr > td > table#collapsibleTable0",
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3814,
-          "bottom": 3911,
-          "left": 206,
-          "right": 699,
-          "width": 493,
-          "height": 97
+          "top": 1661,
+          "bottom": 1779,
+          "left": 51,
+          "right": 1349,
+          "width": 1298,
+          "height": 117
         },
         "itemCategory": "unknown"
       },
       {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\" id=\"collapsibleTable1\">",
-        "selector": "tbody > tr > td > table#collapsibleTable1",
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3949,
-          "bottom": 4046,
-          "left": 206,
-          "right": 743,
-          "width": 537,
-          "height": 97
+          "top": 1799,
+          "bottom": 2018,
+          "left": 51,
+          "right": 1349,
+          "width": 1298,
+          "height": 219
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

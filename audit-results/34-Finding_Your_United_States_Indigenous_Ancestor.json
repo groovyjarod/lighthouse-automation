@@ -1,64 +1,384 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 87,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "definition-list-2": {
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
+    "items": [
+      {
+        "snippet": "<dl>",
+        "selector": "tbody > tr > td > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 435,
+          "bottom": 538,
+          "left": 345,
+          "right": 1058,
+          "width": 713,
+          "height": 103
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 762,
+          "bottom": 786,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 25
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 868,
+          "bottom": 915,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 47
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 922,
+          "bottom": 1069,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 148
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 922,
+          "bottom": 1069,
+          "left": 366,
+          "right": 1352,
+          "width": 986,
+          "height": 148
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "dd > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 922,
+          "bottom": 1069,
+          "left": 389,
+          "right": 1352,
+          "width": 963,
+          "height": 148
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2121,
+          "bottom": 2145,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 25
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2152,
+          "bottom": 2177,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 25
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 2184,
+          "bottom": 2209,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 25
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3891,
+          "bottom": 3914,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 22
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3891,
+          "bottom": 3914,
+          "left": 366,
+          "right": 1352,
+          "width": 986,
+          "height": 22
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "dd > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3891,
+          "bottom": 3914,
+          "left": 389,
+          "right": 1352,
+          "width": 963,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3921,
+          "bottom": 3997,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 77
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "div.mw-parser-output > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3921,
+          "bottom": 3997,
+          "left": 366,
+          "right": 1352,
+          "width": 986,
+          "height": 77
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<dl>",
+        "selector": "dd > dl > dd > dl",
+        "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
+        "boundingRect": {
+          "top": 3921,
+          "bottom": 3997,
+          "left": 389,
+          "right": 1352,
+          "width": 963,
+          "height": 77
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "frame-title-2": {
+  "frame-title-3": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=5-7815166-0%20PNNN%20RT%28175010803…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 800,
+          "bottom": 39,
           "left": 0,
           "right": 1400,
           "width": 1400,
-          "height": 800
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "heading-order-4": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<h3>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h3",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 552,
+          "bottom": 599,
+          "left": 344,
+          "right": 1059,
+          "width": 715,
+          "height": 47
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "link-name-5": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:North_Dakota_Native_Races.jpg&amp;filetimestamp=…\" class=\"image\">",
+        "selector": "div.center > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 2484,
+          "bottom": 2499,
+          "left": 526,
+          "right": 1176,
+          "width": 650,
+          "height": 15
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:Agency_records_screen_print.jpg&amp;filetimestam…\" class=\"image\">",
+        "selector": "div.center > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 3233,
+          "bottom": 3248,
+          "left": 426,
+          "right": 1276,
+          "width": 850,
+          "height": 15
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 3
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:American_Ind…\">",
+        "selector": "th.navbox-title > div > div.noprint > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4149,
+          "bottom": 4164,
+          "left": 427,
+          "right": 432,
+          "width": 5,
+          "height": 14
+        },
+        "itemCategory": "template",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Indigenous_Tribes_of_the_United_States\">",
+            "selector": "tr > td.navbox-list > div > a",
+            "boundingRect": {
+              "top": 4170,
+              "bottom": 4183,
+              "left": 392,
+              "right": 484,
+              "width": 92,
+              "height": 13
+            },
+            "nodeLabel": "Tribes of the U.S.",
+            "subItemCategory": "template"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table style=\"float: right; width: 20%; margin-left: 10px; border-spacing: 0px;\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 249,
+          "bottom": 1762,
+          "left": 1069,
+          "right": 1352,
+          "width": 283,
+          "height": 1513
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapse\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 4068,
+          "bottom": 4431,
+          "left": 347,
+          "right": 1349,
+          "width": 1002,
+          "height": 363
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "number-of-Items": 7
 }

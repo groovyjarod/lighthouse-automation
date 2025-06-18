@@ -1,22 +1,22 @@
 {
-  "accessibility-score": 49,
-  "document-title-1": {
-    "title": "Document doesn't have a `<title>` element",
-    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+  "accessibility-score": 86,
+  "aria-allowed-role-1": {
+    "title": "Uses ARIA roles on incompatible elements",
+    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  Document does not have a non-empty <title> element",
+        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
+        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
+        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 112,
+          "bottom": 153,
+          "left": 40,
+          "right": 81,
+          "width": 41,
+          "height": 41
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
@@ -25,40 +25,734 @@
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
       {
-        "snippet": "<iframe id=\"main-iframe\" src=\"/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=7-12597970-0%20PNNN%20RT%2817501082…\" frameborder=\"0\" width=\"100%\" height=\"100%\" marginheight=\"0px\" marginwidth=\"0px\">",
-        "selector": "body > iframe#main-iframe",
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
         "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
         "boundingRect": {
           "top": 0,
-          "bottom": 800,
+          "bottom": 39,
           "left": 0,
           "right": 1400,
           "width": 1400,
-          "height": 800
+          "height": 39
         },
-        "itemCategory": "unknown"
+        "itemCategory": "skin"
       }
     ]
   },
-  "html-has-lang-3": {
-    "title": "`<html>` element does not have a `[lang]` attribute",
-    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+  "heading-order-3": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
       {
-        "snippet": "<html style=\"height:100%\">",
-        "selector": "html",
-        "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+        "snippet": "<h5>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h5",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 0,
-          "bottom": 800,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 800
+          "top": 2013,
+          "bottom": 2053,
+          "left": 344,
+          "right": 1139,
+          "width": 795,
+          "height": 40
         },
-        "itemCategory": "unknown"
+        "itemCategory": "page"
       }
     ]
   },
-  "number-of-Items": 3
+  "link-name-4": {
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/index.php?title=File:1841_British_Census.jpg&amp;filetimestamp=200806…\" class=\"image\">",
+        "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
+        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+        "boundingRect": {
+          "top": 3723,
+          "bottom": 3738,
+          "left": 1054,
+          "right": 1354,
+          "width": 300,
+          "height": 15
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "listitem-5": {
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "items": [
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2276,
+          "bottom": 2299,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2300,
+          "bottom": 2322,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2324,
+          "bottom": 2346,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2348,
+          "bottom": 2370,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2371,
+          "bottom": 2394,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2395,
+          "bottom": 2418,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2419,
+          "bottom": 2441,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2443,
+          "bottom": 2465,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2467,
+          "bottom": 2489,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2490,
+          "bottom": 2513,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2514,
+          "bottom": 2537,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2538,
+          "bottom": 2560,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2562,
+          "bottom": 2584,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2586,
+          "bottom": 2608,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "tbody > tr > td > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 2609,
+          "bottom": 2632,
+          "left": 345,
+          "right": 756,
+          "width": 411,
+          "height": 22
+        },
+        "itemCategory": "unknown"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 6090,
+          "bottom": 6112,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 22
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 6114,
+          "bottom": 6136,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 22
+        },
+        "itemCategory": "page"
+      },
+      {
+        "snippet": "<li>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
+        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
+        "boundingRect": {
+          "top": 6137,
+          "bottom": 6160,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 22
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/England_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "boundingRect": {
+          "top": 801,
+          "bottom": 817,
+          "left": 1098,
+          "right": 1199,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 651,
+              "bottom": 1171,
+              "left": 1098,
+              "right": 1295,
+              "width": 197,
+              "height": 520
+            },
+            "nodeLabel": "Medieval Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Directories\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "boundingRect": {
+          "top": 976,
+          "bottom": 992,
+          "left": 1098,
+          "right": 1164,
+          "width": 67,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 651,
+              "bottom": 1171,
+              "left": 1098,
+              "right": 1295,
+              "width": 197,
+              "height": 520
+            },
+            "nodeLabel": "Medieval Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 677,
+          "bottom": 693,
+          "left": 1243,
+          "right": 1343,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 651,
+              "bottom": 1171,
+              "left": 1098,
+              "right": 1295,
+              "width": 197,
+              "height": 520
+            },
+            "nodeLabel": "Medieval Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Newspapers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 752,
+          "bottom": 768,
+          "left": 1243,
+          "right": 1320,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 651,
+              "bottom": 1171,
+              "left": 1098,
+              "right": 1295,
+              "width": 197,
+              "height": 520
+            },
+            "nodeLabel": "Medieval Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Nobility\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "boundingRect": {
+          "top": 778,
+          "bottom": 794,
+          "left": 1243,
+          "right": 1288,
+          "width": 46,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 651,
+              "bottom": 1171,
+              "left": 1098,
+              "right": 1295,
+              "width": 197,
+              "height": 520
+            },
+            "nodeLabel": "Medieval Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1493745\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1792,
+          "bottom": 1808,
+          "left": 501,
+          "right": 601,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8978/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1814,
+              "bottom": 1830,
+              "left": 501,
+              "right": 599,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2563939\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1792,
+          "bottom": 1808,
+          "left": 652,
+          "right": 751,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8860/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1814,
+              "bottom": 1830,
+              "left": 652,
+              "right": 750,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1493747\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1792,
+          "bottom": 1808,
+          "left": 802,
+          "right": 902,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8767/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1814,
+              "bottom": 1830,
+              "left": 802,
+              "right": 900,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1538354\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1792,
+          "bottom": 1808,
+          "left": 953,
+          "right": 1053,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7619/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1814,
+              "bottom": 1830,
+              "left": 953,
+              "right": 1051,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2562194\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1895,
+          "bottom": 1911,
+          "left": 351,
+          "right": 450,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7572/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1917,
+              "bottom": 1933,
+              "left": 351,
+              "right": 448,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1865747\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1895,
+          "bottom": 1911,
+          "left": 501,
+          "right": 601,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6598/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1917,
+              "bottom": 1933,
+              "left": 501,
+              "right": 599,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1888129\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1895,
+          "bottom": 1911,
+          "left": 652,
+          "right": 751,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7814/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1917,
+              "bottom": 1933,
+              "left": 652,
+              "right": 750,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1921547\">",
+        "selector": "tbody > tr > td > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1895,
+          "bottom": 1911,
+          "left": 802,
+          "right": 902,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/2352/\">",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 1917,
+              "bottom": 1933,
+              "left": 802,
+              "right": 900,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Ancestry.com",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-7": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table class=\"infobox\" style=\"clear: right; width: 15em; text-align: center; border-spacing: 0px;\">",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.infobox",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 1720,
+          "bottom": 2119,
+          "left": 1153,
+          "right": 1352,
+          "width": 200,
+          "height": 400
+        },
+        "itemCategory": "template"
+      }
+    ]
+  },
+  "number-of-Items": 7
 }
