@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -9,8 +9,8 @@
         "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 8,
-          "bottom": 49,
+          "top": 112,
+          "bottom": 153,
           "left": 40,
           "right": 81,
           "width": 41,
@@ -29,8 +29,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1026,
-          "bottom": 1042,
+          "top": 1130,
+          "bottom": 1146,
           "left": 683,
           "right": 723,
           "width": 40,
@@ -42,8 +42,8 @@
             "snippet": "<div class=\"mw-page-container\">",
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
-              "top": 0,
-              "bottom": 11005,
+              "top": 104,
+              "bottom": 11109,
               "left": 0,
               "right": 1400,
               "width": 1400,
@@ -59,8 +59,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1192,
-          "bottom": 1208,
+          "top": 1296,
+          "bottom": 1312,
           "left": 670,
           "right": 736,
           "width": 66,
@@ -72,8 +72,8 @@
             "snippet": "<div class=\"mw-page-container\">",
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
-              "top": 0,
-              "bottom": 11005,
+              "top": 104,
+              "bottom": 11109,
               "left": 0,
               "right": 1400,
               "width": 1400,
@@ -89,8 +89,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1358,
-          "bottom": 1374,
+          "top": 1462,
+          "bottom": 1478,
           "left": 677,
           "right": 729,
           "width": 51,
@@ -102,8 +102,8 @@
             "snippet": "<div class=\"mw-page-container\">",
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
-              "top": 0,
-              "bottom": 11005,
+              "top": 104,
+              "bottom": 11109,
               "left": 0,
               "right": 1400,
               "width": 1400,
@@ -119,8 +119,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1459,
-          "bottom": 1475,
+          "top": 1563,
+          "bottom": 1579,
           "left": 684,
           "right": 722,
           "width": 39,
@@ -132,8 +132,8 @@
             "snippet": "<div class=\"mw-page-container\">",
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
-              "top": 0,
-              "bottom": 11005,
+              "top": 104,
+              "bottom": 11109,
               "left": 0,
               "right": 1400,
               "width": 1400,
@@ -155,8 +155,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4006,
-          "bottom": 4118,
+          "top": 4110,
+          "bottom": 4222,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -169,8 +169,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6097,
-          "bottom": 6167,
+          "top": 6201,
+          "bottom": 6271,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -183,8 +183,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 9755,
-          "bottom": 9848,
+          "top": 9859,
+          "bottom": 9952,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -197,8 +197,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 9885,
-          "bottom": 10026,
+          "top": 9989,
+          "bottom": 10130,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -208,5 +208,25 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "frame-title-4": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+    "items": [
+      {
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 39
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "number-of-Items": 4
 }

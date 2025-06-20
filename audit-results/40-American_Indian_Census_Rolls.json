@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 97,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -9,8 +9,8 @@
         "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
         "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
         "boundingRect": {
-          "top": 112,
-          "bottom": 153,
+          "top": 72,
+          "bottom": 113,
           "left": 40,
           "right": 81,
           "width": 41,
@@ -20,27 +20,7 @@
       }
     ]
   },
-  "frame-title-2": {
-    "title": "`<frame>` or `<iframe>` elements do not have a title",
-    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
-    "items": [
-      {
-        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
-        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
-        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-        "boundingRect": {
-          "top": 0,
-          "bottom": 39,
-          "left": 0,
-          "right": 1400,
-          "width": 1400,
-          "height": 39
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "target-size-3": {
+  "target-size-2": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "th.navbox-title > div > div.noprint > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
         "boundingRect": {
-          "top": 2693,
-          "bottom": 2707,
+          "top": 2653,
+          "bottom": 2667,
           "left": 131,
           "right": 136,
           "width": 5,
@@ -62,8 +42,8 @@
             "snippet": "<a href=\"/en/wiki/Indigenous_Tribes_of_the_United_States\">",
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 2713,
-              "bottom": 2726,
+              "top": 2673,
+              "bottom": 2686,
               "left": 96,
               "right": 188,
               "width": 92,
@@ -76,7 +56,7 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "table-fake-caption-3": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -85,8 +65,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 249,
-          "bottom": 1762,
+          "top": 209,
+          "bottom": 1722,
           "left": 1069,
           "right": 1352,
           "width": 283,
@@ -99,8 +79,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2197,
-          "bottom": 2592,
+          "top": 2157,
+          "bottom": 2552,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -113,8 +93,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2612,
-          "bottom": 2955,
+          "top": 2572,
+          "bottom": 2915,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -124,7 +104,7 @@
       }
     ]
   },
-  "td-has-header-5": {
+  "td-has-header-4": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
@@ -133,8 +113,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1818,
-          "bottom": 1930,
+          "top": 1778,
+          "bottom": 1890,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -146,8 +126,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1818,
-              "bottom": 1857,
+              "top": 1778,
+              "bottom": 1817,
               "left": 49,
               "right": 597,
               "width": 549,
@@ -160,8 +140,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1818,
-              "bottom": 1857,
+              "top": 1778,
+              "bottom": 1817,
               "left": 597,
               "right": 863,
               "width": 266,
@@ -174,8 +154,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1818,
-              "bottom": 1857,
+              "top": 1778,
+              "bottom": 1817,
               "left": 863,
               "right": 994,
               "width": 131,
@@ -188,5 +168,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }
