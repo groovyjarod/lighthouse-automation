@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > table.wikitable > caption",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.44 (foreground color: #6c757d, background color: #f8f9fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1552,
-          "bottom": 1598,
+          "top": 1529,
+          "bottom": 1576,
           "left": 596,
           "right": 1206,
           "width": 610,
@@ -42,8 +42,8 @@
             "snippet": "<table class=\"wikitable sortable jquery-tablesorter\">",
             "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
             "boundingRect": {
-              "top": 1441,
-              "bottom": 1598,
+              "top": 1419,
+              "bottom": 1576,
               "left": 596,
               "right": 1206,
               "width": 610,
@@ -76,7 +76,655 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Military_Terms\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (86.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 416,
+          "bottom": 432,
+          "left": 378,
+          "right": 464,
+          "width": 86,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records#State_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 440,
+              "bottom": 456,
+              "left": 378,
+              "right": 467,
+              "width": 89,
+              "height": 16
+            },
+            "nodeLabel": "State Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records#State_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (88.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 440,
+          "bottom": 456,
+          "left": 378,
+          "right": 467,
+          "width": 89,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Military_Terms\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 416,
+              "bottom": 432,
+              "left": 378,
+              "right": 464,
+              "width": 86,
+              "height": 16
+            },
+            "nodeLabel": "Military Terms",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_in_the_War_of_1812\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (165.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 571,
+          "bottom": 587,
+          "left": 378,
+          "right": 544,
+          "width": 165,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Mexican_War,_1846_to_1848\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 595,
+              "bottom": 611,
+              "left": 378,
+              "right": 548,
+              "width": 170,
+              "height": 16
+            },
+            "nodeLabel": "Mexican War, 1846 to 1848",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Mexican_War,_1846_to_1848\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (169.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 595,
+          "bottom": 611,
+          "left": 378,
+          "right": 548,
+          "width": 170,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_in_the_War_of_1812\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 571,
+              "bottom": 587,
+              "left": 378,
+              "right": 544,
+              "width": 165,
+              "height": 16
+            },
+            "nodeLabel": "War of 1812, 1812 to 1815",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Indian_Wars,_1780s-1890s\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (177.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 643,
+          "bottom": 659,
+          "left": 378,
+          "right": 556,
+          "width": 178,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Spanish-American_War,_1898\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 667,
+              "bottom": 683,
+              "left": 378,
+              "right": 560,
+              "width": 182,
+              "height": 16
+            },
+            "nodeLabel": "Spanish-American War, 1898",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Spanish-American_War,_1898\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (181.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 667,
+          "bottom": 683,
+          "left": 378,
+          "right": 560,
+          "width": 182,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Indian_Wars,_1780s-1890s\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 643,
+              "bottom": 659,
+              "left": 378,
+              "right": 556,
+              "width": 178,
+              "height": 16
+            },
+            "nodeLabel": "Indian Wars, 1780s to 1890s",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/World_War_I_United_States_Military_Records,_1917_to_1918\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (162.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 737,
+          "bottom": 753,
+          "left": 378,
+          "right": 541,
+          "width": 163,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/World_War_II_United_States_Military_Records,_1941_to_1945\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 760,
+              "bottom": 776,
+              "left": 378,
+              "right": 545,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "World War II, 1941 to 1945",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/World_War_II_United_States_Military_Records,_1941_to_1945\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (166.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 760,
+          "bottom": 776,
+          "left": 378,
+          "right": 545,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/World_War_I_United_States_Military_Records,_1917_to_1918\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 737,
+              "bottom": 753,
+              "left": 378,
+              "right": 541,
+              "width": 163,
+              "height": 16
+            },
+            "nodeLabel": "World War I, 1917 to 1918",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Pension_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1130,
+          "bottom": 1146,
+          "left": 378,
+          "right": 485,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1154,
+              "bottom": 1170,
+              "left": 378,
+              "right": 482,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Prisoners of War",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1154,
+          "bottom": 1170,
+          "left": 378,
+          "right": 482,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Pension_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1130,
+              "bottom": 1146,
+              "left": 378,
+              "right": 485,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Pension Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Service_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1178,
+              "bottom": 1194,
+              "left": 378,
+              "right": 481,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Service Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Service_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (102.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1178,
+          "bottom": 1194,
+          "left": 378,
+          "right": 481,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1154,
+              "bottom": 1170,
+              "left": 378,
+              "right": 482,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Prisoners of War",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Veterans_and_Lineage_Society_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1202,
+              "bottom": 1218,
+              "left": 378,
+              "right": 480,
+              "width": 102,
+              "height": 16
+            },
+            "nodeLabel": "Society Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Veterans_and_Lineage_Society_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1202,
+          "bottom": 1218,
+          "left": 378,
+          "right": 480,
+          "width": 102,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Service_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1178,
+              "bottom": 1194,
+              "left": 378,
+              "right": 481,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Service Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Old_Soldiers_Home_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1225,
+              "bottom": 1241,
+              "left": 378,
+              "right": 477,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Soldiers Homes",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Old_Soldiers_Home_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1225,
+          "bottom": 1241,
+          "left": 378,
+          "right": 477,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Veterans_and_Lineage_Society_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1202,
+              "bottom": 1218,
+              "left": 378,
+              "right": 480,
+              "width": 102,
+              "height": 16
+            },
+            "nodeLabel": "Society Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/U.S._Army\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (32.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1335,
+          "bottom": 1351,
+          "left": 378,
+          "right": 411,
+          "width": 33,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/U.S._Navy\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1359,
+              "bottom": 1375,
+              "left": 378,
+              "right": 410,
+              "width": 32,
+              "height": 16
+            },
+            "nodeLabel": "Navy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/U.S._Navy\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (31.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1359,
+          "bottom": 1375,
+          "left": 378,
+          "right": 410,
+          "width": 32,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/U.S._Army\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1335,
+              "bottom": 1351,
+              "left": 378,
+              "right": 411,
+              "width": 33,
+              "height": 16
+            },
+            "nodeLabel": "Army",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/583580\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (479.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3965,
+          "bottom": 3981,
+          "left": 366,
+          "right": 846,
+          "width": 479,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/921933\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3988,
+              "bottom": 4004,
+              "left": 366,
+              "right": 843,
+              "width": 476,
+              "height": 16
+            },
+            "nodeLabel": "Naval Casualty Lists for World War II and Korean War Battles, 1941 - 1956",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/921933\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (476.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3988,
+          "bottom": 4004,
+          "left": 366,
+          "right": 843,
+          "width": 476,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/583580\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3965,
+              "bottom": 3981,
+              "left": 366,
+              "right": 846,
+              "width": 479,
+              "height": 16
+            },
+            "nodeLabel": "Records on Korean War Dead and Wounded Army Casualties, 1950 - 1970",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/2560131\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (878.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4095,
+          "bottom": 4111,
+          "left": 366,
+          "right": 1245,
+          "width": 879,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/1842624\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4119,
+              "bottom": 4135,
+              "left": 366,
+              "right": 1241,
+              "width": 875,
+              "height": 16
+            },
+            "nodeLabel": "Cathy Burnsed. Florida U.S. military personnel who died from hostile action in …",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/1842624\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (874.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4119,
+          "bottom": 4135,
+          "left": 366,
+          "right": 1241,
+          "width": 875,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/2560131\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4095,
+              "bottom": 4111,
+              "left": 366,
+              "right": 1245,
+              "width": 879,
+              "height": 16
+            },
+            "nodeLabel": "U.S. military personnel who died from hostile action (including missing and cap…",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/6207260\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (358.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5182,
+          "bottom": 5198,
+          "left": 366,
+          "right": 725,
+          "width": 358,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/74225128\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 5159,
+              "bottom": 5175,
+              "left": 366,
+              "right": 726,
+              "width": 360,
+              "height": 16
+            },
+            "nodeLabel": "Medal of Honor - Korea - Marine Corps NAID 74225128",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -86,11 +734,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 272,
-          "bottom": 1514,
+          "bottom": 1429,
           "left": 354,
           "right": 576,
           "width": 222,
-          "height": 1242
+          "height": 1158
         },
         "itemCategory": "page"
       },
@@ -99,8 +747,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 6916,
-          "bottom": 7192,
+          "top": 6726,
+          "bottom": 7002,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -110,5 +758,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 5
 }

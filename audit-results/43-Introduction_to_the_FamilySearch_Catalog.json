@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 95,
+  "accessibility-score": 92,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -60,7 +60,73 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Abbreviations_in_the_FamilySearch_Catalog\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (264.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2565,
+          "bottom": 2581,
+          "left": 366,
+          "right": 631,
+          "width": 265,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Deciphering_FamilySearch_Catalog_Entries\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 2588,
+              "bottom": 2604,
+              "left": 366,
+              "right": 630,
+              "width": 264,
+              "height": 16
+            },
+            "nodeLabel": "Deciphering FamilySearch Catalog Entries",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Deciphering_FamilySearch_Catalog_Entries\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (263.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2588,
+          "bottom": 2604,
+          "left": 366,
+          "right": 630,
+          "width": 264,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Abbreviations_in_the_FamilySearch_Catalog\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 2565,
+              "bottom": 2581,
+              "left": 366,
+              "right": 631,
+              "width": 265,
+              "height": 16
+            },
+            "nodeLabel": "Abbreviations in the FamilySearch Catalog",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -69,8 +135,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2782,
-          "bottom": 2899,
+          "top": 2753,
+          "bottom": 2870,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -80,5 +146,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 5
 }

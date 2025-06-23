@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3355,
-          "bottom": 3377,
+          "top": 3236,
+          "bottom": 3259,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,12 +43,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3384,
-          "bottom": 3513,
+          "top": 3266,
+          "bottom": 3383,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 129
+          "height": 118
         },
         "itemCategory": "page"
       }
@@ -83,8 +83,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h3",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 967,
-          "bottom": 1014,
+          "top": 945,
+          "bottom": 992,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -103,8 +103,8 @@
         "selector": "th.navbox-title > div > div.noprint > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3888,
-          "bottom": 3902,
+          "top": 3756,
+          "bottom": 3770,
           "left": 387,
           "right": 392,
           "width": 5,
@@ -116,8 +116,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Record_Finder\">",
             "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 3908,
-              "bottom": 3921,
+              "top": 3776,
+              "bottom": 3789,
               "left": 352,
               "right": 433,
               "width": 81,
@@ -139,8 +139,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3807,
-          "bottom": 3962,
+          "top": 3675,
+          "bottom": 3830,
           "left": 347,
           "right": 1349,
           "width": 1002,

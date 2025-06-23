@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,115 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1064,
+          "bottom": 1080,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1088,
+              "bottom": 1104,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1088,
+          "bottom": 1104,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1064,
+              "bottom": 1080,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1112,
+              "bottom": 1128,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1112,
+          "bottom": 1128,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1088,
+              "bottom": 1104,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

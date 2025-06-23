@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 93,
+  "accessibility-score": 90,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -30,11 +30,11 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 436,
-          "bottom": 695,
+          "bottom": 673,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 259
+          "height": 237
         },
         "itemCategory": "page"
       },
@@ -43,12 +43,12 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 731,
-          "bottom": 860,
+          "top": 709,
+          "bottom": 827,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 129
+          "height": 118
         },
         "itemCategory": "page"
       },
@@ -57,12 +57,12 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 897,
-          "bottom": 1260,
+          "top": 863,
+          "bottom": 1195,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 363
+          "height": 332
         },
         "itemCategory": "page"
       }
@@ -108,5 +108,2677 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1841.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 463,
+          "bottom": 479,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1851.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 487,
+              "bottom": 503,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1851 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1851.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 487,
+          "bottom": 503,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1841.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 463,
+              "bottom": 479,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1841 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1861.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 511,
+              "bottom": 527,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1861 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1861.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 511,
+          "bottom": 527,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1851.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 487,
+              "bottom": 503,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1851 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1871.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 534,
+              "bottom": 550,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1871 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1871.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 534,
+          "bottom": 550,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1861.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 511,
+              "bottom": 527,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1861 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1881.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 558,
+              "bottom": 574,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1881 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1881.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 558,
+          "bottom": 574,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1871.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 534,
+              "bottom": 550,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1871 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1891.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 582,
+              "bottom": 598,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1891 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1891.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 582,
+          "bottom": 598,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1881.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 558,
+              "bottom": 574,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1881 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1901.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 622,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1901 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1901.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (209.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 606,
+          "bottom": 622,
+          "left": 389,
+          "right": 599,
+          "width": 210,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1891.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 582,
+              "bottom": 598,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1891 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1911.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 630,
+              "bottom": 646,
+              "left": 389,
+              "right": 598,
+              "width": 209,
+              "height": 16
+            },
+            "nodeLabel": "British 1911 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1911.pdf\">",
+        "selector": "dd > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (208.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 630,
+          "bottom": 646,
+          "left": 389,
+          "right": 598,
+          "width": 209,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestrycdn.com/legacy/pdf/trees/charts/ukcensus1901.pdf\">",
+            "selector": "dd > ul > li > a.external",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 622,
+              "left": 389,
+              "right": 599,
+              "width": 210,
+              "height": 16
+            },
+            "nodeLabel": "British 1901 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/5/51/Canadian_Census_Form_1851.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (206px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 712,
+          "bottom": 728,
+          "left": 389,
+          "right": 595,
+          "width": 206,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/f/fe/Canadian_Census_Form_1861.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 736,
+              "bottom": 752,
+              "left": 389,
+              "right": 595,
+              "width": 206,
+              "height": 16
+            },
+            "nodeLabel": "Canada 1861 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/a/a8/Canadian_Census_Form_1891.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (206px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 784,
+          "bottom": 800,
+          "left": 389,
+          "right": 595,
+          "width": 206,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/d/d0/Canadian_Census_Form_1901.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 807,
+              "bottom": 823,
+              "left": 389,
+              "right": 595,
+              "width": 206,
+              "height": 16
+            },
+            "nodeLabel": "Canada 1901 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/d/d0/Canadian_Census_Form_1901.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (206px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 807,
+          "bottom": 823,
+          "left": 389,
+          "right": 595,
+          "width": 206,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/a/a8/Canadian_Census_Form_1891.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 784,
+              "bottom": 800,
+              "left": 389,
+              "right": 595,
+              "width": 206,
+              "height": 16
+            },
+            "nodeLabel": "Canada 1891 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/8/83/30431_Fus1850.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 961,
+          "bottom": 977,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/2/24/30432_Fus1860.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 985,
+              "bottom": 1001,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1860 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/2/24/30432_Fus1860.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 985,
+          "bottom": 1001,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/8/83/30431_Fus1850.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 961,
+              "bottom": 977,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1850 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/9/9c/30433_Fus1870.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1025,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1870 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/9/9c/30433_Fus1870.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1009,
+          "bottom": 1025,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/2/24/30432_Fus1860.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 985,
+              "bottom": 1001,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1860 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/f/f3/30434_Fus1880.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1049,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1880 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/f/f3/30434_Fus1880.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1033,
+          "bottom": 1049,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/9/9c/30433_Fus1870.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1025,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1870 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/2/2d/30435_Fus1900.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1056,
+              "bottom": 1072,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1900 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/2/2d/30435_Fus1900.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1056,
+          "bottom": 1072,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/f/f3/30434_Fus1880.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1049,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1880 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/3/36/30466_Fus1910.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1080,
+              "bottom": 1096,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1910 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/3/36/30466_Fus1910.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1080,
+          "bottom": 1096,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/2/2d/30435_Fus1900.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1056,
+              "bottom": 1072,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1900 Census Worksheet",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/5/5b/34555_Fus1920.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1120,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1920 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/5/5b/34555_Fus1920.pdf\" class=\"internal\">",
+        "selector": "dd > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (184.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1104,
+          "bottom": 1120,
+          "left": 389,
+          "right": 573,
+          "width": 184,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/3/36/30466_Fus1910.pdf\" class=\"internal\">",
+            "selector": "dd > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1080,
+              "bottom": 1096,
+              "left": 389,
+              "right": 573,
+              "width": 184,
+              "height": 16
+            },
+            "nodeLabel": "U.S. 1910 Census Worksheet",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/0/0e/US_Census_Headings_1790-1860.pdf\" class=\"internal\">",
+        "selector": "div.mw-parser-output > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (204.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1234,
+          "bottom": 1250,
+          "left": 366,
+          "right": 571,
+          "width": 205,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/b/b8/US_Census_Headings_1870-1930.pdf\" class=\"internal\">",
+            "selector": "div.mw-parser-output > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1258,
+              "bottom": 1274,
+              "left": 366,
+              "right": 571,
+              "width": 205,
+              "height": 16
+            },
+            "nodeLabel": "US Census Headings 1870-1930",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/img_auth.php/b/b8/US_Census_Headings_1870-1930.pdf\" class=\"internal\">",
+        "selector": "div.mw-parser-output > ul > li > a.internal",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (204.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1258,
+          "bottom": 1274,
+          "left": 366,
+          "right": 571,
+          "width": 205,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/img_auth.php/0/0e/US_Census_Headings_1790-1860.pdf\" class=\"internal\">",
+            "selector": "div.mw-parser-output > ul > li > a.internal",
+            "boundingRect": {
+              "top": 1234,
+              "bottom": 1250,
+              "left": 366,
+              "right": 571,
+              "width": 205,
+              "height": 16
+            },
+            "nodeLabel": "US Census Headings 1790-1860",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1790-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1907,
+          "bottom": 1923,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1800-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1931,
+              "bottom": 1947,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1800",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1800-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1931,
+          "bottom": 1947,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1790-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1907,
+              "bottom": 1923,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1790",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1810-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1954,
+              "bottom": 1970,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1810",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1810-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1954,
+          "bottom": 1970,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1800-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1931,
+              "bottom": 1947,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1800",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1820-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1978,
+              "bottom": 1994,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1820",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1820-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1978,
+          "bottom": 1994,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1810-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1954,
+              "bottom": 1970,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1810",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1830-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2002,
+              "bottom": 2018,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1830",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1830-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2002,
+          "bottom": 2018,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1820-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 1978,
+              "bottom": 1994,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1820",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1840-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2026,
+              "bottom": 2042,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1840",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1840-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2026,
+          "bottom": 2042,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1830-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2002,
+              "bottom": 2018,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1830",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1850-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2050,
+              "bottom": 2066,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1850",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1850-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2050,
+          "bottom": 2066,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1840-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2026,
+              "bottom": 2042,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1840",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2145,
+          "bottom": 2161,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2169,
+              "bottom": 2185,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2169,
+          "bottom": 2185,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2145,
+              "bottom": 2161,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1870",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1920-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2335,
+          "bottom": 2351,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1930-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2359,
+              "bottom": 2375,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1930",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1930-census.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2359,
+          "bottom": 2375,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1920-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2335,
+              "bottom": 2351,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1920",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/census/1940/1940.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2383,
+              "bottom": 2399,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1940",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/census/1940/1940.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2383,
+          "bottom": 2399,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1930-census.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2359,
+              "bottom": 2375,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1930",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1850-agriculture.p…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2471,
+          "bottom": 2487,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1860-agricultural.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2495,
+              "bottom": 2511,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1860",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1860-agricultural.…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2495,
+          "bottom": 2511,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1850-agriculture.p…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2471,
+              "bottom": 2487,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1850",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-agriculture.p…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2518,
+              "bottom": 2534,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1870",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-agriculture.p…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2518,
+          "bottom": 2534,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1860-agricultural.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2495,
+              "bottom": 2511,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1860",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-agricultural.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2542,
+              "bottom": 2558,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-agricultural.…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2542,
+          "bottom": 2558,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-agriculture.p…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2518,
+              "bottom": 2534,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1870",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-agricultural.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2582,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1885",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-agricultural.…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2566,
+          "bottom": 2582,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-agricultural.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2542,
+              "bottom": 2558,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-industrial-ma…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2649,
+          "bottom": 2665,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-industrial-ma…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2672,
+              "bottom": 2688,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-industrial-ma…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2672,
+          "bottom": 2688,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-industrial-ma…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2649,
+              "bottom": 2665,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1870",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-manufactures.…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2696,
+              "bottom": 2712,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1885",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-manufactures.…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2696,
+          "bottom": 2712,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-industrial-ma…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2672,
+              "bottom": 2688,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-mortality.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2779,
+          "bottom": 2795,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-mortality.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2803,
+              "bottom": 2819,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-mortality.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2803,
+          "bottom": 2819,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1870-mortality.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2779,
+              "bottom": 2795,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1870",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-mortality.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2826,
+              "bottom": 2842,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1885",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1885-mortality.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2826,
+          "bottom": 2842,
+          "left": 366,
+          "right": 412,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1880-mortality.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 2803,
+              "bottom": 2819,
+              "left": 366,
+              "right": 412,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "1880",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1882-1903-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3116,
+          "bottom": 3132,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1903-1907-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3140,
+              "bottom": 3156,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1903-1907",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1903-1907-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3140,
+          "bottom": 3156,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1882-1903-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3116,
+              "bottom": 3132,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1882-1903",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1907-1917-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3188,
+          "bottom": 3204,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1917-1924-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3211,
+              "bottom": 3227,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1917-1924",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1917-1924-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3211,
+          "bottom": 3227,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1907-1917-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3188,
+              "bottom": 3204,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1907-1917",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1924-1948-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3235,
+              "bottom": 3251,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1924-1948",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1924-1948-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3235,
+          "bottom": 3251,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1917-1924-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3211,
+              "bottom": 3227,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1917-1924",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1948-1957-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3259,
+              "bottom": 3275,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1948-1957",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1948-1957-immigrat…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3259,
+          "bottom": 3275,
+          "left": 366,
+          "right": 447,
+          "width": 81,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/1924-1948-immigrat…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3235,
+              "bottom": 3251,
+              "left": 366,
+              "right": 447,
+              "width": 81,
+              "height": 16
+            },
+            "nodeLabel": "1924-1948",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-a.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3406,
+          "bottom": 3422,
+          "left": 366,
+          "right": 426,
+          "width": 59,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-b.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3430,
+              "bottom": 3446,
+              "left": 366,
+              "right": 426,
+              "width": 60,
+              "height": 16
+            },
+            "nodeLabel": "Form B",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-b.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3430,
+          "bottom": 3446,
+          "left": 366,
+          "right": 426,
+          "width": 60,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-a.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3406,
+              "bottom": 3422,
+              "left": 366,
+              "right": 426,
+              "width": 59,
+              "height": 16
+            },
+            "nodeLabel": "Form A",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-c.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3454,
+              "bottom": 3470,
+              "left": 366,
+              "right": 427,
+              "width": 61,
+              "height": 16
+            },
+            "nodeLabel": "Form C",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-c.pdf\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (60.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3454,
+          "bottom": 3470,
+          "left": 366,
+          "right": 427,
+          "width": 61,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.archives.gov/research/genealogy/charts-forms/ww1-draft-b.pdf\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 3430,
+              "bottom": 3446,
+              "left": 366,
+              "right": 426,
+              "width": 60,
+              "height": 16
+            },
+            "nodeLabel": "Form B",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.ancestry.com/cs/census-forms\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (128.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4163,
+          "bottom": 4179,
+          "left": 366,
+          "right": 495,
+          "width": 128,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.ancestry.com/cs/census-forms\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4187,
+              "bottom": 4203,
+              "left": 366,
+              "right": 495,
+              "width": 128,
+              "height": 16
+            },
+            "nodeLabel": "UK Census Forms",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.ancestry.com/cs/census-forms\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (128.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4187,
+          "bottom": 4203,
+          "left": 366,
+          "right": 495,
+          "width": 128,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.ancestry.com/cs/census-forms\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4163,
+              "bottom": 4179,
+              "left": 366,
+              "right": 495,
+              "width": 128,
+              "height": 16
+            },
+            "nodeLabel": "US Census Forms",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.cyndislist.com/charts/templates/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4807,
+          "bottom": 4823,
+          "left": 366,
+          "right": 444,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.cyndislist.com/charts/timelines/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4831,
+              "bottom": 4847,
+              "left": 366,
+              "right": 440,
+              "width": 73,
+              "height": 16
+            },
+            "nodeLabel": "Timelines",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.cyndislist.com/charts/timelines/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4831,
+          "bottom": 4847,
+          "left": 366,
+          "right": 440,
+          "width": 73,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.cyndislist.com/charts/templates/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 4807,
+              "bottom": 4823,
+              "left": 366,
+              "right": 444,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Templates",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1820censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6078,
+          "bottom": 6094,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1830censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6102,
+              "bottom": 6118,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1830 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1830censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6102,
+          "bottom": 6118,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1820censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6078,
+              "bottom": 6094,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1820 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1840censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6125,
+              "bottom": 6141,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1840 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1840censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6125,
+          "bottom": 6141,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1830censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6102,
+              "bottom": 6118,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1830 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1850censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (328.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6149,
+          "bottom": 6165,
+          "left": 366,
+          "right": 695,
+          "width": 328,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1860censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6173,
+              "bottom": 6189,
+              "left": 366,
+              "right": 695,
+              "width": 328,
+              "height": 16
+            },
+            "nodeLabel": "1860 Census Worksheet (includes slave schedule)",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1860censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (328.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6173,
+          "bottom": 6189,
+          "left": 366,
+          "right": 695,
+          "width": 328,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1850censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6149,
+              "bottom": 6165,
+              "left": 366,
+              "right": 695,
+              "width": 328,
+              "height": 16
+            },
+            "nodeLabel": "1850 Census Worksheet (includes slave schedule)",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1870censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6197,
+          "bottom": 6213,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1880censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6221,
+              "bottom": 6237,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1880 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1880censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6221,
+          "bottom": 6237,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1870censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6197,
+              "bottom": 6213,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1870 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1900censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6244,
+              "bottom": 6260,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1900 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1900censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6244,
+          "bottom": 6260,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1880censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6221,
+              "bottom": 6237,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1880 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1910censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6268,
+              "bottom": 6284,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1910 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1910censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6268,
+          "bottom": 6284,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1900censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6244,
+              "bottom": 6260,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1900 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1920censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6292,
+              "bottom": 6308,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1920 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1920censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6292,
+          "bottom": 6308,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1910censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6268,
+              "bottom": 6284,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1910 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1930censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6316,
+              "bottom": 6332,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1930 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1930censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6316,
+          "bottom": 6332,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1920censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6292,
+              "bottom": 6308,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1920 Census Worksheet",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1940censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6340,
+              "bottom": 6356,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1940 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1940censusworksheet/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (167.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6340,
+          "bottom": 6356,
+          "left": 366,
+          "right": 533,
+          "width": 167,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freebie/1930censusworksheet/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6316,
+              "bottom": 6332,
+              "left": 366,
+              "right": 533,
+              "width": 167,
+              "height": 16
+            },
+            "nodeLabel": "1930 Census Worksheet",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6422,
+          "bottom": 6438,
+          "left": 366,
+          "right": 539,
+          "width": 173,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6446,
+              "bottom": 6462,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1903-1907",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6446,
+          "bottom": 6462,
+          "left": 366,
+          "right": 539,
+          "width": 173,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6422,
+              "bottom": 6438,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1897-1903",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6470,
+              "bottom": 6486,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1907-1913",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6470,
+          "bottom": 6486,
+          "left": 366,
+          "right": 539,
+          "width": 173,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6446,
+              "bottom": 6462,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1903-1907",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6494,
+              "bottom": 6510,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1913-1917",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6494,
+          "bottom": 6510,
+          "left": 366,
+          "right": 539,
+          "width": 173,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6470,
+              "bottom": 6486,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1907-1913",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6517,
+              "bottom": 6533,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1917-1942",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 6517,
+          "bottom": 6533,
+          "left": 366,
+          "right": 539,
+          "width": 173,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familytreemagazine.com/freeforms/immigrationforms/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 6494,
+              "bottom": 6510,
+              "left": 366,
+              "right": 539,
+              "width": 173,
+              "height": 16
+            },
+            "nodeLabel": "Passenger list 1913-1917",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 5
 }

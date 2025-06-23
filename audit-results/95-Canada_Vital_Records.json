@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 91,
+  "accessibility-score": 88,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1130,
-          "bottom": 1146,
+          "top": 1126,
+          "bottom": 1142,
           "left": 683,
           "right": 723,
           "width": 40,
@@ -43,11 +43,11 @@
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
               "top": 104,
-              "bottom": 11109,
+              "bottom": 10822,
               "left": 0,
               "right": 1400,
               "width": 1400,
-              "height": 11005
+              "height": 10718
             },
             "nodeLabel": "Jump to content\nToggle sidebar\n\nContents hide\n\nBeginning\nIntroduction\nOnline Re…",
             "subItemCategory": "skin"
@@ -59,8 +59,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1296,
-          "bottom": 1312,
+          "top": 1282,
+          "bottom": 1298,
           "left": 670,
           "right": 736,
           "width": 66,
@@ -73,11 +73,11 @@
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
               "top": 104,
-              "bottom": 11109,
+              "bottom": 10822,
               "left": 0,
               "right": 1400,
               "width": 1400,
-              "height": 11005
+              "height": 10718
             },
             "nodeLabel": "Jump to content\nToggle sidebar\n\nContents hide\n\nBeginning\nIntroduction\nOnline Re…",
             "subItemCategory": "skin"
@@ -89,8 +89,8 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1462,
-          "bottom": 1478,
+          "top": 1439,
+          "bottom": 1455,
           "left": 677,
           "right": 729,
           "width": 51,
@@ -103,11 +103,11 @@
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
               "top": 104,
-              "bottom": 11109,
+              "bottom": 10822,
               "left": 0,
               "right": 1400,
               "width": 1400,
-              "height": 11005
+              "height": 10718
             },
             "nodeLabel": "Jump to content\nToggle sidebar\n\nContents hide\n\nBeginning\nIntroduction\nOnline Re…",
             "subItemCategory": "skin"
@@ -119,10 +119,10 @@
         "selector": "center > span > i > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #cc9999, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 1563,
-          "bottom": 1579,
-          "left": 684,
-          "right": 722,
+          "top": 1536,
+          "bottom": 1552,
+          "left": 829,
+          "right": 867,
           "width": 39,
           "height": 16
         },
@@ -133,11 +133,11 @@
             "selector": "body.skin-vector > div.mw-page-container",
             "boundingRect": {
               "top": 104,
-              "bottom": 11109,
+              "bottom": 10822,
               "left": 0,
               "right": 1400,
               "width": 1400,
-              "height": 11005
+              "height": 10718
             },
             "nodeLabel": "Jump to content\nToggle sidebar\n\nContents hide\n\nBeginning\nIntroduction\nOnline Re…",
             "subItemCategory": "skin"
@@ -155,8 +155,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4110,
-          "bottom": 4222,
+          "top": 4003,
+          "bottom": 4115,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -169,8 +169,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6201,
-          "bottom": 6271,
+          "top": 6031,
+          "bottom": 6101,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -183,8 +183,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 9859,
-          "bottom": 9952,
+          "top": 9586,
+          "bottom": 9680,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -197,8 +197,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 9989,
-          "bottom": 10130,
+          "top": 9716,
+          "bottom": 9858,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -228,5 +228,131 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Canada_Jewish_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 925,
+          "bottom": 941,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Canada_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 948,
+              "bottom": 964,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Canada_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 948,
+          "bottom": 964,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Canada_Jewish_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 925,
+              "bottom": 941,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Canada_Loyalist_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 620,
+          "bottom": 636,
+          "left": 1241,
+          "right": 1345,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Canada_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 643,
+              "bottom": 659,
+              "left": 1241,
+              "right": 1342,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Canada_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 643,
+          "bottom": 659,
+          "left": 1241,
+          "right": 1342,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Canada_Loyalist_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 620,
+              "bottom": 636,
+              "left": 1241,
+              "right": 1345,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Loyalist Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 5
 }

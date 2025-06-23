@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,235 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Getting_Started\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 496,
+          "bottom": 512,
+          "left": 1096,
+          "right": 1191,
+          "width": 94,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Online_Learning\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 520,
+              "bottom": 536,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Online Learning",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Online_Learning\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 520,
+          "bottom": 536,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Getting_Started\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 496,
+              "bottom": 512,
+              "left": 1096,
+              "right": 1191,
+              "width": 94,
+              "height": 16
+            },
+            "nodeLabel": "Getting Started",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 761,
+          "bottom": 777,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Civil_Registration\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 784,
+              "bottom": 800,
+              "left": 1096,
+              "right": 1201,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Civil Registration",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Civil_Registration\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 784,
+          "bottom": 800,
+          "left": 1096,
+          "right": 1201,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 761,
+              "bottom": 777,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Jewish_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 948,
+          "bottom": 964,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 972,
+              "bottom": 988,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 972,
+          "bottom": 988,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Jewish_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 948,
+              "bottom": 964,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 996,
+              "bottom": 1012,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 996,
+          "bottom": 1012,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 972,
+              "bottom": 988,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

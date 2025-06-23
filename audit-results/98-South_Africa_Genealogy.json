@@ -45,61 +45,61 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/South_Africa_Cemeteries\">",
+        "snippet": "<a href=\"/en/wiki/South_Africa_Getting_Started\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 708,
-          "bottom": 724,
-          "left": 1117,
-          "right": 1188,
-          "width": 72,
+          "top": 526,
+          "bottom": 542,
+          "left": 1116,
+          "right": 1210,
+          "width": 94,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/South_Africa_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/South_Africa_Online_Learning\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 659,
-              "bottom": 1067,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 408
+              "top": 550,
+              "bottom": 566,
+              "left": 1116,
+              "right": 1214,
+              "width": 99,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Online Learning",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/South_Africa_Newspapers\">",
+        "snippet": "<a href=\"/en/wiki/South_Africa_Online_Learning\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 733,
-          "bottom": 749,
-          "left": 1252,
-          "right": 1330,
-          "width": 78,
+          "top": 550,
+          "bottom": 566,
+          "left": 1116,
+          "right": 1214,
+          "width": 99,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/South_Africa_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/South_Africa_Getting_Started\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 659,
-              "bottom": 1067,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 408
+              "top": 526,
+              "bottom": 542,
+              "left": 1116,
+              "right": 1210,
+              "width": 94,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Getting Started",
             "subItemCategory": "unknown"
           }
         ]

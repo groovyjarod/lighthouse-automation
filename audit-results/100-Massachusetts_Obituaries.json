@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,131 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Massachusetts_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 603,
+          "bottom": 619,
+          "left": 1234,
+          "right": 1336,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Massachusetts_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 643,
+              "left": 1234,
+              "right": 1335,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Massachusetts_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 627,
+          "bottom": 643,
+          "left": 1234,
+          "right": 1335,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Massachusetts_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 603,
+              "bottom": 619,
+              "left": 1234,
+              "right": 1336,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://web.archive.org/web/20080502043343/http://www.rootsweb.ancestry.co…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (222.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 692,
+          "bottom": 708,
+          "left": 70,
+          "right": 293,
+          "width": 223,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://freepages.rootsweb.com/~obitl/genealogy/volma.html\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 716,
+              "bottom": 732,
+              "left": 70,
+              "right": 291,
+              "width": 221,
+              "height": 16
+            },
+            "nodeLabel": "Massachusetts Obituary Lookups",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://freepages.rootsweb.com/~obitl/genealogy/volma.html\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (221px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 716,
+          "bottom": 732,
+          "left": 70,
+          "right": 291,
+          "width": 221,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://web.archive.org/web/20080502043343/http://www.rootsweb.ancestry.co…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 692,
+              "bottom": 708,
+              "left": 70,
+              "right": 293,
+              "width": 223,
+              "height": 16
+            },
+            "nodeLabel": "Massachusetts Obituaries Project",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

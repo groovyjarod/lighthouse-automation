@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -31,8 +31,8 @@
         "boundingRect": {
           "top": 287,
           "bottom": 347,
-          "left": 69,
-          "right": 1038,
+          "left": 72,
+          "right": 1040,
           "width": 969,
           "height": 61
         },
@@ -45,8 +45,8 @@
               "top": 273,
               "bottom": 362,
               "left": 49,
-              "right": 1058,
-              "width": 1009,
+              "right": 1063,
+              "width": 1014,
               "height": 89
             },
             "nodeLabel": "These are genealogy links to Native American online databases and indexes that …",
@@ -76,7 +76,133 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/American_Indian_Removal_Records\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (111.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1238,
+          "bottom": 1254,
+          "left": 1234,
+          "right": 1345,
+          "width": 111,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/American_Indian_Sanitary_Record_of_Sick,_Injured,_Births,_Deaths,…\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1262,
+              "bottom": 1278,
+              "left": 1234,
+              "right": 1341,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Sanitary Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/American_Indian_Sanitary_Record_of_Sick,_Injured,_Births,_Deaths,…\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1262,
+          "bottom": 1278,
+          "left": 1234,
+          "right": 1341,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/American_Indian_Removal_Records\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1238,
+              "bottom": 1254,
+              "left": 1234,
+              "right": 1345,
+              "width": 111,
+              "height": 16
+            },
+            "nodeLabel": "Removal Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Area_Offices_of_the_Bureau_of_Indian_Affairs\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1440,
+          "bottom": 1456,
+          "left": 1234,
+          "right": 1311,
+          "width": 77,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_the_United_States_Reservations\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1463,
+              "bottom": 1479,
+              "left": 1234,
+              "right": 1316,
+              "width": 82,
+              "height": 16
+            },
+            "nodeLabel": "Reservations",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_the_United_States_Reservations\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1463,
+          "bottom": 1479,
+          "left": 1234,
+          "right": 1316,
+          "width": 82,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Area_Offices_of_the_Bureau_of_Indian_Affairs\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1440,
+              "bottom": 1456,
+              "left": 1234,
+              "right": 1311,
+              "width": 77,
+              "height": 16
+            },
+            "nodeLabel": "Area Offices",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -86,11 +212,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 272,
-          "bottom": 4113,
+          "bottom": 3908,
           "left": 48,
-          "right": 1059,
-          "width": 1011,
-          "height": 3842
+          "right": 1064,
+          "width": 1016,
+          "height": 3636
         },
         "itemCategory": "page"
       },
@@ -100,15 +226,15 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 272,
-          "bottom": 1785,
-          "left": 1069,
+          "bottom": 1713,
+          "left": 1074,
           "right": 1352,
-          "width": 283,
-          "height": 1513
+          "width": 278,
+          "height": 1442
         },
         "itemCategory": "page"
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 5
 }

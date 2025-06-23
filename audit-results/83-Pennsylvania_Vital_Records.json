@@ -125,12 +125,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2771,
-          "bottom": 2796,
+          "top": 2646,
+          "bottom": 2668,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 25
+          "height": 22
         },
         "itemCategory": "page"
       },
@@ -139,12 +139,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2857,
-          "bottom": 2882,
+          "top": 2725,
+          "bottom": 2748,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 25
+          "height": 22
         },
         "itemCategory": "page"
       },
@@ -153,12 +153,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3273,
-          "bottom": 3323,
+          "top": 3123,
+          "bottom": 3169,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 51
+          "height": 46
         },
         "itemCategory": "page"
       },
@@ -167,12 +167,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3720,
-          "bottom": 3793,
+          "top": 3547,
+          "bottom": 3616,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 73
+          "height": 69
         },
         "itemCategory": "page"
       },
@@ -181,12 +181,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4071,
-          "bottom": 4095,
+          "top": 3890,
+          "bottom": 3912,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 25
+          "height": 22
         },
         "itemCategory": "page"
       },
@@ -195,12 +195,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6440,
-          "bottom": 6543,
+          "top": 6181,
+          "bottom": 6277,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 103
+          "height": 97
         },
         "itemCategory": "page"
       }
@@ -231,92 +231,122 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/Pennsylvania_Biography\" class=\"mw-redirect\">",
-        "selector": "td > ul > li > a.mw-redirect",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1175,
-          "bottom": 1191,
-          "left": 1124,
-          "right": 1187,
-          "width": 63,
+          "top": 605,
+          "bottom": 621,
+          "left": 1247,
+          "right": 1349,
+          "width": 101,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Pennsylvania_Historical_Geography\">",
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1170,
-              "bottom": 1292,
-              "left": 1124,
-              "right": 1318,
-              "width": 194,
-              "height": 122
+              "top": 629,
+              "bottom": 645,
+              "left": 1247,
+              "right": 1348,
+              "width": 100,
+              "height": 16
             },
-            "nodeLabel": "Historical Geography",
+            "nodeLabel": "Military Records",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Pennsylvania_History\">",
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Military_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (43.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1196,
-          "bottom": 1212,
-          "left": 1249,
-          "right": 1292,
-          "width": 44,
+          "top": 629,
+          "bottom": 645,
+          "left": 1247,
+          "right": 1348,
+          "width": 100,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Pennsylvania_Historical_Geography\">",
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1170,
-              "bottom": 1292,
-              "left": 1124,
-              "right": 1318,
-              "width": 194,
-              "height": 122
+              "top": 605,
+              "bottom": 621,
+              "left": 1247,
+              "right": 1349,
+              "width": 101,
+              "height": 16
             },
-            "nodeLabel": "Historical Geography",
+            "nodeLabel": "Land & Property",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Pennsylvania_Cultural_Groups\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "snippet": "<a href=\"/en/wiki/United_States,_How_to_Find_Death_Records\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (259.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1380,
-          "bottom": 1396,
-          "left": 1249,
-          "right": 1347,
-          "width": 98,
+          "top": 5169,
+          "bottom": 5185,
+          "left": 366,
+          "right": 626,
+          "width": 260,
           "height": 16
         },
-        "itemCategory": "unknown",
+        "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_Pennsylvania\" class=\"mw-redirect\">",
-            "selector": "td > ul > li > a.mw-redirect",
+            "snippet": "<a href=\"/en/wiki/United_States,_How_to_Use_Death_Records\">",
+            "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1354,
-              "bottom": 1424,
-              "left": 1124,
-              "right": 1299,
-              "width": 176,
-              "height": 70
+              "top": 5193,
+              "bottom": 5209,
+              "left": 366,
+              "right": 624,
+              "width": 258,
+              "height": 16
             },
-            "nodeLabel": "Indigenous Peoples",
-            "subItemCategory": "unknown"
+            "nodeLabel": "United States How to Use Death Records",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States,_How_to_Use_Death_Records\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (257.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5193,
+          "bottom": 5209,
+          "left": 366,
+          "right": 624,
+          "width": 258,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States,_How_to_Find_Death_Records\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 5169,
+              "bottom": 5185,
+              "left": 366,
+              "right": 626,
+              "width": 260,
+              "height": 16
+            },
+            "nodeLabel": "United States How to Find Death Records",
+            "subItemCategory": "page"
           }
         ]
       }
@@ -331,8 +361,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4026,
-          "bottom": 4317,
+          "top": 3845,
+          "bottom": 4136,
           "left": 1050,
           "right": 1352,
           "width": 302,
@@ -345,8 +375,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4452,
-          "bottom": 4788,
+          "top": 4256,
+          "bottom": 4591,
           "left": 1050,
           "right": 1352,
           "width": 302,
@@ -359,8 +389,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 5163,
-          "bottom": 5649,
+          "top": 4931,
+          "bottom": 5417,
           "left": 1050,
           "right": 1352,
           "width": 302,

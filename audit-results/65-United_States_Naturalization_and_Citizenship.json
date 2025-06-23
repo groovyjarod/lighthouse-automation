@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 90,
+  "accessibility-score": 87,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3568,
-          "bottom": 3817,
+          "top": 3476,
+          "bottom": 3725,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,8 +43,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4714,
-          "bottom": 4737,
+          "top": 4598,
+          "bottom": 4620,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -57,12 +57,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4744,
-          "bottom": 5419,
+          "top": 4627,
+          "bottom": 5245,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 675
+          "height": 617
         },
         "itemCategory": "page"
       },
@@ -71,8 +71,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 7729,
-          "bottom": 7798,
+          "top": 7497,
+          "bottom": 7565,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -85,8 +85,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 8031,
-          "bottom": 8101,
+          "top": 7795,
+          "bottom": 7865,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -99,8 +99,8 @@
         "selector": "b > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 8031,
-          "bottom": 8101,
+          "top": 7795,
+          "bottom": 7865,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -113,8 +113,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 9393,
-          "bottom": 9487,
+          "top": 9136,
+          "bottom": 9230,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -153,8 +153,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > b > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 7130,
-          "bottom": 7174,
+          "top": 6914,
+          "bottom": 6957,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -173,8 +173,8 @@
         "selector": "td > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 2940,
-          "bottom": 2955,
+          "top": 2855,
+          "bottom": 2870,
           "left": 1055,
           "right": 1255,
           "width": 200,
@@ -184,7 +184,625 @@
       }
     ]
   },
-  "table-fake-caption-6": {
+  "target-size-6": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1033,
+          "bottom": 1049,
+          "left": 1096,
+          "right": 1200,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1057,
+          "bottom": 1073,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1049,
+              "left": 1096,
+              "right": 1200,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Funeral Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1081,
+          "bottom": 1097,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1120,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1104,
+          "bottom": 1120,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Arkansas_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5378,
+          "bottom": 5394,
+          "left": 367,
+          "right": 430,
+          "width": 63,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/California_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5402,
+              "bottom": 5418,
+              "left": 367,
+              "right": 432,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "California",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/California_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5402,
+          "bottom": 5418,
+          "left": 367,
+          "right": 432,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Arkansas_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5378,
+              "bottom": 5394,
+              "left": 367,
+              "right": 430,
+              "width": 63,
+              "height": 16
+            },
+            "nodeLabel": "Arkansas",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Colorado_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5426,
+              "bottom": 5442,
+              "left": 367,
+              "right": 429,
+              "width": 61,
+              "height": 16
+            },
+            "nodeLabel": "Colorado",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Colorado_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (61.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5426,
+          "bottom": 5442,
+          "left": 367,
+          "right": 429,
+          "width": 61,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/California_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5402,
+              "bottom": 5418,
+              "left": 367,
+              "right": 432,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "California",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Illinois_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5616,
+          "bottom": 5632,
+          "left": 367,
+          "right": 412,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Indiana_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5640,
+              "bottom": 5656,
+              "left": 367,
+              "right": 416,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Indiana",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Indiana_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5640,
+          "bottom": 5656,
+          "left": 367,
+          "right": 416,
+          "width": 49,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Illinois_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5616,
+              "bottom": 5632,
+              "left": 367,
+              "right": 412,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Illinois",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kentucky_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5307,
+          "bottom": 5323,
+          "left": 754,
+          "right": 817,
+          "width": 63,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Louisiana_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5331,
+              "bottom": 5347,
+              "left": 754,
+              "right": 819,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Louisiana",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Louisiana_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (65.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5331,
+          "bottom": 5347,
+          "left": 754,
+          "right": 819,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kentucky_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5307,
+              "bottom": 5323,
+              "left": 754,
+              "right": 817,
+              "width": 63,
+              "height": 16
+            },
+            "nodeLabel": "Kentucky",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Missouri_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5497,
+          "bottom": 5513,
+          "left": 754,
+          "right": 811,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Montana_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5521,
+              "bottom": 5537,
+              "left": 754,
+              "right": 811,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Montana",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Montana_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5521,
+          "bottom": 5537,
+          "left": 754,
+          "right": 811,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Missouri_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5497,
+              "bottom": 5513,
+              "left": 754,
+              "right": 811,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Missouri",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Jersey_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5616,
+          "bottom": 5632,
+          "left": 754,
+          "right": 831,
+          "width": 77,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Mexico_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5640,
+              "bottom": 5656,
+              "left": 754,
+              "right": 834,
+              "width": 80,
+              "height": 16
+            },
+            "nodeLabel": "New Mexico",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Mexico_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (80.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5640,
+          "bottom": 5656,
+          "left": 754,
+          "right": 834,
+          "width": 80,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Jersey_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5616,
+              "bottom": 5632,
+              "left": 754,
+              "right": 831,
+              "width": 77,
+              "height": 16
+            },
+            "nodeLabel": "New Jersey",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (89.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5402,
+          "bottom": 5418,
+          "left": 1071,
+          "right": 1161,
+          "width": 89,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Rhode_Island_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5426,
+              "bottom": 5442,
+              "left": 1071,
+              "right": 1159,
+              "width": 88,
+              "height": 16
+            },
+            "nodeLabel": "Rhode Island",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Rhode_Island_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (87.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5426,
+          "bottom": 5442,
+          "left": 1071,
+          "right": 1159,
+          "width": 88,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5402,
+              "bottom": 5418,
+              "left": 1071,
+              "right": 1161,
+              "width": 89,
+              "height": 16
+            },
+            "nodeLabel": "Pennsylvania",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Vermont_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5569,
+          "bottom": 5585,
+          "left": 1071,
+          "right": 1127,
+          "width": 56,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Virginia_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5592,
+              "bottom": 5608,
+              "left": 1071,
+              "right": 1122,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Virginia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Virginia_Naturalization_and_Citizenship\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (51.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 5592,
+          "bottom": 5608,
+          "left": 1071,
+          "right": 1122,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Vermont_Naturalization_and_Citizenship\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 5569,
+              "bottom": 5585,
+              "left": 1071,
+              "right": 1127,
+              "width": 56,
+              "height": 16
+            },
+            "nodeLabel": "Vermont",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-7": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -193,8 +811,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 12728,
-          "bottom": 13077,
+          "top": 12459,
+          "bottom": 12809,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -204,5 +822,5 @@
       }
     ]
   },
-  "number-of-Items": 6
+  "number-of-Items": 7
 }

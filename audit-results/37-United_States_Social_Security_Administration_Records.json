@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1474,
-          "bottom": 1608,
+          "top": 1465,
+          "bottom": 1599,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,12 +43,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2246,
-          "bottom": 2323,
+          "top": 2186,
+          "bottom": 2256,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "page"
       }
@@ -74,5 +74,159 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1033,
+          "bottom": 1049,
+          "left": 1096,
+          "right": 1200,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1057,
+          "bottom": 1073,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1049,
+              "left": 1096,
+              "right": 1200,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Funeral Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1081,
+          "bottom": 1097,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1120,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1104,
+          "bottom": 1120,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 4
 }

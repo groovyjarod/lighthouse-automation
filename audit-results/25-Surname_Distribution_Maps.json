@@ -531,12 +531,12 @@
       {
         "snippet": "<a href=\"/en/wiki/Category:Poland_Emigration_and_Immigration\">",
         "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (218.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (218.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2576,
-          "bottom": 2592,
-          "left": 170,
-          "right": 389,
+          "top": 2569,
+          "bottom": 2585,
+          "left": 182,
+          "right": 401,
           "width": 219,
           "height": 16
         },
@@ -546,10 +546,10 @@
             "snippet": "<a href=\"/en/wiki/Category:Scotland_Maps_and_Gazetteers\">",
             "selector": "div#mw-normal-catlinks > ul > li > a",
             "boundingRect": {
-              "top": 2599,
-              "bottom": 2615,
-              "left": 178,
-              "right": 371,
+              "top": 2591,
+              "bottom": 2607,
+              "left": 196,
+              "right": 388,
               "width": 192,
               "height": 16
             },
@@ -559,14 +559,44 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/Category:England_Emigration_and_Immigration\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (226.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2569,
+          "bottom": 2585,
+          "left": 1107,
+          "right": 1333,
+          "width": 226,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Category:Italy_Maps_and_Gazetteers\">",
+            "selector": "div#mw-normal-catlinks > ul > li > a",
+            "boundingRect": {
+              "top": 2591,
+              "bottom": 2607,
+              "left": 1144,
+              "right": 1307,
+              "width": 163,
+              "height": 16
+            },
+            "nodeLabel": "Italy Maps and Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a href=\"/en/wiki/Category:Scotland_Maps_and_Gazetteers\">",
         "selector": "div#mw-normal-catlinks > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (192.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (192.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2599,
-          "bottom": 2615,
-          "left": 178,
-          "right": 371,
+          "top": 2591,
+          "bottom": 2607,
+          "left": 196,
+          "right": 388,
           "width": 192,
           "height": 16
         },
@@ -576,14 +606,44 @@
             "snippet": "<a href=\"/en/wiki/Category:Poland_Emigration_and_Immigration\">",
             "selector": "div#mw-normal-catlinks > ul > li > a",
             "boundingRect": {
-              "top": 2576,
-              "bottom": 2592,
-              "left": 170,
-              "right": 389,
+              "top": 2569,
+              "bottom": 2585,
+              "left": 182,
+              "right": 401,
               "width": 219,
               "height": 16
             },
             "nodeLabel": "Poland Emigration and Immigration",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Category:Italy_Maps_and_Gazetteers\">",
+        "selector": "div#mw-normal-catlinks > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (163.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2591,
+          "bottom": 2607,
+          "left": 1144,
+          "right": 1307,
+          "width": 163,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Category:England_Emigration_and_Immigration\">",
+            "selector": "div#mw-normal-catlinks > ul > li > a",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2585,
+              "left": 1107,
+              "right": 1333,
+              "width": 226,
+              "height": 16
+            },
+            "nodeLabel": "England Emigration and Immigration",
             "subItemCategory": "unknown"
           }
         ]

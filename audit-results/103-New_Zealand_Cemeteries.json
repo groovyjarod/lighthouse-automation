@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,309 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Getting_Started\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 501,
+          "bottom": 517,
+          "left": 1096,
+          "right": 1191,
+          "width": 94,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Online_Learning\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 525,
+              "bottom": 541,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Online Learning",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Online_Learning\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 525,
+          "bottom": 541,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Getting_Started\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 501,
+              "bottom": 517,
+              "left": 1096,
+              "right": 1191,
+              "width": 94,
+              "height": 16
+            },
+            "nodeLabel": "Getting Started",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 789,
+          "bottom": 805,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Civil_Registration\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 813,
+              "bottom": 829,
+              "left": 1096,
+              "right": 1201,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Civil Registration",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Civil_Registration\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 813,
+          "bottom": 829,
+          "left": 1096,
+          "right": 1201,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 789,
+              "bottom": 805,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Colonial_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 837,
+              "bottom": 853,
+              "left": 1096,
+              "right": 1203,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Colonial Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Colonial_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 837,
+          "bottom": 853,
+          "left": 1096,
+          "right": 1203,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Civil_Registration\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 813,
+              "bottom": 829,
+              "left": 1096,
+              "right": 1201,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Civil Registration",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 626,
+          "bottom": 642,
+          "left": 1241,
+          "right": 1343,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 649,
+              "bottom": 665,
+              "left": 1241,
+              "right": 1346,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 649,
+          "bottom": 665,
+          "left": 1241,
+          "right": 1346,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 626,
+              "bottom": 642,
+              "left": 1241,
+              "right": 1343,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 673,
+              "bottom": 689,
+              "left": 1241,
+              "right": 1342,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_Zealand_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 673,
+          "bottom": 689,
+          "left": 1241,
+          "right": 1342,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_Zealand_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 649,
+              "bottom": 665,
+              "left": 1241,
+              "right": 1346,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.interment.net/nz/index.htm\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 787,
+          "bottom": 803,
+          "left": 366,
+          "right": 440,
+          "width": 73,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/List_of_cemeteries_in_New_Zealand\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 764,
+              "bottom": 780,
+              "left": 366,
+              "right": 441,
+              "width": 75,
+              "height": 16
+            },
+            "nodeLabel": "Wikipedia",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

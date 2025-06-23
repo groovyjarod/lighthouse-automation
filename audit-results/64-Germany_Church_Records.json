@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -49,8 +49,8 @@
         "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 10026,
-          "bottom": 10041,
+          "top": 9829,
+          "bottom": 9844,
           "left": 1054,
           "right": 1354,
           "width": 300,
@@ -60,5 +60,415 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Getting_Started\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 496,
+          "bottom": 512,
+          "left": 1096,
+          "right": 1191,
+          "width": 94,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Online_Learning\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 520,
+              "bottom": 536,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Online Learning",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Online_Learning\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 520,
+          "bottom": 536,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Getting_Started\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 496,
+              "bottom": 512,
+              "left": 1096,
+              "right": 1191,
+              "width": 94,
+              "height": 16
+            },
+            "nodeLabel": "Getting Started",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Jewish_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 971,
+          "bottom": 987,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 994,
+              "bottom": 1010,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 994,
+          "bottom": 1010,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Jewish_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 971,
+              "bottom": 987,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1018,
+              "bottom": 1034,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1018,
+          "bottom": 1034,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 994,
+              "bottom": 1010,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Anhalt,_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (39.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7273,
+          "bottom": 7289,
+          "left": 367,
+          "right": 407,
+          "width": 40,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Baden,_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7296,
+              "bottom": 7312,
+              "left": 367,
+              "right": 408,
+              "width": 40,
+              "height": 16
+            },
+            "nodeLabel": "Baden",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Baden,_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (40.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7296,
+          "bottom": 7312,
+          "left": 367,
+          "right": 408,
+          "width": 40,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Anhalt,_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7273,
+              "bottom": 7289,
+              "left": 367,
+              "right": 407,
+              "width": 40,
+              "height": 16
+            },
+            "nodeLabel": "Anhalt",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Saxony_(Sachsen),_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (114.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7511,
+          "bottom": 7527,
+          "left": 367,
+          "right": 482,
+          "width": 114,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Schaumburg-Lippe,_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7534,
+              "bottom": 7550,
+              "left": 367,
+              "right": 486,
+              "width": 118,
+              "height": 16
+            },
+            "nodeLabel": "Schaumburg-Lippe",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Schaumburg-Lippe,_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (118.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7534,
+          "bottom": 7550,
+          "left": 367,
+          "right": 486,
+          "width": 118,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Saxony_(Sachsen),_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7511,
+              "bottom": 7527,
+              "left": 367,
+              "right": 482,
+              "width": 114,
+              "height": 16
+            },
+            "nodeLabel": "Saxony (Sachsen)",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Silesia_(Schlesien),_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (115.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7513,
+          "bottom": 7529,
+          "left": 647,
+          "right": 763,
+          "width": 115,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Schleswig-Holstein,_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7537,
+              "bottom": 7553,
+              "left": 647,
+              "right": 766,
+              "width": 118,
+              "height": 16
+            },
+            "nodeLabel": "Schleswig-Holstein",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Schleswig-Holstein,_German_Empire_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (118.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 7537,
+          "bottom": 7553,
+          "left": 647,
+          "right": 766,
+          "width": 118,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Silesia_(Schlesien),_German_Empire_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 7513,
+              "bottom": 7529,
+              "left": 647,
+              "right": 763,
+              "width": 115,
+              "height": 16
+            },
+            "nodeLabel": "Silesia (Schlesien)",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/help/helpcenter/lessons/old-german-script-par…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (180.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 10174,
+          "bottom": 10190,
+          "left": 366,
+          "right": 547,
+          "width": 181,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/help/helpcenter/lessons/old-german-script-par…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 10198,
+              "bottom": 10214,
+              "left": 366,
+              "right": 547,
+              "width": 181,
+              "height": 16
+            },
+            "nodeLabel": "Old German Script Part 2",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/help/helpcenter/lessons/old-german-script-par…\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (180.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 10198,
+          "bottom": 10214,
+          "left": 366,
+          "right": 547,
+          "width": 181,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/help/helpcenter/lessons/old-german-script-par…\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 10174,
+              "bottom": 10190,
+              "left": 366,
+              "right": 547,
+              "width": 181,
+              "height": 16
+            },
+            "nodeLabel": "Old German Script Part 1",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 4
 }

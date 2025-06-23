@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 91,
+  "accessibility-score": 88,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,12 +29,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 7220,
-          "bottom": 7323,
+          "top": 7010,
+          "bottom": 7104,
           "left": 344,
           "right": 1352,
           "width": 1008,
-          "height": 103
+          "height": 94
         },
         "itemCategory": "page"
       }
@@ -69,8 +69,8 @@
         "selector": "td > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 2580,
-          "bottom": 2595,
+          "top": 2462,
+          "bottom": 2477,
           "left": 853,
           "right": 1253,
           "width": 400,
@@ -80,5 +80,71 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1015,
+          "bottom": 1031,
+          "left": 1254,
+          "right": 1306,
+          "width": 52,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1039,
+              "bottom": 1055,
+              "left": 1254,
+              "right": 1311,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Websites",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1039,
+          "bottom": 1055,
+          "left": 1254,
+          "right": 1311,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1015,
+              "bottom": 1031,
+              "left": 1254,
+              "right": 1306,
+              "width": 52,
+              "height": 16
+            },
+            "nodeLabel": "Taxation",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 5
 }

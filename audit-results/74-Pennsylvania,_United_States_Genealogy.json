@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,879 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 677,
+          "bottom": 693,
+          "left": 1244,
+          "right": 1346,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 701,
+              "bottom": 717,
+              "left": 1244,
+              "right": 1349,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 701,
+          "bottom": 717,
+          "left": 1244,
+          "right": 1349,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 677,
+              "bottom": 693,
+              "left": 1244,
+              "right": 1346,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 724,
+              "bottom": 740,
+              "left": 1244,
+              "right": 1345,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Pennsylvania_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 724,
+          "bottom": 740,
+          "left": 1244,
+          "right": 1345,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Pennsylvania_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 701,
+              "bottom": 717,
+              "left": 1244,
+              "right": 1349,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/African_American_Resources_for_Pennsylvania\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (112.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1398,
+          "bottom": 1414,
+          "left": 1103,
+          "right": 1215,
+          "width": 113,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_Pennsylvania\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1422,
+              "bottom": 1438,
+              "left": 1103,
+              "right": 1219,
+              "width": 116,
+              "height": 16
+            },
+            "nodeLabel": "Indigenous People",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_Pennsylvania\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (116px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1422,
+          "bottom": 1438,
+          "left": 1103,
+          "right": 1219,
+          "width": 116,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/African_American_Resources_for_Pennsylvania\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1398,
+              "bottom": 1414,
+              "left": 1103,
+              "right": 1215,
+              "width": 113,
+              "height": 16
+            },
+            "nodeLabel": "African Americans",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Allegheny_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (61.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1252,
+          "bottom": 1268,
+          "left": 71,
+          "right": 133,
+          "width": 61,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Armstrong_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1276,
+              "bottom": 1292,
+              "left": 71,
+              "right": 136,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Armstrong",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Armstrong_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1276,
+          "bottom": 1292,
+          "left": 71,
+          "right": 136,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Allegheny_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1252,
+              "bottom": 1268,
+              "left": 71,
+              "right": 133,
+              "width": 61,
+              "height": 16
+            },
+            "nodeLabel": "Allegheny",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Beaver_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (44.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1300,
+          "bottom": 1316,
+          "left": 71,
+          "right": 116,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Bedford_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1323,
+              "bottom": 1339,
+              "left": 71,
+              "right": 120,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Bedford",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Bedford_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1323,
+          "bottom": 1339,
+          "left": 71,
+          "right": 120,
+          "width": 49,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Beaver_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1300,
+              "bottom": 1316,
+              "left": 71,
+              "right": 116,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Beaver",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Bucks_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (38.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1419,
+          "bottom": 1435,
+          "left": 71,
+          "right": 110,
+          "width": 38,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Butler_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1442,
+              "bottom": 1458,
+              "left": 71,
+              "right": 108,
+              "width": 37,
+              "height": 16
+            },
+            "nodeLabel": "Butler",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Butler_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (36.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1442,
+          "bottom": 1458,
+          "left": 71,
+          "right": 108,
+          "width": 37,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Bucks_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1419,
+              "bottom": 1435,
+              "left": 71,
+              "right": 110,
+              "width": 38,
+              "height": 16
+            },
+            "nodeLabel": "Bucks",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cambria_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1466,
+          "bottom": 1482,
+          "left": 71,
+          "right": 124,
+          "width": 53,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cameron_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1490,
+              "bottom": 1506,
+              "left": 71,
+              "right": 129,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Cameron",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cameron_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1490,
+          "bottom": 1506,
+          "left": 71,
+          "right": 129,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cambria_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1466,
+              "bottom": 1482,
+              "left": 71,
+              "right": 124,
+              "width": 53,
+              "height": 16
+            },
+            "nodeLabel": "Cambria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Carbon_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1228,
+          "bottom": 1244,
+          "left": 218,
+          "right": 264,
+          "width": 46,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Centre_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1252,
+              "bottom": 1268,
+              "left": 218,
+              "right": 260,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "Centre",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Centre_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1252,
+          "bottom": 1268,
+          "left": 218,
+          "right": 260,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Carbon_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1228,
+              "bottom": 1244,
+              "left": 218,
+              "right": 264,
+              "width": 46,
+              "height": 16
+            },
+            "nodeLabel": "Carbon",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Chester_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1276,
+          "bottom": 1292,
+          "left": 218,
+          "right": 267,
+          "width": 49,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Clarion_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1300,
+              "bottom": 1316,
+              "left": 218,
+              "right": 262,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Clarion",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Clarion_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (44.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1300,
+          "bottom": 1316,
+          "left": 218,
+          "right": 262,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Chester_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1276,
+              "bottom": 1292,
+              "left": 218,
+              "right": 267,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Chester",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Columbia_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1371,
+          "bottom": 1387,
+          "left": 218,
+          "right": 277,
+          "width": 59,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Crawford_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1395,
+              "bottom": 1411,
+              "left": 218,
+              "right": 275,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Crawford",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Crawford_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1395,
+          "bottom": 1411,
+          "left": 218,
+          "right": 275,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Columbia_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1371,
+              "bottom": 1387,
+              "left": 218,
+              "right": 277,
+              "width": 59,
+              "height": 16
+            },
+            "nodeLabel": "Columbia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Tioga_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (34.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1466,
+          "bottom": 1482,
+          "left": 658,
+          "right": 692,
+          "width": 35,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Union_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1490,
+              "bottom": 1506,
+              "left": 658,
+              "right": 694,
+              "width": 37,
+              "height": 16
+            },
+            "nodeLabel": "Union",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Union_County,_Pennsylvania_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (36.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1490,
+          "bottom": 1506,
+          "left": 658,
+          "right": 694,
+          "width": 37,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Tioga_County,_Pennsylvania_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1466,
+              "bottom": 1482,
+              "left": 658,
+              "right": 692,
+              "width": 35,
+              "height": 16
+            },
+            "nodeLabel": "Tioga",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Culbertson%27s_Path\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (110.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1811,
+          "bottom": 1827,
+          "left": 71,
+          "right": 181,
+          "width": 110,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cumberland_Road\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1835,
+              "bottom": 1851,
+              "left": 71,
+              "right": 185,
+              "width": 114,
+              "height": 16
+            },
+            "nodeLabel": "Cumberland Road",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cumberland_Road\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (113.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1835,
+          "bottom": 1851,
+          "left": 71,
+          "right": 185,
+          "width": 114,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Culbertson%27s_Path\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1811,
+              "bottom": 1827,
+              "left": 71,
+              "right": 181,
+              "width": 110,
+              "height": 16
+            },
+            "nodeLabel": "Culbertson's Path",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/King%27s_Highway\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1763,
+          "bottom": 1779,
+          "left": 392,
+          "right": 488,
+          "width": 95,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kittanning_Path\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1787,
+              "bottom": 1803,
+              "left": 392,
+              "right": 487,
+              "width": 95,
+              "height": 16
+            },
+            "nodeLabel": "Kittanning Path",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kittanning_Path\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1787,
+          "bottom": 1803,
+          "left": 392,
+          "right": 487,
+          "width": 95,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/King%27s_Highway\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1763,
+              "bottom": 1779,
+              "left": 392,
+              "right": 488,
+              "width": 95,
+              "height": 16
+            },
+            "nodeLabel": "King's Highway",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Schuylkill_Canal\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1787,
+          "bottom": 1803,
+          "left": 713,
+          "right": 812,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Southern_Road\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1811,
+              "bottom": 1827,
+              "left": 713,
+              "right": 807,
+              "width": 94,
+              "height": 16
+            },
+            "nodeLabel": "Southern Road",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Southern_Road\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1811,
+          "bottom": 1827,
+          "left": 713,
+          "right": 807,
+          "width": 94,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Schuylkill_Canal\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1787,
+              "bottom": 1803,
+              "left": 713,
+              "right": 812,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Schuylkill Canal",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Tuscarora_Path\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1835,
+              "bottom": 1851,
+              "left": 713,
+              "right": 808,
+              "width": 95,
+              "height": 16
+            },
+            "nodeLabel": "Tuscarora Path",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Tuscarora_Path\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1835,
+          "bottom": 1851,
+          "left": 713,
+          "right": 808,
+          "width": 95,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Southern_Road\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1811,
+              "bottom": 1827,
+              "left": 713,
+              "right": 807,
+              "width": 94,
+              "height": 16
+            },
+            "nodeLabel": "Southern Road",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

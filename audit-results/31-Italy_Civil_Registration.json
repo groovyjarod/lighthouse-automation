@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 93,
+  "accessibility-score": 90,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4791,
-          "bottom": 4909,
+          "top": 4645,
+          "bottom": 4762,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,8 +43,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4791,
-          "bottom": 4909,
+          "top": 4645,
+          "bottom": 4762,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -57,8 +57,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4975,
-          "bottom": 5068,
+          "top": 4828,
+          "bottom": 4922,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -71,8 +71,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4975,
-          "bottom": 5068,
+          "top": 4828,
+          "bottom": 4922,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -122,5 +122,131 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1015,
+          "bottom": 1031,
+          "left": 1254,
+          "right": 1306,
+          "width": 52,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1039,
+              "bottom": 1055,
+              "left": 1254,
+              "right": 1311,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Websites",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1039,
+          "bottom": 1055,
+          "left": 1254,
+          "right": 1311,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1015,
+              "bottom": 1031,
+              "left": 1254,
+              "right": 1306,
+              "width": 52,
+              "height": 16
+            },
+            "nodeLabel": "Taxation",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/the-site/faq/?lang=en\">",
+        "selector": "li > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3812,
+          "bottom": 3828,
+          "left": 389,
+          "right": 431,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/tools/?lang=en\">",
+            "selector": "li > ul > li > a.external",
+            "boundingRect": {
+              "top": 3835,
+              "bottom": 3851,
+              "left": 389,
+              "right": 435,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Tools",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/tools/?lang=en\">",
+        "selector": "li > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (46.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3835,
+          "bottom": 3851,
+          "left": 389,
+          "right": 435,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/the-site/faq/?lang=en\">",
+            "selector": "li > ul > li > a.external",
+            "boundingRect": {
+              "top": 3812,
+              "bottom": 3828,
+              "left": 389,
+              "right": 431,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "FAQ",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 5
 }

@@ -45,12 +45,312 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
+        "snippet": "<a href=\"/en/wiki/Census_Records_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 666,
+          "bottom": 682,
+          "left": 1096,
+          "right": 1200,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Records_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 690,
+              "bottom": 706,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Records_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 690,
+          "bottom": 706,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Census_Records_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 666,
+              "bottom": 682,
+              "left": 1096,
+              "right": 1200,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Census Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Missionaries_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 854,
+          "bottom": 870,
+          "left": 1096,
+          "right": 1174,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Newspapers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 878,
+              "bottom": 894,
+              "left": 1096,
+              "right": 1174,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Newspapers",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Newspapers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 878,
+          "bottom": 894,
+          "left": 1096,
+          "right": 1174,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Missionaries_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 854,
+              "bottom": 870,
+              "left": 1096,
+              "right": 1174,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Missionaries",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/The_Church_of_Jesus_Christ_of_Latter-day_Saints_in_Sweden\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 963,
+          "bottom": 979,
+          "left": 1096,
+          "right": 1147,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/The_Church_of_Jesus_Christ_of_Latter-day_Saints_in_Norway\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 987,
+              "bottom": 1003,
+              "left": 1096,
+              "right": 1144,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Norway",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/The_Church_of_Jesus_Christ_of_Latter-day_Saints_in_Norway\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 987,
+          "bottom": 1003,
+          "left": 1096,
+          "right": 1144,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/The_Church_of_Jesus_Christ_of_Latter-day_Saints_in_Sweden\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 963,
+              "bottom": 979,
+              "left": 1096,
+              "right": 1147,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Sweden",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Latter-day_Saint_For_Further_Reading\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1265,
+          "bottom": 1281,
+          "left": 1235,
+          "right": 1337,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Online_Genealogy_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1289,
+              "bottom": 1305,
+              "left": 1235,
+              "right": 1332,
+              "width": 96,
+              "height": 16
+            },
+            "nodeLabel": "Online Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Online_Genealogy_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (96.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1289,
+          "bottom": 1305,
+          "left": 1235,
+          "right": 1332,
+          "width": 96,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Latter-day_Saint_For_Further_Reading\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1265,
+              "bottom": 1281,
+              "left": 1235,
+              "right": 1337,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Further Reading",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Utah_Directories\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1418,
+          "bottom": 1434,
+          "left": 1235,
+          "right": 1336,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Utah_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1442,
+              "bottom": 1458,
+              "left": 1235,
+              "right": 1337,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Utah Genealogy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Utah_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1442,
+          "bottom": 1458,
+          "left": 1235,
+          "right": 1337,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Utah_Directories\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1418,
+              "bottom": 1434,
+              "left": 1235,
+              "right": 1336,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Utah Directories",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:Place&amp;action…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 1742,
-          "bottom": 1757,
+          "top": 1676,
+          "bottom": 1690,
           "left": 131,
           "right": 136,
           "width": 5,
@@ -62,8 +362,8 @@
             "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Record_Finder\">",
             "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 1763,
-              "bottom": 1776,
+              "top": 1696,
+              "bottom": 1709,
               "left": 94,
               "right": 175,
               "width": 81,
@@ -79,8 +379,8 @@
         "selector": "th.navbox-title > div > div.noprint > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 1880,
-          "bottom": 1894,
+          "top": 1813,
+          "bottom": 1828,
           "left": 131,
           "right": 136,
           "width": 5,
@@ -92,8 +392,8 @@
             "snippet": "<a href=\"/en/wiki/Adventist_Churches_in_the_United_States\">",
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 1901,
-              "bottom": 1914,
+              "top": 1834,
+              "bottom": 1847,
               "left": 103,
               "right": 152,
               "width": 49,
@@ -116,11 +416,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 249,
-          "bottom": 1658,
+          "bottom": 1592,
           "left": 1072,
           "right": 1352,
           "width": 280,
-          "height": 1409
+          "height": 1343
         },
         "itemCategory": "page"
       },
@@ -129,8 +429,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1661,
-          "bottom": 1779,
+          "top": 1595,
+          "bottom": 1712,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -143,8 +443,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1799,
-          "bottom": 2018,
+          "top": 1732,
+          "bottom": 1952,
           "left": 51,
           "right": 1349,
           "width": 1298,

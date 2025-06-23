@@ -30,11 +30,11 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 333,
-          "bottom": 409,
+          "bottom": 403,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -43,12 +43,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 423,
-          "bottom": 500,
+          "top": 417,
+          "bottom": 487,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -57,12 +57,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 514,
-          "bottom": 591,
+          "top": 501,
+          "bottom": 571,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -71,12 +71,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 605,
-          "bottom": 682,
+          "top": 585,
+          "bottom": 655,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -85,12 +85,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 696,
-          "bottom": 773,
+          "top": 669,
+          "bottom": 739,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -99,12 +99,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 787,
-          "bottom": 908,
+          "top": 753,
+          "bottom": 868,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 121
+          "height": 115
         },
         "itemCategory": "unknown"
       },
@@ -113,12 +113,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 923,
-          "bottom": 1022,
+          "top": 882,
+          "bottom": 975,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 99
+          "height": 92
         },
         "itemCategory": "unknown"
       },
@@ -127,12 +127,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1036,
-          "bottom": 1135,
+          "top": 989,
+          "bottom": 1081,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 99
+          "height": 92
         },
         "itemCategory": "unknown"
       },
@@ -141,12 +141,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1149,
-          "bottom": 1226,
+          "top": 1096,
+          "bottom": 1166,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 77
+          "height": 70
         },
         "itemCategory": "unknown"
       },
@@ -155,12 +155,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1240,
-          "bottom": 1365,
+          "top": 1180,
+          "bottom": 1296,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 125
+          "height": 116
         },
         "itemCategory": "unknown"
       },
@@ -169,12 +169,12 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1379,
-          "bottom": 1430,
+          "top": 1310,
+          "bottom": 1356,
           "left": 376,
           "right": 1350,
           "width": 974,
-          "height": 51
+          "height": 46
         },
         "itemCategory": "unknown"
       }
@@ -210,11 +210,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 301,
-          "bottom": 1439,
+          "bottom": 1365,
           "left": 48,
           "right": 1352,
           "width": 1304,
-          "height": 1138
+          "height": 1064
         },
         "itemCategory": "page"
       }

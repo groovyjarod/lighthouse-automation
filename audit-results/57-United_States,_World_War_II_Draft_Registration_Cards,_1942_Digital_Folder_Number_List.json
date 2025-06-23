@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,71 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States,_World_War_II_Draft_Registration_Cards,_1942,_Orego…\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (134.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 571,
+          "bottom": 587,
+          "left": 904,
+          "right": 1038,
+          "width": 135,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States,_World_War_II_Draft_Registration_Cards,_1942,_Puert…\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 595,
+              "bottom": 611,
+              "left": 904,
+              "right": 1034,
+              "width": 130,
+              "height": 16
+            },
+            "nodeLabel": "Puerto Rico-Vermont",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States,_World_War_II_Draft_Registration_Cards,_1942,_Puert…\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (130px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 595,
+          "bottom": 611,
+          "left": 904,
+          "right": 1034,
+          "width": 130,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States,_World_War_II_Draft_Registration_Cards,_1942,_Orego…\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 571,
+              "bottom": 587,
+              "left": 904,
+              "right": 1038,
+              "width": 135,
+              "height": 16
+            },
+            "nodeLabel": "Oregon-Pennsylvania",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

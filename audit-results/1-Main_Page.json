@@ -19,15 +19,15 @@
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<input class=\"vector-search-box-input webfonts-changed\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\">",
-            "selector": "div.searchboxContainer > form#searchform > div#simpleSearch > input#searchInput",
+            "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\" autocomplete=\"off\">",
+            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
             "boundingRect": {
-              "top": 359,
-              "bottom": 387,
-              "left": 547,
-              "right": 718,
-              "width": 171,
-              "height": 28
+              "top": 354,
+              "bottom": 386,
+              "left": 349,
+              "right": 849,
+              "width": 500,
+              "height": 32
             },
             "nodeLabel": "Search by place or topic",
             "subItemCategory": "unknown"

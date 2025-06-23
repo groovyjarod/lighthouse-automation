@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 97,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,41 +40,5 @@
       }
     ]
   },
-  "target-size-3": {
-    "title": "Touch targets do not have sufficient size or spacing.",
-    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/Ohio_Cultural_Groups\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1280,
-          "bottom": 1296,
-          "left": 1239,
-          "right": 1337,
-          "width": 98,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_Ohio\" class=\"mw-redirect\">",
-            "selector": "td > ul > li > a.mw-redirect",
-            "boundingRect": {
-              "top": 1254,
-              "bottom": 1324,
-              "left": 1104,
-              "right": 1289,
-              "width": 186,
-              "height": 70
-            },
-            "nodeLabel": "Indigenous Peoples",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "number-of-Items": 3
+  "number-of-Items": 2
 }
