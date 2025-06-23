@@ -47,149 +47,163 @@
       {
         "snippet": "<a href=\"/en/wiki/England_Church_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 801,
-          "bottom": 817,
-          "left": 1098,
-          "right": 1199,
+          "top": 784,
+          "bottom": 800,
+          "left": 1096,
+          "right": 1198,
           "width": 101,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "snippet": "<a href=\"/en/wiki/England_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 651,
-              "bottom": 1171,
-              "left": 1098,
-              "right": 1295,
-              "width": 197,
-              "height": 520
+              "top": 808,
+              "bottom": 824,
+              "left": 1096,
+              "right": 1201,
+              "width": 105,
+              "height": 16
             },
-            "nodeLabel": "Medieval Records",
+            "nodeLabel": "Civil Registration",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/England_Directories\">",
+        "snippet": "<a href=\"/en/wiki/England_Civil_Registration\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 976,
-          "bottom": 992,
-          "left": 1098,
-          "right": 1164,
-          "width": 67,
+          "top": 808,
+          "bottom": 824,
+          "left": 1096,
+          "right": 1201,
+          "width": 105,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "snippet": "<a href=\"/en/wiki/England_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 651,
-              "bottom": 1171,
-              "left": 1098,
-              "right": 1295,
-              "width": 197,
-              "height": 520
+              "top": 784,
+              "bottom": 800,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
             },
-            "nodeLabel": "Medieval Records",
+            "nodeLabel": "Church Records",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/England_Military_Records\">",
+        "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 677,
-          "bottom": 693,
-          "left": 1243,
-          "right": 1343,
-          "width": 100,
+          "top": 1042,
+          "bottom": 1058,
+          "left": 1096,
+          "right": 1195,
+          "width": 99,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 651,
-              "bottom": 1171,
-              "left": 1098,
-              "right": 1295,
-              "width": 197,
-              "height": 520
+              "top": 1066,
+              "bottom": 1082,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
             },
-            "nodeLabel": "Medieval Records",
+            "nodeLabel": "Land & Property",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/England_Newspapers\">",
+        "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 752,
-          "bottom": 768,
-          "left": 1243,
-          "right": 1320,
-          "width": 78,
+          "top": 1066,
+          "bottom": 1082,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 651,
-              "bottom": 1171,
-              "left": 1098,
-              "right": 1295,
-              "width": 197,
-              "height": 520
+              "top": 1042,
+              "bottom": 1058,
+              "left": 1096,
+              "right": 1195,
+              "width": 99,
+              "height": 16
             },
-            "nodeLabel": "Medieval Records",
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/England_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1090,
+              "bottom": 1106,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/England_Nobility\">",
+        "snippet": "<a href=\"/en/wiki/England_Medical_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 778,
-          "bottom": 794,
-          "left": 1243,
-          "right": 1288,
-          "width": 46,
+          "top": 1090,
+          "bottom": 1106,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/England_Medieval_Records\">",
+            "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 651,
-              "bottom": 1171,
-              "left": 1098,
-              "right": 1295,
-              "width": 197,
-              "height": 520
+              "top": 1066,
+              "bottom": 1082,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
             },
-            "nodeLabel": "Medieval Records",
+            "nodeLabel": "Land & Property",
             "subItemCategory": "unknown"
           }
         ]

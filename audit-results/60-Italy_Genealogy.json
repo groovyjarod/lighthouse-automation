@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,731 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1014,
+          "bottom": 1030,
+          "left": 1251,
+          "right": 1303,
+          "width": 52,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1038,
+              "bottom": 1054,
+              "left": 1251,
+              "right": 1308,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Websites",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1038,
+          "bottom": 1054,
+          "left": 1251,
+          "right": 1308,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1014,
+              "bottom": 1030,
+              "left": 1251,
+              "right": 1303,
+              "width": 52,
+              "height": 16
+            },
+            "nodeLabel": "Taxation",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Umbria,_Italy_Genealogy\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1949,
+          "bottom": 1965,
+          "left": 598,
+          "right": 643,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Veneto,_Italy_Genealogy\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1973,
+              "bottom": 1989,
+              "left": 598,
+              "right": 642,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Veneto",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Veneto,_Italy_Genealogy\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (43.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1973,
+          "bottom": 1989,
+          "left": 598,
+          "right": 642,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Umbria,_Italy_Genealogy\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1949,
+              "bottom": 1965,
+              "left": 598,
+              "right": 643,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "Umbria",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Crotone,_Calabria,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (109.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2318,
+          "bottom": 2334,
+          "left": 267,
+          "right": 377,
+          "width": 110,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cuneo,_Piedmont,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2341,
+              "bottom": 2357,
+              "left": 267,
+              "right": 376,
+              "width": 108,
+              "height": 16
+            },
+            "nodeLabel": "Cuneo, Piedmont",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cuneo,_Piedmont,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (108.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2341,
+          "bottom": 2357,
+          "left": 267,
+          "right": 376,
+          "width": 108,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Crotone,_Calabria,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2318,
+              "bottom": 2334,
+              "left": 267,
+              "right": 377,
+              "width": 110,
+              "height": 16
+            },
+            "nodeLabel": "Crotone, Calabria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/La_Spezia,_Liguria,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (112.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2199,
+          "bottom": 2215,
+          "left": 464,
+          "right": 576,
+          "width": 112,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/L%E2%80%99Aquila,_Abruzzo,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2222,
+              "bottom": 2238,
+              "left": 464,
+              "right": 571,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "L’Aquila, Abruzzo",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/L%E2%80%99Aquila,_Abruzzo,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2222,
+          "bottom": 2238,
+          "left": 464,
+          "right": 571,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/La_Spezia,_Liguria,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2199,
+              "bottom": 2215,
+              "left": 464,
+              "right": 576,
+              "width": 112,
+              "height": 16
+            },
+            "nodeLabel": "La Spezia, Liguria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Latina,_Lazio,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (79.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2246,
+          "bottom": 2262,
+          "left": 464,
+          "right": 543,
+          "width": 79,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Lecce,_Apulia,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2270,
+              "bottom": 2286,
+              "left": 464,
+              "right": 547,
+              "width": 83,
+              "height": 16
+            },
+            "nodeLabel": "Lecce, Apulia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Lecce,_Apulia,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2270,
+          "bottom": 2286,
+          "left": 464,
+          "right": 547,
+          "width": 83,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Latina,_Lazio,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2246,
+              "bottom": 2262,
+              "left": 464,
+              "right": 543,
+              "width": 79,
+              "height": 16
+            },
+            "nodeLabel": "Latina, Lazio",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Lecco,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2294,
+          "bottom": 2310,
+          "left": 464,
+          "right": 571,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Livorno,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2318,
+              "bottom": 2334,
+              "left": 464,
+              "right": 569,
+              "width": 106,
+              "height": 16
+            },
+            "nodeLabel": "Livorno, Tuscany",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Livorno,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2318,
+          "bottom": 2334,
+          "left": 464,
+          "right": 569,
+          "width": 106,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Lecco,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2294,
+              "bottom": 2310,
+              "left": 464,
+              "right": 571,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Lecco, Lombardy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Lodi,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (96.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2341,
+          "bottom": 2357,
+          "left": 464,
+          "right": 560,
+          "width": 97,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Lucca,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2365,
+              "bottom": 2381,
+              "left": 464,
+              "right": 561,
+              "width": 97,
+              "height": 16
+            },
+            "nodeLabel": "Lucca, Tuscany",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Lucca,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (97.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2365,
+          "bottom": 2381,
+          "left": 464,
+          "right": 561,
+          "width": 97,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Lodi,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2341,
+              "bottom": 2357,
+              "left": 464,
+              "right": 560,
+              "width": 97,
+              "height": 16
+            },
+            "nodeLabel": "Lodi, Lombardy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Milan,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (157.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2080,
+          "bottom": 2096,
+          "left": 660,
+          "right": 818,
+          "width": 158,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Modena,_Emilia-Romagna,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2103,
+              "bottom": 2119,
+              "left": 660,
+              "right": 821,
+              "width": 162,
+              "height": 16
+            },
+            "nodeLabel": "Modena, Emilia-Romagna",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Modena,_Emilia-Romagna,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (161.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2103,
+          "bottom": 2119,
+          "left": 660,
+          "right": 821,
+          "width": 162,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Milan,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2080,
+              "bottom": 2096,
+              "left": 660,
+              "right": 818,
+              "width": 158,
+              "height": 16
+            },
+            "nodeLabel": "Milan (Milano), Lombardy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Pavia,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2388,
+          "bottom": 2404,
+          "left": 660,
+          "right": 765,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Perugia,_Umbria,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2411,
+              "bottom": 2427,
+              "left": 660,
+              "right": 761,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Perugia, Umbria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Perugia,_Umbria,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2411,
+          "bottom": 2427,
+          "left": 660,
+          "right": 761,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Pavia,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2388,
+              "bottom": 2404,
+              "left": 660,
+              "right": 765,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Pavia, Lombardy",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Prato,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (93.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2150,
+          "bottom": 2166,
+          "left": 856,
+          "right": 949,
+          "width": 93,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Ragusa,_Sicily,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2173,
+              "bottom": 2189,
+              "left": 856,
+              "right": 944,
+              "width": 89,
+              "height": 16
+            },
+            "nodeLabel": "Ragusa, Sicily",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ragusa,_Sicily,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (88.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2173,
+          "bottom": 2189,
+          "left": 856,
+          "right": 944,
+          "width": 89,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Prato,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2150,
+              "bottom": 2166,
+              "left": 856,
+              "right": 949,
+              "width": 93,
+              "height": 16
+            },
+            "nodeLabel": "Prato, Tuscany",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Savona,_Liguria,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (97.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2434,
+          "bottom": 2450,
+          "left": 856,
+          "right": 953,
+          "width": 97,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Siena,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2458,
+              "bottom": 2474,
+              "left": 856,
+              "right": 951,
+              "width": 96,
+              "height": 16
+            },
+            "nodeLabel": "Siena, Tuscany",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Siena,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2458,
+          "bottom": 2474,
+          "left": 856,
+          "right": 951,
+          "width": 96,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Savona,_Liguria,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2434,
+              "bottom": 2450,
+              "left": 856,
+              "right": 953,
+              "width": 97,
+              "height": 16
+            },
+            "nodeLabel": "Savona, Liguria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Terni,_Umbria,_Italy_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (83.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2151,
+          "bottom": 2167,
+          "left": 1052,
+          "right": 1135,
+          "width": 83,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Trapani,_Sicily,_Italy_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 2175,
+              "bottom": 2191,
+              "left": 1052,
+              "right": 1139,
+              "width": 87,
+              "height": 16
+            },
+            "nodeLabel": "Trapani, Sicily",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Trapani,_Sicily,_Italy_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (87.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2175,
+          "bottom": 2191,
+          "left": 1052,
+          "right": 1139,
+          "width": 87,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Terni,_Umbria,_Italy_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 2151,
+              "bottom": 2167,
+              "left": 1052,
+              "right": 1135,
+              "width": 83,
+              "height": 16
+            },
+            "nodeLabel": "Terni, Umbria",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

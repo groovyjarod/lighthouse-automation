@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,191 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Finland\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 468,
+          "bottom": 484,
+          "left": 658,
+          "right": 703,
+          "width": 46,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Ireland\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 491,
+              "bottom": 507,
+              "left": 658,
+              "right": 700,
+              "width": 43,
+              "height": 16
+            },
+            "nodeLabel": "Ireland\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Ireland\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 491,
+          "bottom": 507,
+          "left": 658,
+          "right": 700,
+          "width": 43,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Finland\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 468,
+              "bottom": 484,
+              "left": 658,
+              "right": 703,
+              "width": 46,
+              "height": 16
+            },
+            "nodeLabel": "Finland\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Jersey\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (41.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 587,
+          "bottom": 603,
+          "left": 658,
+          "right": 699,
+          "width": 41,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Mexico\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 610,
+              "bottom": 626,
+              "left": 658,
+              "right": 702,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Mexico\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Mexico\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (44.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 610,
+          "bottom": 626,
+          "left": 658,
+          "right": 702,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Jersey\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 587,
+              "bottom": 603,
+              "left": 658,
+              "right": 699,
+              "width": 41,
+              "height": 16
+            },
+            "nodeLabel": "Jersey\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Scotland\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 515,
+          "bottom": 531,
+          "left": 784,
+          "right": 838,
+          "width": 54,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Sweden\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 539,
+              "bottom": 555,
+              "left": 784,
+              "right": 834,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Sweden\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/GuidedResearch:Sweden\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 539,
+          "bottom": 555,
+          "left": 784,
+          "right": 834,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/GuidedResearch:Scotland\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 515,
+              "bottom": 531,
+              "left": 784,
+              "right": 838,
+              "width": 54,
+              "height": 16
+            },
+            "nodeLabel": "Scotland\n",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

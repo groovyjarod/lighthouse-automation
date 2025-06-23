@@ -29,8 +29,8 @@
         "selector": "div > div > a.new > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8994,
-          "bottom": 9007,
+          "top": 8939,
+          "bottom": 8952,
           "left": 374,
           "right": 463,
           "width": 89,
@@ -42,8 +42,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8991,
-              "bottom": 9029,
+              "top": 8936,
+              "bottom": 8974,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -59,8 +59,8 @@
         "selector": "td.navbox-list > div > div > a.new",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8994,
-          "bottom": 9007,
+          "top": 8939,
+          "bottom": 8952,
           "left": 1041,
           "right": 1092,
           "width": 51,
@@ -72,8 +72,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8991,
-              "bottom": 9029,
+              "top": 8936,
+              "bottom": 8974,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -89,8 +89,8 @@
         "selector": "td.navbox-list > div > div > a.new",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 9013,
-          "bottom": 9026,
+          "top": 8958,
+          "bottom": 8971,
           "left": 910,
           "right": 976,
           "width": 66,
@@ -102,8 +102,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8991,
-              "bottom": 9029,
+              "top": 8936,
+              "bottom": 8974,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -125,8 +125,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1464,
-          "bottom": 1509,
+          "top": 1513,
+          "bottom": 1558,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -179,8 +179,8 @@
         "selector": "div.center > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 6801,
-          "bottom": 6816,
+          "top": 6789,
+          "bottom": 6804,
           "left": 701,
           "right": 1001,
           "width": 300,
@@ -193,8 +193,8 @@
         "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 8454,
-          "bottom": 8469,
+          "top": 8409,
+          "bottom": 8424,
           "left": 1054,
           "right": 1354,
           "width": 300,
@@ -209,12 +209,176 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
+        "snippet": "<a href=\"/en/wiki/Hamburg_Jewish_Records\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 990,
+          "bottom": 1006,
+          "left": 1248,
+          "right": 1347,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hamburg_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1014,
+              "bottom": 1030,
+              "left": 1248,
+              "right": 1349,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Hamburg_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1014,
+          "bottom": 1030,
+          "left": 1248,
+          "right": 1349,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hamburg_Jewish_Records\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 990,
+              "bottom": 1006,
+              "left": 1248,
+              "right": 1347,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Hamburg_Online_Genealogy_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1037,
+              "bottom": 1053,
+              "left": 1248,
+              "right": 1345,
+              "width": 96,
+              "height": 16
+            },
+            "nodeLabel": "Online Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Hamburg_Online_Genealogy_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (96.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1037,
+          "bottom": 1053,
+          "left": 1248,
+          "right": 1345,
+          "width": 96,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hamburg_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1014,
+              "bottom": 1030,
+              "left": 1248,
+              "right": 1349,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/German_Jewish_Records\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1660,
+          "bottom": 1676,
+          "left": 1122,
+          "right": 1221,
+          "width": 99,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1684,
+              "bottom": 1700,
+              "left": 1122,
+              "right": 1224,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1684,
+          "bottom": 1700,
+          "left": 1122,
+          "right": 1224,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/German_Jewish_Records\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1660,
+              "bottom": 1676,
+              "left": 1122,
+              "right": 1221,
+              "width": 99,
+              "height": 16
+            },
+            "nodeLabel": "Jewish Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:Hamburg,_Ger…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
         "boundingRect": {
-          "top": 8973,
-          "bottom": 8988,
+          "top": 8919,
+          "bottom": 8933,
           "left": 427,
           "right": 432,
           "width": 5,
@@ -226,8 +390,8 @@
             "snippet": "<a href=\"/en/wiki/index.php?title=Hamburg_Research_Steps&amp;action=edit&amp;redlink=1\" class=\"new\">",
             "selector": "td.navbox-list > div > div > a.new",
             "boundingRect": {
-              "top": 8994,
-              "bottom": 9007,
+              "top": 8939,
+              "bottom": 8952,
               "left": 374,
               "right": 463,
               "width": 89,
@@ -250,11 +414,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 249,
-          "bottom": 2238,
+          "bottom": 2122,
           "left": 1098,
           "right": 1352,
           "width": 254,
-          "height": 1989
+          "height": 1873
         },
         "itemCategory": "page"
       },
@@ -263,8 +427,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 8892,
-          "bottom": 9029,
+          "top": 8838,
+          "bottom": 8974,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -283,8 +447,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > center > table.plain",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 2627,
-          "bottom": 3027,
+          "top": 2624,
+          "bottom": 3024,
           "left": 514,
           "right": 1183,
           "width": 669,
@@ -296,8 +460,8 @@
             "snippet": "<td align=\"right\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2627,
-              "bottom": 2672,
+              "top": 2624,
+              "bottom": 2669,
               "left": 514,
               "right": 634,
               "width": 121,
@@ -310,8 +474,8 @@
             "snippet": "<td align=\"left\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2627,
-              "bottom": 2672,
+              "top": 2624,
+              "bottom": 2669,
               "left": 636,
               "right": 1183,
               "width": 546,
@@ -324,8 +488,8 @@
             "snippet": "<td align=\"right\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2672,
-              "bottom": 2716,
+              "top": 2669,
+              "bottom": 2713,
               "left": 514,
               "right": 634,
               "width": 121,

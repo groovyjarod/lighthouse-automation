@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,727 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/New_York_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1075,
+          "bottom": 1091,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_York_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1099,
+              "bottom": 1115,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_York_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1099,
+          "bottom": 1115,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_York_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1091,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/New_York_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1122,
+              "bottom": 1138,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/New_York_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1122,
+          "bottom": 1138,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/New_York_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1099,
+              "bottom": 1115,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/African_American_Resources_for_New_York\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (112.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1355,
+          "bottom": 1371,
+          "left": 1096,
+          "right": 1209,
+          "width": 113,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_New_York\" class=\"mw-redirect\">",
+            "selector": "td > ul > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1378,
+              "bottom": 1394,
+              "left": 1096,
+              "right": 1212,
+              "width": 116,
+              "height": 16
+            },
+            "nodeLabel": "Indigenous People",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_New_York\" class=\"mw-redirect\">",
+        "selector": "td > ul > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (116px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1378,
+          "bottom": 1394,
+          "left": 1096,
+          "right": 1212,
+          "width": 116,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/African_American_Resources_for_New_York\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1355,
+              "bottom": 1371,
+              "left": 1096,
+              "right": 1209,
+              "width": 113,
+              "height": 16
+            },
+            "nodeLabel": "African Americans",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Chemung_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (60.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1464,
+          "bottom": 1480,
+          "left": 71,
+          "right": 132,
+          "width": 61,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Chenango_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1488,
+              "bottom": 1504,
+              "left": 71,
+              "right": 136,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Chenango",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Chenango_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1488,
+          "bottom": 1504,
+          "left": 71,
+          "right": 136,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Chemung_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1464,
+              "bottom": 1480,
+              "left": 71,
+              "right": 132,
+              "width": 61,
+              "height": 16
+            },
+            "nodeLabel": "Chemung",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Delaware_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1321,
+          "bottom": 1337,
+          "left": 218,
+          "right": 277,
+          "width": 59,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Dutchess_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1345,
+              "bottom": 1361,
+              "left": 218,
+              "right": 276,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Dutchess",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Dutchess_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1345,
+          "bottom": 1361,
+          "left": 218,
+          "right": 276,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Delaware_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1321,
+              "bottom": 1337,
+              "left": 218,
+              "right": 277,
+              "width": 59,
+              "height": 16
+            },
+            "nodeLabel": "Delaware",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Hamilton_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (55.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1511,
+          "bottom": 1527,
+          "left": 218,
+          "right": 273,
+          "width": 55,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Herkimer_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1535,
+              "bottom": 1551,
+              "left": 218,
+              "right": 275,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Herkimer",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Herkimer_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1535,
+          "bottom": 1551,
+          "left": 218,
+          "right": 275,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hamilton_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1511,
+              "bottom": 1527,
+              "left": 218,
+              "right": 273,
+              "width": 55,
+              "height": 16
+            },
+            "nodeLabel": "Hamilton",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Ontario_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1345,
+          "bottom": 1361,
+          "left": 511,
+          "right": 557,
+          "width": 46,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Orange_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1369,
+              "bottom": 1385,
+              "left": 511,
+              "right": 558,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Orange",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Orange_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (46.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1369,
+          "bottom": 1385,
+          "left": 511,
+          "right": 558,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Ontario_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1345,
+              "bottom": 1361,
+              "left": 511,
+              "right": 557,
+              "width": 46,
+              "height": 16
+            },
+            "nodeLabel": "Ontario",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Orleans_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1392,
+              "bottom": 1408,
+              "left": 511,
+              "right": 560,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Orleans",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Orleans_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1392,
+          "bottom": 1408,
+          "left": 511,
+          "right": 560,
+          "width": 49,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Orange_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1369,
+              "bottom": 1385,
+              "left": 511,
+              "right": 558,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Orange",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Oswego_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1416,
+              "bottom": 1432,
+              "left": 511,
+              "right": 563,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Oswego",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Oswego_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (51.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1416,
+          "bottom": 1432,
+          "left": 511,
+          "right": 563,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Orleans_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1392,
+              "bottom": 1408,
+              "left": 511,
+              "right": 560,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Orleans",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Otsego_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1440,
+          "bottom": 1456,
+          "left": 511,
+          "right": 556,
+          "width": 45,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Putnam_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1464,
+              "bottom": 1480,
+              "left": 511,
+              "right": 560,
+              "width": 48,
+              "height": 16
+            },
+            "nodeLabel": "Putnam",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Putnam_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (48.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1464,
+          "bottom": 1480,
+          "left": 511,
+          "right": 560,
+          "width": 48,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Otsego_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1440,
+              "bottom": 1456,
+              "left": 511,
+              "right": 556,
+              "width": 45,
+              "height": 16
+            },
+            "nodeLabel": "Otsego",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Queens_County,_New_York_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1488,
+              "bottom": 1504,
+              "left": 511,
+              "right": 560,
+              "width": 49,
+              "height": 16
+            },
+            "nodeLabel": "Queens",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Queens_County,_New_York_Genealogy\" class=\"mw-redirect\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1488,
+          "bottom": 1504,
+          "left": 511,
+          "right": 560,
+          "width": 49,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Putnam_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1464,
+              "bottom": 1480,
+              "left": 511,
+              "right": 560,
+              "width": 48,
+              "height": 16
+            },
+            "nodeLabel": "Putnam",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Seneca_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1486,
+          "bottom": 1502,
+          "left": 658,
+          "right": 705,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Steuben_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1510,
+              "bottom": 1526,
+              "left": 658,
+              "right": 710,
+              "width": 52,
+              "height": 16
+            },
+            "nodeLabel": "Steuben",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Steuben_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1510,
+          "bottom": 1526,
+          "left": 658,
+          "right": 710,
+          "width": 52,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Seneca_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1486,
+              "bottom": 1502,
+              "left": 658,
+              "right": 705,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Seneca",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Charlotte_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1732,
+          "bottom": 1748,
+          "left": 71,
+          "right": 128,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cornwall_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1756,
+              "bottom": 1772,
+              "left": 71,
+              "right": 126,
+              "width": 54,
+              "height": 16
+            },
+            "nodeLabel": "Cornwall",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cornwall_County,_New_York_Genealogy\">",
+        "selector": "td > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1756,
+          "bottom": 1772,
+          "left": 71,
+          "right": 126,
+          "width": 54,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Charlotte_County,_New_York_Genealogy\">",
+            "selector": "td > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1732,
+              "bottom": 1748,
+              "left": 71,
+              "right": 128,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Charlotte",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

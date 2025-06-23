@@ -45,121 +45,345 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/Sweden_Cemeteries\">",
+        "snippet": "<a href=\"/en/wiki/Sweden_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 702,
-          "bottom": 718,
-          "left": 1117,
-          "right": 1188,
-          "width": 72,
+          "top": 1062,
+          "bottom": 1078,
+          "left": 1251,
+          "right": 1303,
+          "width": 52,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Sweden_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/Sweden_Websites\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 653,
-              "bottom": 1161,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 509
+              "top": 1085,
+              "bottom": 1101,
+              "left": 1251,
+              "right": 1308,
+              "width": 57,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Websites",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Sweden_Directories\">",
+        "snippet": "<a href=\"/en/wiki/Sweden_Websites\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 974,
-          "bottom": 990,
-          "left": 1117,
-          "right": 1184,
-          "width": 67,
+          "top": 1085,
+          "bottom": 1101,
+          "left": 1251,
+          "right": 1308,
+          "width": 57,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Sweden_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/Sweden_Taxation\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 653,
-              "bottom": 1161,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 509
+              "top": 1062,
+              "bottom": 1078,
+              "left": 1251,
+              "right": 1303,
+              "width": 52,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Taxation",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Sweden_Newspapers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "snippet": "<a href=\"/en/wiki/Blekinge_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (53.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 776,
-          "bottom": 792,
-          "left": 1252,
-          "right": 1330,
-          "width": 78,
+          "top": 1658,
+          "bottom": 1674,
+          "left": 70,
+          "right": 124,
+          "width": 54,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Sweden_Land_and_Property\">",
-            "selector": "td > ul > li > a",
+            "snippet": "<a href=\"/en/wiki/Kopparberg_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 653,
-              "bottom": 1161,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 509
+              "top": 1681,
+              "bottom": 1697,
+              "left": 70,
+              "right": 119,
+              "width": 49,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Dalarna",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Sweden_Nobility\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "snippet": "<a href=\"/en/wiki/Kopparberg_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 802,
-          "bottom": 818,
-          "left": 1252,
-          "right": 1298,
-          "width": 46,
+          "top": 1681,
+          "bottom": 1697,
+          "left": 70,
+          "right": 119,
+          "width": 49,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Sweden_Land_and_Property\">",
-            "selector": "td > ul > li > a",
+            "snippet": "<a href=\"/en/wiki/Blekinge_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 653,
-              "bottom": 1161,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 509
+              "top": 1658,
+              "bottom": 1674,
+              "left": 70,
+              "right": 124,
+              "width": 54,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Blekinge",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kopparberg_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1653,
+          "bottom": 1669,
+          "left": 419,
+          "right": 493,
+          "width": 73,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kristianstad_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1677,
+              "bottom": 1693,
+              "left": 419,
+              "right": 493,
+              "width": 73,
+              "height": 16
+            },
+            "nodeLabel": "Kristianstad",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kristianstad_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1677,
+          "bottom": 1693,
+          "left": 419,
+          "right": 493,
+          "width": 73,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kopparberg_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1653,
+              "bottom": 1669,
+              "left": 419,
+              "right": 493,
+              "width": 73,
+              "height": 16
+            },
+            "nodeLabel": "Kopparberg",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kronoberg_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (65.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1701,
+          "bottom": 1717,
+          "left": 419,
+          "right": 485,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Malm%C3%B6hus_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1725,
+              "bottom": 1741,
+              "left": 419,
+              "right": 484,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Malmöhus",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Malm%C3%B6hus_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1725,
+          "bottom": 1741,
+          "left": 419,
+          "right": 484,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kronoberg_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1701,
+              "bottom": 1717,
+              "left": 419,
+              "right": 485,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Kronoberg",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Norrbotten_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1749,
+              "bottom": 1765,
+              "left": 419,
+              "right": 486,
+              "width": 66,
+              "height": 16
+            },
+            "nodeLabel": "Norrbotten",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Norrbotten_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (66.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1749,
+          "bottom": 1765,
+          "left": 419,
+          "right": 486,
+          "width": 66,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Malm%C3%B6hus_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1725,
+              "bottom": 1741,
+              "left": 419,
+              "right": 484,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Malmöhus",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Skaraborg_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1796,
+          "bottom": 1812,
+          "left": 419,
+          "right": 484,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Stockholm_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1820,
+              "bottom": 1836,
+              "left": 419,
+              "right": 485,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Stockholm",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Stockholm_County,_Sweden_Genealogy\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (65.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1820,
+          "bottom": 1836,
+          "left": 419,
+          "right": 485,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Skaraborg_County,_Sweden_Genealogy\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 1796,
+              "bottom": 1812,
+              "left": 419,
+              "right": 484,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Skaraborg",
             "subItemCategory": "unknown"
           }
         ]

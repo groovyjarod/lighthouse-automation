@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 94,
+  "accessibility-score": 91,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1717,
-          "bottom": 1763,
+          "top": 1688,
+          "bottom": 1734,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,8 +43,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1717,
-          "bottom": 1763,
+          "top": 1688,
+          "bottom": 1734,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -74,7 +74,73 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Guam_Census\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (38.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2166,
+          "bottom": 2182,
+          "left": 366,
+          "right": 405,
+          "width": 38,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hawaii_Census\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2190,
+              "bottom": 2206,
+              "left": 366,
+              "right": 408,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "Hawaii",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Hawaii_Census\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2190,
+          "bottom": 2206,
+          "left": 366,
+          "right": 408,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Guam_Census\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2166,
+              "bottom": 2182,
+              "left": 366,
+              "right": 405,
+              "width": 38,
+              "height": 16
+            },
+            "nodeLabel": "Guam",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -83,8 +149,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2463,
-          "bottom": 2874,
+          "top": 2420,
+          "bottom": 2831,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -94,5 +160,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 5
 }

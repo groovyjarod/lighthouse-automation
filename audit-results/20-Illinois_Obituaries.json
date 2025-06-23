@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 91,
+  "accessibility-score": 88,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2314,
-          "bottom": 2406,
+          "top": 2258,
+          "bottom": 2350,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,8 +43,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2314,
-          "bottom": 2406,
+          "top": 2258,
+          "bottom": 2350,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -83,8 +83,8 @@
         "selector": "td > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 1602,
-          "bottom": 1617,
+          "top": 1573,
+          "bottom": 1588,
           "left": 763,
           "right": 1013,
           "width": 250,
@@ -94,7 +94,73 @@
       }
     ]
   },
-  "table-fake-caption-5": {
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.distantcousin.com/obits/il/\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (128.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 457,
+          "bottom": 473,
+          "left": 366,
+          "right": 495,
+          "width": 128,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.deathindexes.com/illinois/index.html\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 481,
+              "bottom": 497,
+              "left": 366,
+              "right": 496,
+              "width": 130,
+              "height": 16
+            },
+            "nodeLabel": "Deathindexes.com",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.deathindexes.com/illinois/index.html\">",
+        "selector": "div.mw-parser-output > ul > li > a.external",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (130px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 481,
+          "bottom": 497,
+          "left": 366,
+          "right": 496,
+          "width": 130,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.distantcousin.com/obits/il/\">",
+            "selector": "div.mw-parser-output > ul > li > a.external",
+            "boundingRect": {
+              "top": 457,
+              "bottom": 473,
+              "left": 366,
+              "right": 495,
+              "width": 128,
+              "height": 16
+            },
+            "nodeLabel": "Distantcousin.com",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-6": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -103,8 +169,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2482,
-          "bottom": 2908,
+          "top": 2426,
+          "bottom": 2853,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -114,5 +180,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 6
 }

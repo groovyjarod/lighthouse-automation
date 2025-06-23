@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,5 +40,549 @@
       }
     ]
   },
-  "number-of-Items": 2
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Belgium_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 566,
+          "bottom": 582,
+          "left": 72,
+          "right": 123,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Czechia_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 589,
+              "bottom": 605,
+              "left": 72,
+              "right": 123,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Czechia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Czechia_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 589,
+          "bottom": 605,
+          "left": 72,
+          "right": 123,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Belgium_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 566,
+              "bottom": 582,
+              "left": 72,
+              "right": 123,
+              "width": 51,
+              "height": 16
+            },
+            "nodeLabel": "Belgium",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Liechtenstein_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (82.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 566,
+          "bottom": 582,
+          "left": 267,
+          "right": 349,
+          "width": 83,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 589,
+              "bottom": 605,
+              "left": 267,
+              "right": 344,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Luxembourg",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 589,
+          "bottom": 605,
+          "left": 267,
+          "right": 344,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Liechtenstein_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 566,
+              "bottom": 582,
+              "left": 267,
+              "right": 349,
+              "width": 83,
+              "height": 16
+            },
+            "nodeLabel": "Liechtenstein",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Netherlands_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 613,
+              "bottom": 629,
+              "left": 267,
+              "right": 342,
+              "width": 75,
+              "height": 16
+            },
+            "nodeLabel": "Netherlands",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Netherlands_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (75.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 613,
+          "bottom": 629,
+          "left": 267,
+          "right": 342,
+          "width": 75,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 589,
+              "bottom": 605,
+              "left": 267,
+              "right": 344,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Luxembourg",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Slovakia_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 566,
+          "bottom": 582,
+          "left": 461,
+          "right": 514,
+          "width": 53,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Slovenia_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 589,
+              "bottom": 605,
+              "left": 461,
+              "right": 514,
+              "width": 54,
+              "height": 16
+            },
+            "nodeLabel": "Slovenia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Slovenia_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (53.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 589,
+          "bottom": 605,
+          "left": 461,
+          "right": 514,
+          "width": 54,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Slovakia_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 566,
+              "bottom": 582,
+              "left": 461,
+              "right": 514,
+              "width": 53,
+              "height": 16
+            },
+            "nodeLabel": "Slovakia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Georgia_(country)_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (49.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 772,
+          "bottom": 788,
+          "left": 267,
+          "right": 316,
+          "width": 50,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Kosovo_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 796,
+              "bottom": 812,
+              "left": 267,
+              "right": 313,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Kosovo",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Kosovo_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (46.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 796,
+          "bottom": 812,
+          "left": 267,
+          "right": 313,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Georgia_(country)_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 772,
+              "bottom": 788,
+              "left": 267,
+              "right": 316,
+              "width": 50,
+              "height": 16
+            },
+            "nodeLabel": "Georgia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Lithuania_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 843,
+          "bottom": 859,
+          "left": 267,
+          "right": 323,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Moldova_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 867,
+              "bottom": 883,
+              "left": 267,
+              "right": 320,
+              "width": 53,
+              "height": 16
+            },
+            "nodeLabel": "Moldova",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Moldova_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 867,
+          "bottom": 883,
+          "left": 267,
+          "right": 320,
+          "width": 53,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Lithuania_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 843,
+              "bottom": 859,
+              "left": 267,
+              "right": 323,
+              "width": 57,
+              "height": 16
+            },
+            "nodeLabel": "Lithuania",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Russia_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 772,
+          "bottom": 788,
+          "left": 461,
+          "right": 504,
+          "width": 43,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Serbia_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 796,
+              "bottom": 812,
+              "left": 461,
+              "right": 501,
+              "width": 40,
+              "height": 16
+            },
+            "nodeLabel": "Serbia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Serbia_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (40.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 796,
+          "bottom": 812,
+          "left": 461,
+          "right": 501,
+          "width": 40,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Russia_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 772,
+              "bottom": 788,
+              "left": 461,
+              "right": 504,
+              "width": 43,
+              "height": 16
+            },
+            "nodeLabel": "Russia",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Cyprus_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (44.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1001,
+          "bottom": 1017,
+          "left": 72,
+          "right": 117,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/France_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1024,
+              "bottom": 1040,
+              "left": 72,
+              "right": 116,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "France",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/France_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (43.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1024,
+          "bottom": 1040,
+          "left": 72,
+          "right": 116,
+          "width": 44,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Cyprus_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1001,
+              "bottom": 1017,
+              "left": 72,
+              "right": 117,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "Cyprus",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Greece_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1048,
+              "bottom": 1064,
+              "left": 72,
+              "right": 118,
+              "width": 46,
+              "height": 16
+            },
+            "nodeLabel": "Greece",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Greece_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1048,
+          "bottom": 1064,
+          "left": 72,
+          "right": 118,
+          "width": 46,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/France_Genealogy\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a",
+            "boundingRect": {
+              "top": 1024,
+              "bottom": 1040,
+              "left": 72,
+              "right": 116,
+              "width": 44,
+              "height": 16
+            },
+            "nodeLabel": "France",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Sweden_Genealogy\">",
+        "selector": "td > ul.column-spacing-halfscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (50.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1207,
+          "bottom": 1223,
+          "left": 461,
+          "right": 511,
+          "width": 51,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Svalbard_Genealogy\" class=\"mw-redirect\">",
+            "selector": "td > ul.column-spacing-halfscreen > li > a.mw-redirect",
+            "boundingRect": {
+              "top": 1183,
+              "bottom": 1199,
+              "left": 461,
+              "right": 516,
+              "width": 55,
+              "height": 16
+            },
+            "nodeLabel": "Svalbard",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 3
 }

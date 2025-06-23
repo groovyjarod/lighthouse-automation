@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 97,
+  "accessibility-score": 94,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -40,7 +40,521 @@
       }
     ]
   },
-  "table-fake-caption-3": {
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1033,
+          "bottom": 1049,
+          "left": 1096,
+          "right": 1200,
+          "width": 103,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1057,
+          "bottom": 1073,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1049,
+              "left": 1096,
+              "right": 1200,
+              "width": 103,
+              "height": 16
+            },
+            "nodeLabel": "Funeral Records",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1081,
+          "bottom": 1097,
+          "left": 1096,
+          "right": 1201,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1073,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1120,
+              "left": 1096,
+              "right": 1197,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1104,
+          "bottom": 1120,
+          "left": 1096,
+          "right": 1197,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 1096,
+              "right": 1201,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Medical Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 950,
+          "bottom": 966,
+          "left": 786,
+          "right": 886,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 974,
+              "bottom": 990,
+              "left": 786,
+              "right": 891,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Probate Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 974,
+          "bottom": 990,
+          "left": 786,
+          "right": 891,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 950,
+              "bottom": 966,
+              "left": 786,
+              "right": 886,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1330,
+          "bottom": 1346,
+          "left": 786,
+          "right": 886,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1354,
+              "bottom": 1370,
+              "left": 786,
+              "right": 891,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Probate Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1354,
+          "bottom": 1370,
+          "left": 786,
+          "right": 891,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1330,
+              "bottom": 1346,
+              "left": 786,
+              "right": 886,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1622,
+          "bottom": 1638,
+          "left": 786,
+          "right": 887,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1646,
+              "bottom": 1662,
+              "left": 786,
+              "right": 891,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Probate Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1646,
+          "bottom": 1662,
+          "left": 786,
+          "right": 891,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1622,
+              "bottom": 1638,
+              "left": 786,
+              "right": 887,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2106,
+          "bottom": 2122,
+          "left": 786,
+          "right": 891,
+          "width": 105,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2130,
+              "bottom": 2146,
+              "left": 786,
+              "right": 886,
+              "width": 100,
+              "height": 16
+            },
+            "nodeLabel": "Military Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2130,
+          "bottom": 2146,
+          "left": 786,
+          "right": 886,
+          "width": 100,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2106,
+              "bottom": 2122,
+              "left": 786,
+              "right": 891,
+              "width": 105,
+              "height": 16
+            },
+            "nodeLabel": "Probate Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Cultural_Groups\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2305,
+          "bottom": 2321,
+          "left": 545,
+          "right": 643,
+          "width": 98,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2328,
+              "bottom": 2344,
+              "left": 545,
+              "right": 646,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2328,
+          "bottom": 2344,
+          "left": 545,
+          "right": 646,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Cultural_Groups\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2305,
+              "bottom": 2321,
+              "left": 545,
+              "right": 643,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Cultural Groups",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Cemeteries\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2612,
+          "bottom": 2628,
+          "left": 786,
+          "right": 857,
+          "width": 72,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Directories\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2636,
+              "bottom": 2652,
+              "left": 786,
+              "right": 852,
+              "width": 67,
+              "height": 16
+            },
+            "nodeLabel": "Directories",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Directories\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2636,
+          "bottom": 2652,
+          "left": 786,
+          "right": 852,
+          "width": 67,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Cemeteries\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2612,
+              "bottom": 2628,
+              "left": 786,
+              "right": 857,
+              "width": 72,
+              "height": 16
+            },
+            "nodeLabel": "Cemeteries",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -49,8 +563,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2900,
-          "bottom": 3249,
+          "top": 2766,
+          "bottom": 3115,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -60,7 +574,7 @@
       }
     ]
   },
-  "td-has-header-4": {
+  "td-has-header-5": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
@@ -70,11 +584,11 @@
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
           "top": 722,
-          "bottom": 1218,
+          "bottom": 1182,
           "left": 344,
           "right": 999,
           "width": 655,
-          "height": 496
+          "height": 461
         },
         "itemCategory": "page",
         "subItems": [
@@ -127,12 +641,12 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1272,
-          "bottom": 1742,
+          "top": 1236,
+          "bottom": 1673,
           "left": 344,
           "right": 999,
           "width": 655,
-          "height": 470
+          "height": 437
         },
         "itemCategory": "page",
         "subItems": [
@@ -140,8 +654,8 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1272,
-              "bottom": 1306,
+              "top": 1237,
+              "bottom": 1270,
               "left": 345,
               "right": 517,
               "width": 172,
@@ -154,8 +668,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1272,
-              "bottom": 1306,
+              "top": 1237,
+              "bottom": 1270,
               "left": 517,
               "right": 758,
               "width": 241,
@@ -168,8 +682,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1272,
-              "bottom": 1306,
+              "top": 1237,
+              "bottom": 1270,
               "left": 758,
               "right": 999,
               "width": 241,
@@ -185,12 +699,12 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1796,
-          "bottom": 2069,
+          "top": 1727,
+          "bottom": 1982,
           "left": 344,
           "right": 999,
           "width": 655,
-          "height": 273
+          "height": 255
         },
         "itemCategory": "page",
         "subItems": [
@@ -198,8 +712,8 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1797,
-              "bottom": 1830,
+              "top": 1727,
+              "bottom": 1761,
               "left": 345,
               "right": 517,
               "width": 172,
@@ -212,8 +726,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1797,
-              "bottom": 1830,
+              "top": 1727,
+              "bottom": 1761,
               "left": 517,
               "right": 758,
               "width": 241,
@@ -226,8 +740,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1797,
-              "bottom": 1830,
+              "top": 1727,
+              "bottom": 1761,
               "left": 758,
               "right": 999,
               "width": 241,
@@ -243,12 +757,12 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 2356,
-          "bottom": 2883,
+          "top": 2258,
+          "bottom": 2749,
           "left": 344,
           "right": 999,
           "width": 655,
-          "height": 527
+          "height": 491
         },
         "itemCategory": "page",
         "subItems": [
@@ -256,8 +770,8 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2357,
-              "bottom": 2390,
+              "top": 2258,
+              "bottom": 2292,
               "left": 345,
               "right": 517,
               "width": 172,
@@ -270,8 +784,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2357,
-              "bottom": 2390,
+              "top": 2258,
+              "bottom": 2292,
               "left": 517,
               "right": 758,
               "width": 241,
@@ -284,8 +798,8 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2357,
-              "bottom": 2390,
+              "top": 2258,
+              "bottom": 2292,
               "left": 758,
               "right": 999,
               "width": 241,
@@ -298,5 +812,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 5
 }

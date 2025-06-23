@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 92,
+  "accessibility-score": 89,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -69,12 +69,12 @@
         "selector": "tbody > tr > td > ul.column-spacing-halfscreen",
         "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: b, ul",
         "boundingRect": {
-          "top": 367,
-          "bottom": 848,
+          "top": 381,
+          "bottom": 834,
           "left": 724,
           "right": 1350,
           "width": 626,
-          "height": 481
+          "height": 452
         },
         "itemCategory": "unknown",
         "subItems": [
@@ -82,8 +82,8 @@
             "snippet": "<b>",
             "selector": "tr > td > ul.column-spacing-halfscreen > b",
             "boundingRect": {
-              "top": 370,
-              "bottom": 386,
+              "top": 384,
+              "bottom": 400,
               "left": 724,
               "right": 836,
               "width": 112,
@@ -96,12 +96,12 @@
             "snippet": "<ul>",
             "selector": "tr > td > ul.column-spacing-halfscreen > ul",
             "boundingRect": {
-              "top": 393,
-              "bottom": 574,
+              "top": 408,
+              "bottom": 573,
               "left": 747,
               "right": 924,
               "width": 177,
-              "height": 181
+              "height": 165
             },
             "nodeLabel": "Belize\nCosta Rica\nEl Salvador\nGuatemala\nHonduras\nNicaragua\nPanama",
             "subItemCategory": "unknown"
@@ -110,8 +110,8 @@
             "snippet": "<b>",
             "selector": "tr > td > ul.column-spacing-halfscreen > b",
             "boundingRect": {
-              "top": 579,
-              "bottom": 595,
+              "top": 578,
+              "bottom": 594,
               "left": 724,
               "right": 798,
               "width": 73,
@@ -127,12 +127,12 @@
         "selector": "tr > td > ul.column-spacing-halfscreen > ul",
         "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: #text, a, ul",
         "boundingRect": {
-          "top": 367,
-          "bottom": 848,
+          "top": 381,
+          "bottom": 834,
           "left": 747,
           "right": 1350,
           "width": 603,
-          "height": 481
+          "height": 452
         },
         "itemCategory": "unknown",
         "subItems": [
@@ -140,8 +140,8 @@
             "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
             "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
             "boundingRect": {
-              "top": 683,
-              "bottom": 722,
+              "top": 676,
+              "bottom": 714,
               "left": 747,
               "right": 881,
               "width": 135,
@@ -154,8 +154,8 @@
             "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
             "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
             "boundingRect": {
-              "top": 806,
-              "bottom": 845,
+              "top": 792,
+              "bottom": 830,
               "left": 747,
               "right": 881,
               "width": 135,
@@ -168,8 +168,8 @@
             "snippet": "<a href=\"/en/wiki/The_Netherlands_Antilles\" class=\"mw-redirect\">",
             "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
             "boundingRect": {
-              "top": 474,
-              "bottom": 512,
+              "top": 480,
+              "bottom": 518,
               "left": 960,
               "right": 1095,
               "width": 135,
@@ -182,5 +182,295 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "target-size-5": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Costa_Rica_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 435,
+          "bottom": 451,
+          "left": 747,
+          "right": 815,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/El_Salvador_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 459,
+              "bottom": 475,
+              "left": 747,
+              "right": 818,
+              "width": 72,
+              "height": 16
+            },
+            "nodeLabel": "El Salvador",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/El_Salvador_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 459,
+          "bottom": 475,
+          "left": 747,
+          "right": 818,
+          "width": 72,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Costa_Rica_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 451,
+              "left": 747,
+              "right": 815,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Costa Rica",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Guatemala_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 482,
+              "bottom": 498,
+              "left": 747,
+              "right": 815,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Guatemala",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Guatemala_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 482,
+          "bottom": 498,
+          "left": 747,
+          "right": 815,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/El_Salvador_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 459,
+              "bottom": 475,
+              "left": 747,
+              "right": 818,
+              "width": 72,
+              "height": 16
+            },
+            "nodeLabel": "El Salvador",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Honduras_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (60.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 506,
+          "bottom": 522,
+          "left": 747,
+          "right": 808,
+          "width": 61,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Nicaragua_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 530,
+              "bottom": 546,
+              "left": 747,
+              "right": 811,
+              "width": 64,
+              "height": 16
+            },
+            "nodeLabel": "Nicaragua",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Nicaragua_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 530,
+          "bottom": 546,
+          "left": 747,
+          "right": 811,
+          "width": 64,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Honduras_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 506,
+              "bottom": 522,
+              "left": 747,
+              "right": 808,
+              "width": 61,
+              "height": 16
+            },
+            "nodeLabel": "Honduras",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Bahamas_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 720,
+          "bottom": 736,
+          "left": 747,
+          "right": 806,
+          "width": 59,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Barbados_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 744,
+              "bottom": 760,
+              "left": 747,
+              "right": 807,
+              "width": 60,
+              "height": 16
+            },
+            "nodeLabel": "Barbados",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Barbados_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 744,
+          "bottom": 760,
+          "left": 747,
+          "right": 807,
+          "width": 60,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Bahamas_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 720,
+              "bottom": 736,
+              "left": 747,
+              "right": 806,
+              "width": 59,
+              "height": 16
+            },
+            "nodeLabel": "Bahamas",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Martinique_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (65.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 667,
+          "bottom": 683,
+          "left": 960,
+          "right": 1025,
+          "width": 65,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Montserrat_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 691,
+              "bottom": 707,
+              "left": 960,
+              "right": 1027,
+              "width": 67,
+              "height": 16
+            },
+            "nodeLabel": "Montserrat",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Montserrat_Genealogy\">",
+        "selector": "ul.column-spacing-halfscreen > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 691,
+          "bottom": 707,
+          "left": 960,
+          "right": 1027,
+          "width": 67,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Martinique_Genealogy\">",
+            "selector": "ul.column-spacing-halfscreen > ul > li > a",
+            "boundingRect": {
+              "top": 667,
+              "bottom": 683,
+              "left": 960,
+              "right": 1025,
+              "width": 65,
+              "height": 16
+            },
+            "nodeLabel": "Martinique",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 5
 }

@@ -65,91 +65,181 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/India_Cemeteries\">",
+        "snippet": "<a href=\"/en/wiki/India_Getting_Started\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 678,
-          "bottom": 694,
-          "left": 1117,
-          "right": 1188,
-          "width": 72,
+          "top": 496,
+          "bottom": 512,
+          "left": 1116,
+          "right": 1210,
+          "width": 94,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/India_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/India_Online_Learning\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 629,
-              "bottom": 1041,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 412
+              "top": 520,
+              "bottom": 536,
+              "left": 1116,
+              "right": 1214,
+              "width": 99,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Online Learning",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/India_Newspapers\">",
+        "snippet": "<a href=\"/en/wiki/India_Online_Learning\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 752,
-          "bottom": 768,
-          "left": 1252,
-          "right": 1330,
-          "width": 78,
+          "top": 520,
+          "bottom": 536,
+          "left": 1116,
+          "right": 1214,
+          "width": 99,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/India_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/India_Getting_Started\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 629,
-              "bottom": 1041,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 412
+              "top": 496,
+              "bottom": 512,
+              "left": 1116,
+              "right": 1210,
+              "width": 94,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Getting Started",
             "subItemCategory": "unknown"
           }
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/India_Obituaries\">",
+        "snippet": "<a href=\"/en/wiki/India_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 778,
-          "bottom": 794,
-          "left": 1252,
-          "right": 1316,
-          "width": 64,
+          "top": 968,
+          "bottom": 984,
+          "left": 1251,
+          "right": 1303,
+          "width": 52,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/India_Land_and_Property\">",
+            "snippet": "<a href=\"/en/wiki/India_Websites\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 629,
-              "bottom": 1041,
-              "left": 1117,
-              "right": 1305,
-              "width": 188,
-              "height": 412
+              "top": 992,
+              "bottom": 1008,
+              "left": 1251,
+              "right": 1308,
+              "width": 57,
+              "height": 16
             },
-            "nodeLabel": "Land & Property",
+            "nodeLabel": "Websites",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/India_Websites\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 992,
+          "bottom": 1008,
+          "left": 1251,
+          "right": 1308,
+          "width": 57,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/India_Taxation\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 968,
+              "bottom": 984,
+              "left": 1251,
+              "right": 1303,
+              "width": 52,
+              "height": 16
+            },
+            "nodeLabel": "Taxation",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Hindi_Genealogical_Word_List\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (31.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1300,
+          "bottom": 1316,
+          "left": 1116,
+          "right": 1148,
+          "width": 32,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Latin_Genealogical_Word_List\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1324,
+              "bottom": 1340,
+              "left": 1116,
+              "right": 1146,
+              "width": 30,
+              "height": 16
+            },
+            "nodeLabel": "Latin",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Latin_Genealogical_Word_List\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (30.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1324,
+          "bottom": 1340,
+          "left": 1116,
+          "right": 1146,
+          "width": 30,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Hindi_Genealogical_Word_List\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1300,
+              "bottom": 1316,
+              "left": 1116,
+              "right": 1148,
+              "width": 32,
+              "height": 16
+            },
+            "nodeLabel": "Hindi",
             "subItemCategory": "unknown"
           }
         ]

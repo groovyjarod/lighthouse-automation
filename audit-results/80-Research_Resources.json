@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 95,
+  "accessibility-score": 92,
   "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
@@ -60,5 +60,131 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "target-size-4": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_Centers\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (246.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 985,
+          "bottom": 1001,
+          "left": 366,
+          "right": 613,
+          "width": 247,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1025,
+              "left": 366,
+              "right": 610,
+              "width": 244,
+              "height": 16
+            },
+            "nodeLabel": "Online Genealogy Records by Location",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (243.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1009,
+          "bottom": 1025,
+          "left": 366,
+          "right": 610,
+          "width": 244,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_Centers\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 985,
+              "bottom": 1001,
+              "left": 366,
+              "right": 613,
+              "width": 247,
+              "height": 16
+            },
+            "nodeLabel": "Using the Wiki in FamilySearch Centers",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Three:_Digitized_Books\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (342.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1081,
+          "bottom": 1097,
+          "left": 366,
+          "right": 709,
+          "width": 342,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Four:_Internet_Sources\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1120,
+              "left": 366,
+              "right": 707,
+              "width": 341,
+              "height": 16
+            },
+            "nodeLabel": "Locating Online Databases Part Four: Internet Sources",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Four:_Internet_Sources\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (340.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1104,
+          "bottom": 1120,
+          "left": 366,
+          "right": 707,
+          "width": 341,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Three:_Digitized_Books\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1097,
+              "left": 366,
+              "right": 709,
+              "width": 342,
+              "height": 16
+            },
+            "nodeLabel": "Locating Online Databases Part Three: Digitized Books",
+            "subItemCategory": "page"
+          }
+        ]
+      }
+    ]
+  },
+  "number-of-Items": 4
 }
