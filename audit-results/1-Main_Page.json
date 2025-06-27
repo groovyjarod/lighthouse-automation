@@ -1,42 +1,6 @@
 {
-  "accessibility-score": 93,
-  "accesskeys-1": {
-    "title": "`[accesskey]` values are not unique",
-    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more about access keys](https://dequeuniversity.com/rules/axe/4.10/accesskeys).",
-    "items": [
-      {
-        "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\" autocomplete=\"off\">",
-        "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-        "explanation": "Fix all of the following:\n  Document has multiple elements with the same accesskey",
-        "boundingRect": {
-          "top": 116,
-          "bottom": 148,
-          "left": 115,
-          "right": 615,
-          "width": 500,
-          "height": 32
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<input class=\"vector-search-box-input\" type=\"search\" name=\"search\" placeholder=\"Search by place or topic\" aria-label=\"Search by place or topic\" autocapitalize=\"sentences\" accesskey=\"f\" id=\"searchInput\" autocomplete=\"off\">",
-            "selector": "div > form#searchform > div#simpleSearch > input#searchInput",
-            "boundingRect": {
-              "top": 354,
-              "bottom": 386,
-              "left": 349,
-              "right": 849,
-              "width": 500,
-              "height": 32
-            },
-            "nodeLabel": "Search by place or topic",
-            "subItemCategory": "unknown"
-          }
-        ]
-      }
-    ]
-  },
-  "aria-allowed-role-2": {
+  "accessibility-score": 97,
+  "aria-allowed-role-1": {
     "title": "Uses ARIA roles on incompatible elements",
     "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
     "items": [
@@ -56,7 +20,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -76,5 +40,5 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "number-of-Items": 2
 }
