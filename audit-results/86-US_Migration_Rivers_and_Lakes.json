@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 92,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "accessibility-score": 93,
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "heading-order-3": {
+  "heading-order-2": {
     "title": "Heading elements are not in a sequentially-descending order",
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > h3",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 398,
-          "bottom": 445,
+          "top": 403,
+          "bottom": 450,
           "left": 344,
           "right": 945,
           "width": 601,
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (84.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 547,
-          "bottom": 563,
+          "top": 552,
+          "bottom": 568,
           "left": 366,
           "right": 451,
           "width": 85,
@@ -82,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/Mohawk_River\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 571,
-              "bottom": 587,
+              "top": 576,
+              "bottom": 592,
               "left": 366,
               "right": 455,
               "width": 89,
@@ -99,8 +79,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (88.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 571,
-          "bottom": 587,
+          "top": 576,
+          "bottom": 592,
           "left": 366,
           "right": 455,
           "width": 89,
@@ -112,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/Hudson_River\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 547,
-              "bottom": 563,
+              "top": 552,
+              "bottom": 568,
               "left": 366,
               "right": 451,
               "width": 85,
@@ -129,8 +109,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (90.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1008,
-          "bottom": 1024,
+          "top": 1013,
+          "bottom": 1029,
           "left": 366,
           "right": 457,
           "width": 90,
@@ -142,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Lake_Superior\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1032,
-              "bottom": 1048,
+              "top": 1037,
+              "bottom": 1053,
               "left": 366,
               "right": 454,
               "width": 87,
@@ -159,8 +139,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (87.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1032,
-          "bottom": 1048,
+          "top": 1037,
+          "bottom": 1053,
           "left": 366,
           "right": 454,
           "width": 87,
@@ -172,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Lake_Michigan\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1008,
-              "bottom": 1024,
+              "top": 1013,
+              "bottom": 1029,
               "left": 366,
               "right": 457,
               "width": 90,
@@ -186,7 +166,7 @@
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -195,8 +175,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1745,
-          "bottom": 2094,
+          "top": 1749,
+          "bottom": 2098,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -206,5 +186,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

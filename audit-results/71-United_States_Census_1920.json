@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "accessibility-score": 92,
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1688,
-          "bottom": 1734,
+          "top": 1693,
+          "bottom": 1739,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -43,8 +23,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1688,
-          "bottom": 1734,
+          "top": 1693,
+          "bottom": 1739,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -54,7 +34,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -74,7 +54,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -83,8 +63,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (38.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2166,
-          "bottom": 2182,
+          "top": 2171,
+          "bottom": 2187,
           "left": 366,
           "right": 405,
           "width": 38,
@@ -96,8 +76,8 @@
             "snippet": "<a href=\"/en/wiki/Hawaii_Census\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2190,
-              "bottom": 2206,
+              "top": 2194,
+              "bottom": 2210,
               "left": 366,
               "right": 408,
               "width": 42,
@@ -113,8 +93,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2190,
-          "bottom": 2206,
+          "top": 2194,
+          "bottom": 2210,
           "left": 366,
           "right": 408,
           "width": 42,
@@ -126,8 +106,8 @@
             "snippet": "<a href=\"/en/wiki/Guam_Census\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2166,
-              "bottom": 2182,
+              "top": 2171,
+              "bottom": 2187,
               "left": 366,
               "right": 405,
               "width": 38,
@@ -137,10 +117,70 @@
             "subItemCategory": "unknown"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Philippines_Census\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2147,
+          "bottom": 2163,
+          "left": 685,
+          "right": 753,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Puerto_Rico_Census\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2171,
+              "bottom": 2187,
+              "left": 685,
+              "right": 759,
+              "width": 73,
+              "height": 16
+            },
+            "nodeLabel": "Puerto Rico",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Puerto_Rico_Census\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2171,
+          "bottom": 2187,
+          "left": 685,
+          "right": 759,
+          "width": 73,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Philippines_Census\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2147,
+              "bottom": 2163,
+              "left": 685,
+              "right": 753,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Philippines",
+            "subItemCategory": "unknown"
+          }
+        ]
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -149,16 +189,16 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2420,
-          "bottom": 2831,
+          "top": 2425,
+          "bottom": 2834,
           "left": 347,
           "right": 1349,
           "width": 1002,
-          "height": 411
+          "height": 409
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

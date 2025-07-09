@@ -1,26 +1,6 @@
 {
   "accessibility-score": 90,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6285,
-          "bottom": 6308,
+          "top": 6288,
+          "bottom": 6310,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "heading-order-4": {
+  "heading-order-3": {
     "title": "Heading elements are not in a sequentially-descending order",
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h6",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 828,
-          "bottom": 860,
+          "top": 833,
+          "bottom": 865,
           "left": 344,
           "right": 1072,
           "width": 728,
@@ -83,8 +63,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h6",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 1588,
-          "bottom": 1621,
+          "top": 1593,
+          "bottom": 1626,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -97,8 +77,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h6",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 4135,
-          "bottom": 4167,
+          "top": 4138,
+          "bottom": 4171,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -108,17 +88,77 @@
       }
     ]
   },
-  "target-size-5": {
+  "target-size-4": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 762,
+          "bottom": 778,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 786,
+              "bottom": 802,
+              "left": 1096,
+              "right": 1203,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Colonial Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 786,
+          "bottom": 802,
+          "left": 1096,
+          "right": 1203,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 762,
+              "bottom": 778,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
       {
         "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 992,
-          "bottom": 1008,
+          "top": 997,
+          "bottom": 1013,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -130,8 +170,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1016,
-              "bottom": 1032,
+              "top": 1021,
+              "bottom": 1037,
               "left": 1096,
               "right": 1197,
               "width": 100,
@@ -147,8 +187,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1016,
-          "bottom": 1032,
+          "top": 1021,
+          "bottom": 1037,
           "left": 1096,
           "right": 1197,
           "width": 100,
@@ -160,8 +200,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 992,
-              "bottom": 1008,
+              "top": 997,
+              "bottom": 1013,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -173,12 +213,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1197,
+          "bottom": 1213,
+          "left": 1096,
+          "right": 1165,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1221,
+              "bottom": 1237,
+              "left": 1096,
+              "right": 1170,
+              "width": 74,
+              "height": 16
+            },
+            "nodeLabel": "Handwriting",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1221,
+          "bottom": 1237,
+          "left": 1096,
+          "right": 1170,
+          "width": 74,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1197,
+              "bottom": 1213,
+              "left": 1096,
+              "right": 1165,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.dunbrody.com/get-involved/irish-emigration-database/\">",
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (172.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 5264,
-          "bottom": 5280,
+          "top": 5267,
+          "bottom": 5283,
           "left": 366,
           "right": 539,
           "width": 173,
@@ -190,8 +290,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://web.archive.org/web/20190310073216/http://www.cimorelli.com/irelan…\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 5288,
-              "bottom": 5304,
+              "top": 5291,
+              "bottom": 5307,
               "left": 366,
               "right": 544,
               "width": 177,
@@ -207,8 +307,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (177.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 5288,
-          "bottom": 5304,
+          "top": 5291,
+          "bottom": 5307,
           "left": 366,
           "right": 544,
           "width": 177,
@@ -220,8 +320,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.dunbrody.com/get-involved/irish-emigration-database/\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 5264,
-              "bottom": 5280,
+              "top": 5267,
+              "bottom": 5283,
               "left": 366,
               "right": 539,
               "width": 173,
@@ -233,12 +333,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/Alaska_Emigration_and_Immigration\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 8496,
+          "bottom": 8512,
+          "left": 366,
+          "right": 408,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Arizona_Emigration_and_Immigration\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 8519,
+              "bottom": 8535,
+              "left": 366,
+              "right": 414,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Arizona",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Arizona_Emigration_and_Immigration\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 8519,
+          "bottom": 8535,
+          "left": 366,
+          "right": 414,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Alaska_Emigration_and_Immigration\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 8496,
+              "bottom": 8512,
+              "left": 366,
+              "right": 408,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "Alaska",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Emigration_and_Immigration\">",
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8541,
-          "bottom": 8557,
+          "top": 8543,
+          "bottom": 8559,
           "left": 366,
           "right": 425,
           "width": 58,
@@ -250,8 +410,8 @@
             "snippet": "<a href=\"/en/wiki/California_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8565,
-              "bottom": 8581,
+              "top": 8567,
+              "bottom": 8583,
               "left": 366,
               "right": 426,
               "width": 59,
@@ -267,8 +427,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8565,
-          "bottom": 8581,
+          "top": 8567,
+          "bottom": 8583,
           "left": 366,
           "right": 426,
           "width": 59,
@@ -280,8 +440,8 @@
             "snippet": "<a href=\"/en/wiki/Arkansas_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8541,
-              "bottom": 8557,
+              "top": 8543,
+              "bottom": 8559,
               "left": 366,
               "right": 425,
               "width": 58,
@@ -294,8 +454,8 @@
             "snippet": "<a href=\"/en/wiki/Colorado_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8589,
-              "bottom": 8605,
+              "top": 8591,
+              "bottom": 8607,
               "left": 366,
               "right": 423,
               "width": 57,
@@ -311,8 +471,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8589,
-          "bottom": 8605,
+          "top": 8591,
+          "bottom": 8607,
           "left": 366,
           "right": 423,
           "width": 57,
@@ -324,8 +484,8 @@
             "snippet": "<a href=\"/en/wiki/California_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8565,
-              "bottom": 8581,
+              "top": 8567,
+              "bottom": 8583,
               "left": 366,
               "right": 426,
               "width": 59,
@@ -341,8 +501,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (35px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 8541,
-          "bottom": 8557,
+          "top": 8543,
+          "bottom": 8559,
           "left": 512,
           "right": 547,
           "width": 35,
@@ -354,8 +514,8 @@
             "snippet": "<a href=\"/en/wiki/Illinois_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8565,
-              "bottom": 8581,
+              "top": 8567,
+              "bottom": 8583,
               "left": 512,
               "right": 551,
               "width": 39,
@@ -371,8 +531,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (38.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 8565,
-          "bottom": 8581,
+          "top": 8567,
+          "bottom": 8583,
           "left": 512,
           "right": 551,
           "width": 39,
@@ -384,8 +544,8 @@
             "snippet": "<a href=\"/en/wiki/Idaho_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8541,
-              "bottom": 8557,
+              "top": 8543,
+              "bottom": 8559,
               "left": 512,
               "right": 547,
               "width": 35,
@@ -401,8 +561,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8589,
-          "bottom": 8605,
+          "top": 8591,
+          "bottom": 8607,
           "left": 657,
           "right": 722,
           "width": 65,
@@ -414,8 +574,8 @@
             "snippet": "<a href=\"/en/wiki/Mississippi_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8613,
-              "bottom": 8629,
+              "top": 8615,
+              "bottom": 8631,
               "left": 657,
               "right": 725,
               "width": 68,
@@ -431,8 +591,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8613,
-          "bottom": 8629,
+          "top": 8615,
+          "bottom": 8631,
           "left": 657,
           "right": 725,
           "width": 68,
@@ -444,8 +604,8 @@
             "snippet": "<a href=\"/en/wiki/Minnesota_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8589,
-              "bottom": 8605,
+              "top": 8591,
+              "bottom": 8607,
               "left": 657,
               "right": 722,
               "width": 65,
@@ -461,8 +621,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8636,
-          "bottom": 8652,
+          "top": 8638,
+          "bottom": 8654,
           "left": 657,
           "right": 710,
           "width": 52,
@@ -474,8 +634,8 @@
             "snippet": "<a href=\"/en/wiki/Montana_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8660,
-              "bottom": 8676,
+              "top": 8662,
+              "bottom": 8678,
               "left": 657,
               "right": 712,
               "width": 54,
@@ -491,8 +651,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8660,
-          "bottom": 8676,
+          "top": 8662,
+          "bottom": 8678,
           "left": 657,
           "right": 712,
           "width": 54,
@@ -504,8 +664,8 @@
             "snippet": "<a href=\"/en/wiki/Missouri_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8636,
-              "bottom": 8652,
+              "top": 8638,
+              "bottom": 8654,
               "left": 657,
               "right": 710,
               "width": 52,
@@ -521,8 +681,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8541,
-          "bottom": 8557,
+          "top": 8543,
+          "bottom": 8559,
           "left": 803,
           "right": 876,
           "width": 73,
@@ -534,8 +694,8 @@
             "snippet": "<a href=\"/en/wiki/New_Mexico_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8565,
-              "bottom": 8581,
+              "top": 8567,
+              "bottom": 8583,
               "left": 803,
               "right": 879,
               "width": 76,
@@ -549,10 +709,10 @@
       {
         "snippet": "<a href=\"/en/wiki/New_Mexico_Emigration_and_Immigration\">",
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8565,
-          "bottom": 8581,
+          "top": 8567,
+          "bottom": 8583,
           "left": 803,
           "right": 879,
           "width": 76,
@@ -564,8 +724,8 @@
             "snippet": "<a href=\"/en/wiki/New_Jersey_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8541,
-              "bottom": 8557,
+              "top": 8543,
+              "bottom": 8559,
               "left": 803,
               "right": 876,
               "width": 73,
@@ -581,8 +741,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8517,
-          "bottom": 8533,
+          "top": 8519,
+          "bottom": 8535,
           "left": 949,
           "right": 1032,
           "width": 83,
@@ -594,8 +754,8 @@
             "snippet": "<a href=\"/en/wiki/Rhode_Island_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8541,
-              "bottom": 8557,
+              "top": 8543,
+              "bottom": 8559,
               "left": 949,
               "right": 1031,
               "width": 83,
@@ -611,8 +771,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 8541,
-          "bottom": 8557,
+          "top": 8543,
+          "bottom": 8559,
           "left": 949,
           "right": 1031,
           "width": 83,
@@ -624,8 +784,8 @@
             "snippet": "<a href=\"/en/wiki/Pennsylvania_Emigration_and_Immigration\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 8517,
-              "bottom": 8533,
+              "top": 8519,
+              "bottom": 8535,
               "left": 949,
               "right": 1032,
               "width": 83,
@@ -635,10 +795,70 @@
             "subItemCategory": "page"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Wisconsin_Emigration_and_Immigration\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 8567,
+          "bottom": 8583,
+          "left": 1094,
+          "right": 1158,
+          "width": 64,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Wyoming_Emigration_and_Immigration\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 8591,
+              "bottom": 8607,
+              "left": 1094,
+              "right": 1152,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Wyoming",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Wyoming_Emigration_and_Immigration\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 8591,
+          "bottom": 8607,
+          "left": 1094,
+          "right": 1152,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Wisconsin_Emigration_and_Immigration\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 8567,
+              "bottom": 8583,
+              "left": 1094,
+              "right": 1158,
+              "width": 64,
+              "height": 16
+            },
+            "nodeLabel": "Wisconsin",
+            "subItemCategory": "page"
+          }
+        ]
       }
     ]
   },
-  "table-fake-caption-6": {
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -647,12 +867,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 272,
-          "bottom": 1526,
+          "top": 277,
+          "bottom": 1531,
           "left": 1072,
           "right": 1352,
           "width": 280,
-          "height": 1255
+          "height": 1254
         },
         "itemCategory": "page"
       },
@@ -661,8 +881,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 8753,
-          "bottom": 9102,
+          "top": 8755,
+          "bottom": 9104,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -672,5 +892,5 @@
       }
     ]
   },
-  "number-of-Items": 6
+  "number-of-Items": 5
 }

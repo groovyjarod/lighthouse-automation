@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 88,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "accessibility-score": 89,
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3889,
-          "bottom": 3959,
+          "top": 3893,
+          "bottom": 3963,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "list-4": {
+  "list-3": {
     "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
     "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen",
         "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
         "boundingRect": {
-          "top": 1656,
-          "bottom": 1702,
+          "top": 1661,
+          "bottom": 1707,
           "left": 366,
           "right": 966,
           "width": 600,
@@ -82,8 +62,8 @@
             "snippet": "<ul>",
             "selector": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
             "boundingRect": {
-              "top": 1682,
-              "bottom": 1682,
+              "top": 1687,
+              "bottom": 1687,
               "left": 795,
               "right": 961,
               "width": 167,
@@ -99,8 +79,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen",
         "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
         "boundingRect": {
-          "top": 1760,
-          "bottom": 1830,
+          "top": 1765,
+          "bottom": 1835,
           "left": 366,
           "right": 966,
           "width": 600,
@@ -112,8 +92,8 @@
             "snippet": "<ul>",
             "selector": "div.mw-parser-output > div.mw-parser-output > ul.column-spacing-halfscreen > ul",
             "boundingRect": {
-              "top": 1787,
-              "bottom": 1787,
+              "top": 1792,
+              "bottom": 1792,
               "left": 795,
               "right": 961,
               "width": 167,
@@ -126,20 +106,80 @@
       }
     ]
   },
-  "target-size-5": {
+  "target-size-4": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 781,
+          "bottom": 797,
+          "left": 1096,
+          "right": 1198,
+          "width": 101,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 805,
+              "bottom": 821,
+              "left": 1096,
+              "right": 1203,
+              "width": 107,
+              "height": 16
+            },
+            "nodeLabel": "Colonial Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 805,
+          "bottom": 821,
+          "left": 1096,
+          "right": 1203,
+          "width": 107,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 781,
+              "bottom": 797,
+              "left": 1096,
+              "right": 1198,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Church Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
       {
         "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1033,
-          "bottom": 1049,
+          "top": 1038,
+          "bottom": 1054,
           "left": 1096,
           "right": 1200,
-          "width": 103,
+          "width": 104,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -148,8 +188,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1057,
-              "bottom": 1073,
+              "top": 1062,
+              "bottom": 1078,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -165,8 +205,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1057,
-          "bottom": 1073,
+          "top": 1062,
+          "bottom": 1078,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -178,11 +218,11 @@
             "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1033,
-              "bottom": 1049,
+              "top": 1038,
+              "bottom": 1054,
               "left": 1096,
               "right": 1200,
-              "width": 103,
+              "width": 104,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -192,8 +232,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1081,
-              "bottom": 1097,
+              "top": 1086,
+              "bottom": 1102,
               "left": 1096,
               "right": 1201,
               "width": 104,
@@ -209,8 +249,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1081,
-          "bottom": 1097,
+          "top": 1086,
+          "bottom": 1102,
           "left": 1096,
           "right": 1201,
           "width": 104,
@@ -222,8 +262,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1057,
-              "bottom": 1073,
+              "top": 1062,
+              "bottom": 1078,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -236,8 +276,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1104,
-              "bottom": 1120,
+              "top": 1110,
+              "bottom": 1126,
               "left": 1096,
               "right": 1197,
               "width": 100,
@@ -253,8 +293,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1104,
-          "bottom": 1120,
+          "top": 1110,
+          "bottom": 1126,
           "left": 1096,
           "right": 1197,
           "width": 100,
@@ -266,8 +306,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Medical_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1081,
-              "bottom": 1097,
+              "top": 1086,
+              "bottom": 1102,
               "left": 1096,
               "right": 1201,
               "width": 104,
@@ -279,12 +319,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1279,
+          "bottom": 1295,
+          "left": 1096,
+          "right": 1165,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1303,
+              "bottom": 1319,
+              "left": 1096,
+              "right": 1170,
+              "width": 74,
+              "height": 16
+            },
+            "nodeLabel": "Handwriting",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1303,
+          "bottom": 1319,
+          "left": 1096,
+          "right": 1170,
+          "width": 74,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1279,
+              "bottom": 1295,
+              "left": 1096,
+              "right": 1165,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 963,
-          "bottom": 979,
+          "top": 968,
+          "bottom": 984,
           "left": 378,
           "right": 479,
           "width": 100,
@@ -296,8 +396,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Census_Mortality_Schedules\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 987,
-              "bottom": 1003,
+              "top": 992,
+              "bottom": 1008,
               "left": 378,
               "right": 483,
               "width": 104,
@@ -313,8 +413,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 987,
-          "bottom": 1003,
+          "top": 992,
+          "bottom": 1008,
           "left": 378,
           "right": 483,
           "width": 104,
@@ -326,8 +426,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 963,
-              "bottom": 979,
+              "top": 968,
+              "bottom": 984,
               "left": 378,
               "right": 479,
               "width": 100,
@@ -343,8 +443,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1011,
-          "bottom": 1027,
+          "top": 1016,
+          "bottom": 1032,
           "left": 378,
           "right": 456,
           "width": 78,
@@ -356,8 +456,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Census_1900\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1034,
-              "bottom": 1050,
+              "top": 1040,
+              "bottom": 1056,
               "left": 378,
               "right": 461,
               "width": 83,
@@ -373,8 +473,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1034,
-          "bottom": 1050,
+          "top": 1040,
+          "bottom": 1056,
           "left": 378,
           "right": 461,
           "width": 83,
@@ -386,8 +486,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Newspapers\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1011,
-              "bottom": 1027,
+              "top": 1016,
+              "bottom": 1032,
               "left": 378,
               "right": 456,
               "width": 78,
@@ -403,8 +503,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (195px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 441,
-          "bottom": 458,
+          "top": 446,
+          "bottom": 463,
           "left": 525,
           "right": 720,
           "width": 195,
@@ -416,8 +516,8 @@
             "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#How_do_I_access…\">",
             "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
             "boundingRect": {
-              "top": 463,
-              "bottom": 480,
+              "top": 468,
+              "bottom": 485,
               "left": 525,
               "right": 707,
               "width": 182,
@@ -433,8 +533,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (182.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 463,
-          "bottom": 480,
+          "top": 468,
+          "bottom": 485,
           "left": 525,
           "right": 707,
           "width": 182,
@@ -446,8 +546,8 @@
             "snippet": "<a href=\"/en/wiki/Beginning_Research_in_United_States_Vital_Records#What_can_I_find…\">",
             "selector": "div.mw-parser-output > div.mw-parser-output > p > a",
             "boundingRect": {
-              "top": 441,
-              "bottom": 458,
+              "top": 446,
+              "bottom": 463,
               "left": 525,
               "right": 720,
               "width": 195,
@@ -459,12 +559,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/Alaska_Vital_Records\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1337,
+          "bottom": 1353,
+          "left": 366,
+          "right": 408,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Arizona_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1361,
+              "bottom": 1377,
+              "left": 366,
+              "right": 414,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Arizona",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Arizona_Vital_Records\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1361,
+          "bottom": 1377,
+          "left": 366,
+          "right": 414,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Alaska_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1337,
+              "bottom": 1353,
+              "left": 366,
+              "right": 408,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "Alaska",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Vital_Records\">",
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1380,
-          "bottom": 1396,
+          "top": 1385,
+          "bottom": 1401,
           "left": 366,
           "right": 425,
           "width": 58,
@@ -476,8 +636,8 @@
             "snippet": "<a href=\"/en/wiki/California_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
+              "top": 1408,
+              "bottom": 1424,
               "left": 366,
               "right": 426,
               "width": 59,
@@ -493,8 +653,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
+          "top": 1408,
+          "bottom": 1424,
           "left": 366,
           "right": 426,
           "width": 59,
@@ -506,8 +666,8 @@
             "snippet": "<a href=\"/en/wiki/Arkansas_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1380,
-              "bottom": 1396,
+              "top": 1385,
+              "bottom": 1401,
               "left": 366,
               "right": 425,
               "width": 58,
@@ -520,8 +680,8 @@
             "snippet": "<a href=\"/en/wiki/Colorado_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1427,
-              "bottom": 1443,
+              "top": 1432,
+              "bottom": 1448,
               "left": 366,
               "right": 423,
               "width": 57,
@@ -537,8 +697,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1427,
-          "bottom": 1443,
+          "top": 1432,
+          "bottom": 1448,
           "left": 366,
           "right": 423,
           "width": 57,
@@ -550,8 +710,8 @@
             "snippet": "<a href=\"/en/wiki/California_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
+              "top": 1408,
+              "bottom": 1424,
               "left": 366,
               "right": 426,
               "width": 59,
@@ -567,8 +727,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (35px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1380,
-          "bottom": 1396,
+          "top": 1385,
+          "bottom": 1401,
           "left": 463,
           "right": 498,
           "width": 35,
@@ -580,8 +740,8 @@
             "snippet": "<a href=\"/en/wiki/Illinois_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
+              "top": 1408,
+              "bottom": 1424,
               "left": 463,
               "right": 502,
               "width": 39,
@@ -597,8 +757,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (38.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
+          "top": 1408,
+          "bottom": 1424,
           "left": 463,
           "right": 502,
           "width": 39,
@@ -610,8 +770,8 @@
             "snippet": "<a href=\"/en/wiki/Idaho_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1380,
-              "bottom": 1396,
+              "top": 1385,
+              "bottom": 1401,
               "left": 463,
               "right": 498,
               "width": 35,
@@ -627,8 +787,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (57.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1499,
-          "bottom": 1515,
+          "top": 1504,
+          "bottom": 1520,
           "left": 463,
           "right": 520,
           "width": 58,
@@ -640,8 +800,8 @@
             "snippet": "<a href=\"/en/wiki/Louisiana_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1522,
-              "bottom": 1538,
+              "top": 1527,
+              "bottom": 1543,
               "left": 463,
               "right": 523,
               "width": 60,
@@ -657,8 +817,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1522,
-          "bottom": 1538,
+          "top": 1527,
+          "bottom": 1543,
           "left": 463,
           "right": 523,
           "width": 60,
@@ -670,8 +830,8 @@
             "snippet": "<a href=\"/en/wiki/Kentucky_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1499,
-              "bottom": 1515,
+              "top": 1504,
+              "bottom": 1520,
               "left": 463,
               "right": 520,
               "width": 58,
@@ -687,8 +847,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
+          "top": 1408,
+          "bottom": 1424,
           "left": 559,
           "right": 624,
           "width": 65,
@@ -700,8 +860,8 @@
             "snippet": "<a href=\"/en/wiki/Mississippi_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1427,
-              "bottom": 1443,
+              "top": 1432,
+              "bottom": 1448,
               "left": 559,
               "right": 627,
               "width": 68,
@@ -717,8 +877,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1427,
-          "bottom": 1443,
+          "top": 1432,
+          "bottom": 1448,
           "left": 559,
           "right": 627,
           "width": 68,
@@ -730,8 +890,8 @@
             "snippet": "<a href=\"/en/wiki/Minnesota_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
+              "top": 1408,
+              "bottom": 1424,
               "left": 559,
               "right": 624,
               "width": 65,
@@ -747,8 +907,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1451,
-          "bottom": 1467,
+          "top": 1456,
+          "bottom": 1472,
           "left": 559,
           "right": 611,
           "width": 52,
@@ -760,8 +920,8 @@
             "snippet": "<a href=\"/en/wiki/Montana_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1475,
-              "bottom": 1491,
+              "top": 1480,
+              "bottom": 1496,
               "left": 559,
               "right": 614,
               "width": 54,
@@ -777,8 +937,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1475,
-          "bottom": 1491,
+          "top": 1480,
+          "bottom": 1496,
           "left": 559,
           "right": 614,
           "width": 54,
@@ -790,14 +950,58 @@
             "snippet": "<a href=\"/en/wiki/Missouri_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1451,
-              "bottom": 1467,
+              "top": 1456,
+              "bottom": 1472,
               "left": 559,
               "right": 611,
               "width": 52,
               "height": 16
             },
             "nodeLabel": "Missouri",
+            "subItemCategory": "page"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/Nebraska_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1504,
+              "bottom": 1520,
+              "left": 559,
+              "right": 619,
+              "width": 60,
+              "height": 16
+            },
+            "nodeLabel": "Nebraska",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Nebraska_Vital_Records\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1504,
+          "bottom": 1520,
+          "left": 559,
+          "right": 619,
+          "width": 60,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Montana_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1480,
+              "bottom": 1496,
+              "left": 559,
+              "right": 614,
+              "width": 54,
+              "height": 16
+            },
+            "nodeLabel": "Montana",
             "subItemCategory": "page"
           }
         ]
@@ -807,8 +1011,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1354,
-          "bottom": 1370,
+          "top": 1359,
+          "bottom": 1375,
           "left": 656,
           "right": 729,
           "width": 73,
@@ -820,8 +1024,8 @@
             "snippet": "<a href=\"/en/wiki/New_Mexico_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1378,
-              "bottom": 1394,
+              "top": 1383,
+              "bottom": 1399,
               "left": 656,
               "right": 732,
               "width": 76,
@@ -835,10 +1039,10 @@
       {
         "snippet": "<a href=\"/en/wiki/New_Mexico_Vital_Records\">",
         "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1378,
-          "bottom": 1394,
+          "top": 1383,
+          "bottom": 1399,
           "left": 656,
           "right": 732,
           "width": 76,
@@ -850,8 +1054,8 @@
             "snippet": "<a href=\"/en/wiki/New_Jersey_Vital_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1354,
-              "bottom": 1370,
+              "top": 1359,
+              "bottom": 1375,
               "left": 656,
               "right": 729,
               "width": 73,
@@ -861,10 +1065,70 @@
             "subItemCategory": "page"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Wisconsin_Vital_Records\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1478,
+          "bottom": 1494,
+          "left": 848,
+          "right": 912,
+          "width": 64,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Wyoming_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1502,
+              "bottom": 1518,
+              "left": 848,
+              "right": 907,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Wyoming",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Wyoming_Vital_Records\">",
+        "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1502,
+          "bottom": 1518,
+          "left": 848,
+          "right": 907,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Wisconsin_Vital_Records\">",
+            "selector": "div.mw-parser-output > ul.column-spacing-fullscreen > li > a",
+            "boundingRect": {
+              "top": 1478,
+              "bottom": 1494,
+              "left": 848,
+              "right": 912,
+              "width": 64,
+              "height": 16
+            },
+            "nodeLabel": "Wisconsin",
+            "subItemCategory": "page"
+          }
+        ]
       }
     ]
   },
-  "table-fake-caption-6": {
+  "table-fake-caption-5": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -873,8 +1137,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4321,
-          "bottom": 4670,
+          "top": 4325,
+          "bottom": 4674,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -884,5 +1148,5 @@
       }
     ]
   },
-  "number-of-Items": 6
+  "number-of-Items": 5
 }

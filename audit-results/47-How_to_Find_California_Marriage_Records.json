@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 87,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "color-contrast-2": {
+  "accessibility-score": 88,
+  "color-contrast-1": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 380,
-          "bottom": 399,
+          "top": 384,
+          "bottom": 404,
           "left": 505,
           "right": 600,
           "width": 95,
@@ -42,8 +22,8 @@
             "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 338,
-              "bottom": 496,
+              "top": 343,
+              "bottom": 502,
               "left": 459,
               "right": 1221,
               "width": 762,
@@ -59,8 +39,8 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 408,
-          "bottom": 427,
+          "top": 413,
+          "bottom": 433,
           "left": 505,
           "right": 622,
           "width": 117,
@@ -72,8 +52,8 @@
             "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 338,
-              "bottom": 496,
+              "top": 343,
+              "bottom": 502,
               "left": 459,
               "right": 1221,
               "width": 762,
@@ -89,8 +69,8 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 436,
-          "bottom": 456,
+          "top": 441,
+          "bottom": 461,
           "left": 505,
           "right": 586,
           "width": 81,
@@ -102,8 +82,8 @@
             "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 338,
-              "bottom": 496,
+              "top": 343,
+              "bottom": 502,
               "left": 459,
               "right": 1221,
               "width": 762,
@@ -119,8 +99,8 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 464,
-          "bottom": 484,
+          "top": 469,
+          "bottom": 489,
           "left": 505,
           "right": 693,
           "width": 188,
@@ -132,8 +112,8 @@
             "snippet": "<td width=\"55%\" bgcolor=\"DC DC DC\" style=\"width: 300px;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 338,
-              "bottom": 496,
+              "top": 343,
+              "bottom": 502,
               "left": 459,
               "right": 1221,
               "width": 762,
@@ -146,7 +126,7 @@
       }
     ]
   },
-  "definition-list-3": {
+  "definition-list-2": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -155,8 +135,8 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 342,
-          "bottom": 369,
+          "top": 348,
+          "bottom": 374,
           "left": 460,
           "right": 1220,
           "width": 759,
@@ -169,8 +149,8 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 376,
-          "bottom": 488,
+          "top": 381,
+          "bottom": 493,
           "left": 460,
           "right": 1220,
           "width": 759,
@@ -183,10 +163,10 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1292,
-          "bottom": 1386,
+          "top": 1297,
+          "bottom": 1391,
           "left": 246,
-          "right": 699,
+          "right": 698,
           "width": 453,
           "height": 94
         },
@@ -197,9 +177,9 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1292,
-          "bottom": 1386,
-          "left": 702,
+          "top": 1297,
+          "bottom": 1391,
+          "left": 701,
           "right": 1154,
           "width": 453,
           "height": 94
@@ -211,8 +191,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3382,
-          "bottom": 3524,
+          "top": 3387,
+          "bottom": 3528,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -225,8 +205,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3775,
-          "bottom": 3964,
+          "top": 3780,
+          "bottom": 3969,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -236,7 +216,7 @@
       }
     ]
   },
-  "frame-title-4": {
+  "frame-title-3": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -256,7 +236,7 @@
       }
     ]
   },
-  "heading-order-5": {
+  "heading-order-4": {
     "title": "Heading elements are not in a sequentially-descending order",
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
@@ -265,8 +245,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 1438,
-          "bottom": 1482,
+          "top": 1444,
+          "bottom": 1487,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -279,8 +259,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 1823,
-          "bottom": 1867,
+          "top": 1828,
+          "bottom": 1872,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -293,8 +273,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 2542,
-          "bottom": 2585,
+          "top": 2546,
+          "bottom": 2590,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -304,7 +284,7 @@
       }
     ]
   },
-  "target-size-6": {
+  "target-size-5": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -313,8 +293,8 @@
         "selector": "dd > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (176.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3826,
-          "bottom": 3842,
+          "top": 3831,
+          "bottom": 3847,
           "left": 93,
           "right": 269,
           "width": 177,
@@ -326,8 +306,8 @@
             "snippet": "<a href=\"/en/wiki/U.S._Vital_Records_Overview\">",
             "selector": "dd > ul > li > a",
             "boundingRect": {
-              "top": 3850,
-              "bottom": 3866,
+              "top": 3854,
+              "bottom": 3870,
               "left": 93,
               "right": 269,
               "width": 176,
@@ -343,8 +323,8 @@
         "selector": "dd > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (176.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3850,
-          "bottom": 3866,
+          "top": 3854,
+          "bottom": 3870,
           "left": 93,
           "right": 269,
           "width": 176,
@@ -356,8 +336,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Record_Finder\">",
             "selector": "dd > ul > li > a",
             "boundingRect": {
-              "top": 3826,
-              "bottom": 3842,
+              "top": 3831,
+              "bottom": 3847,
               "left": 93,
               "right": 269,
               "width": 177,
@@ -365,12 +345,56 @@
             },
             "nodeLabel": "United States Record Finder",
             "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
+            "selector": "dd > ul > li > a",
+            "boundingRect": {
+              "top": 3878,
+              "bottom": 3894,
+              "left": 93,
+              "right": 264,
+              "width": 171,
+              "height": 16
+            },
+            "nodeLabel": "United States Vital Records",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
+        "selector": "dd > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (171px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 3878,
+          "bottom": 3894,
+          "left": 93,
+          "right": 264,
+          "width": 171,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/U.S._Vital_Records_Overview\">",
+            "selector": "dd > ul > li > a",
+            "boundingRect": {
+              "top": 3854,
+              "bottom": 3870,
+              "left": 93,
+              "right": 269,
+              "width": 176,
+              "height": 16
+            },
+            "nodeLabel": "U.S. Vital Records Overview",
+            "subItemCategory": "unknown"
           }
         ]
       }
     ]
   },
-  "table-fake-caption-7": {
+  "table-fake-caption-6": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -379,8 +403,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 644,
-          "bottom": 1167,
+          "top": 649,
+          "bottom": 1172,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -393,8 +417,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1262,
-          "bottom": 1395,
+          "top": 1267,
+          "bottom": 1400,
           "left": 244,
           "right": 1156,
           "width": 913,
@@ -407,12 +431,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2622,
-          "bottom": 3079,
+          "top": 2627,
+          "bottom": 3084,
           "left": 48,
           "right": 1352,
           "width": 1304,
-          "height": 458
+          "height": 457
         },
         "itemCategory": "page"
       },
@@ -421,8 +445,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3129,
-          "bottom": 3294,
+          "top": 3134,
+          "bottom": 3299,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -435,8 +459,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4011,
-          "bottom": 4360,
+          "top": 4015,
+          "bottom": 4364,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -446,7 +470,7 @@
       }
     ]
   },
-  "td-has-header-8": {
+  "td-has-header-7": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
@@ -455,8 +479,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 644,
-          "bottom": 1167,
+          "top": 649,
+          "bottom": 1172,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -468,8 +492,8 @@
             "snippet": "<td align=\"left\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 644,
-              "bottom": 678,
+              "top": 649,
+              "bottom": 683,
               "left": 48,
               "right": 1352,
               "width": 1304,
@@ -482,8 +506,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 678,
-              "bottom": 735,
+              "top": 683,
+              "bottom": 740,
               "left": 103,
               "right": 301,
               "width": 198,
@@ -496,8 +520,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 678,
-              "bottom": 735,
+              "top": 683,
+              "bottom": 740,
               "left": 301,
               "right": 1352,
               "width": 1051,
@@ -513,8 +537,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1867,
-          "bottom": 2151,
+          "top": 1872,
+          "bottom": 2156,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -526,8 +550,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1867,
-              "bottom": 1924,
+              "top": 1872,
+              "bottom": 1929,
               "left": 48,
               "right": 104,
               "width": 56,
@@ -540,8 +564,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1924,
-              "bottom": 1980,
+              "top": 1929,
+              "bottom": 1985,
               "left": 104,
               "right": 309,
               "width": 205,
@@ -554,8 +578,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1924,
-              "bottom": 1980,
+              "top": 1929,
+              "bottom": 1985,
               "left": 309,
               "right": 1352,
               "width": 1043,
@@ -571,12 +595,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 2622,
-          "bottom": 3079,
+          "top": 2627,
+          "bottom": 3084,
           "left": 48,
           "right": 1352,
           "width": 1304,
-          "height": 458
+          "height": 457
         },
         "itemCategory": "page",
         "subItems": [
@@ -584,8 +608,8 @@
             "snippet": "<td align=\"left\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2622,
-              "bottom": 2656,
+              "top": 2627,
+              "bottom": 2661,
               "left": 48,
               "right": 1352,
               "width": 1304,
@@ -598,8 +622,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2656,
-              "bottom": 2690,
+              "top": 2661,
+              "bottom": 2695,
               "left": 48,
               "right": 178,
               "width": 130,
@@ -612,8 +636,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2690,
-              "bottom": 2725,
+              "top": 2695,
+              "bottom": 2730,
               "left": 178,
               "right": 504,
               "width": 326,
@@ -629,8 +653,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 3129,
-          "bottom": 3294,
+          "top": 3134,
+          "bottom": 3299,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -642,8 +666,8 @@
             "snippet": "<td align=\"center\" colspan=\"4\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3130,
-              "bottom": 3165,
+              "top": 3134,
+              "bottom": 3170,
               "left": 49,
               "right": 1352,
               "width": 1303,
@@ -656,8 +680,8 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3165,
-              "bottom": 3200,
+              "top": 3170,
+              "bottom": 3205,
               "left": 49,
               "right": 700,
               "width": 652,
@@ -670,8 +694,8 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3165,
-              "bottom": 3200,
+              "top": 3170,
+              "bottom": 3205,
               "left": 700,
               "right": 1352,
               "width": 652,
@@ -684,5 +708,5 @@
       }
     ]
   },
-  "number-of-Items": 8
+  "number-of-Items": 7
 }

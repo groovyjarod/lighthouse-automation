@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 93,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "accessibility-score": 94,
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "link-in-text-block-3": {
+  "link-in-text-block-2": {
     "title": "Links rely on color to be distinguishable.",
     "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
     "items": [
@@ -49,12 +29,12 @@
         "selector": "div#bodyContent > div#contentSub > span.mw-redirectedfrom > a.mw-redirect",
         "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3366cc, surrounding text: #54595d)\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
         "boundingRect": {
-          "top": 242,
-          "bottom": 255,
+          "top": 247,
+          "bottom": 261,
           "left": 435,
           "right": 503,
           "width": 68,
-          "height": 13
+          "height": 14
         },
         "itemCategory": "page",
         "subItems": [
@@ -62,8 +42,8 @@
             "snippet": "<div id=\"contentSub\">",
             "selector": "div.mw-content-container > main#content > div#bodyContent > div#contentSub",
             "boundingRect": {
-              "top": 241,
-              "bottom": 255,
+              "top": 247,
+              "bottom": 261,
               "left": 344,
               "right": 1352,
               "width": 1008,
@@ -76,5 +56,5 @@
       }
     ]
   },
-  "number-of-Items": 3
+  "number-of-Items": 2
 }

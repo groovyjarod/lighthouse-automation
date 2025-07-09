@@ -1,26 +1,6 @@
 {
   "accessibility-score": 94,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "target-size-3": {
+  "target-size-2": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 784,
-          "bottom": 800,
+          "top": 790,
+          "bottom": 806,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -62,8 +42,8 @@
             "snippet": "<a href=\"/en/wiki/England_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 808,
-              "bottom": 824,
+              "top": 814,
+              "bottom": 830,
               "left": 1096,
               "right": 1201,
               "width": 105,
@@ -79,8 +59,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 808,
-          "bottom": 824,
+          "top": 814,
+          "bottom": 830,
           "left": 1096,
           "right": 1201,
           "width": 105,
@@ -92,8 +72,8 @@
             "snippet": "<a href=\"/en/wiki/England_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 784,
-              "bottom": 800,
+              "top": 790,
+              "bottom": 806,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -109,8 +89,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1042,
-          "bottom": 1058,
+          "top": 1047,
+          "bottom": 1063,
           "left": 1096,
           "right": 1195,
           "width": 99,
@@ -122,8 +102,8 @@
             "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1066,
-              "bottom": 1082,
+              "top": 1071,
+              "bottom": 1087,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -139,8 +119,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1066,
-          "bottom": 1082,
+          "top": 1071,
+          "bottom": 1087,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -152,8 +132,8 @@
             "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1042,
-              "bottom": 1058,
+              "top": 1047,
+              "bottom": 1063,
               "left": 1096,
               "right": 1195,
               "width": 99,
@@ -166,8 +146,8 @@
             "snippet": "<a href=\"/en/wiki/England_Medical_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1090,
-              "bottom": 1106,
+              "top": 1095,
+              "bottom": 1111,
               "left": 1096,
               "right": 1201,
               "width": 104,
@@ -183,8 +163,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1090,
-          "bottom": 1106,
+          "top": 1095,
+          "bottom": 1111,
           "left": 1096,
           "right": 1201,
           "width": 104,
@@ -196,8 +176,8 @@
             "snippet": "<a href=\"/en/wiki/England_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1066,
-              "bottom": 1082,
+              "top": 1071,
+              "bottom": 1087,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -207,8 +187,68 @@
             "subItemCategory": "unknown"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Gazetteers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1291,
+          "bottom": 1307,
+          "left": 1096,
+          "right": 1165,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Handwriting\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1315,
+              "bottom": 1331,
+              "left": 1096,
+              "right": 1170,
+              "width": 74,
+              "height": 16
+            },
+            "nodeLabel": "Handwriting",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/England_Handwriting\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1315,
+          "bottom": 1331,
+          "left": 1096,
+          "right": 1170,
+          "width": 74,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/England_Gazetteers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1291,
+              "bottom": 1307,
+              "left": 1096,
+              "right": 1165,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
       }
     ]
   },
-  "number-of-Items": 3
+  "number-of-Items": 2
 }

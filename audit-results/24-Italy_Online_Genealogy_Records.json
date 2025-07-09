@@ -1,26 +1,6 @@
 {
   "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "color-contrast-2": {
+  "color-contrast-1": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "tbody > tr > td > font",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 345,
-          "bottom": 429,
+          "top": 351,
+          "bottom": 434,
           "left": 70,
           "right": 887,
           "width": 817,
@@ -42,8 +22,8 @@
             "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 331,
-              "bottom": 450,
+              "top": 337,
+              "bottom": 455,
               "left": 49,
               "right": 908,
               "width": 859,
@@ -56,7 +36,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -76,17 +56,17 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
         "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1014,
-          "bottom": 1030,
+          "top": 1019,
+          "bottom": 1035,
           "left": 1251,
           "right": 1303,
           "width": 52,
@@ -98,8 +78,8 @@
             "snippet": "<a href=\"/en/wiki/Italy_Websites\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1038,
-              "bottom": 1054,
+              "top": 1043,
+              "bottom": 1059,
               "left": 1251,
               "right": 1308,
               "width": 57,
@@ -115,8 +95,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1038,
-          "bottom": 1054,
+          "top": 1043,
+          "bottom": 1059,
           "left": 1251,
           "right": 1308,
           "width": 57,
@@ -128,8 +108,8 @@
             "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1014,
-              "bottom": 1030,
+              "top": 1019,
+              "bottom": 1035,
               "left": 1251,
               "right": 1303,
               "width": 52,
@@ -139,10 +119,70 @@
             "subItemCategory": "unknown"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1193,
+          "bottom": 1209,
+          "left": 1116,
+          "right": 1184,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1233,
+              "left": 1116,
+              "right": 1190,
+              "width": 74,
+              "height": 16
+            },
+            "nodeLabel": "Handwriting",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1217,
+          "bottom": 1233,
+          "left": 1116,
+          "right": 1190,
+          "width": 74,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1193,
+              "bottom": 1209,
+              "left": 1116,
+              "right": 1184,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -151,16 +191,16 @@
         "selector": "div.mw-parser-output > div > div > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 330,
-          "bottom": 1388,
+          "top": 336,
+          "bottom": 1393,
           "left": 48,
           "right": 909,
           "width": 861,
-          "height": 1058
+          "height": 1057
         },
         "itemCategory": "page"
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

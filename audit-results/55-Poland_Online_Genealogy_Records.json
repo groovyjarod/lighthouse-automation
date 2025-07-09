@@ -1,26 +1,6 @@
 {
   "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "color-contrast-2": {
+  "color-contrast-1": {
     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
     "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
     "items": [
@@ -29,10 +9,10 @@
         "selector": "tbody > tr > td > font",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 287,
-          "bottom": 347,
+          "top": 292,
+          "bottom": 353,
           "left": 62,
-          "right": 1057,
+          "right": 1058,
           "width": 996,
           "height": 61
         },
@@ -42,8 +22,8 @@
             "snippet": "<td colspan=\"6\" width=\"100%\" bgcolor=\"#89c4fa\" align=\"center\" style=\"padding:10px\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 273,
-              "bottom": 362,
+              "top": 278,
+              "bottom": 367,
               "left": 49,
               "right": 1070,
               "width": 1021,
@@ -56,7 +36,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -76,7 +56,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -85,8 +65,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 518,
-          "bottom": 534,
+          "top": 524,
+          "bottom": 540,
           "left": 1105,
           "right": 1200,
           "width": 94,
@@ -98,8 +78,8 @@
             "snippet": "<a href=\"/en/wiki/Poland_Online_Learning\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 542,
-              "bottom": 558,
+              "top": 548,
+              "bottom": 564,
               "left": 1105,
               "right": 1204,
               "width": 99,
@@ -115,8 +95,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 542,
-          "bottom": 558,
+          "top": 548,
+          "bottom": 564,
           "left": 1105,
           "right": 1204,
           "width": 99,
@@ -128,8 +108,8 @@
             "snippet": "<a href=\"/en/wiki/Poland_Getting_Started\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 518,
-              "bottom": 534,
+              "top": 524,
+              "bottom": 540,
               "left": 1105,
               "right": 1200,
               "width": 94,
@@ -145,8 +125,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 643,
-          "bottom": 659,
+          "top": 649,
+          "bottom": 665,
           "left": 1246,
           "right": 1347,
           "width": 101,
@@ -158,8 +138,8 @@
             "snippet": "<a href=\"/en/wiki/Poland_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 667,
-              "bottom": 683,
+              "top": 672,
+              "bottom": 688,
               "left": 1246,
               "right": 1346,
               "width": 100,
@@ -175,8 +155,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 667,
-          "bottom": 683,
+          "top": 672,
+          "bottom": 688,
           "left": 1246,
           "right": 1346,
           "width": 100,
@@ -188,8 +168,8 @@
             "snippet": "<a href=\"/en/wiki/Poland_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 643,
-              "bottom": 659,
+              "top": 649,
+              "bottom": 665,
               "left": 1246,
               "right": 1347,
               "width": 101,
@@ -202,7 +182,7 @@
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -211,8 +191,8 @@
         "selector": "div.mw-parser-output > div > div > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 272,
-          "bottom": 1471,
+          "top": 277,
+          "bottom": 1476,
           "left": 48,
           "right": 1071,
           "width": 1023,
@@ -222,5 +202,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

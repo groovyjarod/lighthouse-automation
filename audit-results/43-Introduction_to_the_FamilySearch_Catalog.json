@@ -1,4 +1,130 @@
 {
-  "accessibility-score": 0,
-  "number-of-Items": 0
+  "accessibility-score": 93,
+  "frame-title-1": {
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
+    "items": [
+      {
+        "snippet": "<iframe id=\":2.container\" class=\"VIpgJd-ZVi9od-ORHb-OEVmcd skiptranslate\" frameborder=\"0\" src=\"#\" style=\"visibility:visible\">",
+        "selector": "body.skin-vector > div.skiptranslate > iframe#:2.container",
+        "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 39,
+          "left": 0,
+          "right": 1400,
+          "width": 1400,
+          "height": 39
+        },
+        "itemCategory": "skin"
+      }
+    ]
+  },
+  "heading-order-2": {
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "items": [
+      {
+        "snippet": "<h3>",
+        "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h3",
+        "explanation": "Fix any of the following:\n  Heading order invalid",
+        "boundingRect": {
+          "top": 255,
+          "bottom": 302,
+          "left": 344,
+          "right": 1352,
+          "width": 1008,
+          "height": 47
+        },
+        "itemCategory": "page"
+      }
+    ]
+  },
+  "target-size-3": {
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Abbreviations_in_the_FamilySearch_Catalog\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (264.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2569,
+          "bottom": 2585,
+          "left": 366,
+          "right": 631,
+          "width": 265,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Deciphering_FamilySearch_Catalog_Entries\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 2593,
+              "bottom": 2609,
+              "left": 366,
+              "right": 630,
+              "width": 264,
+              "height": 16
+            },
+            "nodeLabel": "Deciphering FamilySearch Catalog Entries",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/Deciphering_FamilySearch_Catalog_Entries\">",
+        "selector": "div > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (263.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "boundingRect": {
+          "top": 2593,
+          "bottom": 2609,
+          "left": 366,
+          "right": 630,
+          "width": 264,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Abbreviations_in_the_FamilySearch_Catalog\">",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2585,
+              "left": 366,
+              "right": 631,
+              "width": 265,
+              "height": 16
+            },
+            "nodeLabel": "Abbreviations in the FamilySearch Catalog",
+            "subItemCategory": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "table-fake-caption-4": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapsed\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
+        "selector": "tbody > tr > td > table.nowraplinks",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 2757,
+          "bottom": 2875,
+          "left": 347,
+          "right": 1349,
+          "width": 1002,
+          "height": 117
+        },
+        "itemCategory": "unknown"
+      }
+    ]
+  },
+  "number-of-Items": 4
 }
