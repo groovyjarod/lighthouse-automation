@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 92,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "accessibility-score": 93,
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "heading-order-3": {
+  "heading-order-2": {
     "title": "Heading elements are not in a sequentially-descending order",
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h3",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 279,
-          "bottom": 326,
+          "top": 284,
+          "bottom": 331,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (246.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 985,
-          "bottom": 1001,
+          "top": 991,
+          "bottom": 1007,
           "left": 366,
           "right": 613,
           "width": 247,
@@ -82,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1009,
-              "bottom": 1025,
+              "top": 1014,
+              "bottom": 1030,
               "left": 366,
               "right": 610,
               "width": 244,
@@ -99,8 +79,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (243.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1009,
-          "bottom": 1025,
+          "top": 1014,
+          "bottom": 1030,
           "left": 366,
           "right": 610,
           "width": 244,
@@ -112,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_Centers\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 985,
-              "bottom": 1001,
+              "top": 991,
+              "bottom": 1007,
               "left": 366,
               "right": 613,
               "width": 247,
@@ -129,8 +109,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (342.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1081,
-          "bottom": 1097,
+          "top": 1086,
+          "bottom": 1102,
           "left": 366,
           "right": 709,
           "width": 342,
@@ -142,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Four:_Internet_Sources\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1104,
-              "bottom": 1120,
+              "top": 1109,
+              "bottom": 1125,
               "left": 366,
               "right": 707,
               "width": 341,
@@ -159,8 +139,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (340.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1104,
-          "bottom": 1120,
+          "top": 1109,
+          "bottom": 1125,
           "left": 366,
           "right": 707,
           "width": 341,
@@ -172,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Three:_Digitized_Books\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1081,
-              "bottom": 1097,
+              "top": 1086,
+              "bottom": 1102,
               "left": 366,
               "right": 709,
               "width": 342,
@@ -186,5 +166,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }

@@ -1,7 +1,7 @@
 import { spawn } from "child_process";
 
 // const url = "https://www.familysearch.org/en/wiki/New_York_Vital_Records/"
-const url = "https://www.familysearch.org/en/wiki/Westow,_Yorkshire,_England_Genealogy"
+const url = "https://www.familysearch.org/en/wiki/United_States_Church_Records"
 
 export default function runSingleAudit (path) {
     return new Promise((resolve, reject) => {

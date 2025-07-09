@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "accessibility-score": 92,
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 364,
-          "bottom": 387,
+          "top": 370,
+          "bottom": 392,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -43,8 +23,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 913,
-          "bottom": 1051,
+          "top": 918,
+          "bottom": 1056,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -57,8 +37,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1142,
-          "bottom": 1235,
+          "top": 1147,
+          "bottom": 1240,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -71,8 +51,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1242,
-          "bottom": 1434,
+          "top": 1247,
+          "bottom": 1439,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -85,8 +65,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1269,
-          "bottom": 1434,
+          "top": 1274,
+          "bottom": 1439,
           "left": 70,
           "right": 1352,
           "width": 1282,
@@ -99,8 +79,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1493,
-          "bottom": 1563,
+          "top": 1498,
+          "bottom": 1568,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -113,8 +93,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1622,
-          "bottom": 1739,
+          "top": 1627,
+          "bottom": 1744,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -124,7 +104,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -144,17 +124,77 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Alaska_Birth_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 431,
+          "bottom": 447,
+          "left": 71,
+          "right": 113,
+          "width": 42,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Arizona_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 455,
+              "bottom": 471,
+              "left": 71,
+              "right": 119,
+              "width": 47,
+              "height": 16
+            },
+            "nodeLabel": "Arizona",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Arizona_Birth_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 455,
+          "bottom": 471,
+          "left": 71,
+          "right": 119,
+          "width": 47,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Alaska_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 431,
+              "bottom": 447,
+              "left": 71,
+              "right": 113,
+              "width": 42,
+              "height": 16
+            },
+            "nodeLabel": "Alaska",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
       {
         "snippet": "<a href=\"/en/wiki/How_to_Find_Arkansas_Birth_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 473,
-          "bottom": 489,
+          "top": 479,
+          "bottom": 495,
           "left": 71,
           "right": 130,
           "width": 58,
@@ -166,8 +206,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_California_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 497,
-              "bottom": 513,
+              "top": 502,
+              "bottom": 518,
               "left": 71,
               "right": 131,
               "width": 59,
@@ -183,8 +223,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 497,
-          "bottom": 513,
+          "top": 502,
+          "bottom": 518,
           "left": 71,
           "right": 131,
           "width": 59,
@@ -196,8 +236,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Arkansas_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 473,
-              "bottom": 489,
+              "top": 479,
+              "bottom": 495,
               "left": 71,
               "right": 130,
               "width": 58,
@@ -210,8 +250,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Colorado_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 521,
-              "bottom": 537,
+              "top": 526,
+              "bottom": 542,
               "left": 71,
               "right": 128,
               "width": 57,
@@ -227,8 +267,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 521,
-          "bottom": 537,
+          "top": 526,
+          "bottom": 542,
           "left": 71,
           "right": 128,
           "width": 57,
@@ -240,8 +280,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_California_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 497,
-              "bottom": 513,
+              "top": 502,
+              "bottom": 518,
               "left": 71,
               "right": 131,
               "width": 59,
@@ -257,8 +297,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (35px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 687,
-          "bottom": 703,
+          "top": 693,
+          "bottom": 709,
           "left": 71,
           "right": 106,
           "width": 35,
@@ -270,8 +310,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Illinois_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 711,
-              "bottom": 727,
+              "top": 716,
+              "bottom": 732,
               "left": 71,
               "right": 110,
               "width": 39,
@@ -287,8 +327,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (38.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 711,
-          "bottom": 727,
+          "top": 716,
+          "bottom": 732,
           "left": 71,
           "right": 110,
           "width": 39,
@@ -300,8 +340,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Idaho_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 687,
-              "bottom": 703,
+              "top": 693,
+              "bottom": 709,
               "left": 71,
               "right": 106,
               "width": 35,
@@ -317,8 +357,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (57.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 402,
-          "bottom": 418,
+          "top": 407,
+          "bottom": 423,
           "left": 261,
           "right": 319,
           "width": 58,
@@ -330,8 +370,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Louisiana_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 426,
-              "bottom": 442,
+              "top": 431,
+              "bottom": 447,
               "left": 261,
               "right": 321,
               "width": 60,
@@ -347,8 +387,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 426,
-          "bottom": 442,
+          "top": 431,
+          "bottom": 447,
           "left": 261,
           "right": 321,
           "width": 60,
@@ -360,8 +400,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Kentucky_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 402,
-              "bottom": 418,
+              "top": 407,
+              "bottom": 423,
               "left": 261,
               "right": 319,
               "width": 58,
@@ -377,8 +417,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 545,
-          "bottom": 561,
+          "top": 550,
+          "bottom": 566,
           "left": 261,
           "right": 326,
           "width": 65,
@@ -390,8 +430,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Mississippi_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 568,
-              "bottom": 584,
+              "top": 574,
+              "bottom": 590,
               "left": 261,
               "right": 329,
               "width": 68,
@@ -407,8 +447,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 568,
-          "bottom": 584,
+          "top": 574,
+          "bottom": 590,
           "left": 261,
           "right": 329,
           "width": 68,
@@ -420,8 +460,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Minnesota_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 545,
-              "bottom": 561,
+              "top": 550,
+              "bottom": 566,
               "left": 261,
               "right": 326,
               "width": 65,
@@ -437,8 +477,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 592,
-          "bottom": 608,
+          "top": 597,
+          "bottom": 613,
           "left": 261,
           "right": 313,
           "width": 52,
@@ -450,8 +490,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Montana_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 616,
-              "bottom": 632,
+              "top": 621,
+              "bottom": 637,
               "left": 261,
               "right": 315,
               "width": 54,
@@ -467,8 +507,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 616,
-          "bottom": 632,
+          "top": 621,
+          "bottom": 637,
           "left": 261,
           "right": 315,
           "width": 54,
@@ -480,14 +520,58 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Missouri_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 592,
-              "bottom": 608,
+              "top": 597,
+              "bottom": 613,
               "left": 261,
               "right": 313,
               "width": 52,
               "height": 16
             },
             "nodeLabel": "Missouri",
+            "subItemCategory": "unknown"
+          },
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Nebraska_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 645,
+              "bottom": 661,
+              "left": 261,
+              "right": 321,
+              "width": 60,
+              "height": 16
+            },
+            "nodeLabel": "Nebraska",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Nebraska_Birth_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 645,
+          "bottom": 661,
+          "left": 261,
+          "right": 321,
+          "width": 60,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Montana_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 621,
+              "bottom": 637,
+              "left": 261,
+              "right": 315,
+              "width": 54,
+              "height": 16
+            },
+            "nodeLabel": "Montana",
             "subItemCategory": "unknown"
           }
         ]
@@ -497,8 +581,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 711,
-          "bottom": 727,
+          "top": 716,
+          "bottom": 732,
           "left": 261,
           "right": 334,
           "width": 73,
@@ -510,8 +594,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_New_Mexico_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 735,
-              "bottom": 751,
+              "top": 740,
+              "bottom": 756,
               "left": 261,
               "right": 337,
               "width": 76,
@@ -525,10 +609,10 @@
       {
         "snippet": "<a href=\"/en/wiki/How_to_Find_New_Mexico_Birth_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 735,
-          "bottom": 751,
+          "top": 740,
+          "bottom": 756,
           "left": 261,
           "right": 337,
           "width": 76,
@@ -540,8 +624,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_New_Jersey_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 711,
-              "bottom": 727,
+              "top": 716,
+              "bottom": 732,
               "left": 261,
               "right": 334,
               "width": 73,
@@ -557,8 +641,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 497,
-          "bottom": 513,
+          "top": 502,
+          "bottom": 518,
           "left": 422,
           "right": 505,
           "width": 83,
@@ -570,8 +654,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Rhode_Island_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 521,
-              "bottom": 537,
+              "top": 526,
+              "bottom": 542,
               "left": 422,
               "right": 505,
               "width": 83,
@@ -587,8 +671,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 521,
-          "bottom": 537,
+          "top": 526,
+          "bottom": 542,
           "left": 422,
           "right": 505,
           "width": 83,
@@ -600,8 +684,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Pennsylvania_Birth_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 497,
-              "bottom": 513,
+              "top": 502,
+              "bottom": 518,
               "left": 422,
               "right": 505,
               "width": 83,
@@ -611,10 +695,70 @@
             "subItemCategory": "unknown"
           }
         ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Wisconsin_Birth_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 764,
+          "bottom": 780,
+          "left": 422,
+          "right": 486,
+          "width": 64,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Wyoming_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 788,
+              "bottom": 804,
+              "left": 422,
+              "right": 480,
+              "width": 58,
+              "height": 16
+            },
+            "nodeLabel": "Wyoming",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/How_to_Find_Wyoming_Birth_Records\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 788,
+          "bottom": 804,
+          "left": 422,
+          "right": 480,
+          "width": 58,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/How_to_Find_Wisconsin_Birth_Records\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 764,
+              "bottom": 780,
+              "left": 422,
+              "right": 486,
+              "width": 64,
+              "height": 16
+            },
+            "nodeLabel": "Wisconsin",
+            "subItemCategory": "unknown"
+          }
+        ]
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -623,8 +767,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1105,
-          "bottom": 1407,
+          "top": 1110,
+          "bottom": 1412,
           "left": 948,
           "right": 1352,
           "width": 404,
@@ -637,8 +781,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1786,
-          "bottom": 2088,
+          "top": 1791,
+          "bottom": 2093,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -648,7 +792,7 @@
       }
     ]
   },
-  "td-has-header-6": {
+  "td-has-header-5": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
@@ -657,8 +801,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1105,
-          "bottom": 1407,
+          "top": 1110,
+          "bottom": 1412,
           "left": 948,
           "right": 1352,
           "width": 404,
@@ -670,8 +814,8 @@
             "snippet": "<td width=\"31%\" bgcolor=\"#B2B2FF\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1106,
-              "bottom": 1139,
+              "top": 1111,
+              "bottom": 1144,
               "left": 948,
               "right": 1352,
               "width": 403,
@@ -684,8 +828,8 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1139,
-              "bottom": 1173,
+              "top": 1144,
+              "bottom": 1178,
               "left": 948,
               "right": 1251,
               "width": 303,
@@ -698,8 +842,8 @@
             "snippet": "<td width=\"3%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1139,
-              "bottom": 1173,
+              "top": 1144,
+              "bottom": 1178,
               "left": 1251,
               "right": 1301,
               "width": 50,
@@ -712,5 +856,5 @@
       }
     ]
   },
-  "number-of-Items": 6
+  "number-of-Items": 5
 }

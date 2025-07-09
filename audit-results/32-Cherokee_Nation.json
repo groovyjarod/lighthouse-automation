@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "accessibility-score": 92,
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 7340,
-          "bottom": 7389,
+          "top": 7343,
+          "bottom": 7392,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "td > ul > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (111.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1341,
-          "bottom": 1357,
+          "top": 1347,
+          "bottom": 1363,
           "left": 1234,
           "right": 1345,
           "width": 111,
@@ -82,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/American_Indian_Sanitary_Record_of_Sick,_Injured,_Births,_Deaths,…\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1365,
-              "bottom": 1381,
+              "top": 1370,
+              "bottom": 1386,
               "left": 1234,
               "right": 1341,
               "width": 107,
@@ -99,8 +79,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1365,
-          "bottom": 1381,
+          "top": 1370,
+          "bottom": 1386,
           "left": 1234,
           "right": 1341,
           "width": 107,
@@ -112,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/American_Indian_Removal_Records\" class=\"mw-redirect\">",
             "selector": "td > ul > li > a.mw-redirect",
             "boundingRect": {
-              "top": 1341,
-              "bottom": 1357,
+              "top": 1347,
+              "bottom": 1363,
               "left": 1234,
               "right": 1345,
               "width": 111,
@@ -129,8 +109,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1543,
-          "bottom": 1559,
+          "top": 1548,
+          "bottom": 1564,
           "left": 1234,
           "right": 1311,
           "width": 77,
@@ -142,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Indigenous_Peoples_of_the_United_States_Reservations\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1567,
-              "bottom": 1583,
+              "top": 1572,
+              "bottom": 1588,
               "left": 1234,
               "right": 1316,
               "width": 82,
@@ -159,8 +139,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (81.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1567,
-          "bottom": 1583,
+          "top": 1572,
+          "bottom": 1588,
           "left": 1234,
           "right": 1316,
           "width": 82,
@@ -172,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Area_Offices_of_the_Bureau_of_Indian_Affairs\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1543,
-              "bottom": 1559,
+              "top": 1548,
+              "bottom": 1564,
               "left": 1234,
               "right": 1311,
               "width": 77,
@@ -185,12 +165,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/American_Indian_Census_Rolls\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4164,
+          "bottom": 4180,
+          "left": 366,
+          "right": 464,
+          "width": 98,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/American_Indian_Correspondence_and_Reports\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 4188,
+              "bottom": 4204,
+              "left": 366,
+              "right": 470,
+              "width": 104,
+              "height": 16
+            },
+            "nodeLabel": "Correspondence",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/American_Indian_Correspondence_and_Reports\">",
+        "selector": "div.mw-parser-output > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 4188,
+          "bottom": 4204,
+          "left": 366,
+          "right": 470,
+          "width": 104,
+          "height": 16
+        },
+        "itemCategory": "page",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/American_Indian_Census_Rolls\">",
+            "selector": "div.mw-parser-output > ul > li > a",
+            "boundingRect": {
+              "top": 4164,
+              "bottom": 4180,
+              "left": 366,
+              "right": 464,
+              "width": 98,
+              "height": 16
+            },
+            "nodeLabel": "Census records",
+            "subItemCategory": "page"
+          }
+        ]
+      },
+      {
         "snippet": "<a href=\"/en/wiki/Western_Superintendency_of_Indian_Affairs\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (160.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4530,
-          "bottom": 4546,
+          "top": 4534,
+          "bottom": 4550,
           "left": 366,
           "right": 527,
           "width": 161,
@@ -202,8 +242,8 @@
             "snippet": "<a href=\"/en/wiki/Southern_Superintendency_of_Indian_Affairs\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 4554,
-              "bottom": 4570,
+              "top": 4557,
+              "bottom": 4573,
               "left": 366,
               "right": 532,
               "width": 166,
@@ -219,8 +259,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (165.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4554,
-          "bottom": 4570,
+          "top": 4557,
+          "bottom": 4573,
           "left": 366,
           "right": 532,
           "width": 166,
@@ -232,8 +272,8 @@
             "snippet": "<a href=\"/en/wiki/Western_Superintendency_of_Indian_Affairs\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 4530,
-              "bottom": 4546,
+              "top": 4534,
+              "bottom": 4550,
               "left": 366,
               "right": 527,
               "width": 161,
@@ -247,10 +287,10 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:American_Ind…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 10680,
-          "bottom": 10695,
+          "top": 10682,
+          "bottom": 10696,
           "left": 427,
           "right": 432,
           "width": 5,
@@ -263,11 +303,11 @@
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
               "top": 10701,
-              "bottom": 10714,
+              "bottom": 10715,
               "left": 392,
-              "right": 484,
+              "right": 485,
               "width": 92,
-              "height": 13
+              "height": 14
             },
             "nodeLabel": "Tribes of the U.S.",
             "subItemCategory": "template"
@@ -276,7 +316,7 @@
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -285,12 +325,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 375,
-          "bottom": 1817,
+          "top": 381,
+          "bottom": 1822,
           "left": 1074,
           "right": 1352,
           "width": 278,
-          "height": 1442
+          "height": 1441
         },
         "itemCategory": "page"
       },
@@ -299,8 +339,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 10599,
-          "bottom": 10962,
+          "top": 10601,
+          "bottom": 10964,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -310,5 +350,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

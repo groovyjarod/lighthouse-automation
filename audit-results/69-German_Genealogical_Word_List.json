@@ -1,26 +1,6 @@
 {
   "accessibility-score": 94,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,17 +20,47 @@
       }
     ]
   },
-  "target-size-3": {
+  "target-size-2": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
+      {
+        "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 684,
+          "bottom": 700,
+          "left": 1235,
+          "right": 1313,
+          "width": 78,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 708,
+              "bottom": 724,
+              "left": 1235,
+              "right": 1308,
+              "width": 72,
+              "height": 16
+            },
+            "nodeLabel": "Switzerland",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
       {
         "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 703,
-          "bottom": 719,
+          "top": 708,
+          "bottom": 724,
           "left": 1235,
           "right": 1308,
           "width": 72,
@@ -59,11 +69,25 @@
         "itemCategory": "unknown",
         "subItems": [
           {
+            "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 700,
+              "left": 1235,
+              "right": 1313,
+              "width": 78,
+              "height": 16
+            },
+            "nodeLabel": "Luxembourg",
+            "subItemCategory": "unknown"
+          },
+          {
             "snippet": "<a href=\"/en/wiki/Vatican_City_Genealogy\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 726,
-              "bottom": 742,
+              "top": 732,
+              "bottom": 748,
               "left": 1235,
               "right": 1309,
               "width": 74,
@@ -79,8 +103,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 726,
-          "bottom": 742,
+          "top": 732,
+          "bottom": 748,
           "left": 1235,
           "right": 1309,
           "width": 74,
@@ -92,8 +116,8 @@
             "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 703,
-              "bottom": 719,
+              "top": 708,
+              "bottom": 724,
               "left": 1235,
               "right": 1308,
               "width": 72,
@@ -106,7 +130,7 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "table-fake-caption-3": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -115,8 +139,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 249,
-          "bottom": 773,
+          "top": 255,
+          "bottom": 778,
           "left": 1072,
           "right": 1352,
           "width": 280,
@@ -126,7 +150,7 @@
       }
     ]
   },
-  "td-has-header-5": {
+  "td-has-header-4": {
     "title": "`<td>` elements in a large `<table>` do not have table headers.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
     "items": [
@@ -135,8 +159,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1728,
-          "bottom": 1882,
+          "top": 1733,
+          "bottom": 1887,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -148,8 +172,8 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1754,
+              "top": 1734,
+              "bottom": 1759,
               "left": 345,
               "right": 596,
               "width": 252,
@@ -162,8 +186,8 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1754,
+              "top": 1734,
+              "bottom": 1759,
               "left": 596,
               "right": 848,
               "width": 252,
@@ -176,8 +200,8 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1754,
+              "top": 1734,
+              "bottom": 1759,
               "left": 848,
               "right": 1100,
               "width": 252,
@@ -193,8 +217,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 4956,
-          "bottom": 5151,
+          "top": 4960,
+          "bottom": 5155,
           "left": 344,
           "right": 558,
           "width": 214,
@@ -206,8 +230,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4956,
-              "bottom": 4981,
+              "top": 4960,
+              "bottom": 4985,
               "left": 344,
               "right": 420,
               "width": 76,
@@ -220,8 +244,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4956,
-              "bottom": 4981,
+              "top": 4960,
+              "bottom": 4985,
               "left": 422,
               "right": 558,
               "width": 137,
@@ -234,8 +258,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4981,
-              "bottom": 5005,
+              "top": 4985,
+              "bottom": 5009,
               "left": 344,
               "right": 420,
               "width": 76,
@@ -251,8 +275,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 6203,
-          "bottom": 8205,
+          "top": 6207,
+          "bottom": 8208,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -264,8 +288,8 @@
             "snippet": "<td width=\"15%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6204,
-              "bottom": 6229,
+              "top": 6208,
+              "bottom": 6233,
               "left": 345,
               "right": 496,
               "width": 151,
@@ -278,8 +302,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6204,
-              "bottom": 6229,
+              "top": 6208,
+              "bottom": 6233,
               "left": 496,
               "right": 756,
               "width": 260,
@@ -292,8 +316,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6204,
-              "bottom": 6229,
+              "top": 6208,
+              "bottom": 6233,
               "left": 756,
               "right": 1084,
               "width": 328,
@@ -306,5 +330,5 @@
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 92,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "accessibility-score": 93,
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "heading-order-3": {
+  "heading-order-2": {
     "title": "Heading elements are not in a sequentially-descending order",
     "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > h3",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 448,
-          "bottom": 495,
+          "top": 453,
+          "bottom": 500,
           "left": 344,
           "right": 1062,
           "width": 718,
@@ -60,7 +40,7 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -69,8 +49,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (94.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 501,
-          "bottom": 517,
+          "top": 506,
+          "bottom": 522,
           "left": 1096,
           "right": 1191,
           "width": 94,
@@ -82,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Online_Learning\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 525,
-              "bottom": 541,
+              "top": 530,
+              "bottom": 546,
               "left": 1096,
               "right": 1195,
               "width": 99,
@@ -99,8 +79,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 525,
-          "bottom": 541,
+          "top": 530,
+          "bottom": 546,
           "left": 1096,
           "right": 1195,
           "width": 99,
@@ -112,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Getting_Started\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 501,
-              "bottom": 517,
+              "top": 506,
+              "bottom": 522,
               "left": 1096,
               "right": 1191,
               "width": 94,
@@ -129,8 +109,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 743,
-          "bottom": 759,
+          "top": 749,
+          "bottom": 765,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -142,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 767,
-              "bottom": 783,
+              "top": 772,
+              "bottom": 788,
               "left": 1096,
               "right": 1201,
               "width": 105,
@@ -159,8 +139,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 767,
-          "bottom": 783,
+          "top": 772,
+          "bottom": 788,
           "left": 1096,
           "right": 1201,
           "width": 105,
@@ -172,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 743,
-              "bottom": 759,
+              "top": 749,
+              "bottom": 765,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -186,8 +166,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Colonial_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 791,
-              "bottom": 807,
+              "top": 796,
+              "bottom": 812,
               "left": 1096,
               "right": 1203,
               "width": 107,
@@ -203,8 +183,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 791,
-          "bottom": 807,
+          "top": 796,
+          "bottom": 812,
           "left": 1096,
           "right": 1203,
           "width": 107,
@@ -216,8 +196,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 767,
-              "bottom": 783,
+              "top": 772,
+              "bottom": 788,
               "left": 1096,
               "right": 1201,
               "width": 105,
@@ -233,8 +213,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 672,
-          "bottom": 688,
+          "top": 677,
+          "bottom": 693,
           "left": 1241,
           "right": 1343,
           "width": 101,
@@ -246,8 +226,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 696,
-              "bottom": 712,
+              "top": 701,
+              "bottom": 717,
               "left": 1241,
               "right": 1342,
               "width": 100,
@@ -263,8 +243,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 696,
-          "bottom": 712,
+          "top": 701,
+          "bottom": 717,
           "left": 1241,
           "right": 1342,
           "width": 100,
@@ -276,8 +256,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 672,
-              "bottom": 688,
+              "top": 677,
+              "bottom": 693,
               "left": 1241,
               "right": 1343,
               "width": 101,
@@ -291,10 +271,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Template_talk:Place\">",
         "selector": "th.navbox-title > div > div.noprint > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2364,
-          "bottom": 2379,
+          "top": 2369,
+          "bottom": 2384,
           "left": 387,
           "right": 392,
           "width": 5,
@@ -306,12 +286,12 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Record_Finder\">",
             "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 2385,
-              "bottom": 2398,
+              "top": 2389,
+              "bottom": 2403,
               "left": 352,
               "right": 433,
               "width": 81,
-              "height": 13
+              "height": 14
             },
             "nodeLabel": "Record Finder",
             "subItemCategory": "unknown"
@@ -320,7 +300,7 @@
       }
     ]
   },
-  "table-fake-caption-5": {
+  "table-fake-caption-4": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -329,16 +309,16 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2283,
-          "bottom": 2439,
+          "top": 2288,
+          "bottom": 2444,
           "left": 347,
           "right": 1349,
           "width": 1002,
-          "height": 155
+          "height": 156
         },
         "itemCategory": "unknown"
       }
     ]
   },
-  "number-of-Items": 5
+  "number-of-Items": 4
 }

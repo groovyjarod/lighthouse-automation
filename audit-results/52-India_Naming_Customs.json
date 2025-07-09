@@ -1,26 +1,6 @@
 {
-  "accessibility-score": 91,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "definition-list-2": {
+  "accessibility-score": 92,
+  "definition-list-1": {
     "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
     "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).",
     "items": [
@@ -29,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4335,
-          "bottom": 4381,
+          "top": 4339,
+          "bottom": 4385,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "frame-title-3": {
+  "frame-title-2": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -60,17 +40,17 @@
       }
     ]
   },
-  "target-size-4": {
+  "target-size-3": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
         "snippet": "<a href=\"/en/wiki/India_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 970,
-          "bottom": 986,
+          "top": 975,
+          "bottom": 991,
           "left": 1253,
           "right": 1306,
           "width": 52,
@@ -82,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/India_Websites\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 994,
-              "bottom": 1010,
+              "top": 999,
+              "bottom": 1015,
               "left": 1253,
               "right": 1311,
               "width": 57,
@@ -99,8 +79,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (57.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 994,
-          "bottom": 1010,
+          "top": 999,
+          "bottom": 1015,
           "left": 1253,
           "right": 1311,
           "width": 57,
@@ -112,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/India_Taxation\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 970,
-              "bottom": 986,
+              "top": 975,
+              "bottom": 991,
               "left": 1253,
               "right": 1306,
               "width": 52,
@@ -129,8 +109,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (31.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1302,
-          "bottom": 1318,
+          "top": 1307,
+          "bottom": 1323,
           "left": 1120,
           "right": 1152,
           "width": 32,
@@ -142,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Latin_Genealogical_Word_List\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1326,
-              "bottom": 1342,
+              "top": 1331,
+              "bottom": 1347,
               "left": 1120,
               "right": 1151,
               "width": 30,
@@ -159,8 +139,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (30.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1326,
-          "bottom": 1342,
+          "top": 1331,
+          "bottom": 1347,
           "left": 1120,
           "right": 1151,
           "width": 30,
@@ -172,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Hindi_Genealogical_Word_List\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1302,
-              "bottom": 1318,
+              "top": 1307,
+              "bottom": 1323,
               "left": 1120,
               "right": 1152,
               "width": 32,
@@ -189,8 +169,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (280.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 582,
-          "bottom": 598,
+          "top": 587,
+          "bottom": 603,
           "left": 366,
           "right": 646,
           "width": 280,
@@ -202,8 +182,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.behindthename.com/names/usage/gujarati\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 606,
-              "bottom": 622,
+              "top": 611,
+              "bottom": 627,
               "left": 366,
               "right": 649,
               "width": 282,
@@ -219,8 +199,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (282.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 606,
-          "bottom": 622,
+          "top": 611,
+          "bottom": 627,
           "left": 366,
           "right": 649,
           "width": 282,
@@ -232,8 +212,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.behindthename.com/names/usage/bengali\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 582,
-              "bottom": 598,
+              "top": 587,
+              "bottom": 603,
               "left": 366,
               "right": 646,
               "width": 280,
@@ -249,8 +229,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (209.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 796,
-          "bottom": 812,
+          "top": 801,
+          "bottom": 817,
           "left": 366,
           "right": 576,
           "width": 209,
@@ -262,8 +242,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Category:Hindu_given_names\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 820,
-              "bottom": 836,
+              "top": 825,
+              "bottom": 841,
               "left": 366,
               "right": 574,
               "width": 208,
@@ -279,8 +259,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (207.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 820,
-          "bottom": 836,
+          "top": 825,
+          "bottom": 841,
           "left": 366,
           "right": 574,
           "width": 208,
@@ -292,8 +272,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Category:Indian_given_names\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 796,
-              "bottom": 812,
+              "top": 801,
+              "bottom": 817,
               "left": 366,
               "right": 576,
               "width": 209,
@@ -306,5 +286,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }

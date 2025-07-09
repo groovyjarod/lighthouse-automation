@@ -1,26 +1,6 @@
 {
   "accessibility-score": 94,
-  "aria-allowed-role-1": {
-    "title": "Uses ARIA roles on incompatible elements",
-    "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
-    "items": [
-      {
-        "snippet": "<label id=\"mw-sidebar-button\" class=\"mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-ele…\" for=\"mw-sidebar-checkbox\" role=\"button\" aria-controls=\"mw-panel\" data-event-name=\"ui.sidebar\" tabindex=\"0\" aria-expanded=\"false\">",
-        "selector": "div.mw-page-container-inner > header.mw-header > div.mw-header-aside > label#mw-sidebar-button",
-        "explanation": "Fix any of the following:\n  ARIA role button is not allowed for given element",
-        "boundingRect": {
-          "top": 112,
-          "bottom": 153,
-          "left": 40,
-          "right": 81,
-          "width": 41,
-          "height": 41
-        },
-        "itemCategory": "skin"
-      }
-    ]
-  },
-  "frame-title-2": {
+  "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
     "items": [
@@ -40,7 +20,7 @@
       }
     ]
   },
-  "target-size-3": {
+  "target-size-2": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -49,8 +29,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 727,
-          "bottom": 743,
+          "top": 733,
+          "bottom": 749,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -62,8 +42,8 @@
             "snippet": "<a href=\"/en/wiki/British_Columbia_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 751,
-              "bottom": 767,
+              "top": 756,
+              "bottom": 772,
               "left": 1096,
               "right": 1201,
               "width": 105,
@@ -79,8 +59,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 751,
-          "bottom": 767,
+          "top": 756,
+          "bottom": 772,
           "left": 1096,
           "right": 1201,
           "width": 105,
@@ -92,8 +72,8 @@
             "snippet": "<a href=\"/en/wiki/British_Columbia_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 727,
-              "bottom": 743,
+              "top": 733,
+              "bottom": 749,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -109,8 +89,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 915,
-          "bottom": 931,
+          "top": 920,
+          "bottom": 936,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -122,8 +102,8 @@
             "snippet": "<a href=\"/en/wiki/British_Columbia_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 938,
-              "bottom": 954,
+              "top": 944,
+              "bottom": 960,
               "left": 1096,
               "right": 1197,
               "width": 100,
@@ -139,8 +119,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 938,
-          "bottom": 954,
+          "top": 944,
+          "bottom": 960,
           "left": 1096,
           "right": 1197,
           "width": 100,
@@ -152,8 +132,8 @@
             "snippet": "<a href=\"/en/wiki/British_Columbia_Land_and_Property_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 915,
-              "bottom": 931,
+              "top": 920,
+              "bottom": 936,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -165,12 +145,72 @@
         ]
       },
       {
+        "snippet": "<a href=\"/en/wiki/British_Columbia_Biographies\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1052,
+          "bottom": 1068,
+          "left": 1096,
+          "right": 1170,
+          "width": 74,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/British_Columbia_Gazetteers\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1076,
+              "bottom": 1092,
+              "left": 1096,
+              "right": 1165,
+              "width": 68,
+              "height": 16
+            },
+            "nodeLabel": "Gazetteers",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
+        "snippet": "<a href=\"/en/wiki/British_Columbia_Gazetteers\">",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "boundingRect": {
+          "top": 1076,
+          "bottom": 1092,
+          "left": 1096,
+          "right": 1165,
+          "width": 68,
+          "height": 16
+        },
+        "itemCategory": "unknown",
+        "subItems": [
+          {
+            "snippet": "<a href=\"/en/wiki/British_Columbia_Biographies\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1052,
+              "bottom": 1068,
+              "left": 1096,
+              "right": 1170,
+              "width": 74,
+              "height": 16
+            },
+            "nodeLabel": "Biographies",
+            "subItemCategory": "unknown"
+          }
+        ]
+      },
+      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.qbfhs.ca/parksvillequalicum-obituaries-1948-to-1994/\">",
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (275.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 503,
-          "bottom": 519,
+          "top": 509,
+          "bottom": 525,
           "left": 70,
           "right": 346,
           "width": 275,
@@ -182,8 +222,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.legacy.com/obituaries/vancouversun/\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 527,
-              "bottom": 543,
+              "top": 532,
+              "bottom": 548,
               "left": 70,
               "right": 344,
               "width": 274,
@@ -199,8 +239,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (273.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 527,
-          "bottom": 543,
+          "top": 532,
+          "bottom": 548,
           "left": 70,
           "right": 344,
           "width": 274,
@@ -212,8 +252,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.qbfhs.ca/parksvillequalicum-obituaries-1948-to-1994/\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 503,
-              "bottom": 519,
+              "top": 509,
+              "bottom": 525,
               "left": 70,
               "right": 346,
               "width": 275,
@@ -226,7 +266,7 @@
       }
     ]
   },
-  "table-fake-caption-4": {
+  "table-fake-caption-3": {
     "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
     "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
     "items": [
@@ -235,12 +275,12 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 249,
-          "bottom": 1336,
+          "top": 255,
+          "bottom": 1341,
           "left": 1072,
           "right": 1352,
           "width": 280,
-          "height": 1087
+          "height": 1086
         },
         "itemCategory": "page"
       },
@@ -249,8 +289,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1339,
-          "bottom": 1489,
+          "top": 1344,
+          "bottom": 1494,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -260,5 +300,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }
