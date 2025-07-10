@@ -25,133 +25,13 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Australia\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (54.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 497,
-          "bottom": 513,
-          "left": 531,
-          "right": 586,
-          "width": 54,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Canada\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 521,
-              "bottom": 537,
-              "left": 531,
-              "right": 580,
-              "width": 49,
-              "height": 16
-            },
-            "nodeLabel": "Canada\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Canada\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (49px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 521,
-          "bottom": 537,
-          "left": 531,
-          "right": 580,
-          "width": 49,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Australia\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 497,
-              "bottom": 513,
-              "left": 531,
-              "right": 586,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Australia\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Denmark\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 592,
-          "bottom": 608,
-          "left": 531,
-          "right": 588,
-          "width": 57,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:England\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 616,
-              "bottom": 632,
-              "left": 531,
-              "right": 582,
-              "width": 51,
-              "height": 16
-            },
-            "nodeLabel": "England\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:England\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (51.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 616,
-          "bottom": 632,
-          "left": 531,
-          "right": 582,
-          "width": 51,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Denmark\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 592,
-              "bottom": 608,
-              "left": 531,
-              "right": 588,
-              "width": 57,
-              "height": 16
-            },
-            "nodeLabel": "Denmark\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Finland\">",
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (45.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 473,
           "bottom": 489,
-          "left": 657,
+          "left": 658,
           "right": 703,
           "width": 46,
           "height": 16
@@ -164,7 +44,7 @@
             "boundingRect": {
               "top": 497,
               "bottom": 513,
-              "left": 657,
+              "left": 658,
               "right": 700,
               "width": 43,
               "height": 16
@@ -181,7 +61,7 @@
         "boundingRect": {
           "top": 497,
           "bottom": 513,
-          "left": 657,
+          "left": 658,
           "right": 700,
           "width": 43,
           "height": 16
@@ -194,7 +74,7 @@
             "boundingRect": {
               "top": 473,
               "bottom": 489,
-              "left": 657,
+              "left": 658,
               "right": 703,
               "width": 46,
               "height": 16
@@ -211,7 +91,7 @@
         "boundingRect": {
           "top": 592,
           "bottom": 608,
-          "left": 657,
+          "left": 658,
           "right": 699,
           "width": 41,
           "height": 16
@@ -224,7 +104,7 @@
             "boundingRect": {
               "top": 616,
               "bottom": 632,
-              "left": 657,
+              "left": 658,
               "right": 702,
               "width": 44,
               "height": 16
@@ -241,7 +121,7 @@
         "boundingRect": {
           "top": 616,
           "bottom": 632,
-          "left": 657,
+          "left": 658,
           "right": 702,
           "width": 44,
           "height": 16
@@ -254,7 +134,7 @@
             "boundingRect": {
               "top": 592,
               "bottom": 608,
-              "left": 657,
+              "left": 658,
               "right": 699,
               "width": 41,
               "height": 16

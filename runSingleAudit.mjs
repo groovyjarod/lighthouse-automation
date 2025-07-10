@@ -1,11 +1,13 @@
 import { spawn } from "child_process";
 
 // const url = "https://www.familysearch.org/en/wiki/New_York_Vital_Records/"
-const url = "https://www.familysearch.org/en/wiki/United_States_Church_Records"
+const baseUrl = "https://www.familysearch.org/en/wiki/"
+const relativePath = "United_States_Church_Records"
+const url = `${baseUrl}${relativePath}`
 
 export default function runSingleAudit (path) {
     return new Promise((resolve, reject) => {
-        const child = spawn("node", ["runAndWriteAudit.mjs", path, "./test-audit-results/newTest.json"], {stdio: "inherit"})
+        const child = spawn("node", ["runAndWriteAudit.mjs", path, `./custom-audit-results/custom-${relativePath}.json`], {stdio: "inherit"})
         child.on("close", (code) => {
             if (code === 0) {
                 resolve()

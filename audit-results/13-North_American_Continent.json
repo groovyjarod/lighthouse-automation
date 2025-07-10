@@ -42,8 +42,8 @@
             "snippet": "<a href=\"/en/wiki/El_Salvador_Genealogy\">",
             "selector": "td > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 547,
-              "bottom": 563,
+              "top": 548,
+              "bottom": 564,
               "left": 71,
               "right": 143,
               "width": 72,
@@ -59,8 +59,8 @@
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 547,
-          "bottom": 563,
+          "top": 548,
+          "bottom": 564,
           "left": 71,
           "right": 143,
           "width": 72,
@@ -102,8 +102,8 @@
             "snippet": "<a href=\"/en/wiki/Nicaragua_Genealogy\">",
             "selector": "td > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 547,
-              "bottom": 563,
+              "top": 548,
+              "bottom": 564,
               "left": 240,
               "right": 304,
               "width": 64,
@@ -119,8 +119,8 @@
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 547,
-          "bottom": 563,
+          "top": 548,
+          "bottom": 564,
           "left": 240,
           "right": 304,
           "width": 64,
@@ -147,7 +147,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Bahamas_Genealogy\">",
         "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 706,
           "bottom": 722,
@@ -200,36 +200,6 @@
               "height": 16
             },
             "nodeLabel": "Bahamas",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Dominica_Genealogy\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 873,
-          "bottom": 889,
-          "left": 71,
-          "right": 130,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Cura%C3%A7ao_Genealogy\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 849,
-              "bottom": 865,
-              "left": 71,
-              "right": 124,
-              "width": 53,
-              "height": 16
-            },
-            "nodeLabel": "Curaçao",
             "subItemCategory": "unknown"
           }
         ]

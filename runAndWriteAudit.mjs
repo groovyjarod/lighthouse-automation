@@ -10,14 +10,13 @@ if (!url || !outputFile) {
 
 async function getReportData(url) {
     const returnData = await createReport(url)
-    console.log('finished.\n')
     return returnData
 }
 
 try {
     const jsonData = await getReportData(url)
     fs.writeFileSync(outputFile, jsonData, 'utf8')
-    console.log('Audit complete.')
+    console.log(`Audit complete for ${url}.\n\n`)
 } catch (err) {
     console.error(`Audit failed for ${url}:`, err.message)
     process.exit(1)

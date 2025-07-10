@@ -25,66 +25,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 781,
-          "bottom": 797,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 805,
-              "bottom": 821,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 805,
-          "bottom": 821,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 781,
-              "bottom": 797,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -93,7 +33,7 @@
           "bottom": 1054,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -136,7 +76,7 @@
               "bottom": 1054,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -233,126 +173,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1279,
-          "bottom": 1295,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1303,
-              "bottom": 1319,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1303,
-          "bottom": 1319,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1279,
-              "bottom": 1295,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Alaska,_United_States_Genealogy\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1379,
-          "bottom": 1395,
-          "left": 71,
-          "right": 113,
-          "width": 42,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Arizona,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
-              "left": 71,
-              "right": 119,
-              "width": 47,
-              "height": 16
-            },
-            "nodeLabel": "Arizona",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Arizona,_United_States_Genealogy\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
-          "left": 71,
-          "right": 119,
-          "width": 47,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Alaska,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1379,
-              "bottom": 1395,
-              "left": 71,
-              "right": 113,
-              "width": 42,
-              "height": 16
-            },
-            "nodeLabel": "Alaska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Arkansas,_United_States_Genealogy\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -370,8 +190,8 @@
             "snippet": "<a href=\"/en/wiki/California,_United_States_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1450,
-              "bottom": 1466,
+              "top": 1451,
+              "bottom": 1467,
               "left": 71,
               "right": 131,
               "width": 59,
@@ -387,8 +207,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1450,
-          "bottom": 1466,
+          "top": 1451,
+          "bottom": 1467,
           "left": 71,
           "right": 131,
           "width": 59,
@@ -444,8 +264,8 @@
             "snippet": "<a href=\"/en/wiki/California,_United_States_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1450,
-              "bottom": 1466,
+              "top": 1451,
+              "bottom": 1467,
               "left": 71,
               "right": 131,
               "width": 59,
@@ -581,8 +401,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1450,
-          "bottom": 1466,
+          "top": 1451,
+          "bottom": 1467,
           "left": 345,
           "right": 409,
           "width": 65,
@@ -624,8 +444,8 @@
             "snippet": "<a href=\"/en/wiki/Minnesota,_United_States_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1450,
-              "bottom": 1466,
+              "top": 1451,
+              "bottom": 1467,
               "left": 345,
               "right": 409,
               "width": 65,
@@ -693,50 +513,6 @@
             },
             "nodeLabel": "Missouri",
             "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/Nebraska,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1546,
-              "bottom": 1562,
-              "left": 345,
-              "right": 405,
-              "width": 60,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Nebraska,_United_States_Genealogy\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1546,
-          "bottom": 1562,
-          "left": 345,
-          "right": 405,
-          "width": 60,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Montana,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1522,
-              "bottom": 1538,
-              "left": 345,
-              "right": 399,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Montana",
-            "subItemCategory": "unknown"
           }
         ]
       },
@@ -773,7 +549,7 @@
       {
         "snippet": "<a href=\"/en/wiki/New_Mexico,_United_States_Genealogy\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 1427,
           "bottom": 1443,
@@ -856,66 +632,6 @@
               "height": 16
             },
             "nodeLabel": "Pennsylvania",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wisconsin,_United_States_Genealogy\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1427,
-          "bottom": 1443,
-          "left": 755,
-          "right": 819,
-          "width": 64,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wyoming,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1450,
-              "bottom": 1466,
-              "left": 755,
-              "right": 813,
-              "width": 58,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wyoming,_United_States_Genealogy\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1450,
-          "bottom": 1466,
-          "left": 755,
-          "right": 813,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wisconsin,_United_States_Genealogy\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1427,
-              "bottom": 1443,
-              "left": 755,
-              "right": 819,
-              "width": 64,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin",
             "subItemCategory": "unknown"
           }
         ]

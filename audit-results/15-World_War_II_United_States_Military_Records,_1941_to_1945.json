@@ -209,8 +209,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1068,
-          "bottom": 1084,
+          "top": 1069,
+          "bottom": 1085,
           "left": 82,
           "right": 189,
           "width": 107,
@@ -237,7 +237,7 @@
       {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (103.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 1092,
           "bottom": 1108,
@@ -252,8 +252,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Pension_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1068,
-              "bottom": 1084,
+              "top": 1069,
+              "bottom": 1085,
               "left": 82,
               "right": 189,
               "width": 107,
@@ -354,8 +354,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Old_Soldiers_Home_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1163,
-              "bottom": 1179,
+              "top": 1164,
+              "bottom": 1180,
               "left": 82,
               "right": 181,
               "width": 99,
@@ -371,8 +371,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1163,
-          "bottom": 1179,
+          "top": 1164,
+          "bottom": 1180,
           "left": 82,
           "right": 181,
           "width": 99,
@@ -474,8 +474,8 @@
             "snippet": "<a href=\"/en/wiki/American_Indian_Military#World_War_II_.281941-1945.29\" class=\"mw-redirect\">",
             "selector": "td > ul > li > a.mw-redirect",
             "boundingRect": {
-              "top": 380,
-              "bottom": 395,
+              "top": 381,
+              "bottom": 396,
               "left": 814,
               "right": 917,
               "width": 103,
@@ -491,8 +491,8 @@
         "selector": "td > ul > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (102.8px by 15px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 380,
-          "bottom": 395,
+          "top": 381,
+          "bottom": 396,
           "left": 814,
           "right": 917,
           "width": 103,
@@ -917,66 +917,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Alaska_Military_Records#World_War_I_(1917-1918)\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1392,
-          "bottom": 1408,
-          "left": 388,
-          "right": 430,
-          "width": 42,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Arizona_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1416,
-              "bottom": 1432,
-              "left": 388,
-              "right": 436,
-              "width": 47,
-              "height": 16
-            },
-            "nodeLabel": "Arizona",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Arizona_Military_Records#World_War_I_(1917-1918)\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1416,
-          "bottom": 1432,
-          "left": 388,
-          "right": 436,
-          "width": 47,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Alaska_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1392,
-              "bottom": 1408,
-              "left": 388,
-              "right": 430,
-              "width": 42,
-              "height": 16
-            },
-            "nodeLabel": "Alaska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Military_Records#World_War_I_(1917-1918)\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -994,8 +934,8 @@
             "snippet": "<a href=\"/en/wiki/California_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1463,
-              "bottom": 1479,
+              "top": 1464,
+              "bottom": 1480,
               "left": 388,
               "right": 447,
               "width": 59,
@@ -1011,8 +951,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1463,
-          "bottom": 1479,
+          "top": 1464,
+          "bottom": 1480,
           "left": 388,
           "right": 447,
           "width": 59,
@@ -1038,8 +978,8 @@
             "snippet": "<a href=\"/en/wiki/Colorado_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1487,
-              "bottom": 1503,
+              "top": 1488,
+              "bottom": 1504,
               "left": 388,
               "right": 445,
               "width": 57,
@@ -1055,8 +995,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1487,
-          "bottom": 1503,
+          "top": 1488,
+          "bottom": 1504,
           "left": 388,
           "right": 445,
           "width": 57,
@@ -1068,8 +1008,8 @@
             "snippet": "<a href=\"/en/wiki/California_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1463,
-              "bottom": 1479,
+              "top": 1464,
+              "bottom": 1480,
               "left": 388,
               "right": 447,
               "width": 59,
@@ -1158,8 +1098,8 @@
             "snippet": "<a href=\"/en/wiki/Louisiana_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1558,
-              "bottom": 1574,
+              "top": 1559,
+              "bottom": 1575,
               "left": 536,
               "right": 596,
               "width": 60,
@@ -1175,8 +1115,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1558,
-          "bottom": 1574,
+          "top": 1559,
+          "bottom": 1575,
           "left": 536,
           "right": 596,
           "width": 60,
@@ -1205,8 +1145,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1463,
-          "bottom": 1479,
+          "top": 1464,
+          "bottom": 1480,
           "left": 684,
           "right": 748,
           "width": 65,
@@ -1218,8 +1158,8 @@
             "snippet": "<a href=\"/en/wiki/Mississippi_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1487,
-              "bottom": 1503,
+              "top": 1488,
+              "bottom": 1504,
               "left": 684,
               "right": 751,
               "width": 68,
@@ -1235,8 +1175,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1487,
-          "bottom": 1503,
+          "top": 1488,
+          "bottom": 1504,
           "left": 684,
           "right": 751,
           "width": 68,
@@ -1248,8 +1188,8 @@
             "snippet": "<a href=\"/en/wiki/Minnesota_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1463,
-              "bottom": 1479,
+              "top": 1464,
+              "bottom": 1480,
               "left": 684,
               "right": 748,
               "width": 65,
@@ -1317,50 +1257,6 @@
             },
             "nodeLabel": "Missouri",
             "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/Nebraska_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1558,
-              "bottom": 1574,
-              "left": 684,
-              "right": 744,
-              "width": 60,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Nebraska_Military_Records#World_War_I_(1917-1918)\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1558,
-          "bottom": 1574,
-          "left": 684,
-          "right": 744,
-          "width": 60,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Montana_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1535,
-              "bottom": 1551,
-              "left": 684,
-              "right": 738,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Montana",
-            "subItemCategory": "unknown"
           }
         ]
       },
@@ -1369,8 +1265,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1368,
-          "bottom": 1384,
+          "top": 1369,
+          "bottom": 1385,
           "left": 979,
           "right": 1062,
           "width": 83,
@@ -1412,8 +1308,8 @@
             "snippet": "<a href=\"/en/wiki/Pennsylvania_Military_Records#World_War_I_(1917-1918)\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1368,
-              "bottom": 1384,
+              "top": 1369,
+              "bottom": 1385,
               "left": 979,
               "right": 1062,
               "width": 83,
@@ -1421,126 +1317,6 @@
             },
             "nodeLabel": "Pennsylvania",
             "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wisconsin_Military_Records#World_War_I_(1917-1918)\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1416,
-          "bottom": 1432,
-          "left": 1127,
-          "right": 1191,
-          "width": 64,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wyoming_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1440,
-              "bottom": 1456,
-              "left": 1127,
-              "right": 1185,
-              "width": 58,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wyoming_Military_Records#World_War_I_(1917-1918)\">",
-        "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1440,
-          "bottom": 1456,
-          "left": 1127,
-          "right": 1185,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wisconsin_Military_Records#World_War_I_(1917-1918)\">",
-            "selector": "td > ul.column-spacing-fullscreen > li > a",
-            "boundingRect": {
-              "top": 1416,
-              "bottom": 1432,
-              "left": 1127,
-              "right": 1191,
-              "width": 64,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/List_of_United_States_Navy_ships_present_at_…\">",
-        "selector": "div.mw-parser-output > ul > li > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (565px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 3756,
-          "bottom": 3772,
-          "left": 70,
-          "right": 635,
-          "width": 565,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.history.navy.mil/research/library/online-reading-room/title-li…\">",
-            "selector": "div.mw-parser-output > ul > li > a.external",
-            "boundingRect": {
-              "top": 3780,
-              "bottom": 3796,
-              "left": 70,
-              "right": 630,
-              "width": 559,
-              "height": 16
-            },
-            "nodeLabel": "Ships Present at Pearl Harbor 7 December 1941 - Navy History and Heritage Comma…",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.history.navy.mil/research/library/online-reading-room/title-li…\">",
-        "selector": "div.mw-parser-output > ul > li > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (559.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 3780,
-          "bottom": 3796,
-          "left": 70,
-          "right": 630,
-          "width": 559,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/List_of_United_States_Navy_ships_present_at_…\">",
-            "selector": "div.mw-parser-output > ul > li > a.external",
-            "boundingRect": {
-              "top": 3756,
-              "bottom": 3772,
-              "left": 70,
-              "right": 635,
-              "width": 565,
-              "height": 16
-            },
-            "nodeLabel": "List of United States Navy Ships Present at Pearl Harbor, December 7, 1941 - Wi…",
-            "subItemCategory": "page"
           }
         ]
       }

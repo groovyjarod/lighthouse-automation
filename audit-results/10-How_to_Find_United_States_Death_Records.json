@@ -37,7 +37,7 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1153,
+          "top": 1154,
           "bottom": 1247,
           "left": 48,
           "right": 1352,
@@ -51,8 +51,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1283,
-          "bottom": 1377,
+          "top": 1284,
+          "bottom": 1378,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -66,7 +66,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 1488,
-          "bottom": 1605,
+          "bottom": 1606,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -114,66 +114,6 @@
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_Alaska_Death_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 431,
-          "bottom": 447,
-          "left": 71,
-          "right": 113,
-          "width": 42,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Arizona_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 455,
-              "bottom": 471,
-              "left": 71,
-              "right": 119,
-              "width": 47,
-              "height": 16
-            },
-            "nodeLabel": "Arizona",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_Arizona_Death_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 455,
-          "bottom": 471,
-          "left": 71,
-          "right": 119,
-          "width": 47,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Alaska_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 431,
-              "bottom": 447,
-              "left": 71,
-              "right": 113,
-              "width": 42,
-              "height": 16
-            },
-            "nodeLabel": "Alaska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
       {
         "snippet": "<a href=\"/en/wiki/How_to_Find_Arkansas_Death_Records\">",
         "selector": "td > ul > li > a",
@@ -296,8 +236,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Illinois_Death_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 716,
-              "bottom": 732,
+              "top": 717,
+              "bottom": 733,
               "left": 71,
               "right": 110,
               "width": 39,
@@ -313,8 +253,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (38.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 716,
-          "bottom": 732,
+          "top": 717,
+          "bottom": 733,
           "left": 71,
           "right": 110,
           "width": 39,
@@ -463,8 +403,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 597,
-          "bottom": 613,
+          "top": 598,
+          "bottom": 614,
           "left": 261,
           "right": 313,
           "width": 52,
@@ -506,58 +446,14 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_Missouri_Death_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 597,
-              "bottom": 613,
+              "top": 598,
+              "bottom": 614,
               "left": 261,
               "right": 313,
               "width": 52,
               "height": 16
             },
             "nodeLabel": "Missouri",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Nebraska_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 645,
-              "bottom": 661,
-              "left": 261,
-              "right": 321,
-              "width": 60,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_Nebraska_Death_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 645,
-          "bottom": 661,
-          "left": 261,
-          "right": 321,
-          "width": 60,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Montana_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 621,
-              "bottom": 637,
-              "left": 261,
-              "right": 315,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Montana",
             "subItemCategory": "unknown"
           }
         ]
@@ -567,8 +463,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 716,
-          "bottom": 732,
+          "top": 717,
+          "bottom": 733,
           "left": 261,
           "right": 334,
           "width": 73,
@@ -595,7 +491,7 @@
       {
         "snippet": "<a href=\"/en/wiki/How_to_Find_New_Mexico_Death_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 740,
           "bottom": 756,
@@ -610,8 +506,8 @@
             "snippet": "<a href=\"/en/wiki/How_to_Find_New_Jersey_Death_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 716,
-              "bottom": 732,
+              "top": 717,
+              "bottom": 733,
               "left": 261,
               "right": 334,
               "width": 73,
@@ -681,66 +577,6 @@
             "subItemCategory": "unknown"
           }
         ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_Wisconsin_Death_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 764,
-          "bottom": 780,
-          "left": 422,
-          "right": 486,
-          "width": 64,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Wyoming_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 788,
-              "bottom": 804,
-              "left": 422,
-              "right": 480,
-              "width": 58,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/How_to_Find_Wyoming_Death_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 788,
-          "bottom": 804,
-          "left": 422,
-          "right": 480,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/How_to_Find_Wisconsin_Death_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 764,
-              "bottom": 780,
-              "left": 422,
-              "right": 486,
-              "width": 64,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin",
-            "subItemCategory": "unknown"
-          }
-        ]
       }
     ]
   },
@@ -767,8 +603,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1899,
-          "bottom": 2202,
+          "top": 1900,
+          "bottom": 2203,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -800,7 +636,7 @@
             "snippet": "<td width=\"31%\" bgcolor=\"#B2B2FF\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1123,
+              "top": 1124,
               "bottom": 1157,
               "left": 948,
               "right": 1352,
