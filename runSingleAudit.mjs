@@ -1,9 +1,15 @@
 import { spawn } from "child_process";
+import readline from "readline/promises"
+import { stdin as input, stdout as output } from "node:process";
+const rl = readline.createInterface({ input, output });
+
+const url = await rl.question(`\nEnter URL here:\n`)
+rl.close()
 
 // const url = "https://www.familysearch.org/en/wiki/New_York_Vital_Records/"
 const baseUrl = "https://www.familysearch.org/en/wiki/"
 const relativePath = "United_States_Church_Records"
-const url = `${baseUrl}${relativePath}`
+// const url = `${baseUrl}${relativePath}`
 
 export default function runSingleAudit (path) {
     return new Promise((resolve, reject) => {
