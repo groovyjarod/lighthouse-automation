@@ -69,7 +69,7 @@
           "bottom": 839,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -112,7 +112,7 @@
               "bottom": 839,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Census Records",
@@ -258,8 +258,8 @@
             "snippet": "<a href=\"/en/wiki/Utah_Genealogy\" class=\"mw-redirect\">",
             "selector": "td > ul > li > a.mw-redirect",
             "boundingRect": {
-              "top": 1598,
-              "bottom": 1614,
+              "top": 1599,
+              "bottom": 1615,
               "left": 1235,
               "right": 1337,
               "width": 101,
@@ -275,8 +275,8 @@
         "selector": "td > ul > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1598,
-          "bottom": 1614,
+          "top": 1599,
+          "bottom": 1615,
           "left": 1235,
           "right": 1337,
           "width": 101,
@@ -312,11 +312,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 406,
-          "bottom": 2237,
+          "bottom": 2238,
           "left": 48,
           "right": 1062,
           "width": 1014,
-          "height": 1831
+          "height": 1832
         },
         "itemCategory": "page"
       },

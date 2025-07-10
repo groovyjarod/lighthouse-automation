@@ -129,66 +129,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Alaska_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (214px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 767,
-          "bottom": 783,
-          "left": 367,
-          "right": 581,
-          "width": 214,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Arizona_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 791,
-              "bottom": 807,
-              "left": 367,
-              "right": 587,
-              "width": 219,
-              "height": 16
-            },
-            "nodeLabel": "Arizona Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Arizona_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (219.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 791,
-          "bottom": 807,
-          "left": 367,
-          "right": 587,
-          "width": 219,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Alaska_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 767,
-              "bottom": 783,
-              "left": 367,
-              "right": 581,
-              "width": 214,
-              "height": 16
-            },
-            "nodeLabel": "Alaska Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Online_Genealogy_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (230.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -206,8 +146,8 @@
             "snippet": "<a href=\"/en/wiki/California_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 838,
-              "bottom": 854,
+              "top": 839,
+              "bottom": 855,
               "left": 367,
               "right": 599,
               "width": 231,
@@ -223,8 +163,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (231.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 838,
-          "bottom": 854,
+          "top": 839,
+          "bottom": 855,
           "left": 367,
           "right": 599,
           "width": 231,
@@ -280,8 +220,8 @@
             "snippet": "<a href=\"/en/wiki/California_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 838,
-              "bottom": 854,
+              "top": 839,
+              "bottom": 855,
               "left": 367,
               "right": 599,
               "width": 231,
@@ -310,8 +250,8 @@
             "snippet": "<a href=\"/en/wiki/Illinois_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1052,
-              "bottom": 1068,
+              "top": 1053,
+              "bottom": 1069,
               "left": 367,
               "right": 578,
               "width": 211,
@@ -327,8 +267,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (210.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1052,
-          "bottom": 1068,
+          "top": 1053,
+          "bottom": 1069,
           "left": 367,
           "right": 578,
           "width": 211,
@@ -469,50 +409,6 @@
             },
             "nodeLabel": "Missouri Online Genealogy Records",
             "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/Nebraska_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 957,
-              "bottom": 973,
-              "left": 710,
-              "right": 942,
-              "width": 232,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Nebraska_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (231.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 957,
-          "bottom": 973,
-          "left": 710,
-          "right": 942,
-          "width": 232,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Montana_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 934,
-              "bottom": 950,
-              "left": 710,
-              "right": 937,
-              "width": 226,
-              "height": 16
-            },
-            "nodeLabel": "Montana Online Genealogy Records",
-            "subItemCategory": "unknown"
           }
         ]
       },
@@ -534,8 +430,8 @@
             "snippet": "<a href=\"/en/wiki/New_Mexico_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1052,
-              "bottom": 1068,
+              "top": 1053,
+              "bottom": 1069,
               "left": 710,
               "right": 958,
               "width": 248,
@@ -551,8 +447,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (248.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1052,
-          "bottom": 1068,
+          "top": 1053,
+          "bottom": 1069,
           "left": 710,
           "right": 958,
           "width": 248,
@@ -572,66 +468,6 @@
               "height": 16
             },
             "nodeLabel": "New Jersey Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wisconsin_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (235.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1124,
-          "bottom": 1140,
-          "left": 1043,
-          "right": 1279,
-          "width": 236,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wyoming_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1148,
-              "bottom": 1164,
-              "left": 1043,
-              "right": 1273,
-              "width": 230,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wyoming_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (230.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1148,
-          "bottom": 1164,
-          "left": 1043,
-          "right": 1273,
-          "width": 230,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wisconsin_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1124,
-              "bottom": 1140,
-              "left": 1043,
-              "right": 1279,
-              "width": 236,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin Online Genealogy Records",
             "subItemCategory": "unknown"
           }
         ]
@@ -697,66 +533,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Egypt_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (207.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1643,
-          "bottom": 1659,
-          "left": 367,
-          "right": 575,
-          "width": 208,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Eritrea_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1667,
-              "bottom": 1683,
-              "left": 367,
-              "right": 581,
-              "width": 213,
-              "height": 16
-            },
-            "nodeLabel": "Eritrea Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Eritrea_Online_Genealogy_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (213.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1667,
-          "bottom": 1683,
-          "left": 367,
-          "right": 581,
-          "width": 213,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Egypt_Online_Genealogy_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1643,
-              "bottom": 1659,
-              "left": 367,
-              "right": 575,
-              "width": 208,
-              "height": 16
-            },
-            "nodeLabel": "Egypt Online Genealogy Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Gabon_Online_Genealogy_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -774,8 +550,8 @@
             "snippet": "<a href=\"/en/wiki/Ghana_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1336,
-              "bottom": 1352,
+              "top": 1337,
+              "bottom": 1353,
               "left": 710,
               "right": 924,
               "width": 214,
@@ -791,8 +567,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1336,
-          "bottom": 1352,
+          "top": 1337,
+          "bottom": 1353,
           "left": 710,
           "right": 924,
           "width": 214,
@@ -821,8 +597,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (216.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1574,
-          "bottom": 1590,
+          "top": 1575,
+          "bottom": 1591,
           "left": 1043,
           "right": 1259,
           "width": 217,
@@ -834,8 +610,8 @@
             "snippet": "<a href=\"/en/wiki/Uganda_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1598,
-              "bottom": 1614,
+              "top": 1599,
+              "bottom": 1615,
               "left": 1043,
               "right": 1264,
               "width": 221,
@@ -851,8 +627,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (221px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1598,
-          "bottom": 1614,
+          "top": 1599,
+          "bottom": 1615,
           "left": 1043,
           "right": 1264,
           "width": 221,
@@ -864,8 +640,8 @@
             "snippet": "<a href=\"/en/wiki/Tunisia_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1574,
-              "bottom": 1590,
+              "top": 1575,
+              "bottom": 1591,
               "left": 1043,
               "right": 1259,
               "width": 217,
@@ -908,8 +684,8 @@
             "snippet": "<a href=\"/en/wiki/Uganda_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1598,
-              "bottom": 1614,
+              "top": 1599,
+              "bottom": 1615,
               "left": 1043,
               "right": 1264,
               "width": 221,
@@ -925,8 +701,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (245.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1774,
-          "bottom": 1790,
+          "top": 1775,
+          "bottom": 1791,
           "left": 367,
           "right": 613,
           "width": 246,
@@ -938,8 +714,8 @@
             "snippet": "<a href=\"/en/wiki/Bangladesh_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1798,
-              "bottom": 1814,
+              "top": 1799,
+              "bottom": 1815,
               "left": 367,
               "right": 613,
               "width": 246,
@@ -955,8 +731,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (245.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1798,
-          "bottom": 1814,
+          "top": 1799,
+          "bottom": 1815,
           "left": 367,
           "right": 613,
           "width": 246,
@@ -968,8 +744,8 @@
             "snippet": "<a href=\"/en/wiki/Afghanistan_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1774,
-              "bottom": 1790,
+              "top": 1775,
+              "bottom": 1791,
               "left": 367,
               "right": 613,
               "width": 246,
@@ -998,8 +774,8 @@
             "snippet": "<a href=\"/en/wiki/Myanmar_(Burma)_Online_Genealogy_Records\" class=\"mw-redirect\">",
             "selector": "td > ul > li > a.mw-redirect",
             "boundingRect": {
-              "top": 1845,
-              "bottom": 1861,
+              "top": 1846,
+              "bottom": 1862,
               "left": 367,
               "right": 581,
               "width": 213,
@@ -1015,8 +791,8 @@
         "selector": "td > ul > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (213.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1845,
-          "bottom": 1861,
+          "top": 1846,
+          "bottom": 1862,
           "left": 367,
           "right": 581,
           "width": 213,
@@ -1045,8 +821,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (239.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1798,
-          "bottom": 1814,
+          "top": 1799,
+          "bottom": 1815,
           "left": 1043,
           "right": 1282,
           "width": 240,
@@ -1088,8 +864,8 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1798,
-              "bottom": 1814,
+              "top": 1799,
+              "bottom": 1815,
               "left": 1043,
               "right": 1282,
               "width": 240,
@@ -1103,10 +879,10 @@
       {
         "snippet": "<a href=\"/en/wiki/New_South_Wales_Online_Genealogy_Records\">",
         "selector": "li > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (282.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (282.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2051,
-          "bottom": 2067,
+          "top": 2052,
+          "bottom": 2068,
           "left": 390,
           "right": 673,
           "width": 283,
@@ -1118,8 +894,8 @@
             "snippet": "<a href=\"/en/wiki/Northern_Territory_Online_Genealogy_Records\">",
             "selector": "li > ul > li > a",
             "boundingRect": {
-              "top": 2075,
-              "bottom": 2091,
+              "top": 2076,
+              "bottom": 2092,
               "left": 390,
               "right": 670,
               "width": 281,
@@ -1135,8 +911,8 @@
         "selector": "li > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (280.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2075,
-          "bottom": 2091,
+          "top": 2076,
+          "bottom": 2092,
           "left": 390,
           "right": 670,
           "width": 281,
@@ -1148,8 +924,8 @@
             "snippet": "<a href=\"/en/wiki/New_South_Wales_Online_Genealogy_Records\">",
             "selector": "li > ul > li > a",
             "boundingRect": {
-              "top": 2051,
-              "bottom": 2067,
+              "top": 2052,
+              "bottom": 2068,
               "left": 390,
               "right": 673,
               "width": 283,
@@ -1165,8 +941,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (228px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2620,
-          "bottom": 2636,
+          "top": 2621,
+          "bottom": 2637,
           "left": 367,
           "right": 595,
           "width": 228,
@@ -1178,8 +954,8 @@
             "snippet": "<a href=\"/en/wiki/Cornwall,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2644,
-              "bottom": 2660,
+              "top": 2645,
+              "bottom": 2661,
               "left": 367,
               "right": 594,
               "width": 226,
@@ -1195,8 +971,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (226.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2644,
-          "bottom": 2660,
+          "top": 2645,
+          "bottom": 2661,
           "left": 367,
           "right": 594,
           "width": 226,
@@ -1208,8 +984,8 @@
             "snippet": "<a href=\"/en/wiki/Cheshire,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2620,
-              "bottom": 2636,
+              "top": 2621,
+              "bottom": 2637,
               "left": 367,
               "right": 595,
               "width": 228,
@@ -1225,8 +1001,8 @@
         "selector": "td > ul > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (212.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2333,
-          "bottom": 2349,
+          "top": 2334,
+          "bottom": 2350,
           "left": 703,
           "right": 916,
           "width": 212,
@@ -1238,8 +1014,8 @@
             "snippet": "<a href=\"/en/wiki/Dorset,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2357,
-              "bottom": 2373,
+              "top": 2358,
+              "bottom": 2374,
               "left": 703,
               "right": 917,
               "width": 213,
@@ -1255,8 +1031,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (213.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2357,
-          "bottom": 2373,
+          "top": 2358,
+          "bottom": 2374,
           "left": 703,
           "right": 917,
           "width": 213,
@@ -1268,8 +1044,8 @@
             "snippet": "<a href=\"/en/wiki/Devonshire,_England_Online_Genealogy_Records\" class=\"mw-redirect\">",
             "selector": "td > ul > li > a.mw-redirect",
             "boundingRect": {
-              "top": 2333,
-              "bottom": 2349,
+              "top": 2334,
+              "bottom": 2350,
               "left": 703,
               "right": 916,
               "width": 212,
@@ -1285,8 +1061,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (256.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2476,
-          "bottom": 2492,
+          "top": 2477,
+          "bottom": 2493,
           "left": 703,
           "right": 960,
           "width": 257,
@@ -1298,8 +1074,8 @@
             "snippet": "<a href=\"/en/wiki/Hertfordshire,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2500,
-              "bottom": 2516,
+              "top": 2501,
+              "bottom": 2517,
               "left": 703,
               "right": 956,
               "width": 253,
@@ -1315,8 +1091,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (252.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2500,
-          "bottom": 2516,
+          "top": 2501,
+          "bottom": 2517,
           "left": 703,
           "right": 956,
           "width": 253,
@@ -1328,8 +1104,8 @@
             "snippet": "<a href=\"/en/wiki/Herefordshire,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2476,
-              "bottom": 2492,
+              "top": 2477,
+              "bottom": 2493,
               "left": 703,
               "right": 960,
               "width": 257,
@@ -1345,8 +1121,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (272.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2357,
-          "bottom": 2373,
+          "top": 2358,
+          "bottom": 2374,
           "left": 1039,
           "right": 1312,
           "width": 272,
@@ -1358,8 +1134,8 @@
             "snippet": "<a href=\"/en/wiki/Nottinghamshire,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2381,
-              "bottom": 2397,
+              "top": 2382,
+              "bottom": 2398,
               "left": 1039,
               "right": 1313,
               "width": 274,
@@ -1375,8 +1151,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (273.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2381,
-          "bottom": 2397,
+          "top": 2382,
+          "bottom": 2398,
           "left": 1039,
           "right": 1313,
           "width": 274,
@@ -1388,8 +1164,8 @@
             "snippet": "<a href=\"/en/wiki/Northumberland,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2357,
-              "bottom": 2373,
+              "top": 2358,
+              "bottom": 2374,
               "left": 1039,
               "right": 1312,
               "width": 272,
@@ -1405,8 +1181,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2524,
-          "bottom": 2540,
+          "top": 2525,
+          "bottom": 2541,
           "left": 1039,
           "right": 1254,
           "width": 215,
@@ -1418,8 +1194,8 @@
             "snippet": "<a href=\"/en/wiki/Surrey,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2547,
-              "bottom": 2563,
+              "top": 2548,
+              "bottom": 2564,
               "left": 1039,
               "right": 1253,
               "width": 213,
@@ -1435,8 +1211,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (213.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2547,
-          "bottom": 2563,
+          "top": 2548,
+          "bottom": 2564,
           "left": 1039,
           "right": 1253,
           "width": 213,
@@ -1448,8 +1224,8 @@
             "snippet": "<a href=\"/en/wiki/Suffolk,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2524,
-              "bottom": 2540,
+              "top": 2525,
+              "bottom": 2541,
               "left": 1039,
               "right": 1254,
               "width": 215,
@@ -1462,8 +1238,8 @@
             "snippet": "<a href=\"/en/wiki/Sussex,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2571,
-              "bottom": 2587,
+              "top": 2572,
+              "bottom": 2588,
               "left": 1039,
               "right": 1257,
               "width": 218,
@@ -1479,8 +1255,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (217.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2571,
-          "bottom": 2587,
+          "top": 2572,
+          "bottom": 2588,
           "left": 1039,
           "right": 1257,
           "width": 218,
@@ -1492,8 +1268,8 @@
             "snippet": "<a href=\"/en/wiki/Surrey,_England_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2547,
-              "bottom": 2563,
+              "top": 2548,
+              "bottom": 2564,
               "left": 1039,
               "right": 1253,
               "width": 213,
@@ -1509,8 +1285,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (231.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2870,
-          "bottom": 2886,
+          "top": 2872,
+          "bottom": 2888,
           "left": 367,
           "right": 599,
           "width": 231,
@@ -1522,8 +1298,8 @@
             "snippet": "<a href=\"/en/wiki/Barbados_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2894,
-              "bottom": 2910,
+              "top": 2895,
+              "bottom": 2911,
               "left": 367,
               "right": 599,
               "width": 232,
@@ -1539,8 +1315,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (231.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2894,
-          "bottom": 2910,
+          "top": 2895,
+          "bottom": 2911,
           "left": 367,
           "right": 599,
           "width": 232,
@@ -1552,8 +1328,8 @@
             "snippet": "<a href=\"/en/wiki/Bahamas_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2870,
-              "bottom": 2886,
+              "top": 2872,
+              "bottom": 2888,
               "left": 367,
               "right": 599,
               "width": 231,
@@ -1566,8 +1342,8 @@
             "snippet": "<a href=\"/en/wiki/Bermuda_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2918,
-              "bottom": 2934,
+              "top": 2919,
+              "bottom": 2935,
               "left": 367,
               "right": 596,
               "width": 229,
@@ -1583,8 +1359,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (228.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2918,
-          "bottom": 2934,
+          "top": 2919,
+          "bottom": 2935,
           "left": 367,
           "right": 596,
           "width": 229,
@@ -1596,8 +1372,8 @@
             "snippet": "<a href=\"/en/wiki/Barbados_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2894,
-              "bottom": 2910,
+              "top": 2895,
+              "bottom": 2911,
               "left": 367,
               "right": 599,
               "width": 232,
@@ -1613,8 +1389,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (218.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3097,
-          "bottom": 3113,
+          "top": 3098,
+          "bottom": 3114,
           "left": 367,
           "right": 586,
           "width": 219,
@@ -1626,8 +1402,8 @@
             "snippet": "<a href=\"/en/wiki/Andorra_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3120,
-              "bottom": 3136,
+              "top": 3122,
+              "bottom": 3138,
               "left": 367,
               "right": 589,
               "width": 222,
@@ -1643,8 +1419,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (221.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3120,
-          "bottom": 3136,
+          "top": 3122,
+          "bottom": 3138,
           "left": 367,
           "right": 589,
           "width": 222,
@@ -1656,8 +1432,8 @@
             "snippet": "<a href=\"/en/wiki/Albania_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3097,
-              "bottom": 3113,
+              "top": 3098,
+              "bottom": 3114,
               "left": 367,
               "right": 586,
               "width": 219,
@@ -1670,8 +1446,8 @@
             "snippet": "<a href=\"/en/wiki/Armenia_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3144,
-              "bottom": 3160,
+              "top": 3146,
+              "bottom": 3162,
               "left": 367,
               "right": 592,
               "width": 224,
@@ -1687,8 +1463,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (224.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3144,
-          "bottom": 3160,
+          "top": 3146,
+          "bottom": 3162,
           "left": 367,
           "right": 592,
           "width": 224,
@@ -1700,8 +1476,8 @@
             "snippet": "<a href=\"/en/wiki/Andorra_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3120,
-              "bottom": 3136,
+              "top": 3122,
+              "bottom": 3138,
               "left": 367,
               "right": 589,
               "width": 222,
@@ -1717,8 +1493,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (215.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3168,
-          "bottom": 3184,
+          "top": 3169,
+          "bottom": 3185,
           "left": 367,
           "right": 583,
           "width": 216,
@@ -1730,8 +1506,8 @@
             "snippet": "<a href=\"/en/wiki/Belarus_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3192,
-              "bottom": 3208,
+              "top": 3193,
+              "bottom": 3209,
               "left": 367,
               "right": 587,
               "width": 219,
@@ -1747,8 +1523,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (219.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3192,
-          "bottom": 3208,
+          "top": 3193,
+          "bottom": 3209,
           "left": 367,
           "right": 587,
           "width": 219,
@@ -1760,8 +1536,8 @@
             "snippet": "<a href=\"/en/wiki/Austria_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3168,
-              "bottom": 3184,
+              "top": 3169,
+              "bottom": 3185,
               "left": 367,
               "right": 583,
               "width": 216,
@@ -1774,8 +1550,8 @@
             "snippet": "<a href=\"/en/wiki/Belgium_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3216,
-              "bottom": 3232,
+              "top": 3217,
+              "bottom": 3233,
               "left": 367,
               "right": 590,
               "width": 223,
@@ -1791,8 +1567,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (222.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3216,
-          "bottom": 3232,
+          "top": 3217,
+          "bottom": 3233,
           "left": 367,
           "right": 590,
           "width": 223,
@@ -1804,8 +1580,8 @@
             "snippet": "<a href=\"/en/wiki/Belarus_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3192,
-              "bottom": 3208,
+              "top": 3193,
+              "bottom": 3209,
               "left": 367,
               "right": 587,
               "width": 219,
@@ -1821,8 +1597,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (217.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3309,
-          "bottom": 3325,
+          "top": 3311,
+          "bottom": 3327,
           "left": 367,
           "right": 585,
           "width": 217,
@@ -1834,8 +1610,8 @@
             "snippet": "<a href=\"/en/wiki/Cyprus_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3333,
-              "bottom": 3349,
+              "top": 3335,
+              "bottom": 3351,
               "left": 367,
               "right": 584,
               "width": 216,
@@ -1851,8 +1627,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (216.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3333,
-          "bottom": 3349,
+          "top": 3335,
+          "bottom": 3351,
           "left": 367,
           "right": 584,
           "width": 216,
@@ -1864,8 +1640,8 @@
             "snippet": "<a href=\"/en/wiki/Croatia_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3309,
-              "bottom": 3325,
+              "top": 3311,
+              "bottom": 3327,
               "left": 367,
               "right": 585,
               "width": 217,
@@ -1881,8 +1657,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (217.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3452,
-          "bottom": 3468,
+          "top": 3454,
+          "bottom": 3470,
           "left": 367,
           "right": 585,
           "width": 218,
@@ -1894,8 +1670,8 @@
             "snippet": "<a href=\"/en/wiki/France_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3476,
-              "bottom": 3492,
+              "top": 3477,
+              "bottom": 3493,
               "left": 367,
               "right": 583,
               "width": 216,
@@ -1911,8 +1687,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (215.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3476,
-          "bottom": 3492,
+          "top": 3477,
+          "bottom": 3493,
           "left": 367,
           "right": 583,
           "width": 216,
@@ -1924,8 +1700,8 @@
             "snippet": "<a href=\"/en/wiki/Finland_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3452,
-              "bottom": 3468,
+              "top": 3454,
+              "bottom": 3470,
               "left": 367,
               "right": 585,
               "width": 218,
@@ -1939,10 +1715,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Norway_Online_Genealogy_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (219.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (219.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3144,
-          "bottom": 3160,
+          "top": 3146,
+          "bottom": 3162,
           "left": 1039,
           "right": 1259,
           "width": 219,
@@ -1954,8 +1730,8 @@
             "snippet": "<a href=\"/en/wiki/Poland_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3168,
-              "bottom": 3184,
+              "top": 3169,
+              "bottom": 3185,
               "left": 1039,
               "right": 1255,
               "width": 216,
@@ -1971,8 +1747,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (215.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3168,
-          "bottom": 3184,
+          "top": 3169,
+          "bottom": 3185,
           "left": 1039,
           "right": 1255,
           "width": 216,
@@ -1984,8 +1760,8 @@
             "snippet": "<a href=\"/en/wiki/Norway_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3144,
-              "bottom": 3160,
+              "top": 3146,
+              "bottom": 3162,
               "left": 1039,
               "right": 1259,
               "width": 219,
@@ -2001,8 +1777,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (224.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3192,
-          "bottom": 3208,
+          "top": 3193,
+          "bottom": 3209,
           "left": 1039,
           "right": 1264,
           "width": 224,
@@ -2014,8 +1790,8 @@
             "snippet": "<a href=\"/en/wiki/Romania_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3216,
-              "bottom": 3232,
+              "top": 3217,
+              "bottom": 3233,
               "left": 1039,
               "right": 1267,
               "width": 228,
@@ -2031,8 +1807,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (228px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3216,
-          "bottom": 3232,
+          "top": 3217,
+          "bottom": 3233,
           "left": 1039,
           "right": 1267,
           "width": 228,
@@ -2044,8 +1820,8 @@
             "snippet": "<a href=\"/en/wiki/Portugal_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3192,
-              "bottom": 3208,
+              "top": 3193,
+              "bottom": 3209,
               "left": 1039,
               "right": 1264,
               "width": 224,
@@ -2061,8 +1837,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (224.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3311,
-          "bottom": 3327,
+          "top": 3312,
+          "bottom": 3328,
           "left": 1039,
           "right": 1264,
           "width": 225,
@@ -2074,8 +1850,8 @@
             "snippet": "<a href=\"/en/wiki/Slovenia_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3334,
-              "bottom": 3350,
+              "top": 3336,
+              "bottom": 3352,
               "left": 1039,
               "right": 1265,
               "width": 226,
@@ -2091,8 +1867,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (225.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3334,
-          "bottom": 3350,
+          "top": 3336,
+          "bottom": 3352,
           "left": 1039,
           "right": 1265,
           "width": 226,
@@ -2104,8 +1880,8 @@
             "snippet": "<a href=\"/en/wiki/Slovakia_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3311,
-              "bottom": 3327,
+              "top": 3312,
+              "bottom": 3328,
               "left": 1039,
               "right": 1264,
               "width": 225,
@@ -2121,8 +1897,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (240.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3583,
-          "bottom": 3599,
+          "top": 3585,
+          "bottom": 3601,
           "left": 367,
           "right": 608,
           "width": 240,
@@ -2134,8 +1910,8 @@
             "snippet": "<a href=\"/en/wiki/El_Salvador_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3607,
-              "bottom": 3623,
+              "top": 3609,
+              "bottom": 3625,
               "left": 367,
               "right": 611,
               "width": 244,
@@ -2151,8 +1927,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (243.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3607,
-          "bottom": 3623,
+          "top": 3609,
+          "bottom": 3625,
           "left": 367,
           "right": 611,
           "width": 244,
@@ -2164,8 +1940,8 @@
             "snippet": "<a href=\"/en/wiki/Costa_Rica_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3583,
-              "bottom": 3599,
+              "top": 3585,
+              "bottom": 3601,
               "left": 367,
               "right": 608,
               "width": 240,
@@ -2178,8 +1954,8 @@
             "snippet": "<a href=\"/en/wiki/Guatemala_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3631,
-              "bottom": 3647,
+              "top": 3633,
+              "bottom": 3649,
               "left": 367,
               "right": 608,
               "width": 240,
@@ -2195,8 +1971,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (240.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3631,
-          "bottom": 3647,
+          "top": 3633,
+          "bottom": 3649,
           "left": 367,
           "right": 608,
           "width": 240,
@@ -2208,8 +1984,8 @@
             "snippet": "<a href=\"/en/wiki/El_Salvador_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3607,
-              "bottom": 3623,
+              "top": 3609,
+              "bottom": 3625,
               "left": 367,
               "right": 611,
               "width": 244,
@@ -2225,8 +2001,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (196.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3786,
-          "bottom": 3802,
+          "top": 3788,
+          "bottom": 3804,
           "left": 367,
           "right": 564,
           "width": 196,
@@ -2238,8 +2014,8 @@
             "snippet": "<a href=\"/en/wiki/Iraq_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3810,
-              "bottom": 3826,
+              "top": 3811,
+              "bottom": 3827,
               "left": 367,
               "right": 564,
               "width": 196,
@@ -2255,8 +2031,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (196.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3810,
-          "bottom": 3826,
+          "top": 3811,
+          "bottom": 3827,
           "left": 367,
           "right": 564,
           "width": 196,
@@ -2268,8 +2044,8 @@
             "snippet": "<a href=\"/en/wiki/Iran_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3786,
-              "bottom": 3802,
+              "top": 3788,
+              "bottom": 3804,
               "left": 367,
               "right": 564,
               "width": 196,
@@ -2285,8 +2061,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3715,
-          "bottom": 3731,
+          "top": 3716,
+          "bottom": 3732,
           "left": 710,
           "right": 925,
           "width": 215,
@@ -2298,8 +2074,8 @@
             "snippet": "<a href=\"/en/wiki/Kuwait_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3738,
-              "bottom": 3754,
+              "top": 3740,
+              "bottom": 3756,
               "left": 710,
               "right": 924,
               "width": 214,
@@ -2315,8 +2091,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3738,
-          "bottom": 3754,
+          "top": 3740,
+          "bottom": 3756,
           "left": 710,
           "right": 924,
           "width": 214,
@@ -2328,8 +2104,8 @@
             "snippet": "<a href=\"/en/wiki/Jordan_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3715,
-              "bottom": 3731,
+              "top": 3716,
+              "bottom": 3732,
               "left": 710,
               "right": 925,
               "width": 215,
@@ -2345,8 +2121,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (210.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3786,
-          "bottom": 3802,
+          "top": 3788,
+          "bottom": 3804,
           "left": 710,
           "right": 920,
           "width": 210,
@@ -2358,8 +2134,8 @@
             "snippet": "<a href=\"/en/wiki/Qatar_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3810,
-              "bottom": 3826,
+              "top": 3811,
+              "bottom": 3827,
               "left": 710,
               "right": 917,
               "width": 207,
@@ -2375,8 +2151,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (207px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3810,
-          "bottom": 3826,
+          "top": 3811,
+          "bottom": 3827,
           "left": 710,
           "right": 917,
           "width": 207,
@@ -2388,8 +2164,8 @@
             "snippet": "<a href=\"/en/wiki/Oman_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3786,
-              "bottom": 3802,
+              "top": 3788,
+              "bottom": 3804,
               "left": 710,
               "right": 920,
               "width": 210,
@@ -2405,8 +2181,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (221px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3994,
-          "bottom": 4010,
+          "top": 3996,
+          "bottom": 4012,
           "left": 367,
           "right": 588,
           "width": 221,
@@ -2418,8 +2194,8 @@
             "snippet": "<a href=\"/en/wiki/Alberta_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 4017,
-              "bottom": 4033,
+              "top": 4019,
+              "bottom": 4035,
               "left": 367,
               "right": 584,
               "width": 216,
@@ -2435,8 +2211,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (216.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4017,
-          "bottom": 4033,
+          "top": 4019,
+          "bottom": 4035,
           "left": 367,
           "right": 584,
           "width": 216,
@@ -2448,8 +2224,8 @@
             "snippet": "<a href=\"/en/wiki/Canada_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 3994,
-              "bottom": 4010,
+              "top": 3996,
+              "bottom": 4012,
               "left": 367,
               "right": 588,
               "width": 221,
@@ -2465,8 +2241,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (210.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4314,
-          "bottom": 4330,
+          "top": 4316,
+          "bottom": 4332,
           "left": 367,
           "right": 578,
           "width": 210,
@@ -2478,8 +2254,8 @@
             "snippet": "<a href=\"/en/wiki/Kiribati_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 4338,
-              "bottom": 4354,
+              "top": 4340,
+              "bottom": 4356,
               "left": 367,
               "right": 582,
               "width": 215,
@@ -2495,8 +2271,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (214.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4338,
-          "bottom": 4354,
+          "top": 4340,
+          "bottom": 4356,
           "left": 367,
           "right": 582,
           "width": 215,
@@ -2508,8 +2284,8 @@
             "snippet": "<a href=\"/en/wiki/Guam_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 4314,
-              "bottom": 4330,
+              "top": 4316,
+              "bottom": 4332,
               "left": 367,
               "right": 578,
               "width": 210,
@@ -2525,8 +2301,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (207px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 4469,
-          "bottom": 4485,
+          "top": 4471,
+          "bottom": 4487,
           "left": 367,
           "right": 574,
           "width": 207,
@@ -2538,8 +2314,8 @@
             "snippet": "<a href=\"/en/wiki/Chile_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 4493,
-              "bottom": 4509,
+              "top": 4495,
+              "bottom": 4511,
               "left": 367,
               "right": 571,
               "width": 204,
@@ -2555,8 +2331,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (203.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 4493,
-          "bottom": 4509,
+          "top": 4495,
+          "bottom": 4511,
           "left": 367,
           "right": 571,
           "width": 204,
@@ -2568,8 +2344,8 @@
             "snippet": "<a href=\"/en/wiki/Brazil_Online_Genealogy_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 4469,
-              "bottom": 4485,
+              "top": 4471,
+              "bottom": 4487,
               "left": 367,
               "right": 574,
               "width": 207,

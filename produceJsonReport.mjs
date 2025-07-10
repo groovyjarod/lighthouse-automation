@@ -31,23 +31,18 @@ export default function produceJsonReport () {
             }
         }
         const auditLength = rawAudit.split('\n').length
-        if (auditLength > 64) {
+        if (auditLength > 4) {
             console.log(`Audit for ${dirInfo[i]}:`)
             console.log(`Item count: ${itemCount}`)
             console.log(`subItem count: ${subItemCount}`)
             console.log(`Number of lines: ${auditLength}`)
-            console.log(accessibilityScore)
+            console.log(`Accessibility Score: ${accessibilityScore}`)
             console.log()
         }
         itemCount = 0
         subItemCount = 0
-        // console.log(audit['number-of-Items'])
-        // if (auditLength < 100) {
-        //     smallAudits.push({})
-        // }
-        // console.log(`${dirInfo[i]} lines: ${auditLength}`)
+
     }
-    // console.log(dirInfo.length)
 }
 
 produceJsonReport()

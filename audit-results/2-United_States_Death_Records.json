@@ -45,66 +45,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Alaska\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 746,
-          "bottom": 762,
-          "left": 367,
-          "right": 409,
-          "width": 42,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Arizona\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 770,
-              "bottom": 786,
-              "left": 367,
-              "right": 415,
-              "width": 47,
-              "height": 16
-            },
-            "nodeLabel": "Arizona\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Arizona\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 770,
-          "bottom": 786,
-          "left": 367,
-          "right": 415,
-          "width": 47,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Alaska\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 746,
-              "bottom": 762,
-              "left": 367,
-              "right": 409,
-              "width": 42,
-              "height": 16
-            },
-            "nodeLabel": "Alaska\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/GuidedResearch:Arkansas\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -445,50 +385,6 @@
             },
             "nodeLabel": "Missouri\n",
             "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Nebraska\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 980,
-              "bottom": 996,
-              "left": 497,
-              "right": 557,
-              "width": 60,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Nebraska\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 980,
-          "bottom": 996,
-          "left": 497,
-          "right": 557,
-          "width": 60,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Montana\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 956,
-              "bottom": 972,
-              "left": 497,
-              "right": 552,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Montana\n",
-            "subItemCategory": "unknown"
           }
         ]
       },
@@ -497,8 +393,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1073,
-          "bottom": 1089,
+          "top": 1074,
+          "bottom": 1090,
           "left": 497,
           "right": 570,
           "width": 73,
@@ -525,7 +421,7 @@
       {
         "snippet": "<a href=\"/en/wiki/GuidedResearch:New_Mexico\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 1097,
           "bottom": 1113,
@@ -540,8 +436,8 @@
             "snippet": "<a href=\"/en/wiki/GuidedResearch:New_Jersey\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1073,
-              "bottom": 1089,
+              "top": 1074,
+              "bottom": 1090,
               "left": 497,
               "right": 570,
               "width": 73,
@@ -608,66 +504,6 @@
               "height": 16
             },
             "nodeLabel": "Pennsylvania\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Wisconsin\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1099,
-          "bottom": 1115,
-          "left": 627,
-          "right": 691,
-          "width": 64,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Wyoming\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1122,
-              "bottom": 1138,
-              "left": 627,
-              "right": 685,
-              "width": 58,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming\n",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/GuidedResearch:Wyoming\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1122,
-          "bottom": 1138,
-          "left": 627,
-          "right": 685,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/GuidedResearch:Wisconsin\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1099,
-              "bottom": 1115,
-              "left": 627,
-              "right": 691,
-              "width": 64,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin\n",
             "subItemCategory": "unknown"
           }
         ]

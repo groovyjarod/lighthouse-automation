@@ -33,7 +33,6 @@ async function organizeData(urlPath) {
                 boundingRect: itemData.boundingRect,
                 itemCategory: classifyIssue(itemData.selector, itemData.path || '')
             }
-            // console.log(`NEW ITEM: ${newItem}`)
             if (itemData.subItems && itemData.subItems.items) {
                 const newSubItems = itemData.subItems.items.map(subItem => ({
                     snippet: subItem.relatedNode?.snippet,
@@ -42,7 +41,6 @@ async function organizeData(urlPath) {
                     nodeLabel: subItem.relatedNode?.nodeLabel,
                     subItemCategory: classifyIssue(subItem.relatedNode?.selector, subItem.relatedNode?.path || '')
                 }))
-                // console.log(`NEW SUB ITEM: ${newSubItems}`)
                 newItem.subItems = newSubItems
             }
             newItems.push(newItem)
@@ -51,7 +49,7 @@ async function organizeData(urlPath) {
         initialJsonReport[`${id}-${index+1}`] = {title, description, items: newItems}
     })
     initialJsonReport['number-of-Items'] = itemCount
-    console.log(itemCount)
+    console.log(`\n\nNumber of items: ${itemCount}`)
     const finalizedJsonReport = JSON.stringify(initialJsonReport, null, 2)
     return finalizedJsonReport
 }
