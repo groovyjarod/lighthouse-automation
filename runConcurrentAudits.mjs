@@ -11,14 +11,14 @@ const language = "en";
 const pathsRaw = fs.readFileSync("./wikiPaths.txt", "utf8")
 const paths = pathsRaw.split("\n").filter(Boolean);
 
-const numberOfConcurrentAudits = estimateConcurrency();
+const recommendedConcurrentAudits = estimateConcurrency();
 
 const answer = await rl.question(
-  `\nThe number of recommended audits for this is ${numberOfConcurrentAudits}.\nHow many concurrent tests would you like to commence?\n`
+  `\nThe number of recommended audits for this is ${recommendedConcurrentAudits}.\nHow many concurrent tests would you like to commence?\n`
 );
 rl.close();
 
-const limit = pLimit(parseInt(answer));
+const numberOfConcurrentAudits = pLimit(parseInt(answer));
 
 async function retryAudit(fn, retries = 2) {
   let errMessage;
@@ -60,7 +60,7 @@ async function commenceAllAudits(paths) {
   const tasks = paths.map((path, index) => {
     const fullUrl = `${urlBase}${language}/wiki/${path}`;
     const outputFile = `./audit-results/${index + 1}-${path}.json`;
-    return limit(() =>
+    return numberOfConcurrentAudits(() =>
       retryAudit(() => runAuditAsChild(fullUrl, outputFile), 2)
     );
   });
