@@ -1,15 +1,12 @@
 {
   "file": "67-Italy_Church_Records.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "definition-list-3",
-    "frame-title-4",
-    "link-name-5"
+    "definition-list-1",
+    "link-name-3",
+    "target-size-4"
   ],
   "removedKeys": [
     "document-title-1",
-    "frame-title-2",
     "html-has-lang-3"
   ]
 }

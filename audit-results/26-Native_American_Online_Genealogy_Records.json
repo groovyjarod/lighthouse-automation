@@ -192,11 +192,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 3912,
+          "bottom": 3913,
           "left": 48,
           "right": 1064,
           "width": 1016,
-          "height": 3635
+          "height": 3636
         },
         "itemCategory": "page"
       },
@@ -206,11 +206,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 1718,
+          "bottom": 1719,
           "left": 1074,
           "right": 1352,
           "width": 278,
-          "height": 1441
+          "height": 1442
         },
         "itemCategory": "page"
       }

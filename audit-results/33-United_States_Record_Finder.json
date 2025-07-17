@@ -25,66 +25,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 781,
-          "bottom": 797,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 805,
-              "bottom": 821,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 805,
-          "bottom": 821,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 781,
-              "bottom": 797,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -93,7 +33,7 @@
           "bottom": 1054,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -136,7 +76,7 @@
               "bottom": 1054,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -233,66 +173,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1279,
-          "bottom": 1295,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1303,
-              "bottom": 1319,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1303,
-          "bottom": 1319,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1279,
-              "bottom": 1295,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
@@ -357,8 +237,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1335,
-          "bottom": 1351,
+          "top": 1336,
+          "bottom": 1352,
           "left": 786,
           "right": 886,
           "width": 100,
@@ -370,8 +250,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1359,
-              "bottom": 1375,
+              "top": 1360,
+              "bottom": 1376,
               "left": 786,
               "right": 891,
               "width": 105,
@@ -387,8 +267,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1359,
-          "bottom": 1375,
+          "top": 1360,
+          "bottom": 1376,
           "left": 786,
           "right": 891,
           "width": 105,
@@ -400,8 +280,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1335,
-              "bottom": 1351,
+              "top": 1336,
+              "bottom": 1352,
               "left": 786,
               "right": 886,
               "width": 100,
@@ -417,8 +297,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1627,
-          "bottom": 1643,
+          "top": 1628,
+          "bottom": 1644,
           "left": 786,
           "right": 887,
           "width": 101,
@@ -430,8 +310,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1651,
-              "bottom": 1667,
+              "top": 1652,
+              "bottom": 1668,
               "left": 786,
               "right": 891,
               "width": 105,
@@ -447,8 +327,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1651,
-          "bottom": 1667,
+          "top": 1652,
+          "bottom": 1668,
           "left": 786,
           "right": 891,
           "width": 105,
@@ -460,8 +340,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1627,
-              "bottom": 1643,
+              "top": 1628,
+              "bottom": 1644,
               "left": 786,
               "right": 887,
               "width": 101,
@@ -477,8 +357,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (105.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2111,
-          "bottom": 2127,
+          "top": 2112,
+          "bottom": 2128,
           "left": 786,
           "right": 891,
           "width": 105,
@@ -520,8 +400,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Probate_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2111,
-              "bottom": 2127,
+              "top": 2112,
+              "bottom": 2128,
               "left": 786,
               "right": 891,
               "width": 105,
@@ -537,8 +417,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2309,
-          "bottom": 2325,
+          "top": 2310,
+          "bottom": 2326,
           "left": 545,
           "right": 643,
           "width": 98,
@@ -550,8 +430,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2333,
-              "bottom": 2349,
+              "top": 2334,
+              "bottom": 2350,
               "left": 545,
               "right": 646,
               "width": 101,
@@ -567,8 +447,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2333,
-          "bottom": 2349,
+          "top": 2334,
+          "bottom": 2350,
           "left": 545,
           "right": 646,
           "width": 101,
@@ -580,8 +460,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Cultural_Groups\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2309,
-              "bottom": 2325,
+              "top": 2310,
+              "bottom": 2326,
               "left": 545,
               "right": 643,
               "width": 98,
@@ -597,8 +477,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (71.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2616,
-          "bottom": 2632,
+          "top": 2617,
+          "bottom": 2633,
           "left": 786,
           "right": 857,
           "width": 72,
@@ -610,8 +490,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Directories\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2640,
-              "bottom": 2656,
+              "top": 2641,
+              "bottom": 2657,
               "left": 786,
               "right": 852,
               "width": 67,
@@ -627,8 +507,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (66.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2640,
-          "bottom": 2656,
+          "top": 2641,
+          "bottom": 2657,
           "left": 786,
           "right": 852,
           "width": 67,
@@ -640,8 +520,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Cemeteries\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2616,
-              "bottom": 2632,
+              "top": 2617,
+              "bottom": 2633,
               "left": 786,
               "right": 857,
               "width": 72,
@@ -663,8 +543,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2770,
-          "bottom": 3119,
+          "top": 2772,
+          "bottom": 3121,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -684,11 +564,11 @@
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
           "top": 727,
-          "bottom": 1187,
+          "bottom": 1188,
           "left": 344,
           "right": 999,
           "width": 655,
-          "height": 460
+          "height": 461
         },
         "itemCategory": "page",
         "subItems": [
@@ -696,7 +576,7 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 727,
+              "top": 728,
               "bottom": 761,
               "left": 345,
               "right": 517,
@@ -710,7 +590,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 727,
+              "top": 728,
               "bottom": 761,
               "left": 517,
               "right": 758,
@@ -724,7 +604,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 727,
+              "top": 728,
               "bottom": 761,
               "left": 758,
               "right": 999,
@@ -741,8 +621,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1241,
-          "bottom": 1678,
+          "top": 1242,
+          "bottom": 1679,
           "left": 344,
           "right": 999,
           "width": 655,
@@ -812,7 +692,7 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1732,
+              "top": 1733,
               "bottom": 1766,
               "left": 345,
               "right": 517,
@@ -826,7 +706,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1732,
+              "top": 1733,
               "bottom": 1766,
               "left": 517,
               "right": 758,
@@ -840,7 +720,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1732,
+              "top": 1733,
               "bottom": 1766,
               "left": 758,
               "right": 999,
@@ -858,7 +738,7 @@
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
           "top": 2263,
-          "bottom": 2753,
+          "bottom": 2755,
           "left": 344,
           "right": 999,
           "width": 655,
@@ -870,7 +750,7 @@
             "snippet": "<td style=\"align:left; width:25%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2263,
+              "top": 2264,
               "bottom": 2297,
               "left": 345,
               "right": 517,
@@ -884,7 +764,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2263,
+              "top": 2264,
               "bottom": 2297,
               "left": 517,
               "right": 758,
@@ -898,7 +778,7 @@
             "snippet": "<td style=\"align:left; width:35%;\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2263,
+              "top": 2264,
               "bottom": 2297,
               "left": 758,
               "right": 999,

@@ -9,8 +9,8 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 391,
-          "bottom": 411,
+          "top": 392,
+          "bottom": 412,
           "left": 505,
           "right": 659,
           "width": 154,
@@ -42,7 +42,7 @@
           "top": 420,
           "bottom": 440,
           "left": 505,
-          "right": 724,
+          "right": 725,
           "width": 219,
           "height": 20
         },
@@ -69,10 +69,10 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 448,
+          "top": 449,
           "bottom": 468,
           "left": 505,
-          "right": 724,
+          "right": 725,
           "width": 219,
           "height": 20
         },
@@ -99,7 +99,7 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 476,
+          "top": 477,
           "bottom": 496,
           "left": 505,
           "right": 761,
@@ -166,7 +166,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 355,
-          "bottom": 381,
+          "bottom": 382,
           "left": 460,
           "right": 1220,
           "width": 759,
@@ -179,7 +179,7 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 388,
+          "top": 389,
           "bottom": 528,
           "left": 460,
           "right": 1220,
@@ -196,7 +196,7 @@
           "top": 1003,
           "bottom": 1097,
           "left": 251,
-          "right": 698,
+          "right": 699,
           "width": 448,
           "height": 94
         },
@@ -209,7 +209,7 @@
         "boundingRect": {
           "top": 1015,
           "bottom": 1085,
-          "left": 701,
+          "left": 702,
           "right": 1149,
           "width": 448,
           "height": 70
@@ -221,10 +221,10 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1627,
+          "top": 1628,
           "bottom": 1721,
           "left": 251,
-          "right": 698,
+          "right": 699,
           "width": 448,
           "height": 94
         },
@@ -235,9 +235,9 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1639,
-          "bottom": 1709,
-          "left": 701,
+          "top": 1640,
+          "bottom": 1710,
+          "left": 702,
           "right": 1149,
           "width": 448,
           "height": 70
@@ -249,8 +249,8 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4688,
-          "bottom": 4876,
+          "top": 4689,
+          "bottom": 4878,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -290,7 +290,7 @@
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
           "top": 1920,
-          "bottom": 1963,
+          "bottom": 1964,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -303,7 +303,7 @@
         "selector": "tbody > tr > td > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 3353,
+          "top": 3354,
           "bottom": 3397,
           "left": 56,
           "right": 1344,
@@ -323,8 +323,8 @@
         "selector": "dd > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (176.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 4738,
-          "bottom": 4754,
+          "top": 4739,
+          "bottom": 4755,
           "left": 100,
           "right": 277,
           "width": 177,
@@ -336,8 +336,8 @@
             "snippet": "<a href=\"/en/wiki/U.S._Vital_Records_Overview\">",
             "selector": "dd > ul > li > a",
             "boundingRect": {
-              "top": 4762,
-              "bottom": 4778,
+              "top": 4763,
+              "bottom": 4779,
               "left": 100,
               "right": 277,
               "width": 176,
@@ -353,8 +353,8 @@
         "selector": "dd > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (176.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 4762,
-          "bottom": 4778,
+          "top": 4763,
+          "bottom": 4779,
           "left": 100,
           "right": 277,
           "width": 176,
@@ -366,58 +366,14 @@
             "snippet": "<a href=\"/en/wiki/United_States_Record_Finder\">",
             "selector": "dd > ul > li > a",
             "boundingRect": {
-              "top": 4738,
-              "bottom": 4754,
+              "top": 4739,
+              "bottom": 4755,
               "left": 100,
               "right": 277,
               "width": 177,
               "height": 16
             },
             "nodeLabel": "United States Record Finder",
-            "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 4786,
-              "bottom": 4802,
-              "left": 100,
-              "right": 271,
-              "width": 171,
-              "height": 16
-            },
-            "nodeLabel": "United States Vital Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
-        "selector": "dd > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (171px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 4786,
-          "bottom": 4802,
-          "left": 100,
-          "right": 271,
-          "width": 171,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/U.S._Vital_Records_Overview\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 4762,
-              "bottom": 4778,
-              "left": 100,
-              "right": 277,
-              "width": 176,
-              "height": 16
-            },
-            "nodeLabel": "U.S. Vital Records Overview",
             "subItemCategory": "unknown"
           }
         ]
@@ -475,8 +431,8 @@
         "selector": "tbody > tr > td > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4293,
-          "bottom": 4458,
+          "top": 4294,
+          "bottom": 4459,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -489,8 +445,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 4901,
-          "bottom": 5281,
+          "top": 4903,
+          "bottom": 5283,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -568,7 +524,7 @@
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
           "top": 2000,
-          "bottom": 2808,
+          "bottom": 2809,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -581,7 +537,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 2000,
-              "bottom": 2034,
+              "bottom": 2035,
               "left": 56,
               "right": 1320,
               "width": 1265,
@@ -594,7 +550,7 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2034,
+              "top": 2035,
               "bottom": 2069,
               "left": 56,
               "right": 182,
@@ -638,7 +594,7 @@
             "snippet": "<td align=\"center\" colspan=\"4\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 2895,
+              "top": 2896,
               "bottom": 2931,
               "left": 56,
               "right": 1344,
@@ -653,7 +609,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 2931,
-              "bottom": 2966,
+              "bottom": 2967,
               "left": 56,
               "right": 700,
               "width": 644,
@@ -667,7 +623,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 2931,
-              "bottom": 2966,
+              "bottom": 2967,
               "left": 700,
               "right": 1344,
               "width": 644,
@@ -683,8 +639,8 @@
         "selector": "tbody > tr > td > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 3433,
-          "bottom": 4207,
+          "top": 3434,
+          "bottom": 4208,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -696,8 +652,8 @@
             "snippet": "<td align=\"left\" colspan=\"3\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3433,
-              "bottom": 3467,
+              "top": 3434,
+              "bottom": 3468,
               "left": 56,
               "right": 1320,
               "width": 1265,
@@ -710,8 +666,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3467,
-              "bottom": 3502,
+              "top": 3468,
+              "bottom": 3503,
               "left": 56,
               "right": 184,
               "width": 129,
@@ -724,8 +680,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3502,
-              "bottom": 3558,
+              "top": 3503,
+              "bottom": 3559,
               "left": 184,
               "right": 575,
               "width": 390,
@@ -741,8 +697,8 @@
         "selector": "tbody > tr > td > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 4293,
-          "bottom": 4458,
+          "top": 4294,
+          "bottom": 4459,
           "left": 56,
           "right": 1344,
           "width": 1289,
@@ -754,8 +710,8 @@
             "snippet": "<td align=\"center\" colspan=\"4\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4294,
-              "bottom": 4329,
+              "top": 4295,
+              "bottom": 4330,
               "left": 56,
               "right": 1344,
               "width": 1288,
@@ -768,8 +724,8 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4329,
-              "bottom": 4365,
+              "top": 4330,
+              "bottom": 4366,
               "left": 56,
               "right": 700,
               "width": 644,
@@ -782,8 +738,8 @@
             "snippet": "<td width=\"50%\" align=\"center\" colspan=\"2\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4329,
-              "bottom": 4365,
+              "top": 4330,
+              "bottom": 4366,
               "left": 700,
               "right": 1344,
               "width": 644,

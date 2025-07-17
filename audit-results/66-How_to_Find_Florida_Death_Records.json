@@ -9,7 +9,7 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 369,
+          "top": 370,
           "bottom": 389,
           "left": 505,
           "right": 659,
@@ -39,7 +39,7 @@
         "selector": "li > span > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #3366cc, background color: #dcdcdc, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 397,
+          "top": 398,
           "bottom": 417,
           "left": 505,
           "right": 752,
@@ -134,9 +134,9 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 643,
-          "bottom": 736,
+          "bottom": 737,
           "left": 246,
-          "right": 698,
+          "right": 699,
           "width": 453,
           "height": 94
         },
@@ -149,7 +149,7 @@
         "boundingRect": {
           "top": 655,
           "bottom": 725,
-          "left": 701,
+          "left": 702,
           "right": 1154,
           "width": 453,
           "height": 70
@@ -161,8 +161,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2368,
-          "bottom": 2414,
+          "top": 2369,
+          "bottom": 2415,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -175,8 +175,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 2603,
-          "bottom": 2792,
+          "top": 2604,
+          "bottom": 2793,
           "left": 48,
           "right": 1352,
           "width": 1304,
@@ -267,50 +267,6 @@
             },
             "nodeLabel": "United States Record Finder",
             "subItemCategory": "unknown"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 2701,
-              "bottom": 2717,
-              "left": 93,
-              "right": 264,
-              "width": 171,
-              "height": 16
-            },
-            "nodeLabel": "United States Vital Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Vital_Records\">",
-        "selector": "dd > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (171px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 2701,
-          "bottom": 2717,
-          "left": 93,
-          "right": 264,
-          "width": 171,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/U.S._Vital_Records_Overview\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 2678,
-              "bottom": 2694,
-              "left": 93,
-              "right": 269,
-              "width": 176,
-              "height": 16
-            },
-            "nodeLabel": "U.S. Vital Records Overview",
-            "subItemCategory": "unknown"
           }
         ]
       }
@@ -325,8 +281,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 612,
-          "bottom": 745,
+          "top": 613,
+          "bottom": 746,
           "left": 244,
           "right": 1156,
           "width": 913,
@@ -339,8 +295,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2809,
-          "bottom": 3158,
+          "top": 2810,
+          "bottom": 3159,
           "left": 51,
           "right": 1349,
           "width": 1298,
@@ -387,7 +343,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1053,
-              "bottom": 1087,
+              "bottom": 1088,
               "left": 48,
               "right": 154,
               "width": 106,
@@ -400,7 +356,7 @@
             "snippet": "<td width=\"25%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 1087,
+              "top": 1088,
               "bottom": 1144,
               "left": 154,
               "right": 480,

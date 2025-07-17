@@ -9,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 7013,
-          "bottom": 7107,
+          "top": 7015,
+          "bottom": 7109,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -49,8 +49,8 @@
         "selector": "td > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 2466,
-          "bottom": 2481,
+          "top": 2467,
+          "bottom": 2482,
           "left": 853,
           "right": 1253,
           "width": 400,
@@ -67,7 +67,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 1021,
           "bottom": 1037,
@@ -120,126 +120,6 @@
               "height": 16
             },
             "nodeLabel": "Taxation",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1197,
-          "bottom": 1213,
-          "left": 1121,
-          "right": 1190,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1220,
-              "bottom": 1236,
-              "left": 1121,
-              "right": 1195,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1220,
-          "bottom": 1236,
-          "left": 1121,
-          "right": 1195,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1197,
-              "bottom": 1213,
-              "left": 1121,
-              "right": 1190,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italian_Marriage_Document_Translations\">",
-        "selector": "dd > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (243.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 7063,
-          "bottom": 7079,
-          "left": 389,
-          "right": 632,
-          "width": 244,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italian_Civil_Death_Document_Translation\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 7087,
-              "bottom": 7103,
-              "left": 389,
-              "right": 638,
-              "width": 249,
-              "height": 16
-            },
-            "nodeLabel": "Italian Civil Death Document Translation",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italian_Civil_Death_Document_Translation\">",
-        "selector": "dd > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (249px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 7087,
-          "bottom": 7103,
-          "left": 389,
-          "right": 638,
-          "width": 249,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italian_Marriage_Document_Translations\">",
-            "selector": "dd > ul > li > a",
-            "boundingRect": {
-              "top": 7063,
-              "bottom": 7079,
-              "left": 389,
-              "right": 632,
-              "width": 244,
-              "height": 16
-            },
-            "nodeLabel": "Italian Marriage Document Translations",
             "subItemCategory": "unknown"
           }
         ]

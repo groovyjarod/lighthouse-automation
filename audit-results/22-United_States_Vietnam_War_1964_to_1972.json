@@ -9,7 +9,7 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > table.wikitable > caption",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.44 (foreground color: #6c757d, background color: #f8f9fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 2454,
+          "top": 2455,
           "bottom": 2501,
           "left": 344,
           "right": 932,
@@ -22,8 +22,8 @@
             "snippet": "<table class=\"wikitable\">",
             "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table.wikitable",
             "boundingRect": {
-              "top": 2454,
-              "bottom": 2611,
+              "top": 2455,
+              "bottom": 2612,
               "left": 344,
               "right": 932,
               "width": 588,
@@ -45,8 +45,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 5751,
-          "bottom": 5907,
+          "top": 5753,
+          "bottom": 5909,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -293,7 +293,7 @@
       {
         "snippet": "<a href=\"/en/wiki/World_War_II_United_States_Military_Records,_1941_to_1945\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (166.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (166.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 766,
           "bottom": 782,
@@ -337,7 +337,7 @@
       {
         "snippet": "<a href=\"/en/wiki/United_States_Korean_War_1950_to_1953\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (163px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (162.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 790,
           "bottom": 806,
@@ -369,8 +369,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1135,
-          "bottom": 1151,
+          "top": 1136,
+          "bottom": 1152,
           "left": 378,
           "right": 485,
           "width": 107,
@@ -382,8 +382,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1159,
-              "bottom": 1175,
+              "top": 1160,
+              "bottom": 1176,
               "left": 378,
               "right": 482,
               "width": 104,
@@ -397,10 +397,10 @@
       {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (103.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1159,
-          "bottom": 1175,
+          "top": 1160,
+          "bottom": 1176,
           "left": 378,
           "right": 482,
           "width": 104,
@@ -412,8 +412,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Pension_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1135,
-              "bottom": 1151,
+              "top": 1136,
+              "bottom": 1152,
               "left": 378,
               "right": 485,
               "width": 107,
@@ -456,8 +456,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1159,
-              "bottom": 1175,
+              "top": 1160,
+              "bottom": 1176,
               "left": 378,
               "right": 482,
               "width": 104,
@@ -514,8 +514,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Old_Soldiers_Home_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1230,
-              "bottom": 1246,
+              "top": 1231,
+              "bottom": 1247,
               "left": 378,
               "right": 477,
               "width": 99,
@@ -531,8 +531,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1230,
-          "bottom": 1246,
+          "top": 1231,
+          "bottom": 1247,
           "left": 378,
           "right": 477,
           "width": 99,
@@ -628,11 +628,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 1434,
+          "bottom": 1435,
           "left": 354,
           "right": 576,
           "width": 222,
-          "height": 1157
+          "height": 1158
         },
         "itemCategory": "page"
       },
@@ -641,8 +641,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 6673,
-          "bottom": 6949,
+          "top": 6675,
+          "bottom": 6951,
           "left": 347,
           "right": 1349,
           "width": 1002,

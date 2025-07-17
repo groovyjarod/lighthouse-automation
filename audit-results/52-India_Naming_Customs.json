@@ -9,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4339,
-          "bottom": 4385,
+          "top": 4341,
+          "bottom": 4387,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -47,7 +47,7 @@
       {
         "snippet": "<a href=\"/en/wiki/India_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 975,
           "bottom": 991,
@@ -109,8 +109,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (31.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1307,
-          "bottom": 1323,
+          "top": 1308,
+          "bottom": 1324,
           "left": 1120,
           "right": 1152,
           "width": 32,
@@ -152,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Hindi_Genealogical_Word_List\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1307,
-              "bottom": 1323,
+              "top": 1308,
+              "bottom": 1324,
               "left": 1120,
               "right": 1152,
               "width": 32,

@@ -29,8 +29,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (483px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2136,
-          "bottom": 2152,
+          "top": 2137,
+          "bottom": 2153,
           "left": 366,
           "right": 849,
           "width": 483,
@@ -42,8 +42,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2333694\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 2160,
-              "bottom": 2176,
+              "top": 2161,
+              "bottom": 2177,
               "left": 366,
               "right": 851,
               "width": 485,
@@ -59,8 +59,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (484.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2160,
-          "bottom": 2176,
+          "top": 2161,
+          "bottom": 2177,
           "left": 366,
           "right": 851,
           "width": 485,
@@ -72,8 +72,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/2860782\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 2136,
-              "bottom": 2152,
+              "top": 2137,
+              "bottom": 2153,
               "left": 366,
               "right": 849,
               "width": 483,
@@ -96,7 +96,7 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 324,
-          "bottom": 1751,
+          "bottom": 1752,
           "left": 1128,
           "right": 1352,
           "width": 224,

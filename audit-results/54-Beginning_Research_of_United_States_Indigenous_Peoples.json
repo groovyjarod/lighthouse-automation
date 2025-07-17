@@ -50,7 +50,7 @@
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
           "top": 860,
-          "bottom": 903,
+          "bottom": 904,
           "left": 344,
           "right": 1064,
           "width": 720,
@@ -82,8 +82,8 @@
             "snippet": "<a href=\"/en/wiki/American_Indian_Sanitary_Record_of_Sick,_Injured,_Births,_Deaths,…\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1244,
-              "bottom": 1260,
+              "top": 1245,
+              "bottom": 1261,
               "left": 1234,
               "right": 1341,
               "width": 107,
@@ -99,8 +99,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1244,
-          "bottom": 1260,
+          "top": 1245,
+          "bottom": 1261,
           "left": 1234,
           "right": 1341,
           "width": 107,
@@ -129,8 +129,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1422,
-          "bottom": 1438,
+          "top": 1423,
+          "bottom": 1439,
           "left": 1234,
           "right": 1311,
           "width": 77,
@@ -172,8 +172,8 @@
             "snippet": "<a href=\"/en/wiki/Area_Offices_of_the_Bureau_of_Indian_Affairs\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1422,
-              "bottom": 1438,
+              "top": 1423,
+              "bottom": 1439,
               "left": 1234,
               "right": 1311,
               "width": 77,
@@ -187,10 +187,10 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:American_Ind…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
         "boundingRect": {
-          "top": 3429,
-          "bottom": 3444,
+          "top": 3431,
+          "bottom": 3445,
           "left": 427,
           "right": 432,
           "width": 5,
@@ -202,12 +202,12 @@
             "snippet": "<a href=\"/en/wiki/Indigenous_Tribes_of_the_United_States\">",
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 3449,
-              "bottom": 3463,
+              "top": 3451,
+              "bottom": 3464,
               "left": 392,
-              "right": 485,
+              "right": 484,
               "width": 92,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Tribes of the U.S.",
             "subItemCategory": "template"
@@ -230,7 +230,7 @@
           "left": 1074,
           "right": 1352,
           "width": 278,
-          "height": 1441
+          "height": 1442
         },
         "itemCategory": "page"
       },
@@ -239,8 +239,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3348,
-          "bottom": 3711,
+          "top": 3350,
+          "bottom": 3712,
           "left": 347,
           "right": 1349,
           "width": 1002,

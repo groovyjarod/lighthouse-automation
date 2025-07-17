@@ -25,66 +25,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 781,
-          "bottom": 797,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 805,
-              "bottom": 821,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 805,
-          "bottom": 821,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 781,
-              "bottom": 797,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -93,7 +33,7 @@
           "bottom": 1054,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -136,7 +76,7 @@
               "bottom": 1054,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -233,126 +173,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1302,
-          "bottom": 1318,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1325,
-              "bottom": 1341,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1325,
-          "bottom": 1341,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1302,
-              "bottom": 1318,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Alaska_Probate_Records\">",
-        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 931,
-          "bottom": 947,
-          "left": 366,
-          "right": 408,
-          "width": 42,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Arizona_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 955,
-              "bottom": 971,
-              "left": 366,
-              "right": 414,
-              "width": 47,
-              "height": 16
-            },
-            "nodeLabel": "Arizona",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Arizona_Probate_Records\">",
-        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (47.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 955,
-          "bottom": 971,
-          "left": 366,
-          "right": 414,
-          "width": 47,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Alaska_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 931,
-              "bottom": 947,
-              "left": 366,
-              "right": 408,
-              "width": 42,
-              "height": 16
-            },
-            "nodeLabel": "Alaska",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Probate_Records\">",
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (58.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -414,8 +234,8 @@
             "snippet": "<a href=\"/en/wiki/Colorado_Probate_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1026,
-              "bottom": 1042,
+              "top": 1027,
+              "bottom": 1043,
               "left": 366,
               "right": 423,
               "width": 57,
@@ -431,8 +251,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (56.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1026,
-          "bottom": 1042,
+          "top": 1027,
+          "bottom": 1043,
           "left": 366,
           "right": 423,
           "width": 57,
@@ -534,8 +354,8 @@
             "snippet": "<a href=\"/en/wiki/Louisiana_Probate_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 931,
-              "bottom": 947,
+              "top": 932,
+              "bottom": 948,
               "left": 569,
               "right": 629,
               "width": 60,
@@ -551,8 +371,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 931,
-          "bottom": 947,
+          "top": 932,
+          "bottom": 948,
           "left": 569,
           "right": 629,
           "width": 60,
@@ -581,8 +401,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1050,
-          "bottom": 1066,
+          "top": 1051,
+          "bottom": 1067,
           "left": 569,
           "right": 634,
           "width": 65,
@@ -624,8 +444,8 @@
             "snippet": "<a href=\"/en/wiki/Minnesota_Probate_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1050,
-              "bottom": 1066,
+              "top": 1051,
+              "bottom": 1067,
               "left": 569,
               "right": 634,
               "width": 65,
@@ -693,50 +513,6 @@
             },
             "nodeLabel": "Missouri",
             "subItemCategory": "page"
-          },
-          {
-            "snippet": "<a href=\"/en/wiki/Nebraska_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1145,
-              "bottom": 1161,
-              "left": 569,
-              "right": 629,
-              "width": 60,
-              "height": 16
-            },
-            "nodeLabel": "Nebraska",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Nebraska_Probate_Records\">",
-        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1145,
-          "bottom": 1161,
-          "left": 569,
-          "right": 629,
-          "width": 60,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Montana_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1122,
-              "bottom": 1138,
-              "left": 569,
-              "right": 624,
-              "width": 54,
-              "height": 16
-            },
-            "nodeLabel": "Montana",
-            "subItemCategory": "page"
           }
         ]
       },
@@ -758,8 +534,8 @@
             "snippet": "<a href=\"/en/wiki/New_Mexico_Probate_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1240,
-              "bottom": 1256,
+              "top": 1241,
+              "bottom": 1257,
               "left": 569,
               "right": 646,
               "width": 76,
@@ -773,10 +549,10 @@
       {
         "snippet": "<a href=\"/en/wiki/New_Mexico_Probate_Records\">",
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (76.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (76.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1240,
-          "bottom": 1256,
+          "top": 1241,
+          "bottom": 1257,
           "left": 569,
           "right": 646,
           "width": 76,
@@ -818,8 +594,8 @@
             "snippet": "<a href=\"/en/wiki/Rhode_Island_Probate_Records\">",
             "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1026,
-              "bottom": 1042,
+              "top": 1027,
+              "bottom": 1043,
               "left": 772,
               "right": 855,
               "width": 83,
@@ -835,8 +611,8 @@
         "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (82.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1026,
-          "bottom": 1042,
+          "top": 1027,
+          "bottom": 1043,
           "left": 772,
           "right": 855,
           "width": 83,
@@ -856,66 +632,6 @@
               "height": 16
             },
             "nodeLabel": "Pennsylvania",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wisconsin_Probate_Records\">",
-        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (63.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1264,
-          "bottom": 1280,
-          "left": 772,
-          "right": 836,
-          "width": 64,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wyoming_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1288,
-              "bottom": 1304,
-              "left": 772,
-              "right": 831,
-              "width": 58,
-              "height": 16
-            },
-            "nodeLabel": "Wyoming",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Wyoming_Probate_Records\">",
-        "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (58.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1288,
-          "bottom": 1304,
-          "left": 772,
-          "right": 831,
-          "width": 58,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Wisconsin_Probate_Records\">",
-            "selector": "div.mw-parser-output > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1264,
-              "bottom": 1280,
-              "left": 772,
-              "right": 836,
-              "width": 64,
-              "height": 16
-            },
-            "nodeLabel": "Wisconsin",
             "subItemCategory": "page"
           }
         ]
@@ -945,8 +661,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2823,
-          "bottom": 3172,
+          "top": 2824,
+          "bottom": 3173,
           "left": 347,
           "right": 1349,
           "width": 1002,

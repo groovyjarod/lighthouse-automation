@@ -27,10 +27,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1019,
-          "bottom": 1035,
+          "top": 1020,
+          "bottom": 1036,
           "left": 1251,
           "right": 1303,
           "width": 52,
@@ -72,74 +72,14 @@
             "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1019,
-              "bottom": 1035,
+              "top": 1020,
+              "bottom": 1036,
               "left": 1251,
               "right": 1303,
               "width": 52,
               "height": 16
             },
             "nodeLabel": "Taxation",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1193,
-          "bottom": 1209,
-          "left": 1116,
-          "right": 1184,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1217,
-              "bottom": 1233,
-              "left": 1116,
-              "right": 1190,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1217,
-          "bottom": 1233,
-          "left": 1116,
-          "right": 1190,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1193,
-              "bottom": 1209,
-              "left": 1116,
-              "right": 1184,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
             "subItemCategory": "unknown"
           }
         ]
@@ -329,8 +269,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (79.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2251,
-          "bottom": 2267,
+          "top": 2252,
+          "bottom": 2268,
           "left": 464,
           "right": 543,
           "width": 79,
@@ -342,8 +282,8 @@
             "snippet": "<a href=\"/en/wiki/Lecce,_Apulia,_Italy_Genealogy\" class=\"mw-redirect\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
             "boundingRect": {
-              "top": 2275,
-              "bottom": 2291,
+              "top": 2276,
+              "bottom": 2292,
               "left": 464,
               "right": 547,
               "width": 83,
@@ -359,8 +299,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2275,
-          "bottom": 2291,
+          "top": 2276,
+          "bottom": 2292,
           "left": 464,
           "right": 547,
           "width": 83,
@@ -372,8 +312,8 @@
             "snippet": "<a href=\"/en/wiki/Latina,_Lazio,_Italy_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 2251,
-              "bottom": 2267,
+              "top": 2252,
+              "bottom": 2268,
               "left": 464,
               "right": 543,
               "width": 79,
@@ -462,8 +402,8 @@
             "snippet": "<a href=\"/en/wiki/Lucca,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
             "boundingRect": {
-              "top": 2370,
-              "bottom": 2386,
+              "top": 2371,
+              "bottom": 2387,
               "left": 464,
               "right": 561,
               "width": 97,
@@ -479,8 +419,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
         "explanation": "Fix any of the following:\n  Target has insufficient size (97.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2370,
-          "bottom": 2386,
+          "top": 2371,
+          "bottom": 2387,
           "left": 464,
           "right": 561,
           "width": 97,
@@ -507,7 +447,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Milan,_Lombardy,_Italy_Genealogy\" class=\"mw-redirect\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (158px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (157.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 2085,
           "bottom": 2101,
@@ -582,8 +522,8 @@
             "snippet": "<a href=\"/en/wiki/Perugia,_Umbria,_Italy_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 2416,
-              "bottom": 2432,
+              "top": 2417,
+              "bottom": 2433,
               "left": 660,
               "right": 761,
               "width": 101,
@@ -599,8 +539,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2416,
-          "bottom": 2432,
+          "top": 2417,
+          "bottom": 2433,
           "left": 660,
           "right": 761,
           "width": 101,
@@ -717,7 +657,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Siena,_Tuscany,_Italy_Genealogy\" class=\"mw-redirect\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a.mw-redirect",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (95.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (95.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 2463,
           "bottom": 2479,
@@ -747,10 +687,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Terni,_Umbria,_Italy_Genealogy\">",
         "selector": "td > ul.column-spacing-fullscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (83.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2156,
-          "bottom": 2172,
+          "top": 2157,
+          "bottom": 2173,
           "left": 1052,
           "right": 1135,
           "width": 83,
@@ -792,8 +732,8 @@
             "snippet": "<a href=\"/en/wiki/Terni,_Umbria,_Italy_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 2156,
-              "bottom": 2172,
+              "top": 2157,
+              "bottom": 2173,
               "left": 1052,
               "right": 1135,
               "width": 83,

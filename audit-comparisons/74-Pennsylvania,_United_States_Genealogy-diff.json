@@ -1,9 +1,8 @@
 {
   "file": "74-Pennsylvania,_United_States_Genealogy.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "frame-title-3"
+    "frame-title-1",
+    "target-size-2"
   ],
   "removedKeys": [
     "document-title-1",

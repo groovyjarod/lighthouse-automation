@@ -1,12 +1,13 @@
 {
   "file": "4-United_States_Obituaries.json",
   "addedKeys": [
-    "color-contrast-2",
-    "definition-list-3",
-    "frame-title-4",
-    "table-fake-caption-5"
+    "definition-list-1",
+    "frame-title-2",
+    "target-size-3",
+    "table-fake-caption-4"
   ],
   "removedKeys": [
+    "aria-allowed-role-1",
     "aria-valid-attr-value-2",
     "color-contrast-3",
     "definition-list-4",

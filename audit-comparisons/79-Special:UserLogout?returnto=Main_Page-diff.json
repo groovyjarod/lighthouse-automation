@@ -1,10 +1,11 @@
 {
   "file": "79-Special:UserLogout?returnto=Main_Page.json",
   "addedKeys": [
-    "aria-allowed-role-1"
+    "frame-title-1"
   ],
   "removedKeys": [
     "document-title-1",
+    "frame-title-2",
     "html-has-lang-3"
   ]
 }

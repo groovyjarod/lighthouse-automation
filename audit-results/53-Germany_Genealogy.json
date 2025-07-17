@@ -162,8 +162,8 @@
             "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 977,
-              "bottom": 993,
+              "top": 978,
+              "bottom": 994,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -179,8 +179,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 977,
-          "bottom": 993,
+          "top": 978,
+          "bottom": 994,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -236,74 +236,14 @@
             "snippet": "<a href=\"/en/wiki/Germany_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 977,
-              "bottom": 993,
+              "top": 978,
+              "bottom": 994,
               "left": 1096,
               "right": 1198,
               "width": 101,
               "height": 16
             },
             "nodeLabel": "Land & Property",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Germany_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1195,
-          "bottom": 1211,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Germany_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1218,
-              "bottom": 1234,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Germany_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1218,
-          "bottom": 1234,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Germany_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1195,
-              "bottom": 1211,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
             "subItemCategory": "unknown"
           }
         ]

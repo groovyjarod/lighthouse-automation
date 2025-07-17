@@ -29,7 +29,7 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h5",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 1928,
+          "top": 1929,
           "bottom": 1969,
           "left": 344,
           "right": 1139,
@@ -49,8 +49,8 @@
         "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 3598,
-          "bottom": 3613,
+          "top": 3599,
+          "bottom": 3614,
           "left": 1054,
           "right": 1354,
           "width": 300,
@@ -69,7 +69,7 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2182,
+          "top": 2183,
           "bottom": 2205,
           "left": 345,
           "right": 756,
@@ -83,7 +83,7 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2206,
+          "top": 2207,
           "bottom": 2229,
           "left": 345,
           "right": 756,
@@ -97,8 +97,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2230,
-          "bottom": 2252,
+          "top": 2231,
+          "bottom": 2253,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -112,7 +112,7 @@
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
           "top": 2254,
-          "bottom": 2276,
+          "bottom": 2277,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -126,7 +126,7 @@
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
           "top": 2278,
-          "bottom": 2300,
+          "bottom": 2301,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -139,7 +139,7 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2301,
+          "top": 2302,
           "bottom": 2324,
           "left": 345,
           "right": 756,
@@ -153,8 +153,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2325,
-          "bottom": 2347,
+          "top": 2326,
+          "bottom": 2348,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -167,8 +167,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2349,
-          "bottom": 2371,
+          "top": 2350,
+          "bottom": 2372,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -182,7 +182,7 @@
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
           "top": 2373,
-          "bottom": 2395,
+          "bottom": 2396,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -195,8 +195,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2396,
-          "bottom": 2419,
+          "top": 2397,
+          "bottom": 2420,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -209,7 +209,7 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2420,
+          "top": 2421,
           "bottom": 2443,
           "left": 345,
           "right": 756,
@@ -223,8 +223,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2444,
-          "bottom": 2466,
+          "top": 2445,
+          "bottom": 2467,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -237,8 +237,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2468,
-          "bottom": 2490,
+          "top": 2469,
+          "bottom": 2491,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -252,7 +252,7 @@
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
           "top": 2492,
-          "bottom": 2514,
+          "bottom": 2515,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -265,8 +265,8 @@
         "selector": "tbody > tr > td > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 2515,
-          "bottom": 2538,
+          "top": 2516,
+          "bottom": 2539,
           "left": 345,
           "right": 756,
           "width": 411,
@@ -279,8 +279,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 5849,
-          "bottom": 5871,
+          "top": 5851,
+          "bottom": 5873,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -293,8 +293,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 5872,
-          "bottom": 5895,
+          "top": 5875,
+          "bottom": 5897,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -307,8 +307,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > li",
         "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
         "boundingRect": {
-          "top": 5896,
-          "bottom": 5919,
+          "top": 5898,
+          "bottom": 5921,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -387,8 +387,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1047,
-          "bottom": 1063,
+          "top": 1048,
+          "bottom": 1064,
           "left": 1096,
           "right": 1195,
           "width": 99,
@@ -430,8 +430,8 @@
             "snippet": "<a href=\"/en/wiki/England_Jewish_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1047,
-              "bottom": 1063,
+              "top": 1048,
+              "bottom": 1064,
               "left": 1096,
               "right": 1195,
               "width": 99,
@@ -487,72 +487,12 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/England_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1291,
-          "bottom": 1307,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/England_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1315,
-              "bottom": 1331,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/England_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1315,
-          "bottom": 1331,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/England_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1291,
-              "bottom": 1307,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/search/collection/1493745\">",
         "selector": "tbody > tr > td > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1707,
-          "bottom": 1723,
+          "top": 1708,
+          "bottom": 1724,
           "left": 501,
           "right": 601,
           "width": 100,
@@ -564,8 +504,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8978/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1745,
+              "top": 1730,
+              "bottom": 1746,
               "left": 501,
               "right": 599,
               "width": 98,
@@ -581,8 +521,8 @@
         "selector": "tbody > tr > td > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1707,
-          "bottom": 1723,
+          "top": 1708,
+          "bottom": 1724,
           "left": 652,
           "right": 751,
           "width": 100,
@@ -594,8 +534,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8860/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1745,
+              "top": 1730,
+              "bottom": 1746,
               "left": 652,
               "right": 750,
               "width": 98,
@@ -611,8 +551,8 @@
         "selector": "tbody > tr > td > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1707,
-          "bottom": 1723,
+          "top": 1708,
+          "bottom": 1724,
           "left": 802,
           "right": 902,
           "width": 100,
@@ -624,8 +564,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/8767/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1745,
+              "top": 1730,
+              "bottom": 1746,
               "left": 802,
               "right": 900,
               "width": 98,
@@ -641,8 +581,8 @@
         "selector": "tbody > tr > td > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (99.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1707,
-          "bottom": 1723,
+          "top": 1708,
+          "bottom": 1724,
           "left": 953,
           "right": 1053,
           "width": 100,
@@ -654,8 +594,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7619/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1729,
-              "bottom": 1745,
+              "top": 1730,
+              "bottom": 1746,
               "left": 953,
               "right": 1051,
               "width": 98,
@@ -684,8 +624,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7572/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1832,
-              "bottom": 1848,
+              "top": 1833,
+              "bottom": 1849,
               "left": 351,
               "right": 448,
               "width": 98,
@@ -714,8 +654,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/6598/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1832,
-              "bottom": 1848,
+              "top": 1833,
+              "bottom": 1849,
               "left": 501,
               "right": 599,
               "width": 98,
@@ -744,8 +684,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/7814/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1832,
-              "bottom": 1848,
+              "top": 1833,
+              "bottom": 1849,
               "left": 652,
               "right": 750,
               "width": 98,
@@ -774,8 +714,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.ancestry.com/search/collections/2352/\">",
             "selector": "tbody > tr > td > a.external",
             "boundingRect": {
-              "top": 1832,
-              "bottom": 1848,
+              "top": 1833,
+              "bottom": 1849,
               "left": 802,
               "right": 900,
               "width": 98,
@@ -798,11 +738,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 1635,
-          "bottom": 2034,
+          "bottom": 2035,
           "left": 1153,
           "right": 1352,
           "width": 200,
-          "height": 399
+          "height": 400
         },
         "itemCategory": "template"
       }

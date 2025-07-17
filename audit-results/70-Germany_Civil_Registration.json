@@ -9,8 +9,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 355,
           "right": 439,
           "width": 84,
@@ -22,8 +22,8 @@
             "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 345,
               "right": 450,
               "width": 106,
@@ -39,8 +39,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 463,
           "right": 543,
           "width": 79,
@@ -52,8 +52,8 @@
             "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 450,
               "right": 556,
               "width": 106,
@@ -69,8 +69,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 579,
           "right": 684,
           "width": 105,
@@ -82,8 +82,8 @@
             "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 556,
               "right": 707,
               "width": 151,
@@ -99,8 +99,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 727,
           "right": 813,
           "width": 86,
@@ -112,8 +112,8 @@
             "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 707,
               "right": 833,
               "width": 126,
@@ -129,8 +129,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 853,
           "right": 939,
           "width": 86,
@@ -142,8 +142,8 @@
             "snippet": "<td width=\"12.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 833,
               "right": 959,
               "width": 126,
@@ -159,8 +159,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 974,
           "right": 1069,
           "width": 95,
@@ -172,8 +172,8 @@
             "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 959,
               "right": 1085,
               "width": 126,
@@ -189,8 +189,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3913,
-          "bottom": 3929,
+          "top": 3914,
+          "bottom": 3930,
           "left": 1096,
           "right": 1224,
           "width": 128,
@@ -202,8 +202,8 @@
             "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 1085,
               "right": 1236,
               "width": 151,
@@ -219,8 +219,8 @@
         "selector": "tr > td > span > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #ffffff, background color: #87b940, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 3902,
-          "bottom": 3940,
+          "top": 3903,
+          "bottom": 3942,
           "left": 1258,
           "right": 1329,
           "width": 71,
@@ -232,8 +232,8 @@
             "snippet": "<td width=\"12.50%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 1236,
               "right": 1352,
               "width": 116,
@@ -255,7 +255,7 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1916,
+          "top": 1917,
           "bottom": 2143,
           "left": 344,
           "right": 1352,
@@ -269,8 +269,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4701,
-          "bottom": 4724,
+          "top": 4703,
+          "bottom": 4725,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -283,8 +283,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 5504,
-          "bottom": 5621,
+          "top": 5505,
+          "bottom": 5623,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -297,8 +297,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 5530,
-          "bottom": 5621,
+          "top": 5532,
+          "bottom": 5623,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -311,8 +311,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6017,
-          "bottom": 6062,
+          "top": 6019,
+          "bottom": 6064,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -351,8 +351,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > h4",
         "explanation": "Fix any of the following:\n  Heading order invalid",
         "boundingRect": {
-          "top": 4497,
-          "bottom": 4540,
+          "top": 4498,
+          "bottom": 4542,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -385,8 +385,8 @@
         "selector": "td > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 1395,
-          "bottom": 1410,
+          "top": 1396,
+          "bottom": 1411,
           "left": 764,
           "right": 1064,
           "width": 300,
@@ -579,72 +579,12 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Germany_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1195,
-          "bottom": 1211,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Germany_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1218,
-              "bottom": 1234,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Germany_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1218,
-          "bottom": 1234,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Germany_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1195,
-              "bottom": 1211,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Anhalt,_German_Empire_Civil_Registration\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (39.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 5035,
-          "bottom": 5051,
+          "top": 5037,
+          "bottom": 5053,
           "left": 367,
           "right": 407,
           "width": 40,
@@ -656,8 +596,8 @@
             "snippet": "<a href=\"/en/wiki/Baden,_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5059,
-              "bottom": 5075,
+              "top": 5060,
+              "bottom": 5076,
               "left": 367,
               "right": 408,
               "width": 40,
@@ -673,8 +613,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (40.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 5059,
-          "bottom": 5075,
+          "top": 5060,
+          "bottom": 5076,
           "left": 367,
           "right": 408,
           "width": 40,
@@ -686,8 +626,8 @@
             "snippet": "<a href=\"/en/wiki/Anhalt,_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5035,
-              "bottom": 5051,
+              "top": 5037,
+              "bottom": 5053,
               "left": 367,
               "right": 407,
               "width": 40,
@@ -703,8 +643,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (114.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 5273,
-          "bottom": 5289,
+          "top": 5274,
+          "bottom": 5290,
           "left": 367,
           "right": 482,
           "width": 114,
@@ -716,8 +656,8 @@
             "snippet": "<a href=\"/en/wiki/Schaumburg-Lippe,_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5296,
-              "bottom": 5312,
+              "top": 5298,
+              "bottom": 5314,
               "left": 367,
               "right": 486,
               "width": 118,
@@ -733,8 +673,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (118.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 5296,
-          "bottom": 5312,
+          "top": 5298,
+          "bottom": 5314,
           "left": 367,
           "right": 486,
           "width": 118,
@@ -746,8 +686,8 @@
             "snippet": "<a href=\"/en/wiki/Saxony_(Sachsen),_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5273,
-              "bottom": 5289,
+              "top": 5274,
+              "bottom": 5290,
               "left": 367,
               "right": 482,
               "width": 114,
@@ -763,8 +703,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (115.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 5276,
-          "bottom": 5292,
+          "top": 5277,
+          "bottom": 5293,
           "left": 647,
           "right": 763,
           "width": 115,
@@ -776,8 +716,8 @@
             "snippet": "<a href=\"/en/wiki/Schleswig-Holstein,_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5299,
-              "bottom": 5315,
+              "top": 5301,
+              "bottom": 5317,
               "left": 647,
               "right": 766,
               "width": 118,
@@ -793,8 +733,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (118.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 5299,
-          "bottom": 5315,
+          "top": 5301,
+          "bottom": 5317,
           "left": 647,
           "right": 766,
           "width": 118,
@@ -806,8 +746,8 @@
             "snippet": "<a href=\"/en/wiki/Silesia_(Schlesien),_German_Empire_Civil_Registration\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 5276,
-              "bottom": 5292,
+              "top": 5277,
+              "bottom": 5293,
               "left": 647,
               "right": 763,
               "width": 115,
@@ -829,8 +769,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 3888,
-          "bottom": 4107,
+          "top": 3889,
+          "bottom": 4109,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -842,8 +782,8 @@
             "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 345,
               "right": 450,
               "width": 106,
@@ -856,8 +796,8 @@
             "snippet": "<td width=\"10.5%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 450,
               "right": 556,
               "width": 106,
@@ -870,8 +810,8 @@
             "snippet": "<td width=\"15%\" style=\"background: #87B940\" align=\"center\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3888,
-              "bottom": 3954,
+              "top": 3890,
+              "bottom": 3956,
               "left": 556,
               "right": 707,
               "width": 151,

@@ -10,7 +10,7 @@
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.44 (foreground color: #6c757d, background color: #f8f9fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
           "top": 1424,
-          "bottom": 1470,
+          "bottom": 1471,
           "left": 596,
           "right": 1206,
           "width": 610,
@@ -305,8 +305,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1135,
-          "bottom": 1151,
+          "top": 1136,
+          "bottom": 1152,
           "left": 378,
           "right": 485,
           "width": 107,
@@ -318,8 +318,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1159,
-              "bottom": 1175,
+              "top": 1160,
+              "bottom": 1176,
               "left": 378,
               "right": 482,
               "width": 104,
@@ -333,10 +333,10 @@
       {
         "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (103.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (103.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1159,
-          "bottom": 1175,
+          "top": 1160,
+          "bottom": 1176,
           "left": 378,
           "right": 482,
           "width": 104,
@@ -348,8 +348,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Pension_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1135,
-              "bottom": 1151,
+              "top": 1136,
+              "bottom": 1152,
               "left": 378,
               "right": 485,
               "width": 107,
@@ -392,8 +392,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Prisoner_of_War_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1159,
-              "bottom": 1175,
+              "top": 1160,
+              "bottom": 1176,
               "left": 378,
               "right": 482,
               "width": 104,
@@ -450,8 +450,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Military_Old_Soldiers_Home_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1230,
-              "bottom": 1246,
+              "top": 1231,
+              "bottom": 1247,
               "left": 378,
               "right": 477,
               "width": 99,
@@ -467,8 +467,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1230,
-          "bottom": 1246,
+          "top": 1231,
+          "bottom": 1247,
           "left": 378,
           "right": 477,
           "width": 99,
@@ -557,8 +557,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (479.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3969,
-          "bottom": 3985,
+          "top": 3970,
+          "bottom": 3986,
           "left": 366,
           "right": 846,
           "width": 479,
@@ -570,11 +570,11 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/921933\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 3993,
-              "bottom": 4009,
+              "top": 3994,
+              "bottom": 4010,
               "left": 366,
               "right": 843,
-              "width": 477,
+              "width": 476,
               "height": 16
             },
             "nodeLabel": "Naval Casualty Lists for World War II and Korean War Battles, 1941 - 1956",
@@ -587,11 +587,11 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (476.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 3993,
-          "bottom": 4009,
+          "top": 3994,
+          "bottom": 4010,
           "left": 366,
           "right": 843,
-          "width": 477,
+          "width": 476,
           "height": 16
         },
         "itemCategory": "page",
@@ -600,8 +600,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/583580\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 3969,
-              "bottom": 3985,
+              "top": 3970,
+              "bottom": 3986,
               "left": 366,
               "right": 846,
               "width": 479,
@@ -617,8 +617,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (878.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4099,
-          "bottom": 4115,
+          "top": 4100,
+          "bottom": 4116,
           "left": 366,
           "right": 1245,
           "width": 879,
@@ -630,8 +630,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/1842624\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 4123,
-              "bottom": 4139,
+              "top": 4124,
+              "bottom": 4140,
               "left": 366,
               "right": 1241,
               "width": 875,
@@ -645,10 +645,10 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/1842624\">",
         "selector": "div.mw-parser-output > ul > li > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (875px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (874.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4123,
-          "bottom": 4139,
+          "top": 4124,
+          "bottom": 4140,
           "left": 366,
           "right": 1241,
           "width": 875,
@@ -660,8 +660,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/search/catalog/2560131\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 4099,
-              "bottom": 4115,
+              "top": 4100,
+              "bottom": 4116,
               "left": 366,
               "right": 1245,
               "width": 879,
@@ -677,8 +677,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (358.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 5186,
-          "bottom": 5202,
+          "top": 5188,
+          "bottom": 5204,
           "left": 366,
           "right": 725,
           "width": 358,
@@ -690,8 +690,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://catalog.archives.gov/id/74225128\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 5163,
-              "bottom": 5179,
+              "top": 5164,
+              "bottom": 5180,
               "left": 366,
               "right": 726,
               "width": 360,
@@ -714,11 +714,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 1434,
+          "bottom": 1435,
           "left": 354,
           "right": 576,
           "width": 222,
-          "height": 1157
+          "height": 1158
         },
         "itemCategory": "page"
       },
@@ -727,8 +727,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 6729,
-          "bottom": 7006,
+          "top": 6731,
+          "bottom": 7008,
           "left": 347,
           "right": 1349,
           "width": 1002,

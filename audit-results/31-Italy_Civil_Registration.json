@@ -9,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4648,
-          "bottom": 4766,
+          "top": 4650,
+          "bottom": 4768,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -23,8 +23,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4648,
-          "bottom": 4766,
+          "top": 4650,
+          "bottom": 4768,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -37,8 +37,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4831,
-          "bottom": 4925,
+          "top": 4833,
+          "bottom": 4927,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -51,8 +51,8 @@
         "selector": "div.mw-parser-output > dl > dd > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 4831,
-          "bottom": 4925,
+          "top": 4833,
+          "bottom": 4927,
           "left": 366,
           "right": 1352,
           "width": 986,
@@ -109,7 +109,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 1021,
           "bottom": 1037,
@@ -167,72 +167,12 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1197,
-          "bottom": 1213,
-          "left": 1121,
-          "right": 1190,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1220,
-              "bottom": 1236,
-              "left": 1121,
-              "right": 1195,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1220,
-          "bottom": 1236,
-          "left": 1121,
-          "right": 1195,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1197,
-              "bottom": 1213,
-              "left": 1121,
-              "right": 1190,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/the-site/faq/?lang=en\">",
         "selector": "li > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3815,
-          "bottom": 3831,
+          "top": 3817,
+          "bottom": 3833,
           "left": 389,
           "right": 431,
           "width": 42,
@@ -244,8 +184,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/tools/?lang=en\">",
             "selector": "li > ul > li > a.external",
             "boundingRect": {
-              "top": 3839,
-              "bottom": 3855,
+              "top": 3841,
+              "bottom": 3857,
               "left": 389,
               "right": 435,
               "width": 47,
@@ -261,8 +201,8 @@
         "selector": "li > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (46.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3839,
-          "bottom": 3855,
+          "top": 3841,
+          "bottom": 3857,
           "left": 389,
           "right": 435,
           "width": 47,
@@ -274,8 +214,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://antenati.cultura.gov.it/the-site/faq/?lang=en\">",
             "selector": "li > ul > li > a.external",
             "boundingRect": {
-              "top": 3815,
-              "bottom": 3831,
+              "top": 3817,
+              "bottom": 3833,
               "left": 389,
               "right": 431,
               "width": 42,

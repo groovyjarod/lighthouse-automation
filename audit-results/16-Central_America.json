@@ -76,7 +76,7 @@
             "snippet": "<ul>",
             "selector": "tr > td > ul.column-spacing-halfscreen > ul",
             "boundingRect": {
-              "top": 414,
+              "top": 413,
               "bottom": 579,
               "left": 747,
               "right": 924,
@@ -135,7 +135,7 @@
             "selector": "td > ul.column-spacing-halfscreen > ul > a.mw-redirect",
             "boundingRect": {
               "top": 797,
-              "bottom": 835,
+              "bottom": 836,
               "left": 747,
               "right": 881,
               "width": 135,
@@ -278,7 +278,7 @@
           "top": 512,
           "bottom": 528,
           "left": 747,
-          "right": 807,
+          "right": 808,
           "width": 61,
           "height": 16
         },
@@ -321,7 +321,7 @@
               "top": 512,
               "bottom": 528,
               "left": 747,
-              "right": 807,
+              "right": 808,
               "width": 61,
               "height": 16
             },
@@ -333,7 +333,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Bahamas_Genealogy\">",
         "selector": "ul.column-spacing-halfscreen > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (59.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (59.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 726,
           "bottom": 742,
