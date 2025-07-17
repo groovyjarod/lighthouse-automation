@@ -39,7 +39,7 @@
         "selector": "tr > td > p > font",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 320,
+          "top": 321,
           "bottom": 360,
           "left": 74,
           "right": 1108,

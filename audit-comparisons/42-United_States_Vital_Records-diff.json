@@ -1,17 +1,13 @@
 {
   "file": "42-United_States_Vital_Records.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "definition-list-3",
-    "frame-title-4",
-    "list-5",
-    "target-size-6",
-    "table-fake-caption-7"
+    "definition-list-1",
+    "list-3",
+    "target-size-4",
+    "table-fake-caption-5"
   ],
   "removedKeys": [
     "document-title-1",
-    "frame-title-2",
     "html-has-lang-3"
   ]
 }

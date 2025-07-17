@@ -45,8 +45,8 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_Centers\">",
-        "selector": "div.mw-parser-output > ul > li > a",
+        "snippet": "<a href=\"/en/wiki/index.php?title=FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_…\" class=\"new\">",
+        "selector": "div.mw-parser-output > ul > li > a.new",
         "explanation": "Fix any of the following:\n  Target has insufficient size (246.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 991,
@@ -62,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/Online_Genealogy_Records_by_Location\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1014,
-              "bottom": 1030,
+              "top": 1015,
+              "bottom": 1031,
               "left": 366,
               "right": 610,
               "width": 244,
@@ -79,8 +79,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (243.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1014,
-          "bottom": 1030,
+          "top": 1015,
+          "bottom": 1031,
           "left": 366,
           "right": 610,
           "width": 244,
@@ -89,8 +89,8 @@
         "itemCategory": "page",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_Centers\">",
-            "selector": "div.mw-parser-output > ul > li > a",
+            "snippet": "<a href=\"/en/wiki/index.php?title=FamilySearch_Wiki:Using_the_Wiki_in_FamilySearch_…\" class=\"new\">",
+            "selector": "div.mw-parser-output > ul > li > a.new",
             "boundingRect": {
               "top": 991,
               "bottom": 1007,
@@ -122,8 +122,8 @@
             "snippet": "<a href=\"/en/wiki/Locating_Online_Databases_Part_Four:_Internet_Sources\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1109,
-              "bottom": 1125,
+              "top": 1110,
+              "bottom": 1126,
               "left": 366,
               "right": 707,
               "width": 341,
@@ -139,8 +139,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (340.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1109,
-          "bottom": 1125,
+          "top": 1110,
+          "bottom": 1126,
           "left": 366,
           "right": 707,
           "width": 341,

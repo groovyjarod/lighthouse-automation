@@ -27,7 +27,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Sweden_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 1067,
           "bottom": 1083,
@@ -80,66 +80,6 @@
               "height": 16
             },
             "nodeLabel": "Taxation",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Sweden_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1379,
-          "bottom": 1395,
-          "left": 1116,
-          "right": 1184,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Sweden_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
-              "left": 1116,
-              "right": 1190,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Sweden_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
-          "left": 1116,
-          "right": 1190,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Sweden_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1379,
-              "bottom": 1395,
-              "left": 1116,
-              "right": 1184,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
             "subItemCategory": "unknown"
           }
         ]
@@ -222,8 +162,8 @@
             "snippet": "<a href=\"/en/wiki/Kristianstad_County,_Sweden_Genealogy\">",
             "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 1682,
-              "bottom": 1698,
+              "top": 1683,
+              "bottom": 1699,
               "left": 419,
               "right": 493,
               "width": 73,
@@ -237,10 +177,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Kristianstad_County,_Sweden_Genealogy\">",
         "selector": "div > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (73.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1682,
-          "bottom": 1698,
+          "top": 1683,
+          "bottom": 1699,
           "left": 419,
           "right": 493,
           "width": 73,
@@ -341,7 +281,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Norrbotten_County,_Sweden_Genealogy\">",
         "selector": "div > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (66.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (66.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
           "top": 1754,
           "bottom": 1770,
@@ -373,8 +313,8 @@
         "selector": "div > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1801,
-          "bottom": 1817,
+          "top": 1802,
+          "bottom": 1818,
           "left": 419,
           "right": 484,
           "width": 65,
@@ -416,8 +356,8 @@
             "snippet": "<a href=\"/en/wiki/Skaraborg_County,_Sweden_Genealogy\">",
             "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 1801,
-              "bottom": 1817,
+              "top": 1802,
+              "bottom": 1818,
               "left": 419,
               "right": 484,
               "width": 65,

@@ -9,12 +9,12 @@
         "selector": "div > div > a.new > b",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8941,
-          "bottom": 8955,
+          "top": 8945,
+          "bottom": 8958,
           "left": 374,
           "right": 463,
           "width": 89,
-          "height": 14
+          "height": 13
         },
         "itemCategory": "unknown",
         "subItems": [
@@ -22,8 +22,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8939,
-              "bottom": 8977,
+              "top": 8942,
+              "bottom": 8980,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -39,12 +39,12 @@
         "selector": "td.navbox-list > div > div > a.new",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8941,
-          "bottom": 8955,
+          "top": 8945,
+          "bottom": 8958,
           "left": 1041,
           "right": 1092,
           "width": 51,
-          "height": 14
+          "height": 13
         },
         "itemCategory": "template",
         "subItems": [
@@ -52,8 +52,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8939,
-              "bottom": 8977,
+              "top": 8942,
+              "bottom": 8980,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -69,12 +69,12 @@
         "selector": "td.navbox-list > div > div > a.new",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #dd3333, background color: #faf5ff, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 8960,
-          "bottom": 8974,
+          "top": 8964,
+          "bottom": 8977,
           "left": 910,
           "right": 976,
           "width": 66,
-          "height": 14
+          "height": 13
         },
         "itemCategory": "template",
         "subItems": [
@@ -82,8 +82,8 @@
             "snippet": "<td colspan=\"2\" style=\"width: 100%; padding: 0px; font-size: 85%; background: rgb(250, 245, 255);\" class=\"navbox-list navbox-odd\">",
             "selector": "table.nowraplinks > tbody > tr > td.navbox-list",
             "boundingRect": {
-              "top": 8939,
-              "bottom": 8977,
+              "top": 8942,
+              "bottom": 8980,
               "left": 347,
               "right": 1349,
               "width": 1002,
@@ -106,7 +106,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 1519,
-          "bottom": 1563,
+          "bottom": 1564,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -159,8 +159,8 @@
         "selector": "div.center > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 6793,
-          "bottom": 6808,
+          "top": 6795,
+          "bottom": 6810,
           "left": 701,
           "right": 1001,
           "width": 300,
@@ -173,8 +173,8 @@
         "selector": "div.mw-parser-output > div.thumb > div.thumbinner > a.image",
         "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
         "boundingRect": {
-          "top": 8412,
-          "bottom": 8427,
+          "top": 8414,
+          "bottom": 8429,
           "left": 1054,
           "right": 1354,
           "width": 300,
@@ -254,7 +254,7 @@
               "bottom": 1059,
               "left": 1248,
               "right": 1345,
-              "width": 97,
+              "width": 96,
               "height": 16
             },
             "nodeLabel": "Online Records",
@@ -271,7 +271,7 @@
           "bottom": 1059,
           "left": 1248,
           "right": 1345,
-          "width": 97,
+          "width": 96,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -355,10 +355,10 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:Hamburg,_Ger…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px.",
         "boundingRect": {
-          "top": 8922,
-          "bottom": 8936,
+          "top": 8924,
+          "bottom": 8939,
           "left": 427,
           "right": 432,
           "width": 5,
@@ -370,12 +370,12 @@
             "snippet": "<a href=\"/en/wiki/index.php?title=Hamburg_Research_Steps&amp;action=edit&amp;redlink=1\" class=\"new\">",
             "selector": "td.navbox-list > div > div > a.new",
             "boundingRect": {
-              "top": 8941,
-              "bottom": 8955,
+              "top": 8945,
+              "bottom": 8958,
               "left": 374,
               "right": 463,
               "width": 89,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Research Steps",
             "subItemCategory": "template"
@@ -394,7 +394,7 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 255,
-          "bottom": 2127,
+          "bottom": 2128,
           "left": 1098,
           "right": 1352,
           "width": 254,
@@ -407,8 +407,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 8841,
-          "bottom": 8977,
+          "top": 8843,
+          "bottom": 8980,
           "left": 347,
           "right": 1349,
           "width": 1002,
@@ -427,8 +427,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > center > table.plain",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 2629,
-          "bottom": 3029,
+          "top": 2630,
+          "bottom": 3030,
           "left": 514,
           "right": 1183,
           "width": 669,
@@ -440,8 +440,8 @@
             "snippet": "<td align=\"right\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2629,
-              "bottom": 2673,
+              "top": 2630,
+              "bottom": 2674,
               "left": 514,
               "right": 634,
               "width": 121,
@@ -454,8 +454,8 @@
             "snippet": "<td align=\"left\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2629,
-              "bottom": 2673,
+              "top": 2630,
+              "bottom": 2674,
               "left": 636,
               "right": 1183,
               "width": 546,
@@ -468,8 +468,8 @@
             "snippet": "<td align=\"right\">",
             "selector": "table.plain > tbody > tr > td",
             "boundingRect": {
-              "top": 2673,
-              "bottom": 2718,
+              "top": 2674,
+              "bottom": 2719,
               "left": 514,
               "right": 634,
               "width": 121,

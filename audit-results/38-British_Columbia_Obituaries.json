@@ -145,66 +145,6 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/British_Columbia_Biographies\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1052,
-          "bottom": 1068,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/British_Columbia_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1076,
-              "bottom": 1092,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/British_Columbia_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1076,
-          "bottom": 1092,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/British_Columbia_Biographies\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1052,
-              "bottom": 1068,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Biographies",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.qbfhs.ca/parksvillequalicum-obituaries-1948-to-1994/\">",
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (275.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -222,8 +162,8 @@
             "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"http://www.legacy.com/obituaries/vancouversun/\">",
             "selector": "div.mw-parser-output > ul > li > a.external",
             "boundingRect": {
-              "top": 532,
-              "bottom": 548,
+              "top": 533,
+              "bottom": 549,
               "left": 70,
               "right": 344,
               "width": 274,
@@ -239,8 +179,8 @@
         "selector": "div.mw-parser-output > ul > li > a.external",
         "explanation": "Fix any of the following:\n  Target has insufficient size (273.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 532,
-          "bottom": 548,
+          "top": 533,
+          "bottom": 549,
           "left": 70,
           "right": 344,
           "width": 274,
@@ -280,7 +220,7 @@
           "left": 1072,
           "right": 1352,
           "width": 280,
-          "height": 1086
+          "height": 1087
         },
         "itemCategory": "page"
       },

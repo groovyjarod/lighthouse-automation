@@ -33,7 +33,7 @@
           "bottom": 688,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -76,7 +76,7 @@
               "bottom": 688,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Census Records",
@@ -89,8 +89,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 859,
-          "bottom": 875,
+          "top": 860,
+          "bottom": 876,
           "left": 1096,
           "right": 1174,
           "width": 78,
@@ -132,8 +132,8 @@
             "snippet": "<a href=\"/en/wiki/Missionaries_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 859,
-              "bottom": 875,
+              "top": 860,
+              "bottom": 876,
               "left": 1096,
               "right": 1174,
               "width": 78,
@@ -209,8 +209,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1270,
-          "bottom": 1286,
+          "top": 1271,
+          "bottom": 1287,
           "left": 1235,
           "right": 1337,
           "width": 101,
@@ -226,7 +226,7 @@
               "bottom": 1310,
               "left": 1235,
               "right": 1332,
-              "width": 97,
+              "width": 96,
               "height": 16
             },
             "nodeLabel": "Online Records",
@@ -243,7 +243,7 @@
           "bottom": 1310,
           "left": 1235,
           "right": 1332,
-          "width": 97,
+          "width": 96,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -252,8 +252,8 @@
             "snippet": "<a href=\"/en/wiki/Latter-day_Saint_For_Further_Reading\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1270,
-              "bottom": 1286,
+              "top": 1271,
+              "bottom": 1287,
               "left": 1235,
               "right": 1337,
               "width": 101,
@@ -269,8 +269,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1423,
-          "bottom": 1439,
+          "top": 1424,
+          "bottom": 1440,
           "left": 1235,
           "right": 1336,
           "width": 100,
@@ -312,8 +312,8 @@
             "snippet": "<a href=\"/en/wiki/Utah_Directories\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1423,
-              "bottom": 1439,
+              "top": 1424,
+              "bottom": 1440,
               "left": 1235,
               "right": 1336,
               "width": 100,
@@ -327,7 +327,7 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:Place&amp;action…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.4px instead of at least 24px.",
         "boundingRect": {
           "top": 1681,
           "bottom": 1696,
@@ -342,12 +342,12 @@
             "snippet": "<a href=\"/en/wiki/Latter-day_Saint_Record_Finder\">",
             "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 1701,
+              "top": 1702,
               "bottom": 1715,
               "left": 94,
               "right": 175,
               "width": 81,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Record Finder",
             "subItemCategory": "unknown"
@@ -357,7 +357,7 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:USChurch&amp;act…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
         "boundingRect": {
           "top": 1819,
           "bottom": 1833,
@@ -372,12 +372,12 @@
             "snippet": "<a href=\"/en/wiki/Adventist_Churches_in_the_United_States\">",
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 1839,
+              "top": 1840,
               "bottom": 1853,
               "left": 103,
               "right": 152,
               "width": 49,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Adventist",
             "subItemCategory": "template"

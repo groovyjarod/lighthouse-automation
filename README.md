@@ -18,6 +18,8 @@ Dependencies:
     - puppeteer
     - url
 
+To cancel any tests at any point, press ctrl+C.
+
 This script parses all of the paths contained in wikiPaths.txt to create a array of paths proceeding the extension https://www.familysearch.org/en/wiki/. The script creates a full URL to access the page, and creates a custom-made json file containing audit results of each page listed in the .txt file.
 
 Descriptions of each script command (refer to package.json to see all of the information pertaining to what files are being executed)

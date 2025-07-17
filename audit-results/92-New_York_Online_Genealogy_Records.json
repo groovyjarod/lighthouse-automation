@@ -39,7 +39,7 @@
         "selector": "tr > td > p > font",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 320,
+          "top": 321,
           "bottom": 360,
           "left": 98,
           "right": 1012,
@@ -69,8 +69,8 @@
         "selector": "p > font > b > a",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.89 (foreground color: #3366cc, background color: #89c4fa, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 320,
-          "bottom": 337,
+          "top": 321,
+          "bottom": 338,
           "left": 818,
           "right": 967,
           "width": 149,
@@ -121,66 +121,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/New_York_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 707,
-          "bottom": 723,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/New_York_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 730,
-              "bottom": 746,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/New_York_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 730,
-          "bottom": 746,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/New_York_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 707,
-              "bottom": 723,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/New_York_Land_and_Property\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -198,8 +138,8 @@
             "snippet": "<a href=\"/en/wiki/New_York_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1011,
-              "bottom": 1027,
+              "top": 1012,
+              "bottom": 1028,
               "left": 1096,
               "right": 1197,
               "width": 100,
@@ -215,8 +155,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1011,
-          "bottom": 1027,
+          "top": 1012,
+          "bottom": 1028,
           "left": 1096,
           "right": 1197,
           "width": 100,
@@ -252,11 +192,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 6127,
+          "bottom": 6129,
           "left": 48,
           "right": 1062,
           "width": 1014,
-          "height": 5850
+          "height": 5852
         },
         "itemCategory": "page"
       },
@@ -265,12 +205,12 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 6173,
-          "bottom": 6568,
+          "top": 6176,
+          "bottom": 6571,
           "left": 51,
           "right": 1349,
           "width": 1298,
-          "height": 395
+          "height": 396
         },
         "itemCategory": "unknown"
       }

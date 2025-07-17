@@ -133,8 +133,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (112.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1403,
-          "bottom": 1419,
+          "top": 1404,
+          "bottom": 1420,
           "left": 1103,
           "right": 1215,
           "width": 113,
@@ -176,8 +176,8 @@
             "snippet": "<a href=\"/en/wiki/African_American_Resources_for_Pennsylvania\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1403,
-              "bottom": 1419,
+              "top": 1404,
+              "bottom": 1420,
               "left": 1103,
               "right": 1215,
               "width": 113,
@@ -197,7 +197,7 @@
           "bottom": 1273,
           "left": 71,
           "right": 133,
-          "width": 62,
+          "width": 61,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -240,7 +240,7 @@
               "bottom": 1273,
               "left": 71,
               "right": 133,
-              "width": 62,
+              "width": 61,
               "height": 16
             },
             "nodeLabel": "Allegheny",
@@ -373,8 +373,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (52.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1471,
-          "bottom": 1487,
+          "top": 1472,
+          "bottom": 1488,
           "left": 71,
           "right": 124,
           "width": 53,
@@ -416,8 +416,8 @@
             "snippet": "<a href=\"/en/wiki/Cambria_County,_Pennsylvania_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1471,
-              "bottom": 1487,
+              "top": 1472,
+              "bottom": 1488,
               "left": 71,
               "right": 124,
               "width": 53,
@@ -613,8 +613,8 @@
         "selector": "td > ul.column-spacing-fullscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (34.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1471,
-          "bottom": 1487,
+          "top": 1472,
+          "bottom": 1488,
           "left": 658,
           "right": 692,
           "width": 35,
@@ -656,8 +656,8 @@
             "snippet": "<a href=\"/en/wiki/Tioga_County,_Pennsylvania_Genealogy\">",
             "selector": "td > ul.column-spacing-fullscreen > li > a",
             "boundingRect": {
-              "top": 1471,
-              "bottom": 1487,
+              "top": 1472,
+              "bottom": 1488,
               "left": 658,
               "right": 692,
               "width": 35,
@@ -671,7 +671,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Culbertson%27s_Path\">",
         "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (110.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (110.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 1816,
           "bottom": 1832,
@@ -701,7 +701,7 @@
       {
         "snippet": "<a href=\"/en/wiki/Cumberland_Road\">",
         "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (113.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (113.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
           "top": 1840,
           "bottom": 1856,
@@ -729,72 +729,12 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Delaware_River\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (95.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1864,
-          "bottom": 1880,
-          "left": 71,
-          "right": 167,
-          "width": 96,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Fall_Line_Road\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1887,
-              "bottom": 1903,
-              "left": 71,
-              "right": 162,
-              "width": 90,
-              "height": 16
-            },
-            "nodeLabel": "Fall Line Road",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Fall_Line_Road\">",
-        "selector": "td > ul.column-spacing-halfscreen > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (90.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1887,
-          "bottom": 1903,
-          "left": 71,
-          "right": 162,
-          "width": 90,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Delaware_River\">",
-            "selector": "td > ul.column-spacing-halfscreen > li > a",
-            "boundingRect": {
-              "top": 1864,
-              "bottom": 1880,
-              "left": 71,
-              "right": 167,
-              "width": 96,
-              "height": 16
-            },
-            "nodeLabel": "Delaware River",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/King%27s_Highway\">",
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1768,
-          "bottom": 1784,
+          "top": 1769,
+          "bottom": 1785,
           "left": 392,
           "right": 488,
           "width": 95,
@@ -806,8 +746,8 @@
             "snippet": "<a href=\"/en/wiki/Kittanning_Path\">",
             "selector": "td > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1792,
-              "bottom": 1808,
+              "top": 1793,
+              "bottom": 1809,
               "left": 392,
               "right": 487,
               "width": 95,
@@ -823,8 +763,8 @@
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (95px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1792,
-          "bottom": 1808,
+          "top": 1793,
+          "bottom": 1809,
           "left": 392,
           "right": 487,
           "width": 95,
@@ -836,8 +776,8 @@
             "snippet": "<a href=\"/en/wiki/King%27s_Highway\">",
             "selector": "td > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1768,
-              "bottom": 1784,
+              "top": 1769,
+              "bottom": 1785,
               "left": 392,
               "right": 488,
               "width": 95,
@@ -853,8 +793,8 @@
         "selector": "td > ul.column-spacing-halfscreen > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1792,
-          "bottom": 1808,
+          "top": 1793,
+          "bottom": 1809,
           "left": 713,
           "right": 812,
           "width": 99,
@@ -896,8 +836,8 @@
             "snippet": "<a href=\"/en/wiki/Schuylkill_Canal\">",
             "selector": "td > ul.column-spacing-halfscreen > li > a",
             "boundingRect": {
-              "top": 1792,
-              "bottom": 1808,
+              "top": 1793,
+              "bottom": 1809,
               "left": 713,
               "right": 812,
               "width": 99,

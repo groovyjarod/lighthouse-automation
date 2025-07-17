@@ -25,36 +25,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (77.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 684,
-          "bottom": 700,
-          "left": 1235,
-          "right": 1313,
-          "width": 78,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 708,
-              "bottom": 724,
-              "left": 1235,
-              "right": 1308,
-              "width": 72,
-              "height": 16
-            },
-            "nodeLabel": "Switzerland",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Switzerland_Genealogy\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (72.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -68,20 +38,6 @@
         },
         "itemCategory": "unknown",
         "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Luxembourg_Genealogy\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 684,
-              "bottom": 700,
-              "left": 1235,
-              "right": 1313,
-              "width": 78,
-              "height": 16
-            },
-            "nodeLabel": "Luxembourg",
-            "subItemCategory": "unknown"
-          },
           {
             "snippet": "<a href=\"/en/wiki/Vatican_City_Genealogy\">",
             "selector": "td > ul > li > a",
@@ -140,7 +96,7 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 255,
-          "bottom": 778,
+          "bottom": 779,
           "left": 1072,
           "right": 1352,
           "width": 280,
@@ -159,7 +115,7 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 1733,
+          "top": 1734,
           "bottom": 1887,
           "left": 344,
           "right": 1352,
@@ -173,7 +129,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1734,
-              "bottom": 1759,
+              "bottom": 1760,
               "left": 345,
               "right": 596,
               "width": 252,
@@ -187,7 +143,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1734,
-              "bottom": 1759,
+              "bottom": 1760,
               "left": 596,
               "right": 848,
               "width": 252,
@@ -201,7 +157,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1734,
-              "bottom": 1759,
+              "bottom": 1760,
               "left": 848,
               "right": 1100,
               "width": 252,
@@ -217,8 +173,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 4960,
-          "bottom": 5155,
+          "top": 4962,
+          "bottom": 5157,
           "left": 344,
           "right": 558,
           "width": 214,
@@ -230,8 +186,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4960,
-              "bottom": 4985,
+              "top": 4962,
+              "bottom": 4986,
               "left": 344,
               "right": 420,
               "width": 76,
@@ -244,8 +200,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4960,
-              "bottom": 4985,
+              "top": 4962,
+              "bottom": 4986,
               "left": 422,
               "right": 558,
               "width": 137,
@@ -258,8 +214,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 4985,
-              "bottom": 5009,
+              "top": 4986,
+              "bottom": 5010,
               "left": 344,
               "right": 420,
               "width": 76,
@@ -275,8 +231,8 @@
         "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 6207,
-          "bottom": 8208,
+          "top": 6209,
+          "bottom": 8210,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -288,8 +244,8 @@
             "snippet": "<td width=\"15%\">",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6208,
-              "bottom": 6233,
+              "top": 6209,
+              "bottom": 6235,
               "left": 345,
               "right": 496,
               "width": 151,
@@ -302,8 +258,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6208,
-              "bottom": 6233,
+              "top": 6209,
+              "bottom": 6235,
               "left": 496,
               "right": 756,
               "width": 260,
@@ -316,8 +272,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 6208,
-              "bottom": 6233,
+              "top": 6209,
+              "bottom": 6235,
               "left": 756,
               "right": 1084,
               "width": 328,

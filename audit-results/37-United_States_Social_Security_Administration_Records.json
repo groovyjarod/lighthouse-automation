@@ -10,7 +10,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 1470,
-          "bottom": 1604,
+          "bottom": 1605,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -24,7 +24,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 2191,
-          "bottom": 2260,
+          "bottom": 2261,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -59,66 +59,6 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 781,
-          "bottom": 797,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 805,
-              "bottom": 821,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 805,
-          "bottom": 821,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 781,
-              "bottom": 797,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/United_States_Funeral_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
@@ -127,7 +67,7 @@
           "bottom": 1054,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -170,7 +110,7 @@
               "bottom": 1054,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -262,66 +202,6 @@
               "height": 16
             },
             "nodeLabel": "Medical Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1279,
-          "bottom": 1295,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1303,
-              "bottom": 1319,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1303,
-          "bottom": 1319,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1279,
-              "bottom": 1295,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
             "subItemCategory": "unknown"
           }
         ]

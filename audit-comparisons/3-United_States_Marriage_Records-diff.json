@@ -1,9 +1,14 @@
 {
   "file": "3-United_States_Marriage_Records.json",
   "addedKeys": [
-    "frame-title-4"
+    "definition-list-1",
+    "frame-title-2",
+    "target-size-3"
   ],
   "removedKeys": [
+    "aria-allowed-role-1",
+    "color-contrast-2",
+    "definition-list-3",
     "link-in-text-block-4",
     "link-name-5",
     "target-size-6"

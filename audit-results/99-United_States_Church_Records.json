@@ -1,5 +1,5 @@
 {
-  "accessibility-score": 88,
+  "accessibility-score": 94,
   "frame-title-1": {
     "title": "`<frame>` or `<iframe>` elements do not have a title",
     "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more about frame titles](https://dequeuniversity.com/rules/axe/4.10/frame-title).",
@@ -20,761 +20,7 @@
       }
     ]
   },
-  "link-name-2": {
-    "title": "Links do not have a discernible name",
-    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
-    "items": [
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:Alabama_Department_of_Archives_and_History.j…\" class=\"image\">",
-        "selector": "td > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 850,
-          "bottom": 865,
-          "left": 793,
-          "right": 1063,
-          "width": 270,
-          "height": 15
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/index.php?title=File:1920px-WachusettOldStoneChurch.jpg&amp;filetimes…\" class=\"image\">",
-        "selector": "td > div.thumb > div.thumbinner > a.image",
-        "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
-        "boundingRect": {
-          "top": 1571,
-          "bottom": 1586,
-          "left": 813,
-          "right": 1063,
-          "width": 250,
-          "height": 15
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "listitem-3": {
-    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
-    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
-    "items": [
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1104,
-          "bottom": 1126,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1128,
-          "bottom": 1150,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1151,
-          "bottom": 1174,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1175,
-          "bottom": 1198,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1199,
-          "bottom": 1221,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1223,
-          "bottom": 1245,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1246,
-          "bottom": 1269,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1270,
-          "bottom": 1293,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1294,
-          "bottom": 1316,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1318,
-          "bottom": 1340,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1342,
-          "bottom": 1364,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1365,
-          "bottom": 1388,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1389,
-          "bottom": 1412,
-          "left": 345,
-          "right": 523,
-          "width": 178,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1104,
-          "bottom": 1126,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1128,
-          "bottom": 1150,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1151,
-          "bottom": 1174,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1175,
-          "bottom": 1198,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1199,
-          "bottom": 1221,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1223,
-          "bottom": 1245,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1246,
-          "bottom": 1269,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1270,
-          "bottom": 1293,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1294,
-          "bottom": 1316,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1318,
-          "bottom": 1340,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1342,
-          "bottom": 1364,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1365,
-          "bottom": 1388,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1389,
-          "bottom": 1412,
-          "left": 525,
-          "right": 678,
-          "width": 154,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1093,
-          "bottom": 1115,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1116,
-          "bottom": 1139,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1140,
-          "bottom": 1163,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1164,
-          "bottom": 1209,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 45
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1210,
-          "bottom": 1233,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1234,
-          "bottom": 1256,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1258,
-          "bottom": 1280,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1281,
-          "bottom": 1304,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1305,
-          "bottom": 1328,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1329,
-          "bottom": 1351,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1353,
-          "bottom": 1375,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1377,
-          "bottom": 1399,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1400,
-          "bottom": 1423,
-          "left": 704,
-          "right": 833,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1116,
-          "bottom": 1138,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1139,
-          "bottom": 1162,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1163,
-          "bottom": 1186,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1187,
-          "bottom": 1209,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1211,
-          "bottom": 1233,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1235,
-          "bottom": 1257,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1258,
-          "bottom": 1281,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1282,
-          "bottom": 1305,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1306,
-          "bottom": 1328,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1330,
-          "bottom": 1352,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1354,
-          "bottom": 1376,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      },
-      {
-        "snippet": "<li>",
-        "selector": "tbody > tr > td > li",
-        "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element",
-        "boundingRect": {
-          "top": 1377,
-          "bottom": 1400,
-          "left": 884,
-          "right": 1012,
-          "width": 129,
-          "height": 22
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "target-size-4": {
+  "target-size-2": {
     "title": "Touch targets do not have sufficient size or spacing.",
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
@@ -787,7 +33,7 @@
           "bottom": 1077,
           "left": 1096,
           "right": 1200,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -796,8 +42,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1084,
-              "bottom": 1100,
+              "top": 1085,
+              "bottom": 1101,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -813,8 +59,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1084,
-          "bottom": 1100,
+          "top": 1085,
+          "bottom": 1101,
           "left": 1096,
           "right": 1198,
           "width": 101,
@@ -830,7 +76,7 @@
               "bottom": 1077,
               "left": 1096,
               "right": 1200,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Funeral Records",
@@ -870,8 +116,8 @@
             "snippet": "<a href=\"/en/wiki/United_States_Land_and_Property\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1084,
-              "bottom": 1100,
+              "top": 1085,
+              "bottom": 1101,
               "left": 1096,
               "right": 1198,
               "width": 101,
@@ -927,74 +173,14 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1282,
-          "bottom": 1298,
-          "left": 1096,
-          "right": 1165,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1306,
-              "bottom": 1322,
-              "left": 1096,
-              "right": 1170,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/United_States_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1306,
-          "bottom": 1322,
-          "left": 1096,
-          "right": 1170,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/United_States_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1282,
-              "bottom": 1298,
-              "left": 1096,
-              "right": 1165,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Arkansas_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1177,
-          "bottom": 1194,
-          "left": 365,
-          "right": 429,
+          "top": 1182,
+          "bottom": 1199,
+          "left": 367,
+          "right": 431,
           "width": 64,
           "height": 17
         },
@@ -1002,12 +188,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/California_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1201,
-              "bottom": 1218,
-              "left": 365,
-              "right": 431,
+              "top": 1206,
+              "bottom": 1223,
+              "left": 367,
+              "right": 434,
               "width": 66,
               "height": 17
             },
@@ -1018,13 +204,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/California_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (66.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1201,
-          "bottom": 1218,
-          "left": 365,
-          "right": 431,
+          "top": 1206,
+          "bottom": 1223,
+          "left": 367,
+          "right": 434,
           "width": 66,
           "height": 17
         },
@@ -1032,12 +218,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Arkansas_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1177,
-              "bottom": 1194,
-              "left": 365,
-              "right": 429,
+              "top": 1182,
+              "bottom": 1199,
+              "left": 367,
+              "right": 431,
               "width": 64,
               "height": 17
             },
@@ -1046,12 +232,12 @@
           },
           {
             "snippet": "<a href=\"/en/wiki/Colorado_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1225,
-              "bottom": 1242,
-              "left": 365,
-              "right": 427,
+              "top": 1230,
+              "bottom": 1247,
+              "left": 367,
+              "right": 429,
               "width": 62,
               "height": 17
             },
@@ -1062,13 +248,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Colorado_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (62px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1225,
-          "bottom": 1242,
-          "left": 365,
-          "right": 427,
+          "top": 1230,
+          "bottom": 1247,
+          "left": 367,
+          "right": 429,
           "width": 62,
           "height": 17
         },
@@ -1076,12 +262,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/California_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1201,
-              "bottom": 1218,
-              "left": 365,
-              "right": 431,
+              "top": 1206,
+              "bottom": 1223,
+              "left": 367,
+              "right": 434,
               "width": 66,
               "height": 17
             },
@@ -1092,13 +278,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Kentucky_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (64.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1201,
-          "bottom": 1218,
-          "left": 545,
-          "right": 609,
+          "top": 1206,
+          "bottom": 1223,
+          "left": 547,
+          "right": 612,
           "width": 65,
           "height": 17
         },
@@ -1106,12 +292,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Louisiana_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1225,
-              "bottom": 1242,
-              "left": 545,
-              "right": 610,
+              "top": 1230,
+              "bottom": 1247,
+              "left": 547,
+              "right": 613,
               "width": 66,
               "height": 17
             },
@@ -1122,13 +308,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Louisiana_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (65.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1225,
-          "bottom": 1242,
-          "left": 545,
-          "right": 610,
+          "top": 1230,
+          "bottom": 1247,
+          "left": 547,
+          "right": 613,
           "width": 66,
           "height": 17
         },
@@ -1136,12 +322,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Kentucky_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1201,
-              "bottom": 1218,
-              "left": 545,
-              "right": 609,
+              "top": 1206,
+              "bottom": 1223,
+              "left": 547,
+              "right": 612,
               "width": 65,
               "height": 17
             },
@@ -1152,13 +338,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Minnesota_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (71.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1344,
-          "bottom": 1361,
-          "left": 545,
-          "right": 616,
+          "top": 1349,
+          "bottom": 1366,
+          "left": 547,
+          "right": 618,
           "width": 71,
           "height": 17
         },
@@ -1166,12 +352,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Mississippi_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1367,
-              "bottom": 1384,
-              "left": 545,
-              "right": 618,
+              "top": 1372,
+              "bottom": 1389,
+              "left": 547,
+              "right": 621,
               "width": 74,
               "height": 17
             },
@@ -1182,13 +368,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Mississippi_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (73.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1367,
-          "bottom": 1384,
-          "left": 545,
-          "right": 618,
+          "top": 1372,
+          "bottom": 1389,
+          "left": 547,
+          "right": 621,
           "width": 74,
           "height": 17
         },
@@ -1196,12 +382,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Minnesota_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1344,
-              "bottom": 1361,
-              "left": 545,
-              "right": 616,
+              "top": 1349,
+              "bottom": 1366,
+              "left": 547,
+              "right": 618,
               "width": 71,
               "height": 17
             },
@@ -1212,13 +398,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Montana_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (60.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1095,
-          "bottom": 1112,
-          "left": 724,
-          "right": 784,
+          "top": 1099,
+          "bottom": 1116,
+          "left": 726,
+          "right": 787,
           "width": 60,
           "height": 17
         },
@@ -1226,12 +412,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Nebraska_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1118,
-              "bottom": 1135,
-              "left": 724,
-              "right": 790,
+              "top": 1123,
+              "bottom": 1140,
+              "left": 726,
+              "right": 792,
               "width": 66,
               "height": 17
             },
@@ -1242,13 +428,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Nebraska_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (65.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1118,
-          "bottom": 1135,
-          "left": 724,
-          "right": 790,
+          "top": 1123,
+          "bottom": 1140,
+          "left": 726,
+          "right": 792,
           "width": 66,
           "height": 17
         },
@@ -1256,12 +442,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Montana_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1095,
-              "bottom": 1112,
-              "left": 724,
-              "right": 784,
+              "top": 1099,
+              "bottom": 1116,
+              "left": 726,
+              "right": 787,
               "width": 60,
               "height": 17
             },
@@ -1272,13 +458,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/New_Jersey_Church_Records\">",
-        "selector": "tr > td > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (79.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (79.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1212,
-          "bottom": 1229,
-          "left": 724,
-          "right": 804,
+          "top": 1217,
+          "bottom": 1234,
+          "left": 726,
+          "right": 806,
           "width": 80,
           "height": 17
         },
@@ -1286,12 +472,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/New_Mexico_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1236,
-              "bottom": 1253,
-              "left": 724,
-              "right": 807,
+              "top": 1241,
+              "bottom": 1258,
+              "left": 726,
+              "right": 810,
               "width": 83,
               "height": 17
             },
@@ -1302,13 +488,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/New_Mexico_Church_Records\">",
-        "selector": "tr > td > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
+        "selector": "td > ul > li > a",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (83.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1236,
-          "bottom": 1253,
-          "left": 724,
-          "right": 807,
+          "top": 1241,
+          "bottom": 1258,
+          "left": 726,
+          "right": 810,
           "width": 83,
           "height": 17
         },
@@ -1316,12 +502,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/New_Jersey_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1212,
-              "bottom": 1229,
-              "left": 724,
-              "right": 804,
+              "top": 1217,
+              "bottom": 1234,
+              "left": 726,
+              "right": 806,
               "width": 80,
               "height": 17
             },
@@ -1332,13 +518,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Wisconsin_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (69.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1356,
-          "bottom": 1373,
-          "left": 904,
-          "right": 973,
+          "top": 1360,
+          "bottom": 1377,
+          "left": 906,
+          "right": 976,
           "width": 70,
           "height": 17
         },
@@ -1346,12 +532,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Wyoming_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1379,
-              "bottom": 1396,
-              "left": 904,
-              "right": 969,
+              "top": 1384,
+              "bottom": 1401,
+              "left": 906,
+              "right": 971,
               "width": 65,
               "height": 17
             },
@@ -1362,13 +548,13 @@
       },
       {
         "snippet": "<a href=\"/en/wiki/Wyoming_Church_Records\">",
-        "selector": "tr > td > li > a",
+        "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (65.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1379,
-          "bottom": 1396,
-          "left": 904,
-          "right": 969,
+          "top": 1384,
+          "bottom": 1401,
+          "left": 906,
+          "right": 971,
           "width": 65,
           "height": 17
         },
@@ -1376,12 +562,12 @@
         "subItems": [
           {
             "snippet": "<a href=\"/en/wiki/Wisconsin_Church_Records\">",
-            "selector": "tr > td > li > a",
+            "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1356,
-              "bottom": 1373,
-              "left": 904,
-              "right": 973,
+              "top": 1360,
+              "bottom": 1377,
+              "left": 906,
+              "right": 976,
               "width": 70,
               "height": 17
             },
@@ -1392,5 +578,5 @@
       }
     ]
   },
-  "number-of-Items": 4
+  "number-of-Items": 2
 }

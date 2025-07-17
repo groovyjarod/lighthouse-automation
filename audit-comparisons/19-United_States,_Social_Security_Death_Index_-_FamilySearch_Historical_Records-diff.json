@@ -1,10 +1,9 @@
 {
   "file": "19-United_States,_Social_Security_Death_Index_-_FamilySearch_Historical_Records.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "frame-title-3",
-    "table-fake-caption-4"
+    "frame-title-1",
+    "target-size-2",
+    "table-fake-caption-3"
   ],
   "removedKeys": [
     "document-title-1",

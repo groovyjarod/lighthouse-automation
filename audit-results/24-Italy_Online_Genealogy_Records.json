@@ -63,10 +63,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (52.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (52.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1019,
-          "bottom": 1035,
+          "top": 1020,
+          "bottom": 1036,
           "left": 1251,
           "right": 1303,
           "width": 52,
@@ -108,74 +108,14 @@
             "snippet": "<a href=\"/en/wiki/Italy_Taxation\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1019,
-              "bottom": 1035,
+              "top": 1020,
+              "bottom": 1036,
               "left": 1251,
               "right": 1303,
               "width": 52,
               "height": 16
             },
             "nodeLabel": "Taxation",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1193,
-          "bottom": 1209,
-          "left": 1116,
-          "right": 1184,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1217,
-              "bottom": 1233,
-              "left": 1116,
-              "right": 1190,
-              "width": 74,
-              "height": 16
-            },
-            "nodeLabel": "Handwriting",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Italy_Handwriting\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 1217,
-          "bottom": 1233,
-          "left": 1116,
-          "right": 1190,
-          "width": 74,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Italy_Gazetteers\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1193,
-              "bottom": 1209,
-              "left": 1116,
-              "right": 1184,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Gazetteers",
             "subItemCategory": "unknown"
           }
         ]
@@ -192,11 +132,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 336,
-          "bottom": 1393,
+          "bottom": 1394,
           "left": 48,
           "right": 909,
           "width": 861,
-          "height": 1057
+          "height": 1058
         },
         "itemCategory": "page"
       }

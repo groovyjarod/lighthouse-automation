@@ -1,10 +1,7 @@
 {
   "file": "1-Main_Page.json",
   "addedKeys": [
-    "accesskeys-1",
-    "aria-allowed-role-2",
-    "color-contrast-3",
-    "frame-title-4"
+    "frame-title-1"
   ],
   "removedKeys": [
     "aria-allowed-role-1",

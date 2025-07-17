@@ -9,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 7343,
-          "bottom": 7392,
+          "top": 7346,
+          "bottom": 7395,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -62,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/American_Indian_Sanitary_Record_of_Sick,_Injured,_Births,_Deaths,…\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1370,
-              "bottom": 1386,
+              "top": 1371,
+              "bottom": 1387,
               "left": 1234,
               "right": 1341,
               "width": 107,
@@ -79,8 +79,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (107.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1370,
-          "bottom": 1386,
+          "top": 1371,
+          "bottom": 1387,
           "left": 1234,
           "right": 1341,
           "width": 107,
@@ -109,8 +109,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (77px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 1548,
-          "bottom": 1564,
+          "top": 1549,
+          "bottom": 1565,
           "left": 1234,
           "right": 1311,
           "width": 77,
@@ -152,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Area_Offices_of_the_Bureau_of_Indian_Affairs\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 1548,
-              "bottom": 1564,
+              "top": 1549,
+              "bottom": 1565,
               "left": 1234,
               "right": 1311,
               "width": 77,
@@ -165,72 +165,12 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/American_Indian_Census_Rolls\">",
-        "selector": "div.mw-parser-output > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (98px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 4164,
-          "bottom": 4180,
-          "left": 366,
-          "right": 464,
-          "width": 98,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/American_Indian_Correspondence_and_Reports\">",
-            "selector": "div.mw-parser-output > ul > li > a",
-            "boundingRect": {
-              "top": 4188,
-              "bottom": 4204,
-              "left": 366,
-              "right": 470,
-              "width": 104,
-              "height": 16
-            },
-            "nodeLabel": "Correspondence",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/American_Indian_Correspondence_and_Reports\">",
-        "selector": "div.mw-parser-output > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (103.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 4188,
-          "bottom": 4204,
-          "left": 366,
-          "right": 470,
-          "width": 104,
-          "height": 16
-        },
-        "itemCategory": "page",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/American_Indian_Census_Rolls\">",
-            "selector": "div.mw-parser-output > ul > li > a",
-            "boundingRect": {
-              "top": 4164,
-              "bottom": 4180,
-              "left": 366,
-              "right": 464,
-              "width": 98,
-              "height": 16
-            },
-            "nodeLabel": "Census records",
-            "subItemCategory": "page"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Western_Superintendency_of_Indian_Affairs\">",
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (160.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4534,
-          "bottom": 4550,
+          "top": 4535,
+          "bottom": 4551,
           "left": 366,
           "right": 527,
           "width": 161,
@@ -242,8 +182,8 @@
             "snippet": "<a href=\"/en/wiki/Southern_Superintendency_of_Indian_Affairs\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 4557,
-              "bottom": 4573,
+              "top": 4559,
+              "bottom": 4575,
               "left": 366,
               "right": 532,
               "width": 166,
@@ -259,8 +199,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (165.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 4557,
-          "bottom": 4573,
+          "top": 4559,
+          "bottom": 4575,
           "left": 366,
           "right": 532,
           "width": 166,
@@ -272,8 +212,8 @@
             "snippet": "<a href=\"/en/wiki/Western_Superintendency_of_Indian_Affairs\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 4534,
-              "bottom": 4550,
+              "top": 4535,
+              "bottom": 4551,
               "left": 366,
               "right": 527,
               "width": 161,
@@ -287,10 +227,10 @@
       {
         "snippet": "<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.familysearch.org/en/wiki/index.php?title=Template:American_Ind…\">",
         "selector": "th.navbox-title > div > div.noprint > a.external",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.4px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.2px instead of at least 24px.",
         "boundingRect": {
-          "top": 10682,
-          "bottom": 10696,
+          "top": 10686,
+          "bottom": 10700,
           "left": 427,
           "right": 432,
           "width": 5,
@@ -302,12 +242,12 @@
             "snippet": "<a href=\"/en/wiki/Indigenous_Tribes_of_the_United_States\">",
             "selector": "tr > td.navbox-list > div > a",
             "boundingRect": {
-              "top": 10701,
-              "bottom": 10715,
+              "top": 10706,
+              "bottom": 10719,
               "left": 392,
-              "right": 485,
+              "right": 484,
               "width": 92,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Tribes of the U.S.",
             "subItemCategory": "template"
@@ -330,7 +270,7 @@
           "left": 1074,
           "right": 1352,
           "width": 278,
-          "height": 1441
+          "height": 1442
         },
         "itemCategory": "page"
       },
@@ -339,8 +279,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 10601,
-          "bottom": 10964,
+          "top": 10605,
+          "bottom": 10968,
           "left": 347,
           "right": 1349,
           "width": 1002,

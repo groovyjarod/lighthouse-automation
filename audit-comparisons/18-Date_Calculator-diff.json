@@ -1,10 +1,8 @@
 {
   "file": "18-Date_Calculator.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "frame-title-3",
-    "target-size-4"
+    "frame-title-1",
+    "target-size-2"
   ],
   "removedKeys": [
     "document-title-1",

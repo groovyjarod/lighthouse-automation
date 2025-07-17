@@ -1,10 +1,10 @@
 {
   "file": "27-How_to_Find_California_Death_Records.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "definition-list-3",
-    "frame-title-4",
+    "color-contrast-1",
+    "definition-list-2",
+    "frame-title-3",
+    "target-size-4",
     "table-fake-caption-5",
     "td-has-header-6"
   ],

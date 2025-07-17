@@ -20,5 +20,25 @@
       }
     ]
   },
-  "number-of-Items": 1
+  "table-fake-caption-2": {
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "items": [
+      {
+        "snippet": "<table class=\"infobox\" cellspacing=\"2\" style=\"width: 20em; text-align: left;\">",
+        "selector": "div#mw-content-text > div.mw-parser-output > div.mw-parser-output > table.infobox",
+        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
+        "boundingRect": {
+          "top": 255,
+          "bottom": 666,
+          "left": 1100,
+          "right": 1352,
+          "width": 252,
+          "height": 411
+        },
+        "itemCategory": "template"
+      }
+    ]
+  },
+  "number-of-Items": 2
 }

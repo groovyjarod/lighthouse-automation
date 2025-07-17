@@ -76,8 +76,8 @@
             "snippet": "<a href=\"/en/wiki/Hawaii_Census\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 2194,
-              "bottom": 2210,
+              "top": 2195,
+              "bottom": 2211,
               "left": 366,
               "right": 408,
               "width": 42,
@@ -93,8 +93,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (42px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 2194,
-          "bottom": 2210,
+          "top": 2195,
+          "bottom": 2211,
           "left": 366,
           "right": 408,
           "width": 42,
@@ -117,66 +117,6 @@
             "subItemCategory": "unknown"
           }
         ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Philippines_Census\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (67.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 2147,
-          "bottom": 2163,
-          "left": 685,
-          "right": 753,
-          "width": 68,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Puerto_Rico_Census\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 2171,
-              "bottom": 2187,
-              "left": 685,
-              "right": 759,
-              "width": 73,
-              "height": 16
-            },
-            "nodeLabel": "Puerto Rico",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Puerto_Rico_Census\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (73.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 2171,
-          "bottom": 2187,
-          "left": 685,
-          "right": 759,
-          "width": 73,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Philippines_Census\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 2147,
-              "bottom": 2163,
-              "left": 685,
-              "right": 753,
-              "width": 68,
-              "height": 16
-            },
-            "nodeLabel": "Philippines",
-            "subItemCategory": "unknown"
-          }
-        ]
       }
     ]
   },
@@ -189,12 +129,12 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 2425,
-          "bottom": 2834,
+          "top": 2426,
+          "bottom": 2837,
           "left": 347,
           "right": 1349,
           "width": 1002,
-          "height": 409
+          "height": 411
         },
         "itemCategory": "unknown"
       }

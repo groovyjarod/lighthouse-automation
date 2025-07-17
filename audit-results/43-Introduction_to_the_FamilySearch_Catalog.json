@@ -49,8 +49,8 @@
         "selector": "div > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (264.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2569,
-          "bottom": 2585,
+          "top": 2570,
+          "bottom": 2586,
           "left": 366,
           "right": 631,
           "width": 265,
@@ -62,8 +62,8 @@
             "snippet": "<a href=\"/en/wiki/Deciphering_FamilySearch_Catalog_Entries\">",
             "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 2593,
-              "bottom": 2609,
+              "top": 2594,
+              "bottom": 2610,
               "left": 366,
               "right": 630,
               "width": 264,
@@ -79,8 +79,8 @@
         "selector": "div > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (263.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 2593,
-          "bottom": 2609,
+          "top": 2594,
+          "bottom": 2610,
           "left": 366,
           "right": 630,
           "width": 264,
@@ -92,8 +92,8 @@
             "snippet": "<a href=\"/en/wiki/Abbreviations_in_the_FamilySearch_Catalog\">",
             "selector": "div > ul > li > a",
             "boundingRect": {
-              "top": 2569,
-              "bottom": 2585,
+              "top": 2570,
+              "bottom": 2586,
               "left": 366,
               "right": 631,
               "width": 265,
@@ -106,25 +106,5 @@
       }
     ]
   },
-  "table-fake-caption-4": {
-    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
-    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
-    "items": [
-      {
-        "snippet": "<table cellspacing=\"0\" class=\"nowraplinks collapsible autocollapsed\" style=\"width:100%;margin-bottom: 0px; background:transparent; color:inherit;;\">",
-        "selector": "tbody > tr > td > table.nowraplinks",
-        "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
-        "boundingRect": {
-          "top": 2757,
-          "bottom": 2875,
-          "left": 347,
-          "right": 1349,
-          "width": 1002,
-          "height": 117
-        },
-        "itemCategory": "unknown"
-      }
-    ]
-  },
-  "number-of-Items": 4
+  "number-of-Items": 3
 }

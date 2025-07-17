@@ -1,14 +1,11 @@
 {
   "file": "82-United_States_Census_Online_Genealogy_Records.json",
   "addedKeys": [
-    "aria-allowed-role-1",
-    "color-contrast-2",
-    "frame-title-3",
-    "table-fake-caption-4"
+    "color-contrast-1",
+    "table-fake-caption-3"
   ],
   "removedKeys": [
     "document-title-1",
-    "frame-title-2",
     "html-has-lang-3"
   ]
 }

@@ -9,8 +9,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3240,
-          "bottom": 3263,
+          "top": 3242,
+          "bottom": 3264,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -23,8 +23,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div.mw-parser-output > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3270,
-          "bottom": 3387,
+          "top": 3271,
+          "bottom": 3389,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -81,10 +81,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Template_talk:Place\">",
         "selector": "th.navbox-title > div > div.noprint > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (5px by 14.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 3760,
-          "bottom": 3774,
+          "top": 3761,
+          "bottom": 3776,
           "left": 387,
           "right": 392,
           "width": 5,
@@ -96,12 +96,12 @@
             "snippet": "<a href=\"/en/wiki/Philippines_Record_Finder\">",
             "selector": "div > div > b > a",
             "boundingRect": {
-              "top": 3779,
-              "bottom": 3793,
+              "top": 3782,
+              "bottom": 3795,
               "left": 352,
               "right": 433,
               "width": 81,
-              "height": 14
+              "height": 13
             },
             "nodeLabel": "Record Finder",
             "subItemCategory": "unknown"
@@ -119,12 +119,12 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 3679,
-          "bottom": 3834,
+          "top": 3680,
+          "bottom": 3836,
           "left": 347,
           "right": 1349,
           "width": 1002,
-          "height": 156
+          "height": 155
         },
         "itemCategory": "unknown"
       }

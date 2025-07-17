@@ -51,8 +51,8 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 590,
-          "bottom": 660,
+          "top": 591,
+          "bottom": 661,
           "left": 376,
           "right": 1350,
           "width": 974,
@@ -80,7 +80,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 759,
-          "bottom": 873,
+          "bottom": 874,
           "left": 376,
           "right": 1350,
           "width": 974,
@@ -107,7 +107,7 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 994,
+          "top": 995,
           "bottom": 1087,
           "left": 376,
           "right": 1350,
@@ -136,7 +136,7 @@
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
           "top": 1185,
-          "bottom": 1301,
+          "bottom": 1302,
           "left": 376,
           "right": 1350,
           "width": 974,
@@ -149,8 +149,8 @@
         "selector": "tbody > tr > td > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 1315,
-          "bottom": 1361,
+          "top": 1316,
+          "bottom": 1362,
           "left": 376,
           "right": 1350,
           "width": 974,
@@ -190,7 +190,7 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 306,
-          "bottom": 1370,
+          "bottom": 1371,
           "left": 48,
           "right": 1352,
           "width": 1304,

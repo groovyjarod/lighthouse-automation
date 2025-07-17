@@ -109,8 +109,8 @@
         "selector": "div.mw-parser-output > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (90.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1013,
-          "bottom": 1029,
+          "top": 1014,
+          "bottom": 1030,
           "left": 366,
           "right": 457,
           "width": 90,
@@ -152,8 +152,8 @@
             "snippet": "<a href=\"/en/wiki/Lake_Michigan\">",
             "selector": "div.mw-parser-output > ul > li > a",
             "boundingRect": {
-              "top": 1013,
-              "bottom": 1029,
+              "top": 1014,
+              "bottom": 1030,
               "left": 366,
               "right": 457,
               "width": 90,
@@ -175,8 +175,8 @@
         "selector": "tbody > tr > td > table.nowraplinks",
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
-          "top": 1749,
-          "bottom": 2098,
+          "top": 1750,
+          "bottom": 2099,
           "left": 347,
           "right": 1349,
           "width": 1002,

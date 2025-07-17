@@ -37,8 +37,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3695,
-          "bottom": 3812,
+          "top": 3696,
+          "bottom": 3813,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -51,8 +51,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 3848,
-          "bottom": 3966,
+          "top": 3850,
+          "bottom": 3967,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -65,8 +65,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 6301,
-          "bottom": 6346,
+          "top": 6303,
+          "bottom": 6348,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -79,8 +79,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > dl",
         "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element",
         "boundingRect": {
-          "top": 8432,
-          "bottom": 8477,
+          "top": 8435,
+          "bottom": 8480,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -139,8 +139,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 10411,
-          "bottom": 10427,
+          "top": 10412,
+          "bottom": 10428,
           "left": 719,
           "right": 732,
           "width": 13,
@@ -152,10 +152,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 10411,
-              "bottom": 10427,
+              "top": 10412,
+              "bottom": 10428,
               "left": 742,
-              "right": 756,
+              "right": 755,
               "width": 14,
               "height": 16
             },
@@ -169,10 +169,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 10411,
-          "bottom": 10427,
+          "top": 10412,
+          "bottom": 10428,
           "left": 742,
-          "right": 756,
+          "right": 755,
           "width": 14,
           "height": 16
         },
@@ -182,8 +182,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 10411,
-              "bottom": 10427,
+              "top": 10412,
+              "bottom": 10428,
               "left": 719,
               "right": 732,
               "width": 13,
@@ -199,8 +199,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 13515,
-          "bottom": 13531,
+          "top": 13517,
+          "bottom": 13533,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -212,10 +212,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 13515,
-              "bottom": 13531,
+              "top": 13517,
+              "bottom": 13533,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -229,10 +229,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 13515,
-          "bottom": 13531,
+          "top": 13517,
+          "bottom": 13533,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -242,8 +242,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 13515,
-              "bottom": 13531,
+              "top": 13517,
+              "bottom": 13533,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -259,8 +259,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 14422,
-          "bottom": 14438,
+          "top": 14424,
+          "bottom": 14440,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -272,10 +272,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 14422,
-              "bottom": 14438,
+              "top": 14424,
+              "bottom": 14440,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -289,10 +289,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 14422,
-          "bottom": 14438,
+          "top": 14424,
+          "bottom": 14440,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -302,8 +302,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 14422,
-              "bottom": 14438,
+              "top": 14424,
+              "bottom": 14440,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -319,8 +319,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 17779,
-          "bottom": 17795,
+          "top": 17782,
+          "bottom": 17798,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -332,10 +332,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 17779,
-              "bottom": 17795,
+              "top": 17782,
+              "bottom": 17798,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -349,10 +349,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 17779,
-          "bottom": 17795,
+          "top": 17782,
+          "bottom": 17798,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -362,8 +362,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 17779,
-              "bottom": 17795,
+              "top": 17782,
+              "bottom": 17798,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -379,8 +379,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 19924,
-          "bottom": 19940,
+          "top": 19928,
+          "bottom": 19944,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -392,10 +392,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 19924,
-              "bottom": 19940,
+              "top": 19928,
+              "bottom": 19944,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -409,10 +409,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 19924,
-          "bottom": 19940,
+          "top": 19928,
+          "bottom": 19944,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -422,8 +422,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 19924,
-              "bottom": 19940,
+              "top": 19928,
+              "bottom": 19944,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -439,8 +439,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 21120,
-          "bottom": 21136,
+          "top": 21124,
+          "bottom": 21140,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -452,10 +452,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 21120,
-              "bottom": 21136,
+              "top": 21124,
+              "bottom": 21140,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -469,10 +469,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 21120,
-          "bottom": 21136,
+          "top": 21124,
+          "bottom": 21140,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -482,8 +482,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 21120,
-              "bottom": 21136,
+              "top": 21124,
+              "bottom": 21140,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -499,8 +499,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 22445,
-          "bottom": 22461,
+          "top": 22449,
+          "bottom": 22465,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -512,10 +512,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 22445,
-              "bottom": 22461,
+              "top": 22449,
+              "bottom": 22465,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -529,10 +529,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 22445,
-          "bottom": 22461,
+          "top": 22449,
+          "bottom": 22465,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -542,8 +542,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 22445,
-              "bottom": 22461,
+              "top": 22449,
+              "bottom": 22465,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -559,8 +559,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 23329,
-          "bottom": 23345,
+          "top": 23333,
+          "bottom": 23349,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -572,10 +572,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 23329,
-              "bottom": 23345,
+              "top": 23333,
+              "bottom": 23349,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -589,10 +589,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 23329,
-          "bottom": 23345,
+          "top": 23333,
+          "bottom": 23349,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -602,8 +602,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 23329,
-              "bottom": 23345,
+              "top": 23333,
+              "bottom": 23349,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -619,8 +619,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 24451,
-          "bottom": 24467,
+          "top": 24455,
+          "bottom": 24471,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -632,10 +632,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 24451,
-              "bottom": 24467,
+              "top": 24455,
+              "bottom": 24471,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -649,10 +649,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 24451,
-          "bottom": 24467,
+          "top": 24455,
+          "bottom": 24471,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -662,8 +662,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 24451,
-              "bottom": 24467,
+              "top": 24455,
+              "bottom": 24471,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -679,8 +679,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 25923,
-          "bottom": 25939,
+          "top": 25928,
+          "bottom": 25944,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -692,10 +692,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 25923,
-              "bottom": 25939,
+              "top": 25928,
+              "bottom": 25944,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -709,10 +709,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 25923,
-          "bottom": 25939,
+          "top": 25928,
+          "bottom": 25944,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -722,8 +722,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 25923,
-              "bottom": 25939,
+              "top": 25928,
+              "bottom": 25944,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -739,8 +739,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 26523,
-          "bottom": 26539,
+          "top": 26528,
+          "bottom": 26544,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -752,10 +752,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 26523,
-              "bottom": 26539,
+              "top": 26528,
+              "bottom": 26544,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -769,10 +769,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 26523,
-          "bottom": 26539,
+          "top": 26528,
+          "bottom": 26544,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -782,8 +782,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 26523,
-              "bottom": 26539,
+              "top": 26528,
+              "bottom": 26544,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -799,8 +799,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 27690,
-          "bottom": 27706,
+          "top": 27695,
+          "bottom": 27711,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -812,10 +812,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 27690,
-              "bottom": 27706,
+              "top": 27695,
+              "bottom": 27711,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -829,10 +829,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 27690,
-          "bottom": 27706,
+          "top": 27695,
+          "bottom": 27711,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -842,8 +842,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 27690,
-              "bottom": 27706,
+              "top": 27695,
+              "bottom": 27711,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -859,8 +859,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 30019,
-          "bottom": 30035,
+          "top": 30025,
+          "bottom": 30041,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -872,10 +872,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 30019,
-              "bottom": 30035,
+              "top": 30025,
+              "bottom": 30041,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -889,10 +889,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 30019,
-          "bottom": 30035,
+          "top": 30025,
+          "bottom": 30041,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -902,8 +902,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 30019,
-              "bottom": 30035,
+              "top": 30025,
+              "bottom": 30041,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -919,8 +919,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 32020,
-          "bottom": 32036,
+          "top": 32026,
+          "bottom": 32042,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -932,10 +932,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 32020,
-              "bottom": 32036,
+              "top": 32026,
+              "bottom": 32042,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -949,10 +949,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 32020,
-          "bottom": 32036,
+          "top": 32026,
+          "bottom": 32042,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -962,8 +962,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 32020,
-              "bottom": 32036,
+              "top": 32026,
+              "bottom": 32042,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -979,8 +979,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 33160,
-          "bottom": 33176,
+          "top": 33167,
+          "bottom": 33183,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -992,10 +992,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 33160,
-              "bottom": 33176,
+              "top": 33167,
+              "bottom": 33183,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1009,10 +1009,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 33160,
-          "bottom": 33176,
+          "top": 33167,
+          "bottom": 33183,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1022,8 +1022,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 33160,
-              "bottom": 33176,
+              "top": 33167,
+              "bottom": 33183,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1039,8 +1039,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 36024,
-          "bottom": 36040,
+          "top": 36031,
+          "bottom": 36047,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1052,10 +1052,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 36024,
-              "bottom": 36040,
+              "top": 36031,
+              "bottom": 36047,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1069,10 +1069,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 36024,
-          "bottom": 36040,
+          "top": 36031,
+          "bottom": 36047,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1082,8 +1082,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 36024,
-              "bottom": 36040,
+              "top": 36031,
+              "bottom": 36047,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1099,8 +1099,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 36959,
-          "bottom": 36975,
+          "top": 36966,
+          "bottom": 36982,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1112,10 +1112,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 36959,
-              "bottom": 36975,
+              "top": 36966,
+              "bottom": 36982,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1129,10 +1129,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 36959,
-          "bottom": 36975,
+          "top": 36966,
+          "bottom": 36982,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1142,8 +1142,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 36959,
-              "bottom": 36975,
+              "top": 36966,
+              "bottom": 36982,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1159,8 +1159,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 37762,
-          "bottom": 37778,
+          "top": 37770,
+          "bottom": 37786,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1172,10 +1172,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 37762,
-              "bottom": 37778,
+              "top": 37770,
+              "bottom": 37786,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1189,10 +1189,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 37762,
-          "bottom": 37778,
+          "top": 37770,
+          "bottom": 37786,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1202,8 +1202,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 37762,
-              "bottom": 37778,
+              "top": 37770,
+              "bottom": 37786,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1219,8 +1219,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 41720,
-          "bottom": 41736,
+          "top": 41729,
+          "bottom": 41745,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1232,10 +1232,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 41720,
-              "bottom": 41736,
+              "top": 41729,
+              "bottom": 41745,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1249,10 +1249,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 41720,
-          "bottom": 41736,
+          "top": 41729,
+          "bottom": 41745,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1262,8 +1262,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 41720,
-              "bottom": 41736,
+              "top": 41729,
+              "bottom": 41745,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1279,8 +1279,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 43161,
-          "bottom": 43177,
+          "top": 43170,
+          "bottom": 43186,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1292,10 +1292,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 43161,
-              "bottom": 43177,
+              "top": 43170,
+              "bottom": 43186,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1309,10 +1309,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 43161,
-          "bottom": 43177,
+          "top": 43170,
+          "bottom": 43186,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1322,8 +1322,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 43161,
-              "bottom": 43177,
+              "top": 43170,
+              "bottom": 43186,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1339,8 +1339,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 43929,
-          "bottom": 43945,
+          "top": 43938,
+          "bottom": 43954,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1352,10 +1352,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 43929,
-              "bottom": 43945,
+              "top": 43938,
+              "bottom": 43954,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1369,10 +1369,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 43929,
-          "bottom": 43945,
+          "top": 43938,
+          "bottom": 43954,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1382,8 +1382,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 43929,
-              "bottom": 43945,
+              "top": 43938,
+              "bottom": 43954,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1399,8 +1399,8 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 45930,
-          "bottom": 45946,
+          "top": 45940,
+          "bottom": 45956,
           "left": 718,
           "right": 731,
           "width": 13,
@@ -1412,10 +1412,10 @@
             "snippet": "<a href=\"#L\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 45930,
-              "bottom": 45946,
+              "top": 45940,
+              "bottom": 45956,
               "left": 741,
-              "right": 755,
+              "right": 754,
               "width": 14,
               "height": 16
             },
@@ -1429,10 +1429,10 @@
         "selector": "td > div > span > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (13.5px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.4px instead of at least 24px.",
         "boundingRect": {
-          "top": 45930,
-          "bottom": 45946,
+          "top": 45940,
+          "bottom": 45956,
           "left": 741,
-          "right": 755,
+          "right": 754,
           "width": 14,
           "height": 16
         },
@@ -1442,8 +1442,8 @@
             "snippet": "<a href=\"#J\">",
             "selector": "td > div > span > a",
             "boundingRect": {
-              "top": 45930,
-              "bottom": 45946,
+              "top": 45940,
+              "bottom": 45956,
               "left": 718,
               "right": 731,
               "width": 13,
@@ -1490,7 +1490,7 @@
           "left": 344,
           "right": 644,
           "width": 300,
-          "height": 335
+          "height": 336
         },
         "itemCategory": "page",
         "subItems": [
@@ -1499,7 +1499,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1015,
-              "bottom": 1062,
+              "bottom": 1063,
               "left": 345,
               "right": 424,
               "width": 80,
@@ -1513,7 +1513,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1015,
-              "bottom": 1062,
+              "bottom": 1063,
               "left": 424,
               "right": 497,
               "width": 73,
@@ -1527,7 +1527,7 @@
             "selector": "table > tbody > tr > td",
             "boundingRect": {
               "top": 1015,
-              "bottom": 1062,
+              "bottom": 1063,
               "left": 497,
               "right": 570,
               "width": 73,
@@ -1543,8 +1543,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > table",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 3432,
-          "bottom": 3604,
+          "top": 3433,
+          "bottom": 3605,
           "left": 344,
           "right": 1352,
           "width": 1008,
@@ -1556,8 +1556,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3432,
-              "bottom": 3456,
+              "top": 3433,
+              "bottom": 3457,
               "left": 530,
               "right": 771,
               "width": 241,
@@ -1570,8 +1570,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3432,
-              "bottom": 3456,
+              "top": 3433,
+              "bottom": 3457,
               "left": 771,
               "right": 1352,
               "width": 581,
@@ -1584,8 +1584,8 @@
             "snippet": "<td>",
             "selector": "table > tbody > tr > td",
             "boundingRect": {
-              "top": 3456,
-              "bottom": 3480,
+              "top": 3457,
+              "bottom": 3481,
               "left": 530,
               "right": 771,
               "width": 241,
@@ -1601,8 +1601,8 @@
         "selector": "div.mw-parser-output > div.mw-parser-output > div > table.FCK__ShowTableBorders",
         "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers",
         "boundingRect": {
-          "top": 5358,
-          "bottom": 6164,
+          "top": 5360,
+          "bottom": 6166,
           "left": 344,
           "right": 1251,
           "width": 907,
@@ -1614,8 +1614,8 @@
             "snippet": "<td>",
             "selector": "table.FCK__ShowTableBorders > tbody > tr > td",
             "boundingRect": {
-              "top": 5358,
-              "bottom": 5380,
+              "top": 5360,
+              "bottom": 5382,
               "left": 344,
               "right": 470,
               "width": 126,
@@ -1628,8 +1628,8 @@
             "snippet": "<td>",
             "selector": "table.FCK__ShowTableBorders > tbody > tr > td",
             "boundingRect": {
-              "top": 5358,
-              "bottom": 5380,
+              "top": 5360,
+              "bottom": 5382,
               "left": 470,
               "right": 818,
               "width": 348,
@@ -1642,8 +1642,8 @@
             "snippet": "<td>",
             "selector": "table.FCK__ShowTableBorders > tbody > tr > td",
             "boundingRect": {
-              "top": 5358,
-              "bottom": 5380,
+              "top": 5360,
+              "bottom": 5382,
               "left": 818,
               "right": 1251,
               "width": 434,

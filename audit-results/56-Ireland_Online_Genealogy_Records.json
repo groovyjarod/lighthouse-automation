@@ -121,61 +121,31 @@
         ]
       },
       {
-        "snippet": "<a href=\"/en/wiki/Ireland_Jewish_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
-        "boundingRect": {
-          "top": 999,
-          "bottom": 1015,
-          "left": 1096,
-          "right": 1195,
-          "width": 99,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Ireland_Land_and_Property\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 1022,
-              "bottom": 1038,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Land & Property",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Ireland_Land_and_Property\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 1022,
-          "bottom": 1038,
-          "left": 1096,
-          "right": 1198,
+          "top": 647,
+          "bottom": 663,
+          "left": 1241,
+          "right": 1343,
           "width": 101,
           "height": 16
         },
         "itemCategory": "unknown",
         "subItems": [
           {
-            "snippet": "<a href=\"/en/wiki/Ireland_Jewish_Records\">",
+            "snippet": "<a href=\"/en/wiki/Ireland_Medical_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 999,
-              "bottom": 1015,
-              "left": 1096,
-              "right": 1195,
-              "width": 99,
+              "top": 671,
+              "bottom": 687,
+              "left": 1241,
+              "right": 1346,
+              "width": 104,
               "height": 16
             },
-            "nodeLabel": "Jewish Records",
+            "nodeLabel": "Medical Records",
             "subItemCategory": "unknown"
           }
         ]
@@ -183,10 +153,10 @@
       {
         "snippet": "<a href=\"/en/wiki/Ireland_Medical_Records\">",
         "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
+        "explanation": "Fix any of the following:\n  Target has insufficient size (104.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 647,
-          "bottom": 663,
+          "top": 671,
+          "bottom": 687,
           "left": 1241,
           "right": 1346,
           "width": 104,
@@ -195,11 +165,25 @@
         "itemCategory": "unknown",
         "subItems": [
           {
+            "snippet": "<a href=\"/en/wiki/Ireland_Land_and_Property\">",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 647,
+              "bottom": 663,
+              "left": 1241,
+              "right": 1343,
+              "width": 101,
+              "height": 16
+            },
+            "nodeLabel": "Land & Property",
+            "subItemCategory": "unknown"
+          },
+          {
             "snippet": "<a href=\"/en/wiki/Ireland_Military_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 671,
-              "bottom": 687,
+              "top": 695,
+              "bottom": 711,
               "left": 1241,
               "right": 1342,
               "width": 100,
@@ -215,8 +199,8 @@
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (100.4px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
         "boundingRect": {
-          "top": 671,
-          "bottom": 687,
+          "top": 695,
+          "bottom": 711,
           "left": 1241,
           "right": 1342,
           "width": 100,
@@ -228,8 +212,8 @@
             "snippet": "<a href=\"/en/wiki/Ireland_Medical_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 647,
-              "bottom": 663,
+              "top": 671,
+              "bottom": 687,
               "left": 1241,
               "right": 1346,
               "width": 104,
@@ -252,11 +236,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 5474,
+          "bottom": 5477,
           "left": 48,
           "right": 1062,
           "width": 1014,
-          "height": 5197
+          "height": 5200
         },
         "itemCategory": "page"
       }

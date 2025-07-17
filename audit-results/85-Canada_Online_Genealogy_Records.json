@@ -39,7 +39,7 @@
         "selector": "tr > td > p > font",
         "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #4f4f4f, background color: #89c4fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
         "boundingRect": {
-          "top": 320,
+          "top": 321,
           "bottom": 360,
           "left": 64,
           "right": 1046,
@@ -91,72 +91,12 @@
     "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
     "items": [
       {
-        "snippet": "<a href=\"/en/wiki/Canada_Church_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (101.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 765,
-          "bottom": 781,
-          "left": 1096,
-          "right": 1198,
-          "width": 101,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Canada_Colonial_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 789,
-              "bottom": 805,
-              "left": 1096,
-              "right": 1203,
-              "width": 107,
-              "height": 16
-            },
-            "nodeLabel": "Colonial Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
-        "snippet": "<a href=\"/en/wiki/Canada_Colonial_Records\">",
-        "selector": "td > ul > li > a",
-        "explanation": "Fix any of the following:\n  Target has insufficient size (106.6px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px.",
-        "boundingRect": {
-          "top": 789,
-          "bottom": 805,
-          "left": 1096,
-          "right": 1203,
-          "width": 107,
-          "height": 16
-        },
-        "itemCategory": "unknown",
-        "subItems": [
-          {
-            "snippet": "<a href=\"/en/wiki/Canada_Church_Records\">",
-            "selector": "td > ul > li > a",
-            "boundingRect": {
-              "top": 765,
-              "bottom": 781,
-              "left": 1096,
-              "right": 1198,
-              "width": 101,
-              "height": 16
-            },
-            "nodeLabel": "Church Records",
-            "subItemCategory": "unknown"
-          }
-        ]
-      },
-      {
         "snippet": "<a href=\"/en/wiki/Canada_Jewish_Records\">",
         "selector": "td > ul > li > a",
         "explanation": "Fix any of the following:\n  Target has insufficient size (98.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px.",
         "boundingRect": {
-          "top": 952,
-          "bottom": 968,
+          "top": 953,
+          "bottom": 969,
           "left": 1096,
           "right": 1195,
           "width": 99,
@@ -198,8 +138,8 @@
             "snippet": "<a href=\"/en/wiki/Canada_Jewish_Records\">",
             "selector": "td > ul > li > a",
             "boundingRect": {
-              "top": 952,
-              "bottom": 968,
+              "top": 953,
+              "bottom": 969,
               "left": 1096,
               "right": 1195,
               "width": 99,
@@ -219,7 +159,7 @@
           "bottom": 663,
           "left": 1241,
           "right": 1345,
-          "width": 104,
+          "width": 103,
           "height": 16
         },
         "itemCategory": "unknown",
@@ -262,7 +202,7 @@
               "bottom": 663,
               "left": 1241,
               "right": 1345,
-              "width": 104,
+              "width": 103,
               "height": 16
             },
             "nodeLabel": "Loyalist Records",
@@ -282,11 +222,11 @@
         "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell",
         "boundingRect": {
           "top": 277,
-          "bottom": 4136,
+          "bottom": 4137,
           "left": 48,
           "right": 1062,
           "width": 1014,
-          "height": 3859
+          "height": 3860
         },
         "itemCategory": "page"
       }
